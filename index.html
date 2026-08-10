@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="331情报站">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#12324f">
+<meta name="description" content="把财经新闻翻译成对个人的影响。信号与噪音分级、资金流向、产业链映射、决策复盘。数据只存本机浏览器，不上传。">
+<meta name="robots" content="noindex, nofollow">
+<title>331 财经情报站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+--navy:#12324f;--navy2:#1c4a72;--gold:#b8892b;--gold-bg:#fdf6e6;
+--bg:#f4f6f8;--card:#fff;--line:#e3e8ee;--line2:#d0d8e2;
+--t1:#16222e;--t2:#5a6b7c;--t3:#93a1af;
+--more:#d63c3c;--more-bg:#fdeded;
+--less:#127a52;--less-bg:#e7f6f0;
+--shift:#5b52c4;--shift-bg:#eeecfb;
+--warn:#c2410c;--warn-bg:#fff2e8;
+--ok:#127a52;
+--r:14px;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+background:var(--bg);color:var(--t1);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;
+padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+.wrap{max-width:1080px;margin:0 auto;padding:0 14px}
+svg.ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+svg.ic-s{width:15px;height:15px}
+
+header{background:var(--navy);color:#fff;padding:16px 0 18px}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:38px;height:38px;border-radius:10px;background:var(--gold);display:flex;align-items:center;justify-content:center;color:var(--navy);flex:none}
+.brand h1{font-size:19px;font-weight:600;letter-spacing:.3px}
+.brand p{font-size:12px;color:#9fb6cc;font-weight:400}
+.hd-act{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 15px;
+border-radius:10px;border:1px solid var(--line2);background:var(--card);color:var(--t1);
+font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;transition:.15s;white-space:nowrap}
+.btn:active{transform:scale(.97)}
+.btn:hover{border-color:var(--navy2)}
+.btn-g{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.28);color:#fff}
+.btn-g:hover{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.5)}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#3a2a06;font-weight:600}
+.btn-gold:hover{background:#c9982f;border-color:#c9982f}
+.btn-p{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn-p:hover{background:var(--navy2);border-color:var(--navy2)}
+.btn-sm{min-height:36px;padding:0 11px;font-size:13px;border-radius:8px}
+.btn-dn{color:var(--more);border-color:#f0c5c5}
+
+.tip{display:flex;align-items:center;gap:9px;background:var(--gold-bg);border:1px solid #f0dcae;
+color:#7a5a12;padding:11px 14px;border-radius:12px;font-size:13.5px;margin-top:14px}
+.tip button{margin-left:auto;background:none;border:none;color:#7a5a12;cursor:pointer;font-size:13px;
+text-decoration:underline;font-family:inherit;padding:6px}
+
+.today{background:var(--card);border-radius:var(--r);border:1px solid var(--line);margin-top:16px;overflow:hidden}
+.today-hd{display:flex;align-items:center;gap:9px;padding:14px 16px;border-bottom:1px solid var(--line);background:#fafbfc}
+.today-hd h2{font-size:15.5px;font-weight:600;display:flex;align-items:center;gap:8px}
+.cnt{background:var(--more);color:#fff;font-size:12px;font-weight:600;min-width:21px;height:21px;
+border-radius:11px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px}
+.cnt.zero{background:var(--ok)}
+.todo{display:flex;align-items:center;gap:12px;padding:13px 16px;border-bottom:1px solid #f0f3f6}
+.todo:last-child{border-bottom:none}
+.todo.od{background:var(--more-bg)}
+.bar{width:3px;align-self:stretch;border-radius:2px;background:var(--t3);flex:none}
+.todo.od .bar{background:var(--more)}
+.todo.due .bar{background:var(--warn)}
+.todo.cf .bar{background:var(--shift)}
+.todo-b{flex:1;min-width:0}
+.todo-b .tt{font-size:14.5px;font-weight:500;margin-bottom:2px}
+.todo-b .ts{font-size:12.5px;color:var(--t2)}
+.todo.od .ts{color:var(--more);font-weight:500}
+.empty{padding:28px 16px;text-align:center;color:var(--t3);font-size:14px}
+.empty svg{width:34px;height:34px;stroke:var(--line2);stroke-width:1.5;margin-bottom:8px;fill:none}
+
+nav.tabs{display:flex;gap:5px;margin:16px 0 14px;background:var(--card);padding:5px;
+border-radius:12px;border:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{flex:1;min-width:78px;min-height:42px;border:none;background:none;border-radius:9px;
+font-size:13.5px;font-weight:500;color:var(--t2);cursor:pointer;font-family:inherit;
+display:flex;align-items:center;justify-content:center;gap:5px;transition:.15s;white-space:nowrap}
+nav.tabs button.on{background:var(--navy);color:#fff}
+
+.card{background:var(--card);border-radius:var(--r);border:1px solid var(--line);padding:16px;margin-bottom:14px}
+.card-hd{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.card-hd h3{font-size:15.5px;font-weight:600;display:flex;align-items:center;gap:8px}
+.card-hd p{font-size:12.5px;color:var(--t2);margin-top:2px}
+.sec{display:none}
+.sec.on{display:block}
+
+.fg{margin-bottom:12px}
+.fg label{display:block;font-size:13px;font-weight:500;color:var(--t2);margin-bottom:6px}
+input[type=text],input[type=date],input[type=number],select,textarea{
+width:100%;min-height:46px;padding:11px 13px;border:1px solid var(--line2);border-radius:10px;
+font-size:16px;font-family:inherit;background:var(--card);color:var(--t1);transition:.15s}
+textarea{min-height:74px;resize:vertical;line-height:1.55}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy2);box-shadow:0 0 0 3px rgba(28,74,114,.09)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 13px;border-radius:19px;
+border:1px solid var(--line2);background:var(--card);font-size:13.5px;cursor:pointer;
+font-family:inherit;color:var(--t2);transition:.15s;user-select:none}
+.chip:hover{border-color:var(--navy2)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.hint{font-size:12px;color:var(--t3);margin-top:5px;line-height:1.5}
+
+.spv{display:flex;align-items:center;gap:14px;background:#f7f9fb;border:1px solid var(--line);
+border-radius:12px;padding:13px 15px;margin:12px 0}
+.spv-n{font-size:29px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.spv-b{flex:1;min-width:0}
+.spv-b .lv{font-size:14.5px;font-weight:600;margin-bottom:3px}
+.spv-b .fm{font-size:12px;color:var(--t2);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+word-break:break-all;line-height:1.5}
+
+.item{border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin-bottom:10px;transition:.15s}
+.item:hover{border-color:var(--line2)}
+.item.noise{background:#fafbfc;opacity:.82}
+.item.slow{border-left:3px solid var(--gold)}
+.it-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:7px}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:600;
+padding:3px 9px;border-radius:6px;line-height:1.5;white-space:nowrap}
+.tag-more{background:var(--more-bg);color:var(--more)}
+.tag-less{background:var(--less-bg);color:var(--less)}
+.tag-shift{background:var(--shift-bg);color:var(--shift)}
+.tag-lv{background:#eef1f5;color:var(--t2)}
+.tag-lv.s{background:#e7f6f0;color:var(--less)}
+.tag-lv.m{background:#fff2e8;color:var(--warn)}
+.tag-lv.n{background:#eef1f5;color:var(--t3)}
+.tag-slow{background:var(--gold-bg);color:var(--gold)}
+.tag-hot{background:var(--more-bg);color:var(--more)}
+.tag-chain{background:#eef1f5;color:var(--t2)}
+.sc{margin-left:auto;font-size:19px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.it-tt{font-size:15px;font-weight:500;line-height:1.5;margin-bottom:5px}
+.it-tr{font-size:13.5px;color:var(--t2);background:#f7f9fb;border-left:2px solid var(--line2);
+padding:7px 11px;border-radius:0 7px 7px 0;margin-bottom:8px;line-height:1.55}
+.it-ft{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--t3)}
+.it-ft .src{display:inline-flex;align-items:center;gap:4px;color:var(--t2)}
+.tier{font-size:10.5px;font-weight:600;padding:1px 5px;border-radius:4px;background:#eef1f5;color:var(--t2)}
+.tier.t1{background:#e7f6f0;color:var(--less)}
+.tier.t4{background:var(--more-bg);color:var(--more)}
+.acts{margin-left:auto;display:flex;gap:6px}
+.ib{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--card);
+display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--t2);transition:.15s;flex:none}
+.ib:hover{border-color:var(--navy2);color:var(--navy)}
+.ib.dn:hover{border-color:var(--more);color:var(--more)}
+
+/* event group */
+.eg{border:1px solid var(--line);border-radius:13px;margin-bottom:14px;overflow:hidden}
+.eg.cf{border-color:#c9c2f0}
+.eg-hd{padding:12px 14px;background:#fafbfc;border-bottom:1px solid var(--line);
+display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.eg.cf .eg-hd{background:var(--shift-bg);border-bottom-color:#d4cff5}
+.eg-hd .en{font-size:14.5px;font-weight:600;flex:1;min-width:120px}
+.eg-body{padding:12px 14px}
+.cmp{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid #f0f3f6}
+.cmp:last-child{border-bottom:none}
+.cmp-l{width:104px;flex:none}
+.cmp-l .cs{font-size:12.5px;font-weight:600;line-height:1.4;margin-bottom:3px}
+.cmp-r{flex:1;min-width:0}
+.cmp-r .ct{font-size:13.5px;line-height:1.5;margin-bottom:4px}
+.cmp-r .cr{font-size:12.5px;color:var(--t2);line-height:1.5}
+.diverge{background:var(--shift-bg);border:1px solid #d4cff5;border-radius:10px;
+padding:11px 13px;margin-bottom:12px;font-size:13px;color:#3d3590;line-height:1.6}
+.diverge b{font-weight:600}
+.vsw{display:inline-flex;background:#f0f3f6;border-radius:9px;padding:3px;gap:2px}
+.vsw button{min-height:34px;padding:0 13px;border:none;background:none;border-radius:7px;
+font-size:13px;font-weight:500;color:var(--t2);cursor:pointer;font-family:inherit;transition:.15s}
+.vsw button.on{background:var(--card);color:var(--navy);box-shadow:0 1px 3px rgba(0,0,0,.07)}
+
+.flow-n{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.fn{border-radius:12px;padding:13px;text-align:center;border:1px solid transparent}
+.fn.more{background:var(--more-bg);border-color:#f5cccc}
+.fn.less{background:var(--less-bg);border-color:#bfe5d6}
+.fn.shift{background:var(--shift-bg);border-color:#d4cff5}
+.fn .n{font-size:26px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
+.fn .l{font-size:13px;font-weight:500;margin-top:1px}
+.fn .p{font-size:11.5px;color:var(--t2);margin-top:1px}
+.fn.more .n,.fn.more .l{color:var(--more)}
+.fn.less .n,.fn.less .l{color:var(--less)}
+.fn.shift .n,.fn.shift .l{color:var(--shift)}
+.verdict{display:flex;align-items:center;gap:12px;background:var(--navy);color:#fff;
+border-radius:12px;padding:14px 16px;margin-top:14px}
+.verdict .vl{font-size:11.5px;color:#9fb6cc;margin-bottom:2px}
+.verdict .vv{font-size:17px;font-weight:600}
+.verdict .vd{font-size:12.5px;color:#b8c9d9;margin-top:2px}
+
+.macro{display:grid;grid-template-columns:1fr;gap:10px}
+.mc{border:1px solid var(--line);border-radius:12px;padding:13px 14px;display:flex;gap:13px;align-items:flex-start}
+.mc-l{flex:none;width:112px}
+.mc-l .mn{font-size:13px;color:var(--t2);font-weight:500}
+.mc-l .mv{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.3}
+.mc-l .md{font-size:11.5px;font-weight:500}
+.mc-r{flex:1;min-width:0;border-left:1px solid var(--line);padding-left:13px}
+.mc-r .rl{font-size:11px;color:var(--t3);letter-spacing:.5px;margin-bottom:3px}
+.mc-r .rt{font-size:14px;line-height:1.6}
+.up{color:var(--more)}.dn{color:var(--less)}
+
+.rad-r{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px solid #f0f3f6;cursor:pointer}
+.rad-r:last-child{border-bottom:none}
+.rad-r:hover{background:#fafbfc}
+.rad-nm{width:96px;flex:none;font-size:13.5px;font-weight:500;display:flex;align-items:center;gap:7px}
+.rad-bar{flex:1;height:24px;background:#f0f3f6;border-radius:6px;overflow:hidden;display:flex;min-width:60px}
+.rad-seg{height:100%;transition:width .4s}
+.rad-v{width:74px;flex:none;text-align:right;font-size:12.5px;color:var(--t2);font-variant-numeric:tabular-nums}
+.rad-v b{color:var(--t1);font-size:14.5px}
+
+/* chain */
+.ch{border:1px solid var(--line);border-radius:13px;margin-bottom:14px;overflow:hidden}
+.ch-hd{padding:13px 15px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.ch-hd .cn{font-size:15px;font-weight:600;display:flex;align-items:center;gap:8px}
+.ch-hd .cst{margin-left:auto;display:flex;gap:14px;align-items:center}
+.ch-hd .cst div{text-align:right}
+.ch-hd .cst .n{font-size:17px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
+.ch-hd .cst .l{font-size:11px;color:var(--t3)}
+.ch-body{padding:14px 15px}
+.tiers{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:8px;align-items:stretch}
+.tr{border-radius:11px;padding:11px 12px;border:1px solid var(--line)}
+.tr.up{background:#fafbfc}
+.tr.mid{background:#f7f9fb}
+.tr.dn{background:#fafbfc}
+.tr .tn{font-size:11.5px;font-weight:600;color:var(--t2);margin-bottom:7px;letter-spacing:.3px}
+.tr .ti{font-size:12.5px;color:var(--t1);line-height:1.85}
+.tarrow{display:flex;align-items:center;justify-content:center;color:var(--t3);flex:none}
+.ch-note{background:var(--gold-bg);border:1px solid #f0dcae;border-radius:10px;padding:11px 13px;
+margin-top:13px;font-size:13px;color:#7a5a12;line-height:1.6;display:flex;gap:9px;align-items:flex-start}
+.ch-note .nb{flex:1}
+.ch-sec{font-size:12px;color:var(--t3);margin-top:10px}
+
+.rv{border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin-bottom:10px}
+.rv.od{border-color:#f0c5c5;background:var(--more-bg)}
+.rv.done{background:#fafbfc}
+.rv-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.act{font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:6px;background:#eef1f5;color:var(--t2)}
+.act.add{background:var(--more-bg);color:var(--more)}
+.act.cut{background:var(--less-bg);color:var(--less)}
+.act.wait{background:#eef1f5;color:var(--t2)}
+.act.dig{background:var(--shift-bg);color:var(--shift)}
+.rv-q{font-size:14.5px;font-weight:500;line-height:1.5;margin-bottom:6px}
+.rv-note{font-size:13.5px;color:var(--t2);line-height:1.55;margin-bottom:8px}
+.rv-out{background:#f7f9fb;border-radius:9px;padding:10px 12px;margin-top:9px;font-size:13.5px;line-height:1.55}
+.rv-out .ol{font-size:11.5px;font-weight:600;margin-bottom:3px}
+.ok{color:var(--ok)}.bad{color:var(--more)}.mid{color:var(--warn)}
+.rv-ft{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--t3);margin-top:8px}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.st{background:#f7f9fb;border-radius:11px;padding:12px;text-align:center}
+.st .n{font-size:23px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
+.st .l{font-size:11.5px;color:var(--t2);margin-top:1px}
+
+.mask{display:none;position:fixed;inset:0;background:rgba(12,26,40,.55);z-index:200;
+align-items:center;justify-content:center;padding:16px}
+.mask.on{display:flex}
+.modal{background:var(--card);border-radius:16px;max-width:560px;width:100%;
+max-height:88vh;overflow-y:auto;padding:20px}
+.modal h3{font-size:17px;font-weight:600;margin-bottom:6px}
+.modal .sub{font-size:13.5px;color:var(--t2);margin-bottom:16px;line-height:1.55}
+.modal-ft{display:flex;gap:10px;margin-top:18px}
+.modal-ft .btn{flex:1}
+.brief{background:#f7f9fb;border:1px solid var(--line);border-radius:11px;padding:14px;
+font-size:13px;line-height:1.75;white-space:pre-wrap;word-break:break-word;
+font-family:ui-monospace,SFMono-Regular,Menlo,"PingFang SC",monospace;max-height:44vh;overflow-y:auto}
+
+.bnav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--card);
+border-top:1px solid var(--line);z-index:100;padding-bottom:env(safe-area-inset-bottom)}
+.bnav-in{display:flex}
+.bnav button{flex:1;min-height:56px;border:none;background:none;display:flex;flex-direction:column;
+align-items:center;justify-content:center;gap:2px;font-size:10.5px;color:var(--t3);
+cursor:pointer;font-family:inherit;font-weight:500}
+.bnav button.on{color:var(--navy)}
+.bnav button svg{width:20px;height:20px}
+
+footer{text-align:center;padding:22px 14px 26px;font-size:12px;color:var(--t3);line-height:1.7}
+.disc{background:#fafbfc;border:1px solid var(--line);border-radius:11px;padding:12px 14px;
+font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
+.disc b{color:var(--t1);font-weight:600}
+
+@media(max-width:768px){
+ .wrap{padding:0 12px}
+ .grid2,.flow-n{grid-template-columns:1fr}
+ .flow-n{gap:8px}
+ .fn{display:flex;align-items:center;gap:11px;text-align:left;padding:11px 13px}
+ .fn .n{font-size:22px}
+ .stats{grid-template-columns:1fr 1fr}
+ .brand h1{font-size:17px}
+ .hd-act{width:100%}
+ .hd-act .btn{flex:1;font-size:12.5px;padding:0 8px}
+ nav.tabs{display:none}
+ .bnav{display:block}
+ .mc{flex-direction:column;gap:9px}
+ .mc-l{width:100%;display:flex;align-items:baseline;gap:9px}
+ .mc-r{border-left:none;border-top:1px solid var(--line);padding-left:0;padding-top:9px;width:100%}
+ .rad-nm{width:78px;font-size:12.5px}
+ .rad-v{width:60px;font-size:11.5px}
+ .rad-v b{font-size:13.5px}
+ .sc{font-size:17px}
+ .verdict{flex-direction:column;align-items:flex-start;gap:8px}
+ .tiers{grid-template-columns:1fr;gap:6px}
+ .tarrow{transform:rotate(90deg);height:20px}
+ .cmp{flex-direction:column;gap:5px}
+ .cmp-l{width:100%;display:flex;align-items:center;gap:8px}
+ .cmp-l .cs{margin-bottom:0}
+ .ch-hd .cst{margin-left:0;width:100%;justify-content:flex-start;gap:20px}
+ .ch-hd .cst div{text-align:left}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap">
+<div class="hd">
+<div class="brand">
+<div class="logo"><svg class="ic" viewBox="0 0 24 24" style="width:21px;height:21px"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></div>
+<div><h1>331 财经情报站</h1><p id="hdSub">信号提纯 · 影响翻译 · 决策留痕</p></div>
+</div>
+<div class="hd-act">
+<button class="btn btn-gold btn-sm" onclick="openBrief()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9h4"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>生成晨报</button>
+<button class="btn btn-g btn-sm" onclick="exportJSON()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>导出备份</button>
+<button class="btn btn-g btn-sm" onclick="document.getElementById('imp').click()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>导入恢复</button>
+<button class="btn btn-g btn-sm" onclick="exportCSV()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>CSV</button>
+<button class="btn btn-g btn-sm" onclick="askClear()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>清空</button>
+<input type="file" id="imp" accept=".json,application/json" style="display:none" onchange="importJSON(event)">
+</div>
+</div>
+</div>
+</header>
+
+<div class="wrap">
+
+<div id="backupTip" style="display:none" class="tip">
+<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg>
+<span id="backupTxt"></span>
+<button onclick="exportJSON();hideTip()">立即导出</button>
+</div>
+
+<div class="today">
+<div class="today-hd">
+<h2><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>今天要处理<span class="cnt" id="todoCnt">0</span></h2>
+</div>
+<div id="todoList"></div>
+</div>
+
+<nav class="tabs">
+<button class="on" data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
+<button data-t="macro" onclick="go('macro')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>影响翻译</button>
+<button data-t="chain" onclick="go('chain')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
+<button data-t="radar" onclick="go('radar')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>关注雷达</button>
+<button data-t="review" onclick="go('review')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策复盘</button>
+</nav>
+
+<!-- ============ 情报流 ============ -->
+<section class="sec on" id="sec-intel">
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M12 5v14"/><path d="M5 12h14"/></svg>情报速记</h3>
+<p>粘一条资讯，自动算信号分、判流向、匹配产业链</p></div>
+</div>
+
+<div class="fg">
+<label>资讯标题</label>
+<input type="text" id="fTitle" placeholder="例：7月末外储34188亿美元，黄金连续21个月增持" oninput="preview()">
+</div>
+
+<div class="fg">
+<label>所属事件（同一事件的多条资讯会自动并排比对）</label>
+<input type="text" id="fEvent" list="evList" placeholder="例：北京楼市限购松绑">
+<datalist id="evList"></datalist>
+<div class="hint">填了事件名，官方口径和自媒体口径就能放一起看，说法打架时系统会标「解读分歧」</div>
+</div>
+
+<div class="grid2">
+<div class="fg">
+<label>信源</label>
+<select id="fSrc" onchange="preview()"></select>
+<div class="hint" id="srcHint"></div>
+</div>
+<div class="fg">
+<label>信息增量</label>
+<select id="fInc" onchange="preview()">
+<option value="hard">硬数据（有具体数字）+25</option>
+<option value="policy">政策原文（有明确条款）+20</option>
+<option value="view">分析观点（判断为主）+10</option>
+<option value="emo">纯情绪（无实质增量）+0</option>
+</select>
+</div>
+</div>
+
+<div class="fg">
+<label>加减项</label>
+<div class="chips">
+<label class="chip" id="cMulti"><input type="checkbox" id="fMulti" onchange="preview();syncChip()" style="display:none">多源验证 +8</label>
+<label class="chip" id="cSlow"><input type="checkbox" id="fSlow" onchange="preview();syncChip()" style="display:none">慢信号议题 +10</label>
+<label class="chip" id="cHot"><input type="checkbox" id="fHot" onchange="preview();syncChip()" style="display:none">已上热搜 −15</label>
+</div>
+<div class="hint">慢信号 = 出生率、老龄化、地方债务、产业升级这类短期不震动但长期深刻的议题</div>
+</div>
+
+<div class="spv">
+<div class="spv-n" id="pvN">0</div>
+<div class="spv-b"><div class="lv" id="pvL">填标题后自动打分</div><div class="fm" id="pvF">—</div></div>
+</div>
+
+<div class="fg">
+<label>一句话解读（这条对你意味着什么）</label>
+<input type="text" id="fRead" placeholder="例：人民币底气足，出国留学换汇风险小">
+</div>
+
+<div class="grid2">
+<div class="fg">
+<label>资金流向</label>
+<select id="fFlow">
+<option value="auto">自动判断</option>
+<option value="more">钱变多（流动性宽松）</option>
+<option value="less">钱变少（流动性收紧）</option>
+<option value="shift">钱换地方（结构转移）</option>
+</select>
+</div>
+<div class="fg">
+<label>日期</label>
+<input type="date" id="fDate">
+</div>
+</div>
+
+<div class="fg">
+<label>关注领域（留空自动匹配）</label>
+<div class="chips" id="fFields"></div>
+</div>
+
+<button class="btn btn-p" style="width:100%" onclick="addIntel()">
+<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>存入情报库</button>
+</div>
+
+<div class="card">
+<div class="card-hd">
+<div><h3>情报库</h3><p id="intelSub"></p></div>
+<div class="vsw">
+<button class="on" id="vList" onclick="setView('list')">列表</button>
+<button id="vEvent" onclick="setView('event')">事件聚合</button>
+</div>
+</div>
+<div id="filterWrap"><div class="chips" style="margin-bottom:14px" id="filters"></div></div>
+<div id="intelList"></div>
+</div>
+
+</section>
+
+<!-- ============ 影响翻译 ============ -->
+<section class="sec" id="sec-macro">
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M3 3v18h18"/><path d="M18 9l-5 5-3-3-4 4"/></svg>今日资金流向格局</h3>
+<p>基于情报库分类自动汇总，噪音已排除</p></div>
+</div>
+<div class="flow-n" id="flowN"></div>
+<div id="flowBar"></div>
+<div class="verdict">
+<svg class="ic" viewBox="0 0 24 24" style="width:26px;height:26px;color:var(--gold)"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>
+<div><div class="vl">今日格局判断</div><div class="vv" id="vdT">—</div><div class="vd" id="vdD">—</div></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M5 8l6 6"/><path d="M4 14l6-6 2-3"/><path d="M2 5h12"/><path d="M22 22l-5-10-5 10"/><path d="M14 18h6"/></svg>宏观指标个人翻译</h3>
+<p>把术语换成钱包能感知的话</p></div>
+<button class="btn btn-sm" onclick="openMacro()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加指标</button>
+</div>
+<div class="macro" id="macroList"></div>
+</div>
+
+</section>
+
+<!-- ============ 产业链 ============ -->
+<section class="sec" id="sec-chain">
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链映射</h3>
+<p>一条新闻落在链条哪一环，上下游还有谁</p></div>
+<button class="btn btn-sm" onclick="openChain()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加链条</button>
+</div>
+<div class="hint" style="margin-bottom:4px">链条只做客观的上下游结构映射与板块归类，<b>不含任何标的推荐</b>。资金动向笔记由你自己维护。</div>
+</div>
+
+<div id="chainList"></div>
+
+</section>
+
+<!-- ============ 关注雷达 ============ -->
+<section class="sec" id="sec-radar">
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>关注领域影响面</h3>
+<p>每个领域的资金流向构成</p></div>
+<button class="btn btn-sm" onclick="openField()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加领域</button>
+</div>
+<div id="radList"></div>
+<div class="hint" style="margin-top:12px;display:flex;gap:14px;flex-wrap:wrap">
+<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--more);display:inline-block"></span>钱变多</span>
+<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--less);display:inline-block"></span>钱变少</span>
+<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--shift);display:inline-block"></span>钱换地方</span>
+</div>
+</div>
+
+<div class="card">
+<div class="card-hd"><div><h3>各领域信号强度</h3><p>只统计强信号与可参考，噪音不计入</p></div></div>
+<div id="fieldChart"></div>
+</div>
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--gold)"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>慢信号轨道</h3>
+<p>短期不震动，长期最深刻</p></div>
+</div>
+<div id="slowList"></div>
+</div>
+
+</section>
+
+<!-- ============ 决策复盘 ============ -->
+<section class="sec" id="sec-review">
+
+<div class="card">
+<div class="card-hd"><div><h3>判断力档案</h3><p>只统计已复盘的决策</p></div></div>
+<div class="stats" id="rvStats"></div>
+<div id="rvChart"></div>
+</div>
+
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M12 5v14"/><path d="M5 12h14"/></svg>记一条判断</h3>
+<p>看完情报你怎么想、打算怎么做，到期回来验证</p></div>
+</div>
+<div class="fg">
+<label>我的判断</label>
+<input type="text" id="rQ" placeholder="例：降准预期升温，四季度地产链有修复空间">
+</div>
+<div class="fg">
+<label>依据（关联哪条情报）</label>
+<select id="rLink"><option value="">不关联</option></select>
+</div>
+<div class="grid2">
+<div class="fg">
+<label>我的动作</label>
+<select id="rAct">
+<option value="wait">观望，不动</option>
+<option value="dig">深入调研</option>
+<option value="add">加仓／买入</option>
+<option value="cut">减仓／卖出</option>
+</select>
+</div>
+<div class="fg">
+<label>什么时候回来验证</label>
+<select id="rDays">
+<option value="7">7 天后</option>
+<option value="30" selected>30 天后</option>
+<option value="90">90 天后</option>
+</select>
+</div>
+</div>
+<div class="fg">
+<label>当时的理由（越具体，复盘越有价值）</label>
+<textarea id="rNote" placeholder="例：M2同比9.0%叠加外储增持，流动性环境偏松；但地产销售数据还没转正，所以先观望不追。"></textarea>
+</div>
+<button class="btn btn-p" style="width:100%" onclick="addRv()">
+<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>存档，到期提醒我</button>
+</div>
+
+<div class="card">
+<div class="card-hd"><div><h3>复盘记录</h3><p id="rvSub"></p></div></div>
+<div id="rvList"></div>
+</div>
+
+</section>
+
+<div class="disc">
+<b>免责与边界</b><br>
+本工具只做「财经新闻 → 结构化 → 个人影响」的翻译与记录，<b>不提供任何买卖建议，不承诺任何收益</b>。信号分是基于信源层级与信息增量的机械计算，反映的是「这条信息值不值得你花时间」，<b>不代表行情涨跌方向</b>。产业链映射只呈现客观的上下游结构与板块归类，<b>不含标的推荐</b>。所有数据仅存在你自己的浏览器本地，不上传任何服务器；换设备或清缓存前请先导出备份。工具是辅助，真正起作用的是你自己的分析框架。
+</div>
+
+<footer>331 财经情报站 · 数据存于本机浏览器 · 建议每周导出一次备份</footer>
+</div>
+
+<div class="bnav">
+<div class="bnav-in">
+<button class="on" data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
+<button data-t="macro" onclick="go('macro')"><svg class="ic" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>翻译</button>
+<button data-t="chain" onclick="go('chain')"><svg class="ic" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
+<button data-t="radar" onclick="go('radar')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>雷达</button>
+<button data-t="review" onclick="go('review')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>复盘</button>
+</div>
+</div>
+
+<div class="mask" id="mask"><div class="modal" id="modal"></div></div>
+
+<script>
+/* ==========================================================
+   331 财经情报站 —— 数据层
+   本段无任何 DOM 依赖，迁移微信小程序时可整体复制
+   ========================================================== */
+var KEY = 'wb_331_data_v3';
+
+var SOURCES = [
+  {n:'中国人民银行', t:1, w:40},{n:'国家统计局', t:1, w:40},
+  {n:'海关总署', t:1, w:40},{n:'国家外汇管理局', t:1, w:40},
+  {n:'中国证监会', t:1, w:40},{n:'财政部', t:1, w:40},
+  {n:'国务院／部委', t:1, w:40},{n:'地方政府／住建委', t:1, w:40},
+  {n:'新华社', t:2, w:28},{n:'交易所公告', t:2, w:28},
+  {n:'第一财经', t:2, w:28},{n:'证券时报', t:2, w:28},
+  {n:'华尔街见闻', t:2, w:28},{n:'财新', t:2, w:28},
+  {n:'券商研报', t:3, w:20},{n:'外资投行', t:3, w:20},
+  {n:'自媒体／大V', t:4, w:8},{n:'热搜／论坛', t:4, w:8}
+];
+var TIER_NAME = {1:'官方一级', 2:'权威媒体', 3:'机构研究', 4:'自媒体'};
+var INC = {hard:{v:25,n:'硬数据'}, policy:{v:20,n:'政策原文'}, view:{v:10,n:'分析观点'}, emo:{v:0,n:'纯情绪'}};
+var FLOW = {
+  more:{n:'钱变多', c:'more', d:'流动性宽松'},
+  less:{n:'钱变少', c:'less', d:'流动性收紧'},
+  shift:{n:'钱换地方', c:'shift', d:'结构转移'}
+};
+var ACTS = {wait:{n:'观望',c:'wait'}, dig:{n:'调研',c:'dig'}, add:{n:'加仓',c:'add'}, cut:{n:'减仓',c:'cut'}};
+
+var KW_FLOW = {
+  more:['降准','降息','宽松','释放流动性','逆回购','MLF','再贷款','增持','减税','退税','补贴','放松','松绑','宽信用','净投放','下调','支持'],
+  less:['加息','收紧','回笼','缩表','提准','加征','关税','趋严','监管','处罚','减持','净回笼','上调利率','紧缩','下滑','萎缩'],
+  shift:['转向','迁移','结构','调整','产业','升级','轮动','出口','进出口','限购','新能源','半导体','集成电路','算力','高端制造','换挡','转型']
+};
+
+var DEF_FIELDS = [
+  {id:'f1', n:'股市基金', c:'#d63c3c', kw:['股','基金','A股','券商','证监会','板块','ETF','上市','IPO','指数']},
+  {id:'f2', n:'货币政策', c:'#1c4a72', kw:['央行','降准','降息','M2','利率','流动性','MLF','LPR','人民银行','逆回购','社融']},
+  {id:'f3', n:'楼市房贷', c:'#b8892b', kw:['楼市','房','限购','首付','房贷','地产','住建','房价','商品房','土拍']},
+  {id:'f4', n:'新能源车', c:'#127a52', kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率']},
+  {id:'f5', n:'半导体AI', c:'#5b52c4', kw:['半导体','芯片','集成电路','AI','算力','PCB','CCL','服务器','人工智能','光模块','晶圆']},
+  {id:'f6', n:'黄金外汇', c:'#c2410c', kw:['黄金','外储','外汇','汇率','美元','人民币','储备','美联储','贵金属']}
+];
+
+/* 产业链映射表：关键词 → 上中下游 → 板块归类
+   只做客观结构映射，不含任何标的推荐 */
+var DEF_CHAINS = [
+  {id:'ch1', n:'AI 算力硬件', c:'#5b52c4',
+   kw:['AI','算力','服务器','PCB','CCL','覆铜板','光模块','GPU','数据中心','液冷','大模型','英伟达','交换机','HBM'],
+   tiers:[
+     {n:'上游 · 材料与元件', items:['覆铜板 CCL','电子级玻纤布','高频高速树脂','光芯片','HBM 存储','高端铜箔']},
+     {n:'中游 · 制造与设备', items:['PCB 印制电路板','光模块','服务器整机','交换机','液冷散热','高压电源']},
+     {n:'下游 · 应用与服务', items:['云计算厂商','大模型训练','AI 推理应用','智能驾驶','AIGC 内容']}
+   ],
+   sector:'电子 · 通信设备 · 计算机',
+   note:'公募持仓已从纯硬件向 AI 应用端迁移，硬件端拥挤度需留意。高盛上调 2028 年 PCB 840 亿／CCL 480 亿美元属长期预测，不是当期业绩。'},
+  {id:'ch2', n:'新能源车', c:'#127a52',
+   kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率','储能','电解液','正极','负极'],
+   tiers:[
+     {n:'上游 · 资源与材料', items:['锂矿','钴镍','正极材料','负极材料','电解液','隔膜']},
+     {n:'中游 · 电池与零部件', items:['动力电池','电机电控','热管理','一体化压铸','车载芯片']},
+     {n:'下游 · 整车与服务', items:['整车厂','充电桩运营','换电服务','汽车金融','后市场']}
+   ],
+   sector:'电力设备 · 汽车 · 有色金属',
+   note:'补贴政策变化主要影响下游需求节奏，上游资源价格更看全球供给。注意区分政策利好与真实销量。'},
+  {id:'ch3', n:'地产链', c:'#b8892b',
+   kw:['楼市','房','限购','首付','房贷','地产','住建','房价','商品房','土拍','建材','家电','家居'],
+   tiers:[
+     {n:'上游 · 土地与建材', items:['土地出让','水泥','钢材','玻璃','防水材料']},
+     {n:'中游 · 开发与施工', items:['房地产开发','建筑施工','工程机械','装饰装修']},
+     {n:'下游 · 后周期消费', items:['家电','家居家具','物业管理','房产中介','家装建材']}
+   ],
+   sector:'房地产 · 建筑材料 · 家用电器',
+   note:'政策底不等于市场底。限购松绑影响的是预期，真正要看的是月度成交量和二手房挂牌价，后周期家电家居通常滞后 6 到 12 个月。'},
+  {id:'ch4', n:'黄金与贵金属', c:'#c2410c',
+   kw:['黄金','外储','贵金属','白银','央行购金','金价','避险'],
+   tiers:[
+     {n:'上游 · 矿产资源', items:['金矿开采','矿产资源储量','冶炼加工']},
+     {n:'中游 · 加工与流通', items:['首饰加工','投资金条','精炼企业']},
+     {n:'下游 · 需求端', items:['央行储备','珠宝消费','工业用金','投资避险需求']}
+   ],
+   sector:'有色金属 · 商业贸易',
+   note:'央行连续增持是长期结构性动作，与短期金价波动不是一回事。判断时要分清「储备逻辑」和「交易逻辑」。'}
+];
+
+function todayStr(){var d=new Date();return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate());}
+function p2(n){return n<10?'0'+n:''+n;}
+function shift(days){var d=new Date();d.setDate(d.getDate()+days);return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate());}
+function diffDays(a,b){return Math.round((new Date(b+'T00:00:00')-new Date(a+'T00:00:00'))/86400000);}
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7);}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function tierOf(src){var s=SOURCES.filter(function(x){return x.n===src;})[0];return s?s.t:4;}
+
+/* ---------- 核心：信号分（透明可复算） ---------- */
+function score(it){
+  var s = SOURCES.filter(function(x){return x.n===it.src;})[0] || {w:8,t:4};
+  var parts = [], total = 0;
+  parts.push(TIER_NAME[s.t]+' '+s.w); total += s.w;
+  var inc = INC[it.inc] || INC.view;
+  parts.push(inc.n+' +'+inc.v); total += inc.v;
+  if(it.multi){ parts.push('多源 +8'); total += 8; }
+  if(it.slow){ parts.push('慢信号 +10'); total += 10; }
+  if(it.hot){ parts.push('热搜 −15'); total -= 15; }
+  total = Math.max(0, Math.min(100, total));
+  var lv = total>=65 ? 'strong' : (total>=40 ? 'mid' : 'noise');
+  return {v: total, lv: lv, formula: parts.join('  ') + '  =  ' + total};
+}
+function lvName(lv){return {strong:'强信号', mid:'可参考', noise:'噪音'}[lv];}
+function lvCls(lv){return {strong:'s', mid:'m', noise:'n'}[lv];}
+function lvColor(lv){return {strong:'var(--less)', mid:'var(--warn)', noise:'var(--t3)'}[lv];}
+
+function guessFlow(txt){
+  var best='shift', hi=0;
+  for(var k in KW_FLOW){
+    var c=0;
+    KW_FLOW[k].forEach(function(w){ if(txt.indexOf(w)>=0) c++; });
+    if(c>hi){hi=c;best=k;}
+  }
+  return hi===0 ? 'shift' : best;
+}
+function guessFields(txt){
+  var r=[];
+  DB.fields.forEach(function(f){
+    for(var i=0;i<f.kw.length;i++){ if(txt.indexOf(f.kw[i])>=0){ r.push(f.id); return; } }
+  });
+  return r;
+}
+function guessChains(txt){
+  var r=[];
+  DB.chains.forEach(function(c){
+    for(var i=0;i<c.kw.length;i++){ if(txt.indexOf(c.kw[i])>=0){ r.push(c.id); return; } }
+  });
+  return r;
+}
+
+/* ---------- 多源比对：按事件聚合 + 分歧检测 ---------- */
+function groupByEvent(){
+  var g = {};
+  DB.intel.forEach(function(i){
+    var e = (i.event||'').trim();
+    if(!e) return;
+    if(!g[e]) g[e] = [];
+    g[e].push(i);
+  });
+  return Object.keys(g).map(function(k){
+    var arr = g[k].slice().sort(function(a,b){ return score(b).v - score(a).v; });
+    var flows = {}, tiers = [];
+    arr.forEach(function(i){ flows[i.flow]=1; tiers.push(tierOf(i.src)); });
+    var fk = Object.keys(flows);
+    var official = arr.filter(function(i){ return tierOf(i.src)<=2; });
+    var selfmedia = arr.filter(function(i){ return tierOf(i.src)===4; });
+    return {
+      name: k, items: arr,
+      conflict: fk.length > 1,
+      flows: fk,
+      minTier: Math.min.apply(null, tiers),
+      maxTier: Math.max.apply(null, tiers),
+      hasOfficial: official.length>0,
+      hasSelf: selfmedia.length>0,
+      official: official, selfmedia: selfmedia,
+      date: arr.map(function(i){return i.date;}).sort().reverse()[0]
+    };
+  }).sort(function(a,b){
+    if(a.conflict !== b.conflict) return a.conflict ? -1 : 1;
+    if(b.items.length !== a.items.length) return b.items.length - a.items.length;
+    return a.date < b.date ? 1 : -1;
+  });
+}
+function divergeText(g){
+  if(!g.conflict) return '';
+  var names = g.flows.map(function(f){ return FLOW[f].n; }).join(' / ');
+  var t = '同一事件出现 ' + g.flows.length + ' 种资金流向判断（' + names + '）。';
+  if(g.hasOfficial && g.hasSelf){
+    t += '其中官方或权威媒体与自媒体口径不一致 —— 优先采信信源层级更高的那条，自媒体版本大概率在放大情绪。';
+  }else{
+    t += '不同信源对同一件事的解读方向不同，建议回到原文核对，别只看标题。';
+  }
+  return t;
+}
+
+/* ---------- 晨报生成 ---------- */
+function genBrief(days){
+  var end = todayStr(), start = shift(-days+1);
+  var pool = DB.intel.filter(function(i){ return i.date>=start && i.date<=end; });
+  var scored = pool.map(function(i){ var r=score(i); i._s=r.v; i._lv=r.lv; return i; });
+  var strong = scored.filter(function(i){return i._lv==='strong';}).sort(function(a,b){return b._s-a._s;});
+  var mid = scored.filter(function(i){return i._lv==='mid';}).sort(function(a,b){return b._s-a._s;});
+  var noise = scored.filter(function(i){return i._lv==='noise';});
+  var slow = scored.filter(function(i){return i.slow;});
+
+  var c={more:0,less:0,shift:0};
+  scored.forEach(function(i){ if(i._lv!=='noise') c[i.flow]++; });
+  var tot=c.more+c.less+c.shift;
+  var pct=function(n){return tot?Math.round(n/tot*100):0;};
+  var vt='数据不足';
+  if(tot>=3){
+    var mx=Math.max(c.more,c.less,c.shift);
+    vt = mx===c.more ? '流动性偏宽松' : (mx===c.less ? '流动性偏收紧' : '总量平稳，结构在动');
+  }
+
+  var L=[];
+  var d=new Date();
+  L.push('【331 情报晨报】'+d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日');
+  L.push('统计区间：'+start+' 至 '+end+'（'+days+' 天）');
+  L.push('');
+  L.push('■ 资金流向格局：'+vt);
+  L.push('   钱变多 '+c.more+' 条（'+pct(c.more)+'%）· 钱变少 '+c.less+' 条（'+pct(c.less)+'%）· 钱换地方 '+c.shift+' 条（'+pct(c.shift)+'%）');
+  L.push('   计入 '+tot+' 条，已过滤噪音 '+noise.length+' 条');
+  L.push('');
+
+  if(strong.length){
+    L.push('■ 强信号 '+strong.length+' 条');
+    strong.forEach(function(i,n){
+      L.push('');
+      L.push((n+1)+'. ['+i._s+'分'+(i.slow?' · 慢信号':'')+'] '+i.title);
+      L.push('    来源：'+i.src+'（'+TIER_NAME[tierOf(i.src)]+'）｜'+FLOW[i.flow].n);
+      if(i.read) L.push('    解读：'+i.read);
+    });
+    L.push('');
+  }
+
+  if(mid.length){
+    L.push('■ 可参考 '+mid.length+' 条');
+    mid.forEach(function(i){ L.push('   · ['+i._s+'分] '+i.title+'（'+i.src+'）'); });
+    L.push('');
+  }
+
+  var groups = groupByEvent().filter(function(g){
+    return g.conflict && g.items.some(function(i){ return i.date>=start; });
+  });
+  if(groups.length){
+    L.push('■ 解读分歧提醒 '+groups.length+' 组');
+    groups.forEach(function(g){
+      L.push('   · 「'+g.name+'」出现 '+g.flows.map(function(f){return FLOW[f].n;}).join('／')+' 两种以上判断');
+    });
+    L.push('');
+  }
+
+  if(slow.length){
+    L.push('■ 慢信号轨道 '+slow.length+' 条（短期不震动，长期最深刻）');
+    slow.forEach(function(i){ L.push('   · '+i.title); });
+    L.push('');
+  }
+
+  if(noise.length){
+    L.push('■ 已过滤噪音 '+noise.length+' 条');
+    noise.forEach(function(i){
+      var why=[];
+      if(tierOf(i.src)===4) why.push('自媒体信源');
+      if(i.inc==='emo') why.push('无信息增量');
+      if(i.hot) why.push('已上热搜');
+      L.push('   · '+i.title+'（'+(why.join('、')||'综合评分偏低')+'）');
+    });
+    L.push('');
+  }
+
+  L.push('———');
+  L.push('本晨报由个人情报库自动汇总，信号分只反映信息价值，不代表涨跌方向，不构成任何投资建议。');
+  return L.join('\n');
+}
+
+/* ---------- 存储 ---------- */
+var DB = null;
+function seed(){
+  return {
+    v: 3, seeded: true,
+    intel: [
+      {id:uid(), title:'7月末外汇储备34188亿美元，环比增25亿；黄金储备连续21个月增持',
+       src:'国家外汇管理局', inc:'hard', multi:true, slow:false, hot:false, event:'7月外储与黄金储备',
+       read:'人民币底气足，出国留学、海淘换汇的汇率风险小；央行持续买金说明对美元资产在做长期分散',
+       flow:'more', fields:['f6'], chains:['ch4'], date:shift(-1)},
+      {id:uid(), title:'外储数据点评：黄金占比仍低于全球均值，增持空间未见天花板',
+       src:'券商研报', inc:'view', multi:false, slow:false, hot:false, event:'7月外储与黄金储备',
+       read:'机构观点，方向与官方数据一致，可作为补充理解，但预测部分要打折',
+       flow:'more', fields:['f6'], chains:['ch4'], date:shift(-1)},
+      {id:uid(), title:'前7月进出口30.13万亿元同比增17.3%，集成电路出口近乎翻倍',
+       src:'海关总署', inc:'hard', multi:true, slow:false, hot:false, event:'',
+       read:'外需没塌，而且出口结构在往高附加值走；如果你在制造业上班，芯片链的订单大概率比传统品类好',
+       flow:'shift', fields:['f5'], chains:['ch1'], date:shift(-1)},
+      {id:uid(), title:'北京楼市限购松绑，五环外不限套数',
+       src:'地方政府／住建委', inc:'policy', multi:true, slow:false, hot:true, event:'北京楼市限购松绑',
+       read:'一线城市政策底出现，情绪会往二线传导；但政策底不等于市场底，成交量才是真信号',
+       flow:'shift', fields:['f3'], chains:['ch3'], date:shift(-1)},
+      {id:uid(), title:'北京全面放开限购！楼市要暴涨了，刚需再不上车就晚了',
+       src:'自媒体／大V', inc:'emo', multi:false, slow:false, hot:true, event:'北京楼市限购松绑',
+       read:'把「五环外不限套数」说成「全面放开」，是典型的标题党放大；情绪煽动，零信息增量',
+       flow:'more', fields:['f3'], chains:['ch3'], date:shift(-1)},
+      {id:uid(), title:'M2同比增长9.0%，社融存量增速回升',
+       src:'中国人民银行', inc:'hard', multi:true, slow:false, hot:false, event:'',
+       read:'市场上钱变多了，理财和存款收益大概率还要往下走，房贷利率有下调空间',
+       flow:'more', fields:['f2'], chains:[], date:shift(-2)},
+      {id:uid(), title:'高盛上调AI服务器PCB／CCL行业预期，2028年市场规模分别至840亿／480亿美元',
+       src:'外资投行', inc:'hard', multi:false, slow:false, hot:false, event:'AI算力硬件景气度',
+       read:'投行长期预测，参考价值有但别当结论；注意公募持仓已从纯硬件往AI应用端迁移',
+       flow:'shift', fields:['f5'], chains:['ch1'], date:shift(-1)},
+      {id:uid(), title:'国内厂商高频CCL产能扩产落地，交付周期缩短',
+       src:'第一财经', inc:'hard', multi:true, slow:false, hot:false, event:'AI算力硬件景气度',
+       read:'供给端在放量，和需求端预测放一起看才有意义；扩产落地意味着上游材料环节确实在赚钱',
+       flow:'shift', fields:['f5'], chains:['ch1'], date:shift(-2)},
+      {id:uid(), title:'新生人口连续下滑，65岁以上占比突破22%',
+       src:'国家统计局', inc:'hard', multi:true, slow:true, hot:false, event:'',
+       read:'长期决定养老、医疗、教育、房产需求的底层变量，二十年维度上比任何一次降准都重要',
+       flow:'shift', fields:['f3'], chains:['ch3'], date:shift(-5)},
+      {id:uid(), title:'牛市已来！这波满仓干，错过再等十年',
+       src:'自媒体／大V', inc:'emo', multi:false, slow:false, hot:true, event:'',
+       read:'零信息增量的情绪煽动，典型的高热度低价值，系统已自动降权',
+       flow:'more', fields:['f1'], chains:[], date:shift(0)}
+    ],
+    decisions: [
+      {id:uid(), q:'降准预期升温，四季度地产链有修复空间', act:'wait',
+       note:'M2回升叠加外储增持，流动性环境偏松。但地产销售数据还没转正，先观望不追。',
+       date:shift(-9), due:shift(-2), done:false, result:'', rnote:'', link:''},
+      {id:uid(), q:'集成电路出口翻倍，半导体设备端景气度可能被低估', act:'dig',
+       note:'海关数据是硬的，但出口翻倍里有多少是转口、有多少是真实需求，需要查月度分项。',
+       date:shift(-7), due:todayStr(), done:false, result:'', rnote:'', link:''},
+      {id:uid(), q:'黄金连续增持，人民币汇率压力可控', act:'wait',
+       note:'央行连续买金是长期动作，短期汇率波动不该影响我的换汇节奏。',
+       date:shift(-38), due:shift(-8), done:true, result:'right', link:'',
+       rnote:'事后看方向对了，汇率确实没出现单边贬值。但我当时把「央行买金」和「汇率稳」的因果说得太直接了，其实中间还隔着资本流动和利差，逻辑链条偷懒了。'}
+    ],
+    fields: JSON.parse(JSON.stringify(DEF_FIELDS)),
+    chains: JSON.parse(JSON.stringify(DEF_CHAINS)),
+    macros: [
+      {id:uid(), n:'M2 同比', v:'9.0%', d:'up', t:'市场上钱变多了，理财收益大概率往下走，房贷利率有下调空间。存款搬家会更明显。'},
+      {id:uid(), n:'外汇储备', v:'34188亿', d:'up', t:'人民币底气足。出国留学、海淘、换汇的汇率风险小，不用急着抢购美元。'},
+      {id:uid(), n:'前7月进出口', v:'+17.3%', d:'up', t:'外需没塌。如果你在外贸或制造业上班，订单和加班费大概率还行，尤其芯片链。'},
+      {id:uid(), n:'CPI／PPI', v:'低位', d:'flat', t:'买菜加油暂时不会明显变贵；但PPI偏弱说明工厂端还在卷价格，对应行业涨薪空间有限。'}
+    ]
+  };
+}
+function load(){
+  try{
+    var raw = localStorage.getItem(KEY);
+    if(raw){ DB = JSON.parse(raw); }
+  }catch(e){ DB = null; }
+  if(!DB || !DB.intel){
+    try{
+      var old = localStorage.getItem('wb_331_data_v2');
+      if(old){
+        var o = JSON.parse(old);
+        if(o && o.intel){
+          DB = o; DB.v = 3;
+          DB.chains = JSON.parse(JSON.stringify(DEF_CHAINS));
+          DB.intel.forEach(function(i){
+            if(i.event===undefined) i.event='';
+            if(!i.chains) i.chains = guessChains(i.title+' '+(i.read||''));
+          });
+        }
+      }
+    }catch(e2){}
+  }
+  if(!DB || !DB.intel){ DB = seed(); }
+  if(!DB.fields || !DB.fields.length) DB.fields = JSON.parse(JSON.stringify(DEF_FIELDS));
+  if(!DB.chains || !DB.chains.length) DB.chains = JSON.parse(JSON.stringify(DEF_CHAINS));
+  if(!DB.macros) DB.macros = [];
+  if(!DB.decisions) DB.decisions = [];
+  DB.intel.forEach(function(i){
+    if(i.event===undefined) i.event='';
+    if(!i.chains) i.chains=[];
+  });
+  save();
+}
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify(DB)); }
+  catch(e){ alert('保存失败：本地存储可能已满。建议先导出备份，再清理部分旧数据。'); }
+}
+
+/* ==========================================================
+   渲染层
+   ========================================================== */
+var curTab='intel', curFilter='all', curView='list';
+
+function go(t){
+  curTab=t;
+  document.querySelectorAll('.sec').forEach(function(s){s.classList.remove('on');});
+  document.getElementById('sec-'+t).classList.add('on');
+  document.querySelectorAll('[data-t]').forEach(function(b){
+    b.classList.toggle('on', b.getAttribute('data-t')===t);
+  });
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function renderTodo(){
+  var box=document.getElementById('todoList'), items=[], td=todayStr();
+
+  DB.decisions.filter(function(d){return !d.done;}).forEach(function(d){
+    var gap = diffDays(d.due, td);
+    if(gap > 0){
+      items.push({cls:'od', t:'复盘逾期 '+gap+' 天：'+d.q,
+        s:'原定 '+d.due+' 验证 · 当时动作「'+ACTS[d.act].n+'」',
+        btn:'去复盘', fn:'openReview(\''+d.id+'\')'});
+    }else if(gap === 0){
+      items.push({cls:'due', t:'今天该复盘：'+d.q,
+        s:'当时动作「'+ACTS[d.act].n+'」 · '+Math.abs(diffDays(d.date,d.due))+' 天前立的判断',
+        btn:'去复盘', fn:'openReview(\''+d.id+'\')'});
+    }
+  });
+
+  var cf = groupByEvent().filter(function(g){return g.conflict;});
+  if(cf.length){
+    items.push({cls:'cf', t:'有 '+cf.length+' 组事件出现解读分歧',
+      s:'「'+cf[0].name+'」等事件不同信源说法打架，建议回原文核对',
+      btn:'去比对', fn:'go(\'intel\');setView(\'event\')'});
+  }
+
+  var noise = DB.intel.filter(function(i){return score(i).lv==='noise';}).length;
+  if(noise>0){
+    items.push({cls:'', t:'情报库里有 '+noise+' 条被判定为噪音',
+      s:'高热度不等于高价值，建议定期清掉，别让它占你的注意力',
+      btn:'去查看', fn:'go(\'intel\');setView(\'list\');setFilter(\'noise\')'});
+  }
+
+  if(DB.intel.filter(function(i){return i.date===td;}).length===0){
+    items.push({cls:'', t:'今天还没记录任何情报',
+      s:'看到值得留痕的资讯，粘个标题就能自动打分',
+      btn:'去速记', fn:'go(\'intel\')'});
+  }
+
+  document.getElementById('todoCnt').textContent = items.length;
+  document.getElementById('todoCnt').className = 'cnt' + (items.length?'':' zero');
+
+  if(!items.length){
+    box.innerHTML='<div class="empty"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><div>今天没有待办，情报库是干净的</div></div>';
+    return;
+  }
+  box.innerHTML = items.map(function(i){
+    return '<div class="todo '+i.cls+'"><div class="bar"></div><div class="todo-b">'+
+      '<div class="tt">'+esc(i.t)+'</div><div class="ts">'+esc(i.s)+'</div></div>'+
+      '<button class="btn btn-sm" onclick="'+i.fn+'">'+i.btn+'</button></div>';
+  }).join('');
+}
+
+function preview(){
+  var it={src:document.getElementById('fSrc').value, inc:document.getElementById('fInc').value,
+    multi:document.getElementById('fMulti').checked, slow:document.getElementById('fSlow').checked,
+    hot:document.getElementById('fHot').checked};
+  var r=score(it);
+  document.getElementById('pvN').textContent=r.v;
+  document.getElementById('pvN').style.color=lvColor(r.lv);
+  document.getElementById('pvL').textContent=lvName(r.lv);
+  document.getElementById('pvL').style.color=lvColor(r.lv);
+  document.getElementById('pvF').textContent=r.formula;
+  var s=SOURCES.filter(function(x){return x.n===it.src;})[0];
+  document.getElementById('srcHint').textContent = s ? TIER_NAME[s.t]+'，基础权重 '+s.w+' 分' : '';
+}
+function syncChip(){
+  document.getElementById('cMulti').classList.toggle('on', document.getElementById('fMulti').checked);
+  document.getElementById('cSlow').classList.toggle('on', document.getElementById('fSlow').checked);
+  document.getElementById('cHot').classList.toggle('on', document.getElementById('fHot').checked);
+}
+
+function setView(v){
+  curView=v;
+  document.getElementById('vList').classList.toggle('on', v==='list');
+  document.getElementById('vEvent').classList.toggle('on', v==='event');
+  document.getElementById('filterWrap').style.display = v==='list' ? 'block' : 'none';
+  renderIntel();
+}
+function setFilter(f){ curFilter=f; renderIntel(); }
+function renderFilters(){
+  var fs=[{k:'all',n:'全部'},{k:'strong',n:'强信号'},{k:'mid',n:'可参考'},{k:'noise',n:'噪音'},
+    {k:'slow',n:'慢信号'},{k:'more',n:'钱变多'},{k:'less',n:'钱变少'},{k:'shift',n:'钱换地方'}];
+  document.getElementById('filters').innerHTML = fs.map(function(f){
+    return '<button class="chip'+(curFilter===f.k?' on':'')+'" onclick="setFilter(\''+f.k+'\')">'+f.n+'</button>';
+  }).join('');
+}
+
+function itemHTML(i){
+  var r = score(i);
+  var fl=FLOW[i.flow]||FLOW.shift;
+  var t=tierOf(i.src);
+  var fnames=(i.fields||[]).map(function(fid){
+    var f=DB.fields.filter(function(x){return x.id===fid;})[0];
+    return f?'<span style="color:'+f.c+'">● '+esc(f.n)+'</span>':'';
+  }).join(' ');
+  var cnames=(i.chains||[]).map(function(cid){
+    var c=DB.chains.filter(function(x){return x.id===cid;})[0];
+    return c?'<span class="tag tag-chain">'+esc(c.n)+'</span>':'';
+  }).join('');
+  var gap=diffDays(i.date, todayStr());
+  var when = gap===0?'今天':(gap===1?'昨天':gap+' 天前');
+  return '<div class="item '+(r.lv==='noise'?'noise':'')+' '+(i.slow?'slow':'')+'">'+
+    '<div class="it-top">'+
+      '<span class="tag tag-'+fl.c+'">'+fl.n+'</span>'+
+      '<span class="tag tag-lv '+lvCls(r.lv)+'">'+lvName(r.lv)+'</span>'+
+      (i.slow?'<span class="tag tag-slow">慢信号</span>':'')+
+      (i.hot?'<span class="tag tag-hot">热搜</span>':'')+ cnames +
+      '<span class="sc" style="color:'+lvColor(r.lv)+'">'+r.v+'</span>'+
+    '</div>'+
+    '<div class="it-tt">'+esc(i.title)+'</div>'+
+    (i.read?'<div class="it-tr">'+esc(i.read)+'</div>':'')+
+    '<div class="it-ft">'+
+      '<span class="src"><span class="tier t'+t+'">'+TIER_NAME[t]+'</span>'+esc(i.src)+'</span>'+
+      '<span>'+when+'</span>'+
+      (i.event?'<span>事件：'+esc(i.event)+'</span>':'')+
+      (fnames?'<span>'+fnames+'</span>':'')+
+      '<span class="acts">'+
+        '<button class="ib" title="信号分构成" onclick="showFormula(\''+i.id+'\')">'+
+          '<svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></button>'+
+        '<button class="ib" title="基于这条记判断" onclick="fromIntel(\''+i.id+'\')">'+
+          '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></button>'+
+        '<button class="ib dn" title="删除" onclick="delIntel(\''+i.id+'\')">'+
+          '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button>'+
+      '</span>'+
+    '</div></div>';
+}
+
+function renderIntel(){
+  renderFilters();
+  document.getElementById('intelSub').textContent =
+    '共 '+DB.intel.length+' 条 · 强信号 '+DB.intel.filter(function(i){return score(i).lv==='strong';}).length+
+    ' · 噪音 '+DB.intel.filter(function(i){return score(i).lv==='noise';}).length;
+
+  var box=document.getElementById('intelList');
+
+  if(curView==='event'){
+    var groups=groupByEvent();
+    if(!groups.length){
+      box.innerHTML='<div class="empty"><svg viewBox="0 0 24 24"><path d="M16 3h5v5"/><path d="M8 3H3v5"/><path d="M21 3l-7 7"/><path d="M3 3l7 7"/><path d="M21 21v-5h-5"/><path d="M3 21v-5h5"/></svg><div>还没有事件分组<br><span style="font-size:12.5px">录入时填写「所属事件」，同一事件的多条资讯就会自动并排比对</span></div></div>';
+      return;
+    }
+    box.innerHTML=groups.map(function(g){
+      var rows=g.items.map(function(i){
+        var r=score(i), t=tierOf(i.src), fl=FLOW[i.flow];
+        return '<div class="cmp"><div class="cmp-l">'+
+          '<div class="cs"><span class="tier t'+t+'">'+TIER_NAME[t]+'</span></div>'+
+          '<div style="font-size:12.5px;color:var(--t2)">'+esc(i.src)+'</div>'+
+          '<div style="margin-top:3px"><span class="tag tag-'+fl.c+'">'+fl.n+'</span> '+
+          '<b style="color:'+lvColor(r.lv)+';font-size:14px">'+r.v+'</b></div>'+
+          '</div><div class="cmp-r">'+
+          '<div class="ct">'+esc(i.title)+'</div>'+
+          (i.read?'<div class="cr">'+esc(i.read)+'</div>':'')+
+          '</div></div>';
+      }).join('');
+      return '<div class="eg '+(g.conflict?'cf':'')+'">'+
+        '<div class="eg-hd"><span class="en">'+esc(g.name)+'</span>'+
+        (g.conflict?'<span class="tag tag-shift">解读分歧</span>':'<span class="tag tag-lv s">口径一致</span>')+
+        '<span style="font-size:12px;color:var(--t3)">'+g.items.length+' 个信源 · '+g.date+'</span></div>'+
+        '<div class="eg-body">'+
+        (g.conflict?'<div class="diverge"><b>分歧提示：</b>'+esc(divergeText(g))+'</div>':'')+
+        rows+'</div></div>';
+    }).join('');
+    return;
+  }
+
+  var list = DB.intel.slice().map(function(i){
+    var r=score(i); i._s=r.v; i._lv=r.lv; return i;
+  }).filter(function(i){
+    if(curFilter==='all') return true;
+    if(curFilter==='slow') return i.slow;
+    if(['strong','mid','noise'].indexOf(curFilter)>=0) return i._lv===curFilter;
+    return i.flow===curFilter;
+  }).sort(function(a,b){
+    if(a.date!==b.date) return a.date<b.date?1:-1;
+    return b._s-a._s;
+  });
+
+  if(!list.length){
+    box.innerHTML='<div class="empty"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg><div>这个筛选下没有情报</div></div>';
+    return;
+  }
+  box.innerHTML=list.map(itemHTML).join('');
+}
+function showFormula(id){
+  var i=DB.intel.filter(function(x){return x.id===id;})[0];
+  if(!i) return;
+  var r=score(i);
+  showModal('信号分构成', esc(i.title),
+    '<div class="spv"><div class="spv-n" style="color:'+lvColor(r.lv)+'">'+r.v+'</div>'+
+    '<div class="spv-b"><div class="lv" style="color:'+lvColor(r.lv)+'">'+lvName(r.lv)+'</div>'+
+    '<div class="fm">'+esc(r.formula)+'</div></div></div>'+
+    '<div class="hint" style="font-size:12.5px">分级标准：≥65 强信号 · 40–64 可参考 · &lt;40 噪音。'+
+    '信号分只反映这条信息值不值得你花时间，<b>不代表涨跌方向</b>。</div>', null);
+}
+
+function addIntel(){
+  var t=document.getElementById('fTitle').value.trim();
+  if(!t){ alert('至少填个标题'); return; }
+  var read=document.getElementById('fRead').value.trim();
+  var flow=document.getElementById('fFlow').value;
+  if(flow==='auto') flow=guessFlow(t+' '+read);
+  var fields=[];
+  document.querySelectorAll('#fFields .chip.on').forEach(function(c){ fields.push(c.getAttribute('data-f')); });
+  if(!fields.length) fields=guessFields(t+' '+read);
+
+  DB.intel.unshift({
+    id:uid(), title:t, src:document.getElementById('fSrc').value,
+    inc:document.getElementById('fInc').value,
+    multi:document.getElementById('fMulti').checked,
+    slow:document.getElementById('fSlow').checked,
+    hot:document.getElementById('fHot').checked,
+    event:document.getElementById('fEvent').value.trim(),
+    read:read, flow:flow, fields:fields,
+    chains:guessChains(t+' '+read),
+    date:document.getElementById('fDate').value||todayStr()
+  });
+  save();
+  ['fTitle','fRead','fEvent'].forEach(function(k){document.getElementById(k).value='';});
+  ['fMulti','fSlow','fHot'].forEach(function(k){document.getElementById(k).checked=false;});
+  document.getElementById('fFlow').value='auto';
+  document.querySelectorAll('#fFields .chip').forEach(function(c){c.classList.remove('on');});
+  syncChip(); preview(); renderAll();
+}
+function delIntel(id){
+  if(!confirm('删除这条情报？')) return;
+  DB.intel=DB.intel.filter(function(i){return i.id!==id;}); save(); renderAll();
+}
+function fromIntel(id){
+  var i=DB.intel.filter(function(x){return x.id===id;})[0];
+  if(!i) return;
+  go('review');
+  setTimeout(function(){
+    document.getElementById('rLink').value=id;
+    document.getElementById('rQ').focus();
+    document.getElementById('rQ').placeholder='基于「'+i.title.slice(0,18)+'…」你的判断是？';
+  },260);
+}
+
+function renderFlow(){
+  var c={more:0,less:0,shift:0};
+  DB.intel.forEach(function(i){ if(score(i).lv!=='noise') c[i.flow]=(c[i.flow]||0)+1; });
+  var tot=c.more+c.less+c.shift;
+  var pct=function(n){return tot?Math.round(n/tot*100):0;};
+
+  document.getElementById('flowN').innerHTML=['more','less','shift'].map(function(k){
+    return '<div class="fn '+k+'"><div class="n">'+c[k]+'</div><div><div class="l">'+FLOW[k].n+
+      '</div><div class="p">'+pct(c[k])+'% · '+FLOW[k].d+'</div></div></div>';
+  }).join('');
+
+  var w=[pct(c.more),pct(c.less),pct(c.shift)];
+  document.getElementById('flowBar').innerHTML=
+    '<svg viewBox="0 0 600 34" width="100%" height="34" preserveAspectRatio="none" style="border-radius:8px;overflow:hidden">'+
+    '<rect x="0" y="0" width="600" height="34" fill="#f0f3f6"/>'+
+    '<rect x="0" y="0" width="'+(w[0]*6)+'" height="34" fill="#d63c3c"/>'+
+    '<rect x="'+(w[0]*6)+'" y="0" width="'+(w[1]*6)+'" height="34" fill="#127a52"/>'+
+    '<rect x="'+((w[0]+w[1])*6)+'" y="0" width="'+(w[2]*6)+'" height="34" fill="#5b52c4"/></svg>';
+
+  var vt='数据不足', vd='多记几条情报后自动给出判断';
+  if(tot>=3){
+    var mx=Math.max(c.more,c.less,c.shift);
+    if(mx===c.more){ vt='流动性偏宽松'; vd='「钱变多」类信号占主导，'+pct(c.more)+'%'; }
+    else if(mx===c.less){ vt='流动性偏收紧'; vd='「钱变少」类信号占主导，'+pct(c.less)+'%'; }
+    else { vt='总量平稳，结构在动'; vd='「钱换地方」占主导 '+pct(c.shift)+'%，方向比总量重要'; }
+  }
+  document.getElementById('vdT').textContent=vt;
+  document.getElementById('vdD').textContent=vd+'（仅统计非噪音情报 '+tot+' 条）';
+}
+
+function renderMacro(){
+  var box=document.getElementById('macroList');
+  if(!DB.macros.length){
+    box.innerHTML='<div class="empty"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M18 9l-5 5-3-3-4 4"/></svg><div>还没有指标，点右上角添加</div></div>';
+    return;
+  }
+  box.innerHTML=DB.macros.map(function(m){
+    var cls=m.d==='up'?'up':(m.d==='down'?'dn':'');
+    var ar=m.d==='up'?'▲':(m.d==='down'?'▼':'—');
+    return '<div class="mc"><div class="mc-l">'+
+      '<div class="mn">'+esc(m.n)+'</div>'+
+      '<div class="mv '+cls+'">'+esc(m.v)+'</div>'+
+      '<div class="md '+cls+'">'+ar+'</div></div>'+
+      '<div class="mc-r"><div class="rl">对你意味着</div><div class="rt">'+esc(m.t)+'</div>'+
+      '<div style="margin-top:8px"><button class="ib dn" style="width:30px;height:30px" onclick="delMacro(\''+m.id+'\')">'+
+      '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button></div>'+
+      '</div></div>';
+  }).join('');
+}
+function openMacro(){
+  showModal('添加宏观指标','把术语翻译成钱包能感知的话，这是这个工具最有价值的部分',
+    '<div class="fg"><label>指标名</label><input type="text" id="mN" placeholder="例：CPI 同比"></div>'+
+    '<div class="grid2"><div class="fg"><label>当前值</label><input type="text" id="mV" placeholder="例：0.5%"></div>'+
+    '<div class="fg"><label>方向</label><select id="mD"><option value="up">上升</option><option value="down">下降</option><option value="flat">持平</option></select></div></div>'+
+    '<div class="fg"><label>对普通人意味着什么</label><textarea id="mT" placeholder="例：买菜加油暂时不会明显变贵，但工厂端还在卷价格，涨薪空间有限"></textarea></div>',
+    function(){
+      var n=document.getElementById('mN').value.trim();
+      if(!n){alert('填个指标名');return false;}
+      DB.macros.push({id:uid(),n:n,v:document.getElementById('mV').value.trim()||'—',
+        d:document.getElementById('mD').value,t:document.getElementById('mT').value.trim()||'—'});
+      save(); renderAll(); return true;
+    });
+}
+function delMacro(id){
+  if(!confirm('删除这个指标？')) return;
+  DB.macros=DB.macros.filter(function(m){return m.id!==id;}); save(); renderAll();
+}
+
+/* ---------- 产业链 ---------- */
+function renderChain(){
+  var box=document.getElementById('chainList');
+  if(!DB.chains.length){
+    box.innerHTML='<div class="card"><div class="empty"><svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg><div>还没有产业链</div></div></div>';
+    return;
+  }
+  var arrow='<div class="tarrow"><svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></div>';
+  box.innerHTML=DB.chains.map(function(c){
+    var rel=DB.intel.filter(function(i){return (i.chains||[]).indexOf(c.id)>=0;});
+    var valid=rel.filter(function(i){return score(i).lv!=='noise';});
+    var avg=valid.length?Math.round(valid.reduce(function(s,i){return s+score(i).v;},0)/valid.length):0;
+    var tiers=c.tiers.map(function(t,idx){
+      return '<div class="tr '+(idx===0?'up':(idx===1?'mid':'dn'))+'">'+
+        '<div class="tn">'+esc(t.n)+'</div>'+
+        '<div class="ti">'+t.items.map(function(x){return esc(x);}).join('<br>')+'</div></div>';
+    });
+    return '<div class="ch">'+
+      '<div class="ch-hd" style="border-left:4px solid '+c.c+'">'+
+        '<span class="cn"><span style="width:9px;height:9px;border-radius:50%;background:'+c.c+';display:inline-block"></span>'+esc(c.n)+'</span>'+
+        '<span class="cst">'+
+          '<div><div class="n">'+valid.length+'</div><div class="l">关联情报</div></div>'+
+          '<div><div class="n" style="color:'+(avg>=65?'var(--less)':(avg>=40?'var(--warn)':'var(--t3)'))+'">'+avg+'</div><div class="l">平均信号分</div></div>'+
+        '</span></div>'+
+      '<div class="ch-body">'+
+        '<div class="tiers">'+tiers[0]+arrow+tiers[1]+arrow+tiers[2]+'</div>'+
+        '<div class="ch-sec">板块归类：'+esc(c.sector||'—')+'</div>'+
+        '<div class="ch-note"><svg class="ic ic-s" viewBox="0 0 24 24" style="margin-top:2px"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg>'+
+        '<div class="nb"><b>资金动向笔记</b><br>'+esc(c.note||'还没写，点右边编辑')+'</div>'+
+        '<button class="ib" style="width:30px;height:30px" onclick="editNote(\''+c.id+'\')">'+
+        '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></button></div>'+
+        (valid.length?'<div style="margin-top:13px"><div class="hint" style="margin-bottom:8px">关联情报</div>'+
+          valid.slice(0,3).map(itemHTML).join('')+'</div>':'')+
+        '<div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">'+
+        '<button class="btn btn-sm btn-dn" onclick="delChain(\''+c.id+'\')">删除链条</button></div>'+
+      '</div></div>';
+  }).join('');
+}
+function editNote(id){
+  var c=DB.chains.filter(function(x){return x.id===id;})[0];
+  if(!c) return;
+  showModal('资金动向笔记：'+c.n,'记下你观察到的资金流向、拥挤度、持仓迁移。这部分是你的判断，工具不代劳。',
+    '<div class="fg"><textarea id="nT" style="min-height:120px">'+esc(c.note||'')+'</textarea></div>',
+    function(){ c.note=document.getElementById('nT').value.trim(); save(); renderAll(); return true; });
+}
+function delChain(id){
+  if(!confirm('删除这条产业链？关联情报不会被删除。')) return;
+  DB.chains=DB.chains.filter(function(c){return c.id!==id;});
+  DB.intel.forEach(function(i){ i.chains=(i.chains||[]).filter(function(x){return x!==id;}); });
+  save(); renderAll();
+}
+function openChain(){
+  showModal('添加产业链','只做客观的上下游结构映射，不填具体标的',
+    '<div class="fg"><label>链条名称</label><input type="text" id="hN" placeholder="例：机器人"></div>'+
+    '<div class="fg"><label>匹配关键词（逗号分隔）</label><input type="text" id="hK" placeholder="例：机器人,减速器,伺服,人形"></div>'+
+    '<div class="fg"><label>上游（逗号分隔）</label><input type="text" id="h1" placeholder="例：稀土永磁,精密轴承,滚珠丝杠"></div>'+
+    '<div class="fg"><label>中游（逗号分隔）</label><input type="text" id="h2" placeholder="例：谐波减速器,伺服电机,控制器"></div>'+
+    '<div class="fg"><label>下游（逗号分隔）</label><input type="text" id="h3" placeholder="例：整机厂商,工业应用,服务机器人"></div>'+
+    '<div class="fg"><label>板块归类</label><input type="text" id="hS" placeholder="例：机械设备 · 电力设备"></div>'+
+    '<div class="fg"><label>标识色</label><select id="hC">'+
+    '<option value="#5b52c4">紫</option><option value="#d63c3c">红</option><option value="#1c4a72">蓝</option>'+
+    '<option value="#b8892b">金</option><option value="#127a52">绿</option><option value="#c2410c">橙</option></select></div>',
+    function(){
+      var n=document.getElementById('hN').value.trim();
+      if(!n){alert('填个链条名');return false;}
+      var sp=function(id){return document.getElementById(id).value.split(/[,，]/).map(function(s){return s.trim();}).filter(Boolean);};
+      DB.chains.push({id:uid(), n:n, c:document.getElementById('hC').value,
+        kw:sp('hK'), sector:document.getElementById('hS').value.trim(),
+        tiers:[{n:'上游 · 材料与元件',items:sp('h1')},{n:'中游 · 制造与设备',items:sp('h2')},{n:'下游 · 应用与服务',items:sp('h3')}],
+        note:''});
+      DB.intel.forEach(function(i){ i.chains=guessChains(i.title+' '+(i.read||'')); });
+      save(); renderAll(); return true;
+    });
+}
+
+function renderRadar(){
+  document.getElementById('radList').innerHTML=DB.fields.map(function(f){
+    var rel=DB.intel.filter(function(i){return (i.fields||[]).indexOf(f.id)>=0 && score(i).lv!=='noise';});
+    var c={more:0,less:0,shift:0};
+    rel.forEach(function(i){c[i.flow]=(c[i.flow]||0)+1;});
+    var t=rel.length||1;
+    var avg=rel.length?Math.round(rel.reduce(function(s,i){return s+score(i).v;},0)/rel.length):0;
+    return '<div class="rad-r" onclick="go(\'intel\');setView(\'list\');setFilter(\'all\')">'+
+      '<div class="rad-nm"><span style="width:9px;height:9px;border-radius:50%;background:'+f.c+';display:inline-block;flex:none"></span>'+esc(f.n)+'</div>'+
+      '<div class="rad-bar">'+
+        '<div class="rad-seg" style="width:'+(c.more/t*100)+'%;background:#d63c3c"></div>'+
+        '<div class="rad-seg" style="width:'+(c.less/t*100)+'%;background:#127a52"></div>'+
+        '<div class="rad-seg" style="width:'+(c.shift/t*100)+'%;background:#5b52c4"></div></div>'+
+      '<div class="rad-v"><b>'+rel.length+'</b> 条<br><span style="font-size:11px">均分 '+avg+'</span></div></div>';
+  }).join('');
+
+  var data=DB.fields.map(function(f){
+    var rel=DB.intel.filter(function(i){return (i.fields||[]).indexOf(f.id)>=0 && score(i).lv!=='noise';});
+    return {n:f.n, c:f.c, v:rel.length?Math.round(rel.reduce(function(s,i){return s+score(i).v;},0)/rel.length):0};
+  }).sort(function(a,b){return b.v-a.v;});
+
+  var H=data.length*38+26;
+  var svg='<svg viewBox="0 0 600 '+H+'" width="100%" height="'+H+'" style="overflow:visible">';
+  svg+='<line x1="96" y1="8" x2="96" y2="'+(H-18)+'" stroke="#e3e8ee" stroke-width="1"/>';
+  data.forEach(function(d,idx){
+    var y=idx*38+14, w=d.v/100*470;
+    svg+='<text x="88" y="'+(y+15)+'" text-anchor="end" font-size="12.5" fill="#5a6b7c" font-family="-apple-system,sans-serif">'+esc(d.n)+'</text>';
+    svg+='<rect x="96" y="'+y+'" width="470" height="22" rx="5" fill="#f4f6f8"/>';
+    svg+='<rect x="96" y="'+y+'" width="'+w+'" height="22" rx="5" fill="'+d.c+'" opacity="0.88"/>';
+    svg+='<text x="'+(96+w+8)+'" y="'+(y+15)+'" font-size="12" fill="#16222e" font-weight="600" font-family="-apple-system,sans-serif">'+d.v+'</text>';
+  });
+  svg+='<text x="96" y="'+(H-2)+'" font-size="11" fill="#93a1af" font-family="-apple-system,sans-serif">0</text>';
+  svg+='<text x="566" y="'+(H-2)+'" font-size="11" fill="#93a1af" text-anchor="end" font-family="-apple-system,sans-serif">100</text></svg>';
+  document.getElementById('fieldChart').innerHTML=svg;
+
+  var slow=DB.intel.filter(function(i){return i.slow;});
+  document.getElementById('slowList').innerHTML = slow.length ? slow.map(itemHTML).join('')
+    : '<div class="empty"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg><div>还没有慢信号<br><span style="font-size:12.5px">录入时勾选「慢信号议题」即可进入这条轨道</span></div></div>';
+}
+function openField(){
+  showModal('添加关注领域','工具只推跟你相关的信号，领域决定了推什么',
+    '<div class="fg"><label>领域名称</label><input type="text" id="dN" placeholder="例：就业收入"></div>'+
+    '<div class="fg"><label>匹配关键词（逗号分隔）</label><input type="text" id="dK" placeholder="例：就业,工资,收入,失业,招聘"></div>'+
+    '<div class="fg"><label>标识色</label><select id="dC">'+
+    '<option value="#d63c3c">红</option><option value="#1c4a72">蓝</option><option value="#b8892b">金</option>'+
+    '<option value="#127a52">绿</option><option value="#5b52c4">紫</option><option value="#c2410c">橙</option></select></div>',
+    function(){
+      var n=document.getElementById('dN').value.trim();
+      if(!n){alert('填个领域名');return false;}
+      DB.fields.push({id:uid(),n:n,c:document.getElementById('dC').value,
+        kw:document.getElementById('dK').value.split(/[,，]/).map(function(s){return s.trim();}).filter(Boolean)});
+      save(); renderAll(); return true;
+    });
+}
+
+function renderRv(){
+  var done=DB.decisions.filter(function(d){return d.done;});
+  var right=done.filter(function(d){return d.result==='right';}).length;
+  var part=done.filter(function(d){return d.result==='part';}).length;
+  var wrong=done.filter(function(d){return d.result==='wrong';}).length;
+  var rate=done.length?Math.round((right+part*0.5)/done.length*100):0;
+
+  document.getElementById('rvStats').innerHTML=
+    '<div class="st"><div class="n">'+DB.decisions.length+'</div><div class="l">总判断</div></div>'+
+    '<div class="st"><div class="n" style="color:var(--ok)">'+right+'</div><div class="l">判断正确</div></div>'+
+    '<div class="st"><div class="n" style="color:var(--warn)">'+part+'</div><div class="l">部分正确</div></div>'+
+    '<div class="st"><div class="n" style="color:var(--more)">'+wrong+'</div><div class="l">判断错误</div></div>';
+
+  var R=52, C=2*Math.PI*R, off=C-(rate/100)*C;
+  document.getElementById('rvChart').innerHTML=
+    '<div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:center;padding:8px 0">'+
+    '<svg width="132" height="132" viewBox="0 0 132 132">'+
+    '<circle cx="66" cy="66" r="'+R+'" fill="none" stroke="#f0f3f6" stroke-width="13"/>'+
+    '<circle cx="66" cy="66" r="'+R+'" fill="none" stroke="'+(rate>=60?'#127a52':(rate>=40?'#c2410c':'#d63c3c'))+
+    '" stroke-width="13" stroke-linecap="round" stroke-dasharray="'+C+'" stroke-dashoffset="'+off+
+    '" transform="rotate(-90 66 66)"/>'+
+    '<text x="66" y="62" text-anchor="middle" font-size="27" font-weight="700" fill="#16222e" font-family="-apple-system,sans-serif">'+rate+'%</text>'+
+    '<text x="66" y="82" text-anchor="middle" font-size="11.5" fill="#93a1af" font-family="-apple-system,sans-serif">判断命中率</text></svg>'+
+    '<div style="max-width:320px;font-size:13px;color:#5a6b7c;line-height:1.65">'+
+    (done.length?'已复盘 '+done.length+' 条。部分正确按半分计。<br><b style="color:#16222e">命中率的意义不是给自己打分，而是看清自己在哪类判断上会稳定犯错。</b>':
+    '还没有复盘记录。到期后回来填结果，这里会长出你的判断力曲线。')+'</div></div>';
+
+  var td=todayStr();
+  var list=DB.decisions.slice().sort(function(a,b){
+    if(a.done!==b.done) return a.done?1:-1;
+    return a.due<b.due?-1:1;
+  });
+  document.getElementById('rvSub').textContent='待复盘 '+DB.decisions.filter(function(d){return !d.done;}).length+' 条 · 已复盘 '+done.length+' 条';
+
+  var box=document.getElementById('rvList');
+  if(!list.length){
+    box.innerHTML='<div class="empty"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><div>还没有判断记录</div></div>';
+    return;
+  }
+  var rmap={right:{n:'判断正确',c:'ok'},part:{n:'部分正确',c:'mid'},wrong:{n:'判断错误',c:'bad'}};
+  box.innerHTML=list.map(function(d){
+    var gap=diffDays(d.due, td), od=!d.done&&gap>0;
+    var a=ACTS[d.act]||ACTS.wait;
+    var link=d.link?DB.intel.filter(function(i){return i.id===d.link;})[0]:null;
+    var st = d.done ? '已复盘' : (gap>0?'逾期 '+gap+' 天':(gap===0?'今天到期':'还剩 '+Math.abs(gap)+' 天'));
+    return '<div class="rv '+(od?'od':'')+' '+(d.done?'done':'')+'">'+
+      '<div class="rv-top"><span class="act '+a.c+'">'+a.n+'</span>'+
+      '<span style="font-size:12px;color:'+(od?'var(--more)':'var(--t3)')+';font-weight:'+(od?'600':'400')+'">'+st+'</span></div>'+
+      '<div class="rv-q">'+esc(d.q)+'</div>'+
+      (d.note?'<div class="rv-note">'+esc(d.note)+'</div>':'')+
+      (link?'<div style="font-size:12px;color:var(--t3)">依据：'+esc(link.title.slice(0,32))+'…</div>':'')+
+      (d.done&&d.result?'<div class="rv-out"><div class="ol '+rmap[d.result].c+'">'+rmap[d.result].n+'</div>'+esc(d.rnote||'—')+'</div>':'')+
+      '<div class="rv-ft"><span>'+d.date+' 立判断 · '+d.due+' 验证</span>'+
+      '<span class="acts">'+
+      (d.done?'':'<button class="btn btn-sm" onclick="openReview(\''+d.id+'\')">去复盘</button>')+
+      '<button class="ib dn" onclick="delRv(\''+d.id+'\')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button>'+
+      '</span></div></div>';
+  }).join('');
+}
+function addRv(){
+  var q=document.getElementById('rQ').value.trim();
+  if(!q){alert('先写下你的判断');return;}
+  var days=parseInt(document.getElementById('rDays').value,10);
+  DB.decisions.unshift({id:uid(), q:q, act:document.getElementById('rAct').value,
+    note:document.getElementById('rNote').value.trim(), link:document.getElementById('rLink').value||'',
+    date:todayStr(), due:shift(days), done:false, result:'', rnote:''});
+  save();
+  document.getElementById('rQ').value=''; document.getElementById('rNote').value='';
+  document.getElementById('rLink').value='';
+  document.getElementById('rQ').placeholder='例：降准预期升温，四季度地产链有修复空间';
+  renderAll();
+}
+function openReview(id){
+  var d=DB.decisions.filter(function(x){return x.id===id;})[0];
+  if(!d) return;
+  go('review');
+  showModal('复盘：'+d.q.slice(0,22)+(d.q.length>22?'…':''),
+    '当时（'+d.date+'）你的动作是「'+ACTS[d.act].n+'」，理由：'+(d.note||'未填'),
+    '<div class="fg"><label>现在回看，这个判断</label><select id="vR">'+
+    '<option value="right">判断正确</option><option value="part">部分正确</option><option value="wrong">判断错误</option></select></div>'+
+    '<div class="fg"><label>复盘笔记（最有价值的是写下「哪一步推理偷懒了」）</label>'+
+    '<textarea id="vN" placeholder="例：方向对了，但我把两件事的因果说得太直接，中间还隔着一层传导，逻辑链条偷懒了。"></textarea></div>',
+    function(){
+      d.done=true; d.result=document.getElementById('vR').value;
+      d.rnote=document.getElementById('vN').value.trim();
+      save(); renderAll(); return true;
+    });
+}
+function delRv(id){
+  if(!confirm('删除这条判断记录？')) return;
+  DB.decisions=DB.decisions.filter(function(d){return d.id!==id;}); save(); renderAll();
+}
+
+/* ---------- 晨报 ---------- */
+function openBrief(){
+  showModal('生成情报晨报','汇总区间内的强信号、分歧提醒与被过滤的噪音，可直接复制发布',
+    '<div class="fg"><label>统计区间</label><select id="bD" onchange="refreshBrief()">'+
+    '<option value="1">今天</option><option value="3" selected>近 3 天</option>'+
+    '<option value="7">近 7 天</option><option value="30">近 30 天</option></select></div>'+
+    '<div class="brief" id="bT"></div>'+
+    '<div class="hint">生成的文本已带免责声明尾巴，直接复制发布即可</div>', null);
+  document.getElementById('modal').querySelector('.modal-ft').innerHTML=
+    '<button class="btn" onclick="closeModal()">关闭</button>'+
+    '<button class="btn btn-p" onclick="copyBrief()">复制全文</button>';
+  refreshBrief();
+}
+function refreshBrief(){
+  var d=parseInt(document.getElementById('bD').value,10);
+  document.getElementById('bT').textContent=genBrief(d);
+}
+function copyBrief(){
+  var t=document.getElementById('bT').textContent;
+  var done=function(ok){ alert(ok?'已复制到剪贴板':'复制失败，请手动全选复制'); };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(t).then(function(){done(true);},function(){fallback();});
+  }else fallback();
+  function fallback(){
+    var ta=document.createElement('textarea');
+    ta.value=t; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    var ok=false;
+    try{ ok=document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta); done(ok);
+  }
+}
+
+/* ---------- Modal ---------- */
+var modalOk=null;
+function showModal(title, sub, body, onOk){
+  modalOk=onOk;
+  document.getElementById('modal').innerHTML=
+    '<h3>'+esc(title)+'</h3><div class="sub">'+sub+'</div>'+body+
+    '<div class="modal-ft">'+(onOk?
+      '<button class="btn" onclick="closeModal()">取消</button><button class="btn btn-p" onclick="okModal()">确定</button>':
+      '<button class="btn btn-p" onclick="closeModal()">知道了</button>')+'</div>';
+  document.getElementById('mask').classList.add('on');
+}
+function closeModal(){ document.getElementById('mask').classList.remove('on'); modalOk=null; }
+function okModal(){ if(!modalOk || modalOk()!==false) closeModal(); }
+document.getElementById('mask').addEventListener('click', function(e){ if(e.target.id==='mask') closeModal(); });
+
+/* ---------- 备份 ---------- */
+function exportJSON(){
+  var blob=new Blob([JSON.stringify(DB,null,2)],{type:'application/json'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='331情报站备份_'+todayStr()+'.json';
+  a.click(); URL.revokeObjectURL(a.href);
+  localStorage.setItem('wb_331_lastBackup', todayStr()+'|'+DB.intel.length);
+  hideTip();
+}
+function importJSON(ev){
+  var f=ev.target.files[0]; if(!f) return;
+  var r=new FileReader();
+  r.onload=function(e){
+    try{
+      var d=JSON.parse(e.target.result);
+      if(!d.intel) throw 0;
+      if(!confirm('将导入 '+(d.intel||[]).length+' 条情报、'+(d.decisions||[]).length+
+        ' 条决策、'+(d.chains||[]).length+' 条产业链。\n\n当前数据会被覆盖，确定继续？')) return;
+      DB=d;
+      if(!DB.fields||!DB.fields.length) DB.fields=JSON.parse(JSON.stringify(DEF_FIELDS));
+      if(!DB.chains||!DB.chains.length) DB.chains=JSON.parse(JSON.stringify(DEF_CHAINS));
+      if(!DB.macros) DB.macros=[];
+      if(!DB.decisions) DB.decisions=[];
+      DB.intel.forEach(function(i){ if(i.event===undefined) i.event=''; if(!i.chains) i.chains=[]; });
+      save(); renderAll();
+      alert('导入成功：情报 '+DB.intel.length+' 条，决策 '+DB.decisions.length+' 条');
+    }catch(err){ alert('文件格式不对，请选择本工具导出的 JSON 备份'); }
+  };
+  r.readAsText(f); ev.target.value='';
+}
+function exportCSV(){
+  var rows=[['日期','标题','事件','信源','信源层级','信号分','分级','资金流向','产业链','慢信号','热搜','解读']];
+  DB.intel.forEach(function(i){
+    var r=score(i);
+    var cn=(i.chains||[]).map(function(cid){
+      var c=DB.chains.filter(function(x){return x.id===cid;})[0]; return c?c.n:'';
+    }).filter(Boolean).join('｜');
+    rows.push([i.date, i.title, i.event||'', i.src, TIER_NAME[tierOf(i.src)], r.v, lvName(r.lv),
+      (FLOW[i.flow]||FLOW.shift).n, cn, i.slow?'是':'', i.hot?'是':'', i.read||'']);
+  });
+  var csv='\ufeff'+rows.map(function(r){
+    return r.map(function(c){return '"'+String(c).replace(/"/g,'""')+'"';}).join(',');
+  }).join('\r\n');
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+  a.download='331情报库_'+todayStr()+'.csv';
+  a.click(); URL.revokeObjectURL(a.href);
+}
+function askClear(){
+  showModal('清空数据','这会删除全部情报、决策、产业链与指标，无法撤销。建议先导出备份。',
+    '<div class="fg"><label>确认请输入「清空」两个字</label><input type="text" id="cfm" placeholder="清空"></div>',
+    function(){
+      if(document.getElementById('cfm').value.trim()!=='清空'){ alert('输入不匹配，已取消'); return false; }
+      DB={v:3, seeded:false, intel:[], decisions:[],
+        fields:JSON.parse(JSON.stringify(DEF_FIELDS)),
+        chains:JSON.parse(JSON.stringify(DEF_CHAINS)), macros:[]};
+      save(); renderAll(); return true;
+    });
+}
+function checkTip(){
+  var n=DB.intel.length+DB.decisions.length;
+  var last=localStorage.getItem('wb_331_lastBackup');
+  var lastN=last?parseInt(last.split('|')[1],10):0;
+  if(n>=30 && n-lastN>=30){
+    document.getElementById('backupTip').style.display='flex';
+    document.getElementById('backupTxt').textContent='数据已积累 '+n+' 条，建议导出一份备份。浏览器清缓存会连数据一起清掉。';
+  }
+}
+function hideTip(){ document.getElementById('backupTip').style.display='none'; }
+
+/* ---------- init ---------- */
+function renderAll(){
+  renderTodo(); renderIntel(); renderFlow(); renderMacro();
+  renderChain(); renderRadar(); renderRv();
+  renderFieldChips(); renderLinkOptions(); renderEventList(); checkTip();
+  var d=new Date();
+  document.getElementById('hdSub').textContent =
+    (d.getMonth()+1)+'月'+d.getDate()+'日 · 情报 '+DB.intel.length+' 条 · 待复盘 '+
+    DB.decisions.filter(function(x){return !x.done;}).length+' 条';
+}
+function renderFieldChips(){
+  document.getElementById('fFields').innerHTML=DB.fields.map(function(f){
+    return '<button class="chip" data-f="'+f.id+'" onclick="this.classList.toggle(\'on\')">'+
+      '<span class="dot" style="background:'+f.c+'"></span>'+esc(f.n)+'</button>';
+  }).join('');
+}
+function renderLinkOptions(){
+  var sel=document.getElementById('rLink'), v=sel.value;
+  sel.innerHTML='<option value="">不关联</option>'+DB.intel.slice(0,30).map(function(i){
+    return '<option value="'+i.id+'">'+esc(i.title.slice(0,30))+(i.title.length>30?'…':'')+'</option>';
+  }).join('');
+  sel.value=v;
+}
+function renderEventList(){
+  var seen={}, out=[];
+  DB.intel.forEach(function(i){
+    var e=(i.event||'').trim();
+    if(e && !seen[e]){ seen[e]=1; out.push(e); }
+  });
+  document.getElementById('evList').innerHTML=out.map(function(e){
+    return '<option value="'+esc(e)+'"></option>';
+  }).join('');
+}
+function initForm(){
+  document.getElementById('fSrc').innerHTML=SOURCES.map(function(s){
+    return '<option value="'+s.n+'">'+s.n+'（'+TIER_NAME[s.t]+' '+s.w+'）</option>';
+  }).join('');
+  document.getElementById('fDate').value=todayStr();
+  preview();
+}
+
+load(); initForm(); renderAll();
+</script>
+</body>
+</html>
