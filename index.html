@@ -891,8 +891,8 @@ var SPIKE_MIN = 3;
 
 /* 大模型适配：三家都是 OpenAI 兼容格式，换厂商只改 endpoint 和 model */
 var LLM_VENDORS = [
-  {id:'glm', n:'智谱 GLM（推荐 · 有免费模型）', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-   model:'glm-4.5-flash', tip:'智谱开放平台获取 API Key。glm-4.5-flash / glm-4-flash 免费；glm-4-plus 需账户有余额'},
+  {id:'glm', n:'智谱 GLM（推荐 · 资源包优先）', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+   model:'glm-4.7', tip:'智谱开放平台获取 API Key。已默认用 GLM-4.7（实名认证 500万体验包，优先消耗）；glm-4.7-flash / glm-4-flash 更省、走通用 1200万资源包；glm-4.1v-flashx 是视觉模型，文本 331 拆解用不上'},
   {id:'qwen', n:'通义千问', ep:'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
    model:'qwen-plus', tip:'阿里云百炼控制台创建 API-KEY，模型名可填 qwen-plus / qwen-max'},
   {id:'doubao', n:'豆包 · 火山方舟', ep:'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
@@ -1441,14 +1441,17 @@ function callLLM(item){
   if(!cfg.on) return Promise.reject(new Error('未配置模型 key'));
   var v = LLM_VENDORS.filter(function(x){ return x.id === cfg.vendor; })[0];
   if(!v) return Promise.reject(new Error('未知的模型厂商'));
+  var payload = {
+    model: cfg.model || v.model,
+    messages: [{role: 'user', content: buildPrompt(item)}],
+    temperature: 0.2
+  };
+  // GLM-4.5 / GLM-4.7 系默认开思维链，慢且会污染 JSON 输出；显式关掉
+  if (/^glm-4\.(5|7)/.test(payload.model)) payload.thinking = { type: 'disabled' };
   return fetch(v.ep, {
     method: 'POST',
     headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + cfg.key},
-    body: JSON.stringify({
-      model: cfg.model || v.model,
-      messages: [{role: 'user', content: buildPrompt(item)}],
-      temperature: 0.2
-    })
+    body: JSON.stringify(payload)
   }).then(function(r){
     if(!r.ok) throw new Error('模型返回 ' + r.status);
     return r.json();

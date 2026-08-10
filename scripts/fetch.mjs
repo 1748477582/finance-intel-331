@@ -21,8 +21,8 @@ const FLOWS = ['more', 'less', 'shift'];
 // LLM 闸门：只给规则分过线的条目花钱，且每次运行有硬上限
 const GATE = { minScore: 50, perRunCap: 10, concurrency: 3 };
 const ZHIPU_EP = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
-// glm-4-flash 免费且不带思维链、响应快；glm-4.5-flash 也免费但会先推理、慢一截；glm-4-plus 需账户有余额
-const ZHIPU_MODEL = process.env.ZHIPU_MODEL || 'glm-4-flash';
+// GLM-4.7 是旗舰模型，已默认用它消耗「实名认证 500万体验包」；glm-4.5-flash / glm-4-flash 走「通用 1200万资源包」更省；glm-4.1v-flashx 是视觉模型、本任务用不到
+const ZHIPU_MODEL = process.env.ZHIPU_MODEL || 'glm-4.7';
 
 function todayISO() { return new Date().toISOString().slice(0, 10); }
 function uid() { return 'feed_' + Math.random().toString(36).slice(2, 10); }
@@ -264,8 +264,8 @@ async function enrich(items) {
       model: ZHIPU_MODEL, temperature: 0.2,
       messages: [{ role: 'user', content: llmPrompt(it) }],
     };
-    // glm-4.5 系默认开思维链，很慢；显式关掉
-    if (/^glm-4\.5/.test(ZHIPU_MODEL)) payload.thinking = { type: 'disabled' };
+    // glm-4.5 / glm-4.7 系默认开思维链，很慢且会污染 JSON；显式关掉
+    if (/^glm-4\.(5|7)/.test(ZHIPU_MODEL)) payload.thinking = { type: 'disabled' };
     try {
       const j = await httpJSON(ZHIPU_EP, {
         method: 'POST', timeout: 40000,
