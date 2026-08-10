@@ -23,6 +23,11 @@ jobs:
           node-version: '20'
 
       - name: 抓取并生成 feed.json
+        env:
+          # 在仓库 Settings → Secrets and variables → Actions 里添加 ZHIPU_API_KEY
+          # 没配也能跑，只是跳过 LLM 增强、只输出规则结果
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          ZHIPU_MODEL: glm-4.5-flash
         run: node scripts/fetch.mjs
 
       - name: 提交 feed.json

@@ -388,8 +388,23 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 .rel:hover{background:#f7f9fb}
 .rel-tt{font-size:13.5px;font-weight:600;color:#16222e}
 .rel-ft{font-size:12px;color:var(--t3);margin-top:4px}
-.dsec-ft{display:flex;gap:8px;align-items:center;border-bottom:none}
+.dsec-ft{display:flex;gap:8px;align-items:center;border-bottom:none;flex-wrap:wrap}
 .dsec-ft .ib{margin-left:auto}
+.eng{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;line-height:1.6;font-weight:600;margin-right:2px}
+.eng-ai{background:#e8f0ff;color:#2a5cc8;border:1px solid #c5d8fb}
+.eng-rule{background:#f1f3f6;color:#6d7885;border:1px solid #e0e4ea}
+.dgate{margin-top:8px;font-size:11.5px;color:#8593a1}
+nav.subtabs{display:flex;gap:4px;margin:0 0 14px;background:var(--card);padding:4px;
+border-radius:11px;border:1px solid var(--line)}
+nav.subtabs button{flex:1;min-height:36px;border:none;background:none;border-radius:8px;
+font-size:13px;font-weight:600;color:var(--t2);cursor:pointer;font-family:inherit;transition:.15s}
+nav.subtabs button.on{background:var(--navy);color:#fff}
+.sub{display:none}
+.sub.on{display:block}
+.bkrow{display:flex;gap:8px;flex-wrap:wrap}
+.alert-sp{border-left-color:var(--gold);background:var(--gold-bg)}
+.alert-sp .al-k{color:var(--gold)}
+.tl-leg{display:inline-flex;gap:10px;align-items:center;margin-left:10px;flex-wrap:wrap}
 </style>
 </head>
 <body>
@@ -404,10 +419,7 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 <div class="hd-act">
 <button class="btn btn-gold btn-sm" id="btnRefresh" onclick="refreshFeed()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>刷新情报</button>
 <button class="btn btn-gold btn-sm" onclick="openBrief()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9h4"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>生成晨报</button>
-<button class="btn btn-g btn-sm" onclick="exportJSON()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>导出备份</button>
-<button class="btn btn-g btn-sm" onclick="document.getElementById('imp').click()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>导入恢复</button>
-<button class="btn btn-g btn-sm" onclick="exportCSV()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>CSV</button>
-<button class="btn btn-g btn-sm" onclick="askClear()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>清空</button>
+<button class="btn btn-g btn-sm" onclick="go('settings')" title="导出 / 导入 / 清空"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>备份</button>
 <input type="file" id="imp" accept=".json,application/json" style="display:none" onchange="importJSON(event)">
 </div>
 </div>
@@ -430,12 +442,10 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 </div>
 
 <nav class="tabs">
-<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 13h8V3H3zM13 21h8v-10h-8zM13 3v6h8V3zM3 21h8v-6H3z"/></svg>仪表盘</button>
-<button data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
-<button data-t="datacenter" onclick="go('datacenter')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据中心</button>
-<button data-t="chain" onclick="go('chain')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
-<button data-t="review" onclick="go('review')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策</button>
-<button data-t="settings" onclick="go('settings')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>设置</button>
+<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>今日信号</button>
+<button data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报库</button>
+<button data-t="data" onclick="go('data')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
+<button data-t="me" onclick="go('me')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>我的</button>
 </nav>
 
 <!-- ============ 情报流 ============ -->
@@ -443,9 +453,11 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 <div class="card">
 <div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M12 5v14"/><path d="M5 12h14"/></svg>情报速记</h3>
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M12 5v14"/><path d="M5 12h14"/></svg>手动速记</h3>
 <p>粘一条资讯，自动算信号分、判流向、匹配产业链</p></div>
+<button class="btn btn-sm" id="qkBtn" onclick="toggleQuick()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>展开录入</button>
 </div>
+<div id="quickBody" style="display:none">
 
 <div class="fg">
 <label>资讯标题</label>
@@ -520,6 +532,7 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 <button class="btn btn-p" style="width:100%" onclick="addIntel()">
 <svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>存入情报库</button>
 </div>
+</div>
 
 <div class="card">
 <div class="card-hd">
@@ -549,7 +562,7 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
     </div>
   </div>
   <div class="card">
-    <div class="card-hd"><div><h3>异常告警</h3><p>方向反转 / 波动异常自动标红</p></div></div>
+    <div class="card-hd"><div><h3>异常与突增</h3><p>指标方向反转 / 波动异常 / 单事件关注度突增</p></div></div>
     <div id="dashAlerts"></div>
   </div>
 </div>
@@ -559,24 +572,6 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
   <div id="dashHeads"></div>
 </div>
 
-<div class="dash-grid2">
-  <div class="card">
-    <div class="card-hd"><div><h3>宏观指标个人翻译</h3><p>术语换成钱包能感知的话</p></div>
-    <button class="btn btn-sm" onclick="openMacro()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加指标</button></div>
-    <div class="macro" id="macroList"></div>
-  </div>
-  <div class="card">
-    <div class="card-hd"><div><h3>关注领域影响面</h3><p>每个领域的资金流向构成</p></div></div>
-    <div id="radList"></div>
-    <div id="fieldChart"></div>
-    <div class="hint" style="margin-top:12px;display:flex;gap:14px;flex-wrap:wrap">
-      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--more);display:inline-block"></span>钱变多</span>
-      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--less);display:inline-block"></span>钱变少</span>
-      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--shift);display:inline-block"></span>钱换地方</span>
-    </div>
-  </div>
-</div>
-
 <div class="card">
   <div class="card-hd"><div><h3>慢信号轨道</h3><p>短期不震动，长期最深刻</p></div></div>
   <div id="slowList"></div>
@@ -584,32 +579,28 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 </section>
 
-<!-- ============ 产业链 ============ -->
-<section class="sec" id="sec-chain">
 
-<div class="card">
-<div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链映射</h3>
-<p>一条新闻落在链条哪一环，上下游还有谁</p></div>
-<button class="btn btn-sm" onclick="openChain()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加链条</button>
-</div>
-<div class="hint" style="margin-bottom:4px">链条只做客观的上下游结构映射与板块归类，<b>不含任何标的推荐</b>。资金动向笔记由你自己维护。</div>
-</div>
 
-<div id="chainList"></div>
 
-</section>
 
-<!-- ============ 数据中心 ============ -->
-<section class="sec" id="sec-datacenter">
 
+
+<!-- ============ 数据 ============ -->
+<section class="sec" id="sec-data">
+<nav class="subtabs" id="subnav-data">
+<button class="on" data-s="data-ind" onclick="subgo('data','ind')">指标趋势</button>
+<button data-s="data-rel" onclick="subgo('data','rel')">关联密度</button>
+<button data-s="data-chain" onclick="subgo('data','chain')">产业链</button>
+</nav>
+
+<div class="sub on" id="sub-data-ind">
 <div class="card">
   <div class="card-hd"><div><h3>趋势追踪</h3><p>同一指标的多期观测，由「数据提炼层」从原文自动抽取</p></div></div>
   <div id="dTrend"></div>
 </div>
 
 <div class="card">
-  <div class="card-hd"><div><h3>异常告警</h3><p>方向反转，或单期波动超过近期均值 2 倍</p></div></div>
+  <div class="card-hd"><div><h3>异常与突增</h3><p>方向反转、单期波动超近期均值 2 倍，或同一事件被 ≥3 条情报覆盖</p></div></div>
   <div id="dAlerts"></div>
 </div>
 
@@ -618,6 +609,14 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
   <div id="dIndTable"></div>
 </div>
 
+<div class="card">
+  <div class="card-hd"><div><h3>宏观指标个人翻译</h3><p>术语换成钱包能感知的话</p></div>
+  <button class="btn btn-sm" onclick="openMacro()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加指标</button></div>
+  <div class="macro" id="macroList"></div>
+</div>
+</div>
+
+<div class="sub" id="sub-data-rel">
 <div class="card">
   <div class="card-hd"><div><h3>信号强度时间线</h3><p>每日情报平均信号分，反映信息密度与质量随时间变化</p></div></div>
   <div id="dSigTrend"></div>
@@ -628,41 +627,41 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
   <div id="dCross"></div>
 </div>
 
-</section>
-
-<!-- ============ 设置 ============ -->
-<section class="sec" id="sec-settings">
-
-<div class="card set">
-  <div class="card-hd"><div><h3>大模型接入</h3><p>填了 key 才走 LLM 抽取；仅存本机浏览器，绝不上传服务器</p></div></div>
-  <div class="fg"><label>模型厂商</label><select id="llmVendor" onchange="llmVendorChange()"></select></div>
-  <div class="fg"><label>API Key</label><input type="password" id="llmKey" placeholder="sk-..." autocomplete="off"></div>
-  <div class="fg"><label>模型名（可选，留空用厂商默认）</label><input type="text" id="llmModel" placeholder="例如 qwen-max / doubao-pro / glm-4"></div>
-  <div class="hint" id="llmTip"></div>
-  <button class="btn btn-p" style="width:100%" onclick="saveLLM()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>保存模型配置</button>
+<div class="card">
+  <div class="card-hd"><div><h3>关注领域影响面</h3><p>每个领域的资金流向构成</p></div></div>
+  <div id="radList"></div>
+  <div id="fieldChart"></div>
+  <div class="hint" style="margin-top:12px;display:flex;gap:14px;flex-wrap:wrap">
+    <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--more);display:inline-block"></span>钱变多</span>
+    <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--less);display:inline-block"></span>钱变少</span>
+    <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--shift);display:inline-block"></span>钱换地方</span>
+  </div>
+</div>
 </div>
 
-<div class="card set">
-  <div class="card-hd"><div><h3>关注领域</h3><p>决定「我的钱会怎样」翻译覆盖哪些资产类别</p></div></div>
-  <div id="watchList" class="chips"></div>
+<div class="sub" id="sub-data-chain">
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链映射</h3>
+<p>一条新闻落在链条哪一环，上下游还有谁</p></div>
+<button class="btn btn-sm" onclick="openChain()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加链条</button>
+</div>
+<div class="hint" style="margin-bottom:4px">链条只做客观的上下游结构映射与板块归类，<b>不含任何标的推荐</b>。资金动向笔记由你自己维护。</div>
 </div>
 
-<div class="card set">
-  <div class="card-hd"><div><h3>数据源与抓取（规划中）</h3><p>真实抓取由 GitHub Action 每天 0:17 与 12:17 各跑一次；也可点顶栏「刷新情报」即时拉取</p></div></div>
-  <div id="srcInfo"></div>
+<div id="chainList"></div>
 </div>
 
 </section>
 
-<!-- ============ 详情（浮层） ============ -->
-<section class="overlay" id="sec-detail">
-  <div class="ov-mask" onclick="closeDetail()"></div>
-  <div class="ov-box" id="detailBox"></div>
-</section>
+<!-- ============ 我的 ============ -->
+<section class="sec" id="sec-me">
+<nav class="subtabs" id="subnav-me">
+<button class="on" data-s="me-rv" onclick="subgo('me','rv')">决策复盘</button>
+<button data-s="me-set" onclick="subgo('me','set')">设置</button>
+</nav>
 
-<!-- ============ 决策复盘 ============ -->
-<section class="sec" id="sec-review">
-
+<div class="sub on" id="sub-me-rv">
 <div class="card">
 <div class="card-hd"><div><h3>判断力档案</h3><p>只统计已复盘的决策</p></div></div>
 <div class="stats" id="rvStats"></div>
@@ -713,8 +712,49 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 <div class="card-hd"><div><h3>复盘记录</h3><p id="rvSub"></p></div></div>
 <div id="rvList"></div>
 </div>
+</div>
+
+<div class="sub" id="sub-me-set">
+<div class="card set">
+  <div class="card-hd"><div><h3>大模型接入</h3><p>填了 key 才走 LLM 抽取；仅存本机浏览器，绝不上传服务器</p></div></div>
+  <div class="fg"><label>模型厂商</label><select id="llmVendor" onchange="llmVendorChange()"></select></div>
+  <div class="fg"><label>API Key</label><input type="password" id="llmKey" placeholder="sk-..." autocomplete="off"></div>
+  <div class="fg"><label>模型名（可选，留空用厂商默认）</label><input type="text" id="llmModel" placeholder="例如 qwen-max / doubao-pro / glm-4"></div>
+  <div class="hint" id="llmTip"></div>
+  <button class="btn btn-p" style="width:100%" onclick="saveLLM()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>保存模型配置</button>
+</div>
+
+<div class="card set">
+  <div class="card-hd"><div><h3>关注领域</h3><p>决定「我的钱会怎样」翻译覆盖哪些资产类别</p></div></div>
+  <div id="watchList" class="chips"></div>
+</div>
+
+<div class="card set">
+  <div class="card-hd"><div><h3>数据源与抓取（规划中）</h3><p>真实抓取由 GitHub Action 每天 0:17 与 12:17 各跑一次；也可点顶栏「刷新情报」即时拉取</p></div></div>
+  <div id="srcInfo"></div>
+</div>
+
+<div class="card set">
+  <div class="card-hd"><div><h3>数据备份与清理</h3><p>所有数据只存在这台设备的浏览器里，换设备或清缓存前务必先导出</p></div></div>
+  <div class="bkrow">
+    <button class="btn btn-g btn-sm" onclick="exportJSON()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>导出备份</button>
+    <button class="btn btn-g btn-sm" onclick="document.getElementById('imp').click()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>导入恢复</button>
+    <button class="btn btn-g btn-sm" onclick="exportCSV()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>导出 CSV</button>
+    <button class="btn btn-g btn-sm" onclick="askClear()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>清空全部</button>
+  </div>
+  <div class="hint" id="bkHint" style="margin-top:10px"></div>
+</div>
+</div>
 
 </section>
+
+<!-- ============ 详情（浮层） ============ -->
+<section class="overlay" id="sec-detail">
+  <div class="ov-mask" onclick="closeDetail()"></div>
+  <div class="ov-box" id="detailBox"></div>
+</section>
+
+
 
 <div class="disc">
 <b>免责与边界</b><br>
@@ -726,12 +766,10 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 <div class="bnav">
 <div class="bnav-in">
-<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 13h8V3H3zM13 21h8v-10h-8zM13 3v6h8V3zM3 21h8v-6H3z"/></svg>仪表盘</button>
-<button data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
-<button data-t="datacenter" onclick="go('datacenter')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
-<button data-t="chain" onclick="go('chain')"><svg class="ic" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
-<button data-t="review" onclick="go('review')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策</button>
-<button data-t="settings" onclick="go('settings')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>设置</button>
+<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>信号</button>
+<button data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报</button>
+<button data-t="data" onclick="go('data')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
+<button data-t="me" onclick="go('me')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>我的</button>
 </div>
 </div>
 
@@ -752,6 +790,7 @@ var SOURCES = [
   {n:'新华社', t:2, w:28},{n:'交易所公告', t:2, w:28},
   {n:'第一财经', t:2, w:28},{n:'证券时报', t:2, w:28},
   {n:'华尔街见闻', t:2, w:28},{n:'财新', t:2, w:28},
+  {n:'新浪财经 7x24', t:2, w:24},
   {n:'券商研报', t:3, w:20},{n:'外资投行', t:3, w:20},
   {n:'自媒体／大V', t:4, w:8},{n:'热搜／论坛', t:4, w:8}
 ];
@@ -847,14 +886,17 @@ var GATE = {
   dailyLlmCap: 60
 };
 
+/* 关注突增阈值：同一事件被这么多条情报覆盖就算「注意力集中」 */
+var SPIKE_MIN = 3;
+
 /* 大模型适配：三家都是 OpenAI 兼容格式，换厂商只改 endpoint 和 model */
 var LLM_VENDORS = [
+  {id:'glm', n:'智谱 GLM（推荐 · 有免费模型）', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+   model:'glm-4.5-flash', tip:'智谱开放平台获取 API Key。glm-4.5-flash / glm-4-flash 免费；glm-4-plus 需账户有余额'},
   {id:'qwen', n:'通义千问', ep:'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
    model:'qwen-plus', tip:'阿里云百炼控制台创建 API-KEY，模型名可填 qwen-plus / qwen-max'},
   {id:'doubao', n:'豆包 · 火山方舟', ep:'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
-   model:'doubao-pro-32k', tip:'火山方舟控制台创建 API Key，模型处需填你自己的推理接入点 ID'},
-  {id:'glm', n:'智谱 GLM', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-   model:'glm-4-plus', tip:'智谱开放平台获取 API Key，模型名可填 glm-4-plus / glm-4-air'}
+   model:'doubao-pro-32k', tip:'火山方舟控制台创建 API Key，模型处需填你自己的推理接入点 ID'}
 ];
 
 /* 关注领域 = 个人影响翻译层的目标。on 为 true 的才会生成个人影响段落 */
@@ -1461,6 +1503,31 @@ function mergeLLM(item, o){
   return item;
 }
 
+/* ===== 成本闸门：规则初筛免费，只有过线的才花钱调 LLM =====
+   纯函数，不碰 DOM，可在测试里直接断言 */
+function llmUsage(){
+  var s = (DB && DB.llmStat) || {};
+  if(s.day !== todayStr()) return {day: todayStr(), n: 0};
+  return {day: s.day, n: s.n || 0};
+}
+function bumpLlmUsage(){
+  var u = llmUsage();
+  u.n += 1;
+  DB.llmStat = u;
+  return u.n;
+}
+function llmGate(item){
+  if(!item) return {ok: false, why: '情报不存在', code: 'noitem'};
+  var cfg = llmConfig();
+  if(!cfg.on) return {ok: false, why: '未配置模型 key，当前是规则引擎结果', code: 'nokey'};
+  if(item.a331 && item.a331.engine === 'llm') return {ok: false, why: '这条已完成 AI 拆解', code: 'done'};
+  var v = score(item).v;
+  if(v < GATE.llmMinScore) return {ok: false, why: '信号分 ' + v + ' 没过闸门（需 ≥ ' + GATE.llmMinScore + '），省下这次调用', code: 'lowscore'};
+  var used = llmUsage().n;
+  if(used >= GATE.dailyLlmCap) return {ok: false, why: '今日 AI 拆解已用满 ' + GATE.dailyLlmCap + ' 次', code: 'cap'};
+  return {ok: true, why: '信号分 ' + v + '，今日已用 ' + used + '/' + GATE.dailyLlmCap, code: 'ok'};
+}
+
 function groupByEvent(){
   var g = {};
   DB.intel.forEach(function(i){
@@ -1528,9 +1595,40 @@ function signalTrend(){
   return {labels: labels, avg: avg, counts: counts, flows: flows};
 }
 
+/* 事件的时间跨度：最早 → 最晚被覆盖的日期，反映这件事被追了多久 */
+function crossSpan(g){
+  var ds = ((g && g.items) || []).map(function(i){ return i.date; })
+    .filter(Boolean).sort();
+  if(!ds.length) return {from:'', to:'', days:0};
+  var from = ds[0], to = ds[ds.length-1];
+  return {from: from, to: to, days: diffDays(from, to) + 1};
+}
+
 /* 跨源关联：同一事件被 ≥2 家信源覆盖，或出现口径分歧（多流向）。即「市场关注焦点」。 */
 function crossSource(){
-  return groupByEvent().filter(function(g){ return g.items.length >= 2 || g.conflict; });
+  return groupByEvent().filter(function(g){ return g.items.length >= 2 || g.conflict; })
+    .map(function(g){ g.span = crossSpan(g); return g; });
+}
+
+/* 关注突增：同一事件被 ≥ SPIKE_MIN 条情报覆盖 —— 不代表利好利空，只代表注意力在集中 */
+function detectSpikes(minItems){
+  var K = minItems || SPIKE_MIN;
+  return groupByEvent()
+    .filter(function(g){ return g.items.length >= K; })
+    .map(function(g){
+      var sp = crossSpan(g), top = g.items[0];
+      var pace = sp.days > 0 ? Math.round(g.items.length / sp.days * 10) / 10 : g.items.length;
+      return {
+        kind: 'spike', name: g.name, n: g.items.length, span: sp, pace: pace,
+        conflict: !!g.conflict, intelId: top ? top.id : '',
+        say: '「' + g.name + '」' + sp.days + ' 天内被 ' + g.items.length + ' 条情报覆盖（约 ' +
+             pace + ' 条/天）' + (g.conflict ? '，且口径出现分歧' : '') + '，市场注意力在这里集中'
+      };
+    })
+    .sort(function(a, b){
+      if(b.n !== a.n) return b.n - a.n;
+      return a.span.days - b.span.days;
+    });
 }
 
 /* ---------- 晨报生成 ---------- */
@@ -1814,7 +1912,9 @@ function load(){
   (DB.intel || []).forEach(function(i){
     if(!i.dps) i.dps = extractDataPoints((i.title || '') + '。' + (i.body || i.read || ''), {date: i.date, src: i.src});
   });
-  if(!DB.llm) DB.llm = {vendor: '', key: '', model: ''};
+  if(!DB.llm) DB.llm = {vendor: 'glm', key: '', model: ''};
+  if(!DB.llm.vendor) DB.llm.vendor = 'glm';
+  if(!DB.llmStat || DB.llmStat.day !== todayStr()) DB.llmStat = {day: todayStr(), n: 0};
   if(!DB.watch || !DB.watch.length) DB.watch = ['equity', 'bond'];
   if(!DB.feed) DB.feed = {last: '', stat: {}};
   syncWatch();
@@ -1837,15 +1937,49 @@ function save(){
    渲染层
    ========================================================== */
 var curTab='dash', curFilter='all', curView='list';
+var curSub={data:'ind', me:'rv'};
+
+/* 旧入口 -> 新四栏的映射，历史调用点（go('review') 等）不用改 */
+var TAB_ALIAS={settings:['me','set'], review:['me','rv'], chain:['data','chain'],
+               datacenter:['data','ind'], backup:['me','set']};
 
 function go(t){
+  var a=TAB_ALIAS[t];
+  if(a) t=a[0];
   curTab=t;
   document.querySelectorAll('.sec').forEach(function(s){s.classList.remove('on');});
-  document.getElementById('sec-'+t).classList.add('on');
+  var sec=document.getElementById('sec-'+t);
+  if(sec) sec.classList.add('on');
   document.querySelectorAll('[data-t]').forEach(function(b){
     b.classList.toggle('on', b.getAttribute('data-t')===t);
   });
+  if(a) subgo(a[0], a[1]);
   window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* 二级分组切换：数据 = 指标趋势/关联密度/产业链；我的 = 决策复盘/设置 */
+function subgo(g,k){
+  curSub[g]=k;
+  var host=document.getElementById('sec-'+g);
+  if(!host) return;
+  host.querySelectorAll('.sub').forEach(function(x){x.classList.remove('on');});
+  var el=document.getElementById('sub-'+g+'-'+k);
+  if(el) el.classList.add('on');
+  var nav=document.getElementById('subnav-'+g);
+  if(nav) nav.querySelectorAll('button').forEach(function(b){
+    b.classList.toggle('on', b.getAttribute('data-s')===(g+'-'+k));
+  });
+}
+
+/* 手动速记默认折叠，把首屏注意力留给情报库本身 */
+function toggleQuick(){
+  var b=document.getElementById('quickBody'), t=document.getElementById('qkBtn');
+  if(!b) return;
+  var open=b.style.display!=='none';
+  b.style.display=open?'none':'block';
+  if(t) t.innerHTML=open
+    ? '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>展开录入'
+    : '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14"/></svg>收起';
 }
 
 function renderTodo(){
@@ -2411,13 +2545,24 @@ function copyBrief(){
 
 
 /* =================== V4 新增：仪表盘 / 数据中心 / 设置 / 详情 =================== */
-function renderDash(){
-  renderFlow(); renderMacro(); renderRadar();
-  var al = detectAnomaly();
-  document.getElementById('dashAlerts').innerHTML = al.length ? al.map(function(a){
+/* 指标异常 + 关注突增合并成一份告警列表：前者说数据变了，后者说注意力变了 */
+function alertCards(){
+  var out = detectAnomaly().map(function(a){
     return '<div class="alert"><div class="al-k">'+esc(a.kind==='reverse'?'方向反转':'波动异常')+'</div>'+
       '<div class="al-say">'+esc(a.say)+'</div></div>';
-  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
+  });
+  detectSpikes().forEach(function(sp){
+    out.push('<div class="alert alert-sp"'+(sp.intelId?' onclick="openDetail(\''+sp.intelId+'\')" style="cursor:pointer"':'')+'>'+
+      '<div class="al-k">关注突增</div><div class="al-say">'+esc(sp.say)+'</div></div>');
+  });
+  return out;
+}
+
+function renderDash(){
+  renderFlow(); renderMacro(); renderRadar();
+  var al = alertCards();
+  document.getElementById('dashAlerts').innerHTML = al.length ? al.join('')
+    : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
 
   var heads = DB.intel.slice().map(function(i){ var r=score(i); i._s=r.v; i._lv=r.lv; return i; })
     .filter(function(i){ return i._lv!=='noise'; })
@@ -2450,11 +2595,9 @@ function trendSVG(ind){
 }
 
 function renderDatacenter(){
-  var al = detectAnomaly();
-  document.getElementById('dAlerts').innerHTML = al.length ? al.map(function(a){
-    return '<div class="alert"><div class="al-k">'+esc(a.kind==='reverse'?'方向反转':'波动异常')+'</div>'+
-      '<div class="al-say">'+esc(a.say)+'</div></div>';
-  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
+  var al = alertCards();
+  document.getElementById('dAlerts').innerHTML = al.length ? al.join('')
+    : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
 
   var indWith = INDICATORS.filter(function(ind){ return trendSeries(ind.id).length >= 2; });
   document.getElementById('dTrend').innerHTML = indWith.length ? indWith.map(function(ind){
@@ -2489,9 +2632,10 @@ function emptyBox(msg){ return '<div class="empty"><svg viewBox="0 0 24 24"><cir
 function signalTrendSVG(t){
   t = t || signalTrend();
   if(!t.labels.length) return emptyBox('暂无带日期的情报，无法绘制时间线');
-  var W=640, H=180, padL=32, padR=12, padT=14, padB=26, n=t.labels.length;
+  var W=640, H=214, padL=32, padR=12, padT=14, padB=26, n=t.labels.length;
+  var BAND=24, GAP=10, LB = H - padB - BAND - GAP;          // LB = 折线区底边
   var X = function(i){ return n===1 ? (padL+(W-padL-padR)/2) : padL + (W-padL-padR)*i/(n-1); };
-  var Y = function(v){ return padT + (H-padT-padB)*(1 - v/100); };
+  var Y = function(v){ return padT + (LB-padT)*(1 - v/100); };
   var grid = [0,50,100].map(function(g){
     var yy = Y(g);
     return '<line x1="'+padL+'" y1="'+yy.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+yy.toFixed(1)+'" stroke="#e8eaef" stroke-width="1"/>'+
@@ -2507,16 +2651,47 @@ function signalTrendSVG(t){
     var show = n<=8 || i===0 || i===n-1 || i%step===0;
     return show ? '<text x="'+X(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle" font-size="9" fill="#9aa0ab">'+esc(d.slice(5))+'</text>' : '';
   }).join('');
+
+  /* 每日资金流向堆叠带：同一天里 钱变多／变少／换地方 各占多少条 */
+  var FC = {more:'#d63c3c', less:'#127a52', shift:'#5b52c4'};
+  var FN = {more:'钱变多', less:'钱变少', shift:'钱换地方'};
+  var bw = Math.max(5, Math.min(20, (W-padL-padR)/Math.max(n,1)*0.62));
+  var bands = (t.flows||[]).map(function(fo, i){
+    fo = fo || {};
+    var tot = (fo.more||0)+(fo.less||0)+(fo.shift||0);
+    var x = X(i) - bw/2;
+    if(!tot) return '<rect x="'+x.toFixed(1)+'" y="'+(LB+GAP)+'" width="'+bw.toFixed(1)+'" height="'+BAND+'" fill="#eef1f5"/>';
+    var y = LB + GAP, out = '', tip = [];
+    ['more','less','shift'].forEach(function(k){
+      var c = fo[k]||0;
+      if(!c) return;
+      var h = BAND * c / tot;
+      out += '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+bw.toFixed(1)+'" height="'+h.toFixed(1)+'" fill="'+FC[k]+'" opacity=".82"/>';
+      y += h;
+      tip.push(FN[k]+' '+c);
+    });
+    return '<g><title>'+esc(t.labels[i])+' · '+tot+' 条 · '+tip.join(' / ')+'</title>'+out+'</g>';
+  }).join('');
+
   var lo = Math.min.apply(null, t.avg), hi = Math.max.apply(null, t.avg);
+  var legItem = function(k){
+    return '<span style="display:inline-flex;align-items:center;gap:4px">'+
+      '<span style="width:9px;height:9px;border-radius:2px;background:'+FC[k]+';display:inline-block"></span>'+FN[k]+'</span>';
+  };
   return '<svg class="trend-svg" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" style="width:100%;height:auto">'+
     grid + '<path d="'+area+'" fill="rgba(200,162,74,.12)"/>'+
     '<polyline points="'+poly+'" fill="none" stroke="#c8a24a" stroke-width="2" stroke-linejoin="round"/>'+
-    dots + xlabels + '</svg>'+
-    '<div class="trend-leg">共 '+n+' 个有数据的日期 · 日均信号分区间 '+lo+'–'+hi+'</div>';
+    dots + bands + xlabels + '</svg>'+
+    '<div class="trend-leg">共 '+n+' 个有数据的日期 · 日均信号分区间 '+lo+'–'+hi+
+    '<span class="tl-leg">下方色带 = 当日资金流向构成 '+legItem('more')+legItem('less')+legItem('shift')+'</span></div>';
 }
 
 /* 跨源关联卡片：同一事件的多家信源覆盖 + 口径分歧提示 */
 function crossCard(g){
+  var sp = g.span || crossSpan(g);
+  var spanTxt = (!sp.from || sp.from === sp.to)
+    ? (g.date || sp.to || '')
+    : (sp.from + ' → ' + sp.to + '（跨 ' + sp.days + ' 天）');
   var seen = {}, tiers = [];
   g.items.forEach(function(i){ var t=tierOf(i.src); if(!seen[t]){ seen[t]=1; tiers.push(t); } });
   tiers.sort();
@@ -2525,7 +2700,7 @@ function crossCard(g){
   var div = g.conflict ? '<div class="x-div"><svg class="ic ic-s" viewBox="0 0 24 24" style="vertical-align:-2px;margin-right:4px;color:#e0a93c"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg>口径分歧：'+esc(divergeText(g))+'</div>' : '';
   return '<div class="xcard" onclick="openDetail(\''+g.items[0].id+'\')">'+
     '<div class="x-hd"><b>'+esc(g.name)+'</b>'+(g.conflict?'<span class="x-badge">分歧</span>':'')+'</div>'+
-    '<div class="x-meta">'+g.items.length+' 家信源 · '+tierChips+' · '+flowBadges+' · '+esc(g.date)+'</div>'+
+    '<div class="x-meta">'+g.items.length+' 家信源 · '+tierChips+' · '+flowBadges+' · '+esc(spanTxt)+'</div>'+
     div + '</div>';
 }
 
@@ -2576,6 +2751,33 @@ function openDetail(id){
   window.scrollTo({top:0});
 }
 function closeDetail(){ document.getElementById('sec-detail').classList.remove('on'); }
+
+/* AI 深度拆解：过闸门才发请求，key 只在本机 localStorage，不出浏览器之外 */
+var _deepBusy = {};
+function deepAnalyze(id){
+  var i = DB.intel.filter(function(x){ return x.id === id; })[0];
+  if(!i || _deepBusy[id]) return;
+  var g = llmGate(i);
+  if(!g.ok){
+    if(g.code === 'nokey'){ toast('先到「我的 → AI 模型」填入 key'); go('me'); return; }
+    toast(g.why); return;
+  }
+  _deepBusy[id] = 1;
+  var btn = document.getElementById('btnDeep');
+  if(btn){ btn.disabled = true; btn.textContent = 'AI 拆解中…'; }
+  callLLM(i).then(function(o){
+    mergeLLM(i, o);
+    bumpLlmUsage();
+    save();
+    renderDetail(i);
+    renderAll();
+    toast('AI 拆解完成');
+  }).catch(function(e){
+    toast('AI 拆解失败：' + (e && e.message ? e.message : '未知错误') + '（已保留规则引擎结果）');
+    if(btn){ btn.disabled = false; btn.textContent = 'AI 深度拆解'; }
+  }).then(function(){ delete _deepBusy[id]; });
+}
+
 function renderDetail(i){
   var a = i.a331 || analyze331(i);
   var r = score(i);
@@ -2599,10 +2801,13 @@ function renderDetail(i){
     return '<div class="rel" onclick="openDetail(\''+x.id+'\')"><div class="rel-tt">'+esc(x.title)+'</div>'+
       '<div class="rel-ft"><span class="tier t'+tierOf(x.src)+'">'+TIER_NAME[tierOf(x.src)]+'</span> '+esc(x.src)+' · '+esc(x.date)+'</div></div>';
   }).join('');
+  var gate = llmGate(i);
+  var isLLM = a && a.engine === 'llm';
   document.getElementById('detailBox').innerHTML =
     '<div class="ov-hd"><div><div class="ov-title">'+esc(i.title)+'</div>'+
     '<div class="ov-meta"><span class="tag tag-'+fl.c+'">'+fl.n+'</span>'+
     '<span class="tag tag-lv '+lvCls(r.lv)+'">'+lvName(r.lv)+' '+r.v+'</span>'+
+    '<span class="eng '+(isLLM?'eng-ai':'eng-rule')+'">'+(isLLM?'AI 拆解':'规则拆解')+'</span>'+
     '<span class="tier t'+t+'">'+TIER_NAME[t]+'</span> '+esc(i.src)+' · '+esc(i.date)+
     (i.event?' · 事件：'+esc(i.event):'')+'</div></div>'+
     '<button class="ov-close" onclick="closeDetail()">×</button></div>'+
@@ -2623,9 +2828,13 @@ function renderDetail(i){
       '<div class="dsec"><div class="dsec-h">我的钱会怎样（只到行业 / 资产类别）</div><div class="impacts">'+impact+'</div>'+
         '<div class="disc-inline">本段仅做影响翻译，不含任何标的与买卖建议。</div></div>'+
       (rel?'<div class="dsec"><div class="dsec-h">相关新闻</div>'+rel+'</div>':'')+
-      '<div class="dsec dsec-ft"><button class="btn btn-sm" onclick="event.stopPropagation();fromIntel(\''+i.id+'\')">基于这条记判断</button>'+
+      '<div class="dsec dsec-ft">'+
+        (isLLM?'':'<button class="btn btn-sm btn-p" id="btnDeep"'+(gate.ok?'':' disabled title="'+esc(gate.why)+'"')+
+          ' onclick="event.stopPropagation();deepAnalyze(\''+i.id+'\')">AI 深度拆解</button>')+
+        '<button class="btn btn-sm" onclick="event.stopPropagation();fromIntel(\''+i.id+'\')">基于这条记判断</button>'+
         '<button class="btn btn-sm" onclick="event.stopPropagation();showFormula(\''+i.id+'\')">信号分构成</button>'+
         '<button class="ib dn" onclick="event.stopPropagation();delIntel(\''+i.id+'\')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button></div>'+
+      (isLLM?'':'<div class="dgate">'+esc(gate.why)+'</div>')+
     '</div>';
 }
 

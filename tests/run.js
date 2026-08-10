@@ -227,6 +227,56 @@ t('跨源关联包含多源覆盖事件', cs.some(function(g){ return g.items.le
 t('若有分歧事件则必在跨源关联中', all.filter(function(g){return g.conflict;}).every(function(g){ return cs.some(function(c){ return c.name===g.name; }); }));
 t('跨源关联按信源数降序（多源优先）', cs.every(function(g,i){ return i===0 || cs[i-1].items.length>=g.items.length; }));
 
+/* ---------- 12. P2 增强：流向堆叠 / 时间跨度 / 关注突增 ---------- */
+sec('12. P2 增强（流向带 / 跨度 / 突增）');
+t('signalTrend.flows 与 labels 等长', st.flows.length===st.labels.length, [st.flows.length, st.labels.length]);
+t('每日流向条数之和 = 当日情报条数',
+  st.flows.every(function(f,i){
+    var sum = Object.keys(f).reduce(function(a,k){ return a + (f[k]||0); }, 0);
+    return sum === st.counts[i];
+  }), st.flows);
+t('流向键只出现 more/less/shift',
+  st.flows.every(function(f){ return Object.keys(f).every(function(k){ return ['more','less','shift'].indexOf(k)>=0; }); }));
+
+var sp0 = crossSpan({items:[{date:'2025-08-01'},{date:'2025-08-05'},{date:'2025-08-03'}]});
+t('crossSpan 取最早最晚日期', sp0.from==='2025-08-01' && sp0.to==='2025-08-05', sp0);
+t('crossSpan 天数含首尾（8/1→8/5 = 5 天）', sp0.days===5, sp0.days);
+t('crossSpan 单日事件 = 1 天', crossSpan({items:[{date:'2025-08-01'}]}).days===1);
+t('crossSpan 空输入不炸', crossSpan({}).days===0 && crossSpan({items:[]}).from==='');
+t('crossSource 每组都带 span', cs.every(function(g){ return g.span && typeof g.span.days==='number'; }));
+t('span 天数 ≥ 1（有日期时）', cs.every(function(g){ return !g.span.from || g.span.days>=1; }));
+
+var spk = detectSpikes();
+t('detectSpikes 返回数组', Array.isArray(spk));
+t('突增阈值默认 3', SPIKE_MIN===3);
+t('突增项条数均 ≥ SPIKE_MIN', spk.every(function(x){ return x.n>=SPIKE_MIN; }), spk.map(function(x){return x.n;}));
+t('突增项按条数降序', spk.every(function(x,i){ return i===0 || spk[i-1].n>=x.n; }));
+t('突增项含 say / intelId / span', spk.every(function(x){ return x.say && typeof x.intelId==='string' && x.span; }));
+t('提高阈值后结果不增多', detectSpikes(99).length<=spk.length);
+t('阈值 2 时结果 ⊇ 默认阈值结果',
+  spk.every(function(x){ return detectSpikes(2).some(function(y){ return y.name===x.name; }); }));
+
+/* ---------- 13. LLM 成本闸门 ---------- */
+sec('13. LLM 成本闸门');
+DB.llm = {vendor:'', key:'', model:''};
+var hi = {id:'_g1', src:'国家统计局', inc:'hard', multi:true, date: todayStr()};   // 73 分
+var lo = {id:'_g2', src:'自媒体／小作文', inc:'emo', date: todayStr()};            // 低分
+t('未配 key 时闸门关闭', llmGate(hi).ok===false && llmGate(hi).code==='nokey');
+DB.llm = {vendor:'glm', key:'test-key-not-real', model:''};
+t('配了 key + 高分 → 放行', llmGate(hi).ok===true, llmGate(hi));
+t('低分被闸门拦下', llmGate(lo).ok===false && llmGate(lo).code==='lowscore', llmGate(lo));
+t('闸门阈值 = GATE.llmMinScore', score(hi).v>=GATE.llmMinScore && score(lo).v<GATE.llmMinScore, [score(hi).v, score(lo).v]);
+t('已 LLM 拆解过的不重复调用',
+  llmGate({id:'_g3', src:'国家统计局', inc:'hard', multi:true, a331:{engine:'llm'}}).code==='done');
+t('空条目安全返回', llmGate(null).ok===false && llmGate(null).code==='noitem');
+DB.llmStat = {day: todayStr(), n: GATE.dailyLlmCap};
+t('日上限用满后拦下', llmGate(hi).ok===false && llmGate(hi).code==='cap', llmGate(hi));
+DB.llmStat = {day:'1999-01-01', n: 999};
+t('跨天自动清零计数', llmUsage().n===0 && llmUsage().day===todayStr(), llmUsage());
+t('bumpLlmUsage 累加', (function(){ DB.llmStat={day:todayStr(), n:0}; bumpLlmUsage(); return bumpLlmUsage()===2; })());
+DB.llm = {vendor:'', key:'', model:''};
+DB.llmStat = {day: todayStr(), n: 0};
+
 console.log('\n' + '='.repeat(44));
 console.log('  通过 ' + pass + ' 项，失败 ' + fail + ' 项');
 if(fail){ console.log('  失败项：\n   - ' + failed.join('\n   - ')); }

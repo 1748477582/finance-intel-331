@@ -35,16 +35,23 @@ const sandbox = {
 vm.createContext(sandbox);
 vm.runInContext(code, sandbox, { filename: 'index-inline.js' });
 
+// 真实抓取后 feed 里不再有「样例」占位标题，改用「标题集合是否来自 feed.json」做溯源判定
+const FEED = JSON.parse(feedRaw);
+const feedTitles = new Set((FEED.intel || []).map(i => i.title));
+const countFromFeed = arr => (arr || []).filter(i => feedTitles.has(i.title)).length;
+
 (async () => {
   try {
     await sandbox.loadFeed();
     const intel = sandbox.DB.intel;
-    const fromFeed = (intel || []).filter(i => (i.title || '').indexOf('样例') > -1);
+    const fromFeed = countFromFeed(intel);
+    console.log('feed.json items  =', (FEED.intel || []).length, '| llm 增强 =', (FEED.stat && FEED.stat.llm) || 0);
     console.log('intel count      =', intel ? intel.length : 'n/a');
-    console.log('feed-sourced     =', fromFeed.length);
+    console.log('feed-sourced     =', fromFeed);
     console.log('first src        =', intel && intel[0] && intel[0].src);
+    console.log('feed.last 记录   =', sandbox.DB.feed && sandbox.DB.feed.last ? 'yes' : 'no');
     console.log('dps derived      =', intel && intel[0] && Array.isArray(intel[0].dps) ? intel[0].dps.length : 'n/a');
-    if (fromFeed.length >= 1 && Array.isArray(intel[0].dps)) {
+    if (fromFeed >= 1 && fromFeed === (FEED.intel || []).length && Array.isArray(intel[0].dps)) {
       console.log('\nLOADFEED TEST PASSED');
     } else {
       console.error('\nLOADFEED TEST FAILED');
@@ -60,7 +67,7 @@ vm.runInContext(code, sandbox, { filename: 'index-inline.js' });
     sandbox.DB.intel = [];                            // simulate local view emptied
     const cleared = sandbox.DB.intel.length;
     await sandbox.refreshFeed();                      // force path -> re-applies online feed
-    const reFed = (sandbox.DB.intel || []).filter(i => (i.title || '').indexOf('样例') > -1).length;
+    const reFed = countFromFeed(sandbox.DB.intel);
     console.log('force-refresh intel =', sandbox.DB.intel.length, '| cleared =', cleared, '| feed-sourced =', reFed);
     if (reFed >= 1 && sandbox.DB.intel.length > cleared) {
       console.log('\nREFRESH TEST PASSED');
