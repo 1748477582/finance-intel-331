@@ -51,11 +51,14 @@ fns.forEach(f => console.log(f, typeof sandbox[f]));
 try {
   sandbox.renderAll();
   console.log('--- renderAll() OK ---');
-  ['dashAlerts','dashHeads','radList','fieldChart','slowList','dTrend','dAlerts','dIndTable','watchList','srcInfo','flowN','flowBar','macroList','detailBox']
+  ['dashAlerts','dashHeads','radList','fieldChart','slowList','dTrend','dAlerts','dIndTable','dSigTrend','dCross','watchList','srcInfo','flowN','flowBar','macroList','detailBox']
     .forEach(id => {
       const len = els[id] && els[id]._html ? els[id]._html.length : 0;
       console.log('  #' + id + ' html len =', len);
     });
+  if (!(els['dSigTrend'] && els['dSigTrend']._html.indexOf('trend-svg') > -1)) { console.error('  ✗ dSigTrend 未渲染信号时间线 SVG'); process.exit(1); }
+  if (!(els['dCross'] && els['dCross']._html.indexOf('xcard') > -1)) { console.error('  ✗ dCross 未渲染跨源关联卡片'); process.exit(1); }
+  console.log('  ✓ dSigTrend / dCross 均渲染出真实内容');
 } catch (e) {
   console.error('RENDER ERROR:', e.message);
   console.error((e.stack || '').split('\n').slice(0, 8).join('\n'));

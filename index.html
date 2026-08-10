@@ -333,6 +333,14 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 .trend-chg.up{color:var(--less)} .trend-chg.dn{color:var(--more)}
 .trend-sub{font-size:11px;color:var(--t3)}
 .trend-svg{display:block;margin-top:4px}
+.trend-leg{font-size:11px;color:var(--t3);margin-top:6px}
+.xcard{border:1px solid #e3e8ee;border-radius:10px;padding:11px 12px;margin-bottom:10px;cursor:pointer;transition:border-color .15s,box-shadow .15s}
+.xcard:hover{border-color:#c8a24a;box-shadow:0 3px 12px rgba(20,34,46,.07)}
+.x-hd{display:flex;align-items:center;gap:8px;font-size:14px;color:#16222e;margin-bottom:5px}
+.x-hd b{font-weight:700}
+.x-badge{background:#fdeaea;color:#c0392b;font-size:11px;font-weight:700;padding:1px 7px;border-radius:6px}
+.x-meta{font-size:12px;color:var(--t3);display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.x-div{margin-top:7px;font-size:12.5px;line-height:1.5;color:#9a5b1a;background:#fdf6ea;border-left:3px solid #e0a93c;padding:7px 10px;border-radius:7px}
 .itb{width:100%;border-collapse:collapse;font-size:13px}
 .itb th,.itb td{text-align:left;padding:8px 6px;border-bottom:1px solid #eef1f4}
 .itb th{color:var(--t3);font-weight:600;font-size:12px}
@@ -608,6 +616,16 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 <div class="card">
   <div class="card-hd"><div><h3>最新指标速览</h3><p>各指标最近一期观测值</p></div></div>
   <div id="dIndTable"></div>
+</div>
+
+<div class="card">
+  <div class="card-hd"><div><h3>信号强度时间线</h3><p>每日情报平均信号分，反映信息密度与质量随时间变化</p></div></div>
+  <div id="dSigTrend"></div>
+</div>
+
+<div class="card">
+  <div class="card-hd"><div><h3>跨源关联 · 市场关注焦点</h3><p>同一事件被多家信源覆盖，横向比对口径差异</p></div></div>
+  <div id="dCross"></div>
 </div>
 
 </section>
@@ -1485,6 +1503,34 @@ function divergeText(g){
     t += '不同信源对同一件事的解读方向不同，建议回到原文核对，别只看标题。';
   }
   return t;
+}
+
+/* ---------- P2：信号强度时间线 + 跨源关联（数据层，可被测试直接 eval） ---------- */
+/* 按日期聚合情报：每日平均信号分、条数、资金流向分布。供「信号强度时间线」SVG 使用。 */
+function signalTrend(){
+  var map = {}, dates = [];
+  DB.intel.forEach(function(i){
+    var d = i.date || '';
+    if(!d) return;
+    if(!map[d]){ map[d] = {sum:0, n:0, flows:{more:0, less:0, shift:0}}; dates.push(d); }
+    map[d].sum += score(i).v;
+    map[d].n += 1;
+    if(map[d].flows[i.flow] !== undefined) map[d].flows[i.flow]++; else map[d].flows[i.flow] = 1;
+  });
+  dates.sort();
+  var labels = [], avg = [], counts = [], flows = [];
+  dates.forEach(function(d){
+    labels.push(d);
+    avg.push(Math.round(map[d].sum / map[d].n));
+    counts.push(map[d].n);
+    flows.push(map[d].flows);
+  });
+  return {labels: labels, avg: avg, counts: counts, flows: flows};
+}
+
+/* 跨源关联：同一事件被 ≥2 家信源覆盖，或出现口径分歧（多流向）。即「市场关注焦点」。 */
+function crossSource(){
+  return groupByEvent().filter(function(g){ return g.items.length >= 2 || g.conflict; });
 }
 
 /* ---------- 晨报生成 ---------- */
@@ -2430,6 +2476,57 @@ function renderDatacenter(){
     '<table class="itb"><tr><th>指标</th><th>最新值</th><th>期</th></tr>'+
     rows.map(function(r){ return '<tr><td>'+r.n+'</td><td>'+r.v+'</td><td>'+r.p+'</td></tr>'; }).join('')+'</table>'
     : '<div class="empty"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg><div>暂无指标数据</div></div>';
+
+  var t = signalTrend();
+  document.getElementById('dSigTrend').innerHTML = t.labels.length ? signalTrendSVG(t) : emptyBox('暂无带日期的情报，无法绘制时间线');
+  var cs = crossSource();
+  document.getElementById('dCross').innerHTML = cs.length ? cs.map(crossCard).join('') : emptyBox('暂无跨源关联事件（同一事件被多家信源覆盖才会出现在这里）');
+}
+
+function emptyBox(msg){ return '<div class="empty"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg><div>'+esc(msg)+'</div></div>'; }
+
+/* 信号强度时间线：每日平均信号分的内联 SVG 面积+折线图（零依赖） */
+function signalTrendSVG(t){
+  t = t || signalTrend();
+  if(!t.labels.length) return emptyBox('暂无带日期的情报，无法绘制时间线');
+  var W=640, H=180, padL=32, padR=12, padT=14, padB=26, n=t.labels.length;
+  var X = function(i){ return n===1 ? (padL+(W-padL-padR)/2) : padL + (W-padL-padR)*i/(n-1); };
+  var Y = function(v){ return padT + (H-padT-padB)*(1 - v/100); };
+  var grid = [0,50,100].map(function(g){
+    var yy = Y(g);
+    return '<line x1="'+padL+'" y1="'+yy.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+yy.toFixed(1)+'" stroke="#e8eaef" stroke-width="1"/>'+
+      '<text x="'+(padL-6)+'" y="'+(yy+4).toFixed(1)+'" text-anchor="end" font-size="10" fill="#9aa0ab">'+g+'</text>';
+  }).join('');
+  var poly = t.avg.map(function(v,i){ return X(i).toFixed(1)+','+Y(v).toFixed(1); }).join(' ');
+  var area = 'M'+X(0).toFixed(1)+','+Y(0).toFixed(1)+' L' + t.avg.map(function(v,i){ return X(i).toFixed(1)+','+Y(v).toFixed(1); }).join(' L') + ' L'+X(n-1).toFixed(1)+','+Y(0).toFixed(1)+' Z';
+  var dots = t.avg.map(function(v,i){
+    return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(v).toFixed(1)+'" r="3" fill="#c8a24a"><title>'+esc(t.labels[i])+' · 均值 '+v+' · '+t.counts[i]+' 条</title></circle>';
+  }).join('');
+  var step = Math.max(1, Math.ceil(n/6));
+  var xlabels = t.labels.map(function(d,i){
+    var show = n<=8 || i===0 || i===n-1 || i%step===0;
+    return show ? '<text x="'+X(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle" font-size="9" fill="#9aa0ab">'+esc(d.slice(5))+'</text>' : '';
+  }).join('');
+  var lo = Math.min.apply(null, t.avg), hi = Math.max.apply(null, t.avg);
+  return '<svg class="trend-svg" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" style="width:100%;height:auto">'+
+    grid + '<path d="'+area+'" fill="rgba(200,162,74,.12)"/>'+
+    '<polyline points="'+poly+'" fill="none" stroke="#c8a24a" stroke-width="2" stroke-linejoin="round"/>'+
+    dots + xlabels + '</svg>'+
+    '<div class="trend-leg">共 '+n+' 个有数据的日期 · 日均信号分区间 '+lo+'–'+hi+'</div>';
+}
+
+/* 跨源关联卡片：同一事件的多家信源覆盖 + 口径分歧提示 */
+function crossCard(g){
+  var seen = {}, tiers = [];
+  g.items.forEach(function(i){ var t=tierOf(i.src); if(!seen[t]){ seen[t]=1; tiers.push(t); } });
+  tiers.sort();
+  var tierChips = tiers.map(function(t){ return '<span class="tier t'+t+'">'+TIER_NAME[t]+'</span>'; }).join(' ');
+  var flowBadges = g.flows.map(function(f){ return '<span class="tag tag-'+FLOW[f].c+'">'+FLOW[f].n+'</span>'; }).join(' ');
+  var div = g.conflict ? '<div class="x-div"><svg class="ic ic-s" viewBox="0 0 24 24" style="vertical-align:-2px;margin-right:4px;color:#e0a93c"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg>口径分歧：'+esc(divergeText(g))+'</div>' : '';
+  return '<div class="xcard" onclick="openDetail(\''+g.items[0].id+'\')">'+
+    '<div class="x-hd"><b>'+esc(g.name)+'</b>'+(g.conflict?'<span class="x-badge">分歧</span>':'')+'</div>'+
+    '<div class="x-meta">'+g.items.length+' 家信源 · '+tierChips+' · '+flowBadges+' · '+esc(g.date)+'</div>'+
+    div + '</div>';
 }
 
 function renderSettings(){

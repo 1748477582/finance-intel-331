@@ -212,6 +212,21 @@ t('feed 条目可经 extractDataPoints 派生数据点',
   }));
 t('feed 条目必填字段齐全', feed.intel.every(function(it){ return it.id && it.title && it.src && it.date; }));
 
+/* ---------- 11. P2 信号时间线 + 跨源关联（数据层） ---------- */
+sec('11. P2 信号时间线 + 跨源关联');
+var st = signalTrend();
+t('signalTrend 返回 labels/avg/counts/flows', !!(st.labels && st.avg && st.counts && st.flows));
+t('labels 与 avg/counts 等长', st.labels.length===st.avg.length && st.avg.length===st.counts.length);
+t('labels 升序排列', st.labels.every(function(d,i){ return i===0 || d>=st.labels[i-1]; }), st.labels);
+t('每日均值分数 ∈ [0,100]', st.avg.every(function(v){ return v>=0 && v<=100; }), st.avg);
+t('预置数据跨多个日期（时间线非单点）', st.labels.length>=2, st.labels.length);
+var all = groupByEvent();
+var cs = crossSource();
+t('crossSource 返回数组', Array.isArray(cs));
+t('跨源关联包含多源覆盖事件', cs.some(function(g){ return g.items.length>=2; }));
+t('若有分歧事件则必在跨源关联中', all.filter(function(g){return g.conflict;}).every(function(g){ return cs.some(function(c){ return c.name===g.name; }); }));
+t('跨源关联按信源数降序（多源优先）', cs.every(function(g,i){ return i===0 || cs[i-1].items.length>=g.items.length; }));
+
 console.log('\n' + '='.repeat(44));
 console.log('  通过 ' + pass + ' 项，失败 ' + fail + ' 项');
 if(fail){ console.log('  失败项：\n   - ' + failed.join('\n   - ')); }
