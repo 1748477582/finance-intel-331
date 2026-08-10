@@ -30,6 +30,10 @@ padding-bottom:calc(76px + env(safe-area-inset-bottom))}
 .wrap{max-width:1080px;margin:0 auto;padding:0 14px}
 svg.ic{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
 svg.ic-s{width:15px;height:15px}
+.ic.spin{animation:spin 1s linear infinite;transform-origin:50% 50%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%) translateY(14px);background:rgba(20,22,28,.94);color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;line-height:1.4;z-index:9999;opacity:0;transition:opacity .25s ease,transform .25s ease;pointer-events:none;box-shadow:0 8px 24px rgba(0,0,0,.28);max-width:80vw}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
 header{background:var(--navy);color:#fff;padding:16px 0 18px}
 .hd{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
@@ -307,6 +311,77 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
  .ch-hd .cst{margin-left:0;width:100%;justify-content:flex-start;gap:20px}
  .ch-hd .cst div{text-align:left}
 }
+
+/* ===== V4 新增样式 ===== */
+.dash-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.dash-grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.dash-grid,.dash-grid2{grid-template-columns:1fr}}
+.alert{border-left:3px solid var(--more);background:#fdeaea;padding:10px 12px;border-radius:8px;margin-bottom:8px}
+.al-k{font-size:11px;font-weight:700;color:var(--more);margin-bottom:2px}
+.al-say{font-size:13px;color:#16222e;line-height:1.5}
+.hl{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid #e3e8ee;border-radius:10px;margin-bottom:10px;cursor:pointer}
+.hl:hover{background:#f7f9fb}
+.hl-sc{font-size:18px;font-weight:700;min-width:34px;text-align:center}
+.hl-m{flex:1;min-width:0}
+.hl-tt{font-size:14px;font-weight:600;color:#16222e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hl-ft{font-size:12px;color:var(--t3);margin-top:3px}
+.hl-ar{width:18px;height:18px;color:var(--t3);flex:none}
+.trend{border:1px solid #e3e8ee;border-radius:10px;padding:12px;margin-bottom:12px}
+.trend-hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.trend-v{font-size:16px;font-weight:700;color:#16222e}
+.trend-chg{font-size:12px;font-weight:700;margin-left:6px}
+.trend-chg.up{color:var(--less)} .trend-chg.dn{color:var(--more)}
+.trend-sub{font-size:11px;color:var(--t3)}
+.trend-svg{display:block;margin-top:4px}
+.itb{width:100%;border-collapse:collapse;font-size:13px}
+.itb th,.itb td{text-align:left;padding:8px 6px;border-bottom:1px solid #eef1f4}
+.itb th{color:var(--t3);font-weight:600;font-size:12px}
+.set .fg{margin-bottom:14px}
+.src-row{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#16222e}
+.tag-signal{background:#e6f4ec;color:#127a52}
+.tag-noise{background:#eef1f4;color:#6b7785}
+.overlay{position:fixed;inset:0;z-index:300;display:none}
+.overlay.on{display:block}
+.ov-mask{position:absolute;inset:0;background:rgba(12,20,30,.55)}
+.ov-box{position:relative;max-width:760px;margin:40px auto;max-height:calc(100vh - 80px);overflow:auto;background:#fff;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.ov-hd{position:sticky;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:18px 20px;background:#fff;border-bottom:1px solid #eef1f4;border-radius:16px 16px 0 0;z-index:2}
+.ov-title{font-size:17px;font-weight:700;color:#16222e;line-height:1.4}
+.ov-meta{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px;color:var(--t3)}
+.ov-close{border:none;background:#f0f3f6;width:32px;height:32px;border-radius:8px;font-size:15px;cursor:pointer;flex:none;color:#16222e}
+.ov-body{padding:6px 20px 22px}
+.dsec{padding:14px 0;border-bottom:1px solid #eef1f4}
+.dsec-h{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.dbody{font-size:14px;line-height:1.7;color:#16222e;white-space:pre-wrap}
+.dbody.dim{color:var(--t3)}
+.dlink{display:inline-block;margin-top:8px;color:var(--navy);font-size:13px;font-weight:600}
+.dps{display:flex;flex-direction:column;gap:8px}
+.dp{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px}
+.dp-hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dp-ind{font-weight:700;font-size:13px;color:#16222e}
+.dp-val{font-weight:700;color:var(--navy)}
+.dp-per{font-size:12px;color:var(--t3)}
+.dp-conf{font-size:11px;color:#6b7785;margin-left:auto}
+.dp-q{margin-top:6px;font-size:13px;color:#16222e;background:#f7f9fb;padding:7px 9px;border-radius:7px;border-left:3px solid var(--gold)}
+.dp-raw{margin-top:4px;font-size:12px;color:var(--t3)}
+.dp-org{margin-top:4px;font-size:11px;color:#8593a1}
+.dsrc{font-size:14px}
+.dnote{margin-top:6px;font-size:12.5px;color:var(--warn);background:#fdf3e7;padding:7px 9px;border-radius:7px}
+.dwhy{font-size:13.5px;line-height:1.65;color:#16222e}
+.dflow{font-size:14px;margin-bottom:6px}
+.dtone{font-size:12.5px;color:var(--t3)}
+.impacts{display:flex;flex-direction:column;gap:8px}
+.imp{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px}
+.imp-hd{display:flex;align-items:center;gap:7px;font-weight:700;font-size:13px;margin-bottom:4px}
+.imp-txt{font-size:13px;color:#16222e;line-height:1.6}
+.imp-txt.imp-empty{color:var(--t3)}
+.imp-extra{margin-top:5px;font-size:12px;color:var(--t3);background:#f7f9fb;padding:6px 8px;border-radius:6px}
+.disc-inline{margin-top:8px;font-size:11.5px;color:#8593a1}
+.rel{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer}
+.rel:hover{background:#f7f9fb}
+.rel-tt{font-size:13.5px;font-weight:600;color:#16222e}
+.rel-ft{font-size:12px;color:var(--t3);margin-top:4px}
+.dsec-ft{display:flex;gap:8px;align-items:center;border-bottom:none}
+.dsec-ft .ib{margin-left:auto}
 </style>
 </head>
 <body>
@@ -319,6 +394,7 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 <div><h1>331 财经情报站</h1><p id="hdSub">信号提纯 · 影响翻译 · 决策留痕</p></div>
 </div>
 <div class="hd-act">
+<button class="btn btn-gold btn-sm" id="btnRefresh" onclick="refreshFeed()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>刷新情报</button>
 <button class="btn btn-gold btn-sm" onclick="openBrief()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9h4"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>生成晨报</button>
 <button class="btn btn-g btn-sm" onclick="exportJSON()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>导出备份</button>
 <button class="btn btn-g btn-sm" onclick="document.getElementById('imp').click()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>导入恢复</button>
@@ -346,15 +422,16 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 </div>
 
 <nav class="tabs">
-<button class="on" data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
-<button data-t="macro" onclick="go('macro')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>影响翻译</button>
+<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 13h8V3H3zM13 21h8v-10h-8zM13 3v6h8V3zM3 21h8v-6H3z"/></svg>仪表盘</button>
+<button data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
+<button data-t="datacenter" onclick="go('datacenter')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据中心</button>
 <button data-t="chain" onclick="go('chain')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
-<button data-t="radar" onclick="go('radar')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>关注雷达</button>
-<button data-t="review" onclick="go('review')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策复盘</button>
+<button data-t="review" onclick="go('review')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策</button>
+<button data-t="settings" onclick="go('settings')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>设置</button>
 </nav>
 
 <!-- ============ 情报流 ============ -->
-<section class="sec on" id="sec-intel">
+<section class="sec" id="sec-intel">
 
 <div class="card">
 <div class="card-hd">
@@ -450,29 +527,51 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 </section>
 
-<!-- ============ 影响翻译 ============ -->
-<section class="sec" id="sec-macro">
+<!-- ============ 仪表盘 ============ -->
+<section class="sec on" id="sec-dash">
+
+<div class="dash-grid">
+  <div class="card">
+    <div class="card-hd"><div><h3>资金流向格局</h3><p>基于情报库自动汇总，噪音已排除</p></div></div>
+    <div class="flow-n" id="flowN"></div>
+    <div id="flowBar"></div>
+    <div class="verdict">
+      <svg class="ic" viewBox="0 0 24 24" style="width:26px;height:26px;color:var(--gold)"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>
+      <div><div class="vl">今日格局判断</div><div class="vv" id="vdT">—</div><div class="vd" id="vdD">—</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-hd"><div><h3>异常告警</h3><p>方向反转 / 波动异常自动标红</p></div></div>
+    <div id="dashAlerts"></div>
+  </div>
+</div>
 
 <div class="card">
-<div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M3 3v18h18"/><path d="M18 9l-5 5-3-3-4 4"/></svg>今日资金流向格局</h3>
-<p>基于情报库分类自动汇总，噪音已排除</p></div>
+  <div class="card-hd"><div><h3>要闻概览</h3><p>按信号分排序，点标题看完整拆解</p></div></div>
+  <div id="dashHeads"></div>
 </div>
-<div class="flow-n" id="flowN"></div>
-<div id="flowBar"></div>
-<div class="verdict">
-<svg class="ic" viewBox="0 0 24 24" style="width:26px;height:26px;color:var(--gold)"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>
-<div><div class="vl">今日格局判断</div><div class="vv" id="vdT">—</div><div class="vd" id="vdD">—</div></div>
-</div>
+
+<div class="dash-grid2">
+  <div class="card">
+    <div class="card-hd"><div><h3>宏观指标个人翻译</h3><p>术语换成钱包能感知的话</p></div>
+    <button class="btn btn-sm" onclick="openMacro()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加指标</button></div>
+    <div class="macro" id="macroList"></div>
+  </div>
+  <div class="card">
+    <div class="card-hd"><div><h3>关注领域影响面</h3><p>每个领域的资金流向构成</p></div></div>
+    <div id="radList"></div>
+    <div id="fieldChart"></div>
+    <div class="hint" style="margin-top:12px;display:flex;gap:14px;flex-wrap:wrap">
+      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--more);display:inline-block"></span>钱变多</span>
+      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--less);display:inline-block"></span>钱变少</span>
+      <span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--shift);display:inline-block"></span>钱换地方</span>
+    </div>
+  </div>
 </div>
 
 <div class="card">
-<div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M5 8l6 6"/><path d="M4 14l6-6 2-3"/><path d="M2 5h12"/><path d="M22 22l-5-10-5 10"/><path d="M14 18h6"/></svg>宏观指标个人翻译</h3>
-<p>把术语换成钱包能感知的话</p></div>
-<button class="btn btn-sm" onclick="openMacro()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加指标</button>
-</div>
-<div class="macro" id="macroList"></div>
+  <div class="card-hd"><div><h3>慢信号轨道</h3><p>短期不震动，长期最深刻</p></div></div>
+  <div id="slowList"></div>
 </div>
 
 </section>
@@ -493,36 +592,54 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 </section>
 
-<!-- ============ 关注雷达 ============ -->
-<section class="sec" id="sec-radar">
+<!-- ============ 数据中心 ============ -->
+<section class="sec" id="sec-datacenter">
 
 <div class="card">
-<div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>关注领域影响面</h3>
-<p>每个领域的资金流向构成</p></div>
-<button class="btn btn-sm" onclick="openField()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>加领域</button>
-</div>
-<div id="radList"></div>
-<div class="hint" style="margin-top:12px;display:flex;gap:14px;flex-wrap:wrap">
-<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--more);display:inline-block"></span>钱变多</span>
-<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--less);display:inline-block"></span>钱变少</span>
-<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--shift);display:inline-block"></span>钱换地方</span>
-</div>
+  <div class="card-hd"><div><h3>趋势追踪</h3><p>同一指标的多期观测，由「数据提炼层」从原文自动抽取</p></div></div>
+  <div id="dTrend"></div>
 </div>
 
 <div class="card">
-<div class="card-hd"><div><h3>各领域信号强度</h3><p>只统计强信号与可参考，噪音不计入</p></div></div>
-<div id="fieldChart"></div>
+  <div class="card-hd"><div><h3>异常告警</h3><p>方向反转，或单期波动超过近期均值 2 倍</p></div></div>
+  <div id="dAlerts"></div>
 </div>
 
 <div class="card">
-<div class="card-hd">
-<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--gold)"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>慢信号轨道</h3>
-<p>短期不震动，长期最深刻</p></div>
-</div>
-<div id="slowList"></div>
+  <div class="card-hd"><div><h3>最新指标速览</h3><p>各指标最近一期观测值</p></div></div>
+  <div id="dIndTable"></div>
 </div>
 
+</section>
+
+<!-- ============ 设置 ============ -->
+<section class="sec" id="sec-settings">
+
+<div class="card set">
+  <div class="card-hd"><div><h3>大模型接入</h3><p>填了 key 才走 LLM 抽取；仅存本机浏览器，绝不上传服务器</p></div></div>
+  <div class="fg"><label>模型厂商</label><select id="llmVendor" onchange="llmVendorChange()"></select></div>
+  <div class="fg"><label>API Key</label><input type="password" id="llmKey" placeholder="sk-..." autocomplete="off"></div>
+  <div class="fg"><label>模型名（可选，留空用厂商默认）</label><input type="text" id="llmModel" placeholder="例如 qwen-max / doubao-pro / glm-4"></div>
+  <div class="hint" id="llmTip"></div>
+  <button class="btn btn-p" style="width:100%" onclick="saveLLM()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>保存模型配置</button>
+</div>
+
+<div class="card set">
+  <div class="card-hd"><div><h3>关注领域</h3><p>决定「我的钱会怎样」翻译覆盖哪些资产类别</p></div></div>
+  <div id="watchList" class="chips"></div>
+</div>
+
+<div class="card set">
+  <div class="card-hd"><div><h3>数据源与抓取（规划中）</h3><p>真实抓取由 GitHub Action 每天 0:17 与 12:17 各跑一次；也可点顶栏「刷新情报」即时拉取</p></div></div>
+  <div id="srcInfo"></div>
+</div>
+
+</section>
+
+<!-- ============ 详情（浮层） ============ -->
+<section class="overlay" id="sec-detail">
+  <div class="ov-mask" onclick="closeDetail()"></div>
+  <div class="ov-box" id="detailBox"></div>
 </section>
 
 <!-- ============ 决策复盘 ============ -->
@@ -591,11 +708,12 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 
 <div class="bnav">
 <div class="bnav-in">
-<button class="on" data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
-<button data-t="macro" onclick="go('macro')"><svg class="ic" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>翻译</button>
+<button class="on" data-t="dash" onclick="go('dash')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 13h8V3H3zM13 21h8v-10h-8zM13 3v6h8V3zM3 21h8v-6H3z"/></svg>仪表盘</button>
+<button data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报流</button>
+<button data-t="datacenter" onclick="go('datacenter')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
 <button data-t="chain" onclick="go('chain')"><svg class="ic" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>产业链</button>
-<button data-t="radar" onclick="go('radar')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>雷达</button>
-<button data-t="review" onclick="go('review')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>复盘</button>
+<button data-t="review" onclick="go('review')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>决策</button>
+<button data-t="settings" onclick="go('settings')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>设置</button>
 </div>
 </div>
 
@@ -606,7 +724,7 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
    331 财经情报站 —— 数据层
    本段无任何 DOM 依赖，迁移微信小程序时可整体复制
    ========================================================== */
-var KEY = 'wb_331_data_v3';
+var KEY = 'wb_331_data_v4';
 
 var SOURCES = [
   {n:'中国人民银行', t:1, w:40},{n:'国家统计局', t:1, w:40},
@@ -641,6 +759,108 @@ var DEF_FIELDS = [
   {id:'f4', n:'新能源车', c:'#127a52', kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率']},
   {id:'f5', n:'半导体AI', c:'#5b52c4', kw:['半导体','芯片','集成电路','AI','算力','PCB','CCL','服务器','人工智能','光模块','晶圆']},
   {id:'f6', n:'黄金外汇', c:'#c2410c', kw:['黄金','外储','外汇','汇率','美元','人民币','储备','美联储','贵金属']}
+];
+
+/* ===== V4 新增：信源身份 · 抓取源 · 模型适配 · 关注领域 =====
+   对应 331 法则的「谁说的」五类身份 + 「三类信息源」的自动化落地 */
+
+var SPEAKER_ROLES = [
+  {id:'raise', n:'筹钱的', d:'企业、发债主体、拟上市公司',
+   hint:'说的话服务于融资目的，天然偏乐观，听的时候要打折',
+   kw:['公司','集团','股份','拟发行','募资','IPO','董事长','业绩说明会','增发','可转债','定增','招股']},
+  {id:'give', n:'给钱的', d:'银行、险资、公募私募、社保、外资',
+   hint:'真金白银投出去的，看它做了什么比听它说了什么重要',
+   kw:['基金','险资','理财子','社保','养老金','公募','私募','北向','外资','增持','调仓','净流入','净买入','QFII']},
+  {id:'broker', n:'中间商', d:'券商、投行、财经媒体',
+   hint:'靠交易量和流量吃饭，天然倾向放大波动',
+   kw:['券商','研报','投行','分析师','评级','目标价','看多','看空','高盛','摩根','中金','花旗','瑞银']},
+  {id:'rule', n:'定规矩的', d:'证监会、金融监管总局、交易所',
+   hint:'管秩序不管涨跌，出手多为纠偏，别当成方向指引',
+   kw:['证监会','监管','交易所','银保监','金融监管总局','处罚','规范','退市','注册制','问询','立案','窗口指导']},
+  {id:'macro', n:'管宏观的', d:'央行、财政部、发改委、统计局',
+   hint:'话最有分量，但措辞留余地，重点看动词强度而不是形容词',
+   kw:['央行','人民银行','财政部','发改委','统计局','国务院','海关总署','外汇管理局','政治局','国常会']}
+];
+
+/* 措辞强度：同一个部门说话，动词不同分量差很远
+   对应「央行说适时调整 = 稳预期，不是要动手」*/
+var TONE_LADDER = [
+  {lv:3, n:'已落地', kw:['决定','已下调','已上调','自即日起','正式实施','印发','公布施行'], say:'动作已经发生，直接看资金面变化'},
+  {lv:2, n:'将出手', kw:['将','即将','近期','抓紧','尽快','部署','推动落实'], say:'方向明确，时间待定，属于强预期'},
+  {lv:1, n:'稳预期', kw:['适时','择机','视情况','研究','评估','关注','密切跟踪','保持'], say:'只是安抚市场，短期大概率不动作'},
+  {lv:0, n:'表态', kw:['支持','鼓励','引导','优化','完善','促进'], say:'态度性表述，需要配套细则才有实质影响'}
+];
+
+/* 四类抓取源。use=signal 参与打分；use=noise 只做对照组，用来打脸夸大表述 */
+var FEED_SOURCES = [
+  {id:'official', n:'官方发布', tier:1, role:'macro', use:'signal', every:1,
+   d:'统计局 / 央行 / 发改委，最高权重，反爬最弱',
+   feeds:[
+     {n:'国家统计局', url:'https://www.stats.gov.cn/sj/zxfb/'},
+     {n:'中国人民银行', url:'http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html'},
+     {n:'国家发改委', url:'https://www.ndrc.gov.cn/xwdt/xwfb/'}
+   ]},
+  {id:'newsflash', n:'财经快讯', tier:2, role:'broker', use:'signal', every:1,
+   d:'财联社 / 新浪财经 / 东方财富，速度最快，日常主力料源',
+   feeds:[
+     {n:'财联社', url:'https://www.cls.cn/telegraph'},
+     {n:'新浪财经', url:'https://finance.sina.com.cn/roll/'},
+     {n:'东方财富', url:'https://finance.eastmoney.com/a/cywjh.html'}
+   ]},
+  {id:'overseas', n:'海外源', tier:2, role:'broker', use:'signal', every:2,
+   d:'路透 / 彭博中文 / 华尔街见闻，看外资视角与汇率大宗',
+   feeds:[
+     {n:'路透中文', url:'https://www.reuters.com/world/china/'},
+     {n:'华尔街见闻', url:'https://wallstreetcn.com/live/global'}
+   ]},
+  {id:'hotlist', n:'社交热榜', tier:4, role:'broker', use:'noise', every:1,
+   d:'微博 / 百度热搜。按 331 法则这是反面教材，抓来做降权对照，不当信号',
+   feeds:[
+     {n:'微博热搜', url:'https://s.weibo.com/top/summary'},
+     {n:'百度热搜', url:'https://top.baidu.com/board?tab=finance'}
+   ]}
+];
+
+/* 两级流水线闸门：每日两次抓取+规则初筛免费，只有过线的才花钱调 LLM */
+var GATE = {
+  llmMinScore: 50,
+  hourlyCap: 80,
+  noiseKeep: true,
+  dailyLlmCap: 60
+};
+
+/* 大模型适配：三家都是 OpenAI 兼容格式，换厂商只改 endpoint 和 model */
+var LLM_VENDORS = [
+  {id:'qwen', n:'通义千问', ep:'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+   model:'qwen-plus', tip:'阿里云百炼控制台创建 API-KEY，模型名可填 qwen-plus / qwen-max'},
+  {id:'doubao', n:'豆包 · 火山方舟', ep:'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
+   model:'doubao-pro-32k', tip:'火山方舟控制台创建 API Key，模型处需填你自己的推理接入点 ID'},
+  {id:'glm', n:'智谱 GLM', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+   model:'glm-4-plus', tip:'智谱开放平台获取 API Key，模型名可填 glm-4-plus / glm-4-air'}
+];
+
+/* 关注领域 = 个人影响翻译层的目标。on 为 true 的才会生成个人影响段落 */
+var WATCH_DOMAINS = [
+  {id:'equity', n:'A股权益', on:true, c:'#d63c3c', d:'板块与行业轮动',
+   ask:'这条消息让哪些行业的钱更多、哪些更少？',
+   more:'风险偏好回升，顺周期与高弹性板块通常先动，但注意兑现节奏',
+   less:'估值承压，高估值成长股的回撤幅度往往大于指数',
+   shift:'总量不变但结构在换，重点看政策点名的方向和被抽水的方向'},
+  {id:'bond', n:'存款理财与债券', on:true, c:'#1c4a72', d:'利率与固收',
+   ask:'我的存款利息和债基净值会怎么变？',
+   more:'利率下行，存量债券价格上涨，债基净值受益；但新增存款的利息会变少',
+   less:'利率上行，债券价格下跌，债基短期回撤；新增存款和新发理财的收益变高',
+   shift:'总量没变，关注期限利差与信用利差的结构变化，长短端可能背离'},
+  {id:'house', n:'房产与房贷', on:false, c:'#b8892b', d:'房价与还款成本',
+   ask:'我的房贷月供和房子估值会怎么变？',
+   more:'房贷利率有下行空间，存量房贷重定价日后月供可能减少',
+   less:'融资成本抬升，购房杠杆受限，成交量通常先于价格走弱',
+   shift:'限购限贷是区域性的，只影响特定城市和特定套数，别当全国性结论'},
+  {id:'fx', n:'汇率与海外资产', on:false, c:'#c2410c', d:'人民币与外币配置',
+   ask:'换汇成本和我的海外资产折算价值会怎么变？',
+   more:'国内宽松通常带来人民币贬值压力，持有外币资产折算收益增加',
+   less:'国内收紧或外部宽松，人民币走强，换汇成本下降',
+   shift:'看跨境资金方向，北向净流入通常伴随人民币走强预期'}
 ];
 
 /* 产业链映射表：关键词 → 上中下游 → 板块归类
@@ -736,6 +956,493 @@ function guessChains(txt){
 }
 
 /* ---------- 多源比对：按事件聚合 + 分歧检测 ---------- */
+/* ===== V4 数据提炼层 =====
+   把一段新闻文字变成可计算的 DataPoint。
+   方案 A（LLM）负责复杂表述，方案 B（正则）兜底高频官方指标。
+   铁律：抽不出原句的一律不入库，宁缺毋滥。 */
+
+var INDICATORS = [
+  {id:'cpi',    n:'CPI 同比',      alias:['CPI','居民消费价格'],           unit:'%',     org:'国家统计局',       dom:['bond'],            kind:'pct'},
+  {id:'ppi',    n:'PPI 同比',      alias:['PPI','工业生产者出厂价格'],     unit:'%',     org:'国家统计局',       dom:['equity'],          kind:'pct'},
+  {id:'m2',     n:'M2 同比',       alias:['M2','广义货币'],                unit:'%',     org:'中国人民银行',     dom:['bond','equity'],   kind:'pct'},
+  {id:'sr',     n:'社融存量同比',  alias:['社会融资规模','社融'],          unit:'%',     org:'中国人民银行',     dom:['bond','equity'],   kind:'pct'},
+  {id:'gdp',    n:'GDP 同比',      alias:['GDP','国内生产总值'],           unit:'%',     org:'国家统计局',       dom:['equity'],          kind:'pct'},
+  {id:'pmi',    n:'制造业 PMI',    alias:['PMI','采购经理指数'],           unit:'点',    org:'国家统计局',       dom:['equity'],          kind:'point'},
+  {id:'jobless',n:'城镇调查失业率',alias:['失业率','调查失业率'],          unit:'%',     org:'国家统计局',       dom:['equity'],          kind:'pct'},
+  {id:'lpr1',   n:'1年期 LPR',     alias:['1年期LPR','一年期LPR','LPR'],   unit:'%',     org:'中国人民银行',     dom:['bond','house'],    kind:'pct'},
+  {id:'lpr5',   n:'5年期以上 LPR', alias:['5年期以上LPR','五年期LPR'],     unit:'%',     org:'中国人民银行',     dom:['house','bond'],    kind:'pct'},
+  {id:'rrr',    n:'存款准备金率',  alias:['存款准备金率','准备金率','降准'],unit:'%',    org:'中国人民银行',     dom:['bond','equity'],   kind:'pct'},
+  {id:'omo',    n:'公开市场操作',  alias:['逆回购','MLF','中期借贷便利','净投放','净回笼'], unit:'亿元', org:'中国人民银行', dom:['bond'], kind:'cny'},
+  {id:'fxres',  n:'外汇储备',      alias:['外汇储备','外储'],              unit:'亿美元',org:'国家外汇管理局',   dom:['fx'],              kind:'usd'},
+  {id:'trade',  n:'进出口总值',    alias:['进出口总值','货物贸易进出口'],  unit:'亿元',  org:'海关总署',         dom:['equity','fx'],     kind:'cny'},
+  {id:'north',  n:'北向资金',      alias:['北向资金','陆股通','沪深股通'], unit:'亿元',  org:'交易所公告',       dom:['equity'],          kind:'cny'},
+  {id:'fxrate', n:'人民币汇率',    alias:['人民币兑美元','在岸人民币','离岸人民币','汇率中间价'], unit:'', org:'中国人民银行', dom:['fx'], kind:'rate'},
+  {id:'birth',  n:'出生人口',      alias:['出生人口','出生率'],            unit:'万人',  org:'国家统计局',       dom:['equity'],          kind:'people'}
+];
+
+var NUM_PAT = {
+  pct:   '(-?[0-9]+(?:\\.[0-9]+)?)\\s*%',
+  point: '(-?[0-9]+(?:\\.[0-9]+)?)\\s*(?:点|$)',
+  cny:   '(-?[0-9]+(?:\\.[0-9]+)?)\\s*(万亿|千亿|亿|万)?\\s*元',
+  usd:   '(-?[0-9]+(?:\\.[0-9]+)?)\\s*(万亿|千亿|亿|万)?\\s*美元',
+  people:'(-?[0-9]+(?:\\.[0-9]+)?)\\s*(万|亿)?\\s*人',
+  rate:  '(-?[0-9]+\\.[0-9]{2,4})'
+};
+
+var UNIT_MULT = {'万亿':10000, '千亿':1000, '亿':1, '万':0.0001, '':1};
+var GUESS_WORDS = ['预计','预期','预测','或将','有望','可能','料将','估计','展望','目标是'];
+var DIR_UP   = ['上涨','增长','上升','增加','提高','扩大','回升','走高','净投放','净流入','净买入','上调'];
+var DIR_DOWN = ['下降','下跌','回落','减少','降低','收窄','走低','净回笼','净流出','净卖出','下调','缩减'];
+
+/* 把 "3.4万亿" 这类表述归一到基准单位。返回 null 表示不可信 */
+function normNum(raw, mult, kind){
+  var v = parseFloat(raw);
+  if(isNaN(v)) return null;
+  var m = UNIT_MULT[mult || ''];
+  if(m === undefined) m = 1;
+  if(kind === 'cny' || kind === 'usd' || kind === 'people') return Math.round(v * m * 10000) / 10000;
+  return v;
+}
+
+/* 时间解析：把 "7月" / "上半年" / "一季度" 变成 ISO 区间。解析不出返回空串，该点不进趋势图 */
+function parsePeriod(text, fallbackDate){
+  var y = (fallbackDate || todayStr()).slice(0,4);
+  var my = text.match(/(20[0-9]{2})\s*年/);
+  if(my) y = my[1];
+  var mq = text.match(/(?:第)?([一二三四1234])\s*季度|Q([1-4])/);
+  if(mq){
+    var qm = {'一':1,'二':2,'三':3,'四':4,'1':1,'2':2,'3':3,'4':4};
+    var q = mq[1] ? qm[mq[1]] : parseInt(mq[2],10);
+    return y + '-Q' + q;
+  }
+  if(/上半年/.test(text)) return y + '-H1';
+  if(/下半年/.test(text)) return y + '-H2';
+  if(/全年/.test(text))  return y;
+  var mm = text.match(/([0-9]{1,2})\s*月(?:份)?/);
+  if(mm){
+    var mo = parseInt(mm[1],10);
+    if(mo >= 1 && mo <= 12) return y + '-' + p2(mo);
+  }
+  return '';
+}
+
+/* 找到数字所在的那一句，用于三级溯源。抽不出句子说明上下文残缺，置信度要降 */
+function quoteOf(text, idx){
+  var left = text.lastIndexOf('。', idx);
+  var l2 = text.lastIndexOf('\n', idx);
+  var l3 = text.lastIndexOf('；', idx);
+  var st = Math.max(left, l2, l3) + 1;
+  var cands = [];
+  ['。','\n','；'].forEach(function(ch){
+    var p = text.indexOf(ch, idx);
+    if(p > -1) cands.push(p);
+  });
+  var en = cands.length ? Math.min.apply(null, cands) + 1 : Math.min(text.length, idx + 60);
+  return text.slice(st, en).trim();
+}
+
+function dirOf(sentence){
+  for(var i=0;i<DIR_UP.length;i++){ if(sentence.indexOf(DIR_UP[i]) > -1) return {t:'up', w:DIR_UP[i]}; }
+  for(var j=0;j<DIR_DOWN.length;j++){ if(sentence.indexOf(DIR_DOWN[j]) > -1) return {t:'down', w:DIR_DOWN[j]}; }
+  return {t:'flat', w:''};
+}
+
+/* 方案 B：正则兜底抽取。只认高频官方指标，宁可漏不可错 */
+function extractDataPoints(text, meta){
+  meta = meta || {};
+  var out = [], seen = {};
+  if(!text) return out;
+  var clean = String(text).replace(/[，,]/g, function(m){ return m; });
+
+  INDICATORS.forEach(function(ind){
+    var pat = NUM_PAT[ind.kind];
+    if(!pat) return;
+    ind.alias.forEach(function(al){
+      var from = 0, pos;
+      while((pos = clean.indexOf(al, from)) > -1){
+        from = pos + al.length;
+        var win = clean.slice(pos, pos + 60);
+        var re = new RegExp(pat);
+        var m = re.exec(win);
+        if(!m) continue;
+        var absIdx = pos + m.index;
+        var sent = quoteOf(clean, absIdx);
+        var val = normNum(m[1], m[2], ind.kind);
+        if(val === null) continue;
+        var key = ind.id + '|' + val;
+        if(seen[key]) continue;
+        seen[key] = 1;
+
+        var d = dirOf(sent);
+        var conf = 0.75;
+        if(!sent) conf -= 0.2;
+        var per = parsePeriod(sent || clean, meta.date);
+        if(!per) conf -= 0.15;
+        var ctx = sent || win;
+        for(var gi=0; gi<GUESS_WORDS.length; gi++){
+          if(ctx.indexOf(GUESS_WORDS[gi]) > -1){ conf -= 0.25; break; }
+        }
+
+        out.push({
+          id: uid(),
+          indicator: ind.n,
+          indId: ind.id,
+          value: val,
+          unit: ind.unit,
+          period: per,
+          change: d.t === 'flat' ? null : {type: d.t, word: d.w},
+          source_org: meta.src || ind.org,
+          confidence: Math.max(0.1, Math.round(conf * 100) / 100),
+          raw_text: m[0].trim(),
+          quote: sent,
+          domains: ind.dom,
+          method: 'regex'
+        });
+      }
+    });
+  });
+  return out;
+}
+
+/* 置信度低于 0.5 的不进趋势图，只在详情页折叠展示 */
+function trustedPoints(list){
+  return (list || []).filter(function(p){ return p.confidence >= 0.5 && p.period; });
+}
+
+/* 方案 A：给 LLM 的 prompt。JSON-only，抽不出原句就不许输出该数据点 */
+function buildPrompt(item){
+  var roles = SPEAKER_ROLES.map(function(r){ return r.id + '=' + r.n; }).join(' / ');
+  var doms = WATCH_DOMAINS.filter(function(d){ return d.on; }).map(function(d){ return d.id + '(' + d.n + ')'; }).join('、');
+  return [
+    '你是财经新闻结构化拆解助手，严格遵循「331 法则」。只输出 JSON，不要任何解释文字、不要 markdown 代码块。',
+    '',
+    '【三句话拆解】',
+    'q1_what：这条新闻到底说了什么。必须贴近原文表述，禁止美化或替换措辞（例如原文写"稳增长"就不能写成"大放水"）。',
+    'q2_who：谁说的。role 从这五类里选一个：' + roles + '。discount 用一句话说明这个身份说这话该打几折。',
+    'q3_why：为什么是现在说。结合发布时间点的市场语境，不要泛泛而谈。',
+    '',
+    '【资金流向】flow 三选一：more=钱变多 / less=钱变少 / shift=钱换地方。flow_why 给一句理由。',
+    '',
+    '【措辞强度】tone 取 0-3：3=已落地(决定/自即日起) 2=将出手(将/抓紧) 1=稳预期(适时/择机/研究) 0=表态(支持/鼓励)。',
+    '',
+    '【数据点抽取】data_points 数组。规则：',
+    '  1. 只抽新闻中明确出现的数字，禁止推算、禁止补全、禁止引用你的先验知识。',
+    '  2. value 必须是纯数字，单位放 unit。原始表述完整保留在 raw_text。',
+    '  3. quote 必须是该数字所在的原句，逐字复制。抽不出原句的数据点直接丢弃。',
+    '  4. period 用 ISO：2026-07 / 2026-Q2 / 2026-H1 / 2026。判断不出就留空字符串。',
+    '  5. confidence 0-1，预测性、模糊表述要显著降低。',
+    '',
+    '【个人影响】impact 针对这些领域各给一句具体影响：' + doms + '。禁止出现任何个股名称、股票代码、基金代码，禁止给出买卖建议。',
+    '',
+    '输出 JSON schema：',
+    '{"q1_what":"","q2_who":{"name":"","role":"","discount":""},"q3_why":"","flow":"","flow_why":"","tone":0,' +
+    '"data_points":[{"indicator":"","value":0,"unit":"","period":"","change":{"type":"","word":""},"source_org":"","confidence":0,"raw_text":"","quote":""}],' +
+    '"impact":{"equity":"","bond":""}}',
+    '',
+    '===== 待分析新闻 =====',
+    '标题：' + (item.title || ''),
+    '信源：' + (item.src || '') + '　发布日期：' + (item.date || ''),
+    '正文：' + (item.body || item.read || item.title || '')
+  ].join('\n');
+}
+
+/* 解析 LLM 返回。模型经常裹 markdown 代码块，要剥干净 */
+function parseLLM(raw){
+  if(!raw) return null;
+  var t = String(raw).trim();
+  t = t.replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/, '').trim();
+  var a = t.indexOf('{'), b = t.lastIndexOf('}');
+  if(a < 0 || b <= a) return null;
+  try{ return JSON.parse(t.slice(a, b + 1)); }catch(e){ return null; }
+}
+
+/* ===== V4 分析翻译层 =====
+   三句话拆解：他说了什么 / 谁说的 / 为什么现在说
+   一个重点：钱往哪流
+   规则版随时可用且完全透明；填了 key 之后 LLM 版接管，但打分权重始终在明面上 */
+
+/* 自媒体最爱干的事：把"稳增长"写成"大放水"。命中这些词要提示去核对原文 */
+var HYPE_WORDS = ['暴涨','暴跌','崩盘','全面放开','史上最','重磅','炸裂','疯狂','血洗','狂飙','惊人','逆天','神话','爆发式','千载难逢','最后机会','大放水','大水漫灌'];
+
+function detectRole(text, src){
+  var t = (text || '') + ' ' + (src || '');
+  var best = null, hi = 0;
+  SPEAKER_ROLES.forEach(function(r){
+    var c = 0;
+    r.kw.forEach(function(k){ if(t.indexOf(k) > -1) c++; });
+    if(c > hi){ hi = c; best = r; }
+  });
+  if(!best){
+    var so = SOURCES.filter(function(x){ return x.n === src; })[0];
+    var byTier = {1:'macro', 2:'broker', 3:'broker', 4:'broker'};
+    var rid = so ? byTier[so.t] : 'broker';
+    best = SPEAKER_ROLES.filter(function(r){ return r.id === rid; })[0];
+  }
+  return best;
+}
+
+function detectTone(text){
+  var t = text || '';
+  for(var i = 0; i < TONE_LADDER.length; i++){
+    var lv = TONE_LADDER[i];
+    for(var j = 0; j < lv.kw.length; j++){
+      if(t.indexOf(lv.kw[j]) > -1) return {lv: lv.lv, n: lv.n, say: lv.say, hit: lv.kw[j]};
+    }
+  }
+  return {lv: 0, n: '表态', say: TONE_LADDER[3].say, hit: ''};
+}
+
+/* 标题比原文猛多少。这是「他说了什么」这一问的自动化落点 */
+function hypeCheck(item){
+  var title = item.title || '';
+  var body = item.body || item.read || '';
+  var hits = HYPE_WORDS.filter(function(w){ return title.indexOf(w) > -1; });
+  var bodyHits = HYPE_WORDS.filter(function(w){ return body.indexOf(w) > -1; });
+  var only = hits.filter(function(w){ return bodyHits.indexOf(w) < 0; });
+  return {
+    hit: hits,
+    titleOnly: only,
+    risk: only.length > 0 || (hits.length > 0 && !body),
+    say: only.length > 0
+      ? '标题用了「' + only.join('、') + '」但正文里没有，属于典型的标题加戏，以原文表述为准'
+      : (hits.length ? '标题措辞偏激烈，建议点开原文核对' : '')
+  };
+}
+
+/* 「为什么现在说」的规则版：时间点即语境。
+   拿最近同领域的情报当背景板，这是能自动算出来的部分 */
+function contextOf(item, days){
+  days = days || 10;
+  var base = item.date || todayStr();
+  var mine = (item.fields || []).join(',');
+  var near = (DB.intel || []).filter(function(x){
+    if(x.id === item.id) return false;
+    var gap = diffDays(base, x.date);
+    if(gap < 0 || gap > days) return false;
+    if(!mine) return false;
+    return (x.fields || []).some(function(f){ return mine.indexOf(f) > -1; });
+  }).sort(function(a, b){ return a.date < b.date ? 1 : -1; }).slice(0, 3);
+  return near;
+}
+
+function analyze331(item){
+  var txt = (item.title || '') + '。' + (item.body || item.read || '');
+  var role = detectRole(txt, item.src);
+  var tone = detectTone(txt);
+  var hype = hypeCheck(item);
+  var flow = item.flow || guessFlow(txt);
+  var ctx = contextOf(item);
+  var why;
+  if(ctx.length){
+    why = '最近 10 天同领域出现过 ' + ctx.length + ' 条相关消息（' +
+          ctx.map(function(c){ return c.date.slice(5) + ' ' + c.title.slice(0, 14); }).join('；') +
+          '）。这条大概率是在那个背景下发出来的，别孤立地看。';
+  }else{
+    why = '最近同领域没有可对照的消息，缺少语境。建议先去查同期的宏观数据发布日历，确认这是不是例行发布。';
+  }
+  return {
+    engine: 'rule',
+    q1_what: {
+      text: (item.body || item.read || item.title || '').slice(0, 160),
+      hype: hype,
+      url: item.url || ''
+    },
+    q2_who: {
+      name: item.src || '未标注',
+      role: role ? role.id : 'broker',
+      roleName: role ? role.n : '中间商',
+      discount: role ? role.hint : '',
+      desc: role ? role.d : ''
+    },
+    q3_why: {text: why, refs: ctx.map(function(c){ return {id: c.id, t: c.title, d: c.date}; })},
+    tone: tone,
+    flow: flow,
+    flow_why: FLOW[flow] ? FLOW[flow].d : ''
+  };
+}
+
+/* 个人影响翻译层：把宏观结论翻译成"我的钱会怎样"
+   合规红线：只到行业与资产类别，绝不出现个股、代码、买卖建议 */
+function translateImpact(item, a){
+  a = a || item.a331 || analyze331(item);
+  var flow = a.flow || 'shift';
+  var out = [];
+  WATCH_DOMAINS.filter(function(d){ return d.on; }).forEach(function(d){
+    var line = {id: d.id, n: d.n, c: d.c, ask: d.ask, text: d[flow] || '', extra: ''};
+    if(d.id === 'equity' && item.chains && item.chains.length){
+      var names = (DB.chains || []).filter(function(c){ return item.chains.indexOf(c.id) > -1; })
+                                   .map(function(c){ return c.n; });
+      if(names.length) line.extra = '涉及产业链：' + names.join('、') + '（只到行业层面，不含任何标的）';
+    }
+    if(d.id === 'bond' && a.tone && a.tone.lv <= 1){
+      line.extra = '注意：措辞停留在「' + a.tone.n + '」，还没有实际动作，别提前按落地来算账';
+    }
+    out.push(line);
+  });
+  return out;
+}
+
+/* 相关新闻：同事件 > 同产业链 > 同领域 */
+function relatedIntel(item, n){
+  n = n || 5;
+  var scored = [];
+  (DB.intel || []).forEach(function(x){
+    if(x.id === item.id) return;
+    var sc = 0;
+    if(item.event && x.event === item.event) sc += 50;
+    (item.chains || []).forEach(function(c){ if((x.chains || []).indexOf(c) > -1) sc += 12; });
+    (item.fields || []).forEach(function(f){ if((x.fields || []).indexOf(f) > -1) sc += 8; });
+    if(x.src === item.src) sc += 4;
+    var gap = Math.abs(diffDays(item.date || todayStr(), x.date));
+    if(gap <= 7) sc += 6; else if(gap <= 30) sc += 2;
+    if(sc > 0) scored.push({it: x, sc: sc});
+  });
+  scored.sort(function(a, b){ return b.sc - a.sc; });
+  return scored.slice(0, n).map(function(o){ return o.it; });
+}
+
+/* ===== 趋势与异常 ===== */
+function allPoints(){
+  var out = [];
+  (DB.intel || []).forEach(function(it){
+    (it.dps || []).forEach(function(p){
+      out.push({p: p, intelId: it.id, title: it.title, date: it.date, src: it.src});
+    });
+  });
+  return out;
+}
+
+function periodKey(p){
+  if(!p) return 0;
+  var m = p.match(/^(\d{4})(?:-(?:Q(\d)|H(\d)|(\d{2})))?$/);
+  if(!m) return 0;
+  var y = parseInt(m[1], 10) * 100;
+  if(m[2]) return y + parseInt(m[2], 10) * 3;
+  if(m[3]) return y + parseInt(m[3], 10) * 6;
+  if(m[4]) return y + parseInt(m[4], 10);
+  return y;
+}
+
+function trendSeries(indId){
+  var rows = allPoints().filter(function(o){
+    return o.p.indId === indId && o.p.period && o.p.confidence >= 0.5;
+  });
+  var byPeriod = {};
+  rows.forEach(function(o){
+    var k = o.p.period;
+    if(!byPeriod[k] || o.p.confidence > byPeriod[k].p.confidence) byPeriod[k] = o;
+  });
+  return Object.keys(byPeriod).map(function(k){ return byPeriod[k]; })
+    .sort(function(a, b){ return periodKey(a.p.period) - periodKey(b.p.period); });
+}
+
+/* 异常告警：方向反转 或 单期变动超过历史平均波动的 2 倍 */
+function detectAnomaly(){
+  var alerts = [];
+  INDICATORS.forEach(function(ind){
+    var se = trendSeries(ind.id);
+    if(se.length < 3) return;
+    var vals = se.map(function(o){ return o.p.value; });
+    var diffs = [];
+    for(var i = 1; i < vals.length; i++) diffs.push(vals[i] - vals[i - 1]);
+    var last = diffs[diffs.length - 1];
+    var prev = diffs.slice(0, -1);
+    var avg = prev.reduce(function(a, b){ return a + Math.abs(b); }, 0) / (prev.length || 1);
+    var latest = se[se.length - 1];
+    if(prev.length && last !== 0 && prev[prev.length - 1] !== 0 &&
+       (last > 0) !== (prev[prev.length - 1] > 0)){
+      alerts.push({
+        ind: ind.n, kind: 'reverse', period: latest.p.period,
+        say: ind.n + ' 在 ' + latest.p.period + ' 出现方向反转（前期 ' +
+             (prev[prev.length - 1] > 0 ? '上行' : '下行') + '，本期 ' + (last > 0 ? '上行' : '下行') + '）',
+        intelId: latest.intelId, value: latest.p.value, unit: latest.p.unit
+      });
+    }else if(avg > 0 && Math.abs(last) > avg * 2){
+      alerts.push({
+        ind: ind.n, kind: 'jump', period: latest.p.period,
+        say: ind.n + ' 在 ' + latest.p.period + ' 变动 ' + (last > 0 ? '+' : '') +
+             (Math.round(last * 100) / 100) + ind.unit + '，是近期平均波动的 ' +
+             (Math.round(Math.abs(last) / avg * 10) / 10) + ' 倍',
+        intelId: latest.intelId, value: latest.p.value, unit: latest.p.unit
+      });
+    }
+  });
+  return alerts;
+}
+
+/* ===== LLM 调用（填了 key 才走这条路，key 只存本机 localStorage）===== */
+function llmConfig(){
+  var c = (DB && DB.llm) || {};
+  return {vendor: c.vendor || '', key: c.key || '', model: c.model || '', on: !!(c.key && c.vendor)};
+}
+
+function callLLM(item){
+  var cfg = llmConfig();
+  if(!cfg.on) return Promise.reject(new Error('未配置模型 key'));
+  var v = LLM_VENDORS.filter(function(x){ return x.id === cfg.vendor; })[0];
+  if(!v) return Promise.reject(new Error('未知的模型厂商'));
+  return fetch(v.ep, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + cfg.key},
+    body: JSON.stringify({
+      model: cfg.model || v.model,
+      messages: [{role: 'user', content: buildPrompt(item)}],
+      temperature: 0.2
+    })
+  }).then(function(r){
+    if(!r.ok) throw new Error('模型返回 ' + r.status);
+    return r.json();
+  }).then(function(j){
+    var txt = j && j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content;
+    var o = parseLLM(txt);
+    if(!o) throw new Error('模型输出不是合法 JSON');
+    return o;
+  });
+}
+
+/* 把 LLM 结果并入情报对象。数据点做 method 标记，与正则结果区分开 */
+function mergeLLM(item, o){
+  var role = SPEAKER_ROLES.filter(function(r){ return r.id === (o.q2_who && o.q2_who.role); })[0];
+  item.a331 = {
+    engine: 'llm',
+    q1_what: {text: o.q1_what || '', hype: hypeCheck(item), url: item.url || ''},
+    q2_who: {
+      name: (o.q2_who && o.q2_who.name) || item.src || '',
+      role: role ? role.id : 'broker',
+      roleName: role ? role.n : '中间商',
+      discount: (o.q2_who && o.q2_who.discount) || (role ? role.hint : ''),
+      desc: role ? role.d : ''
+    },
+    q3_why: {text: o.q3_why || '', refs: contextOf(item).map(function(c){ return {id: c.id, t: c.title, d: c.date}; })},
+    tone: (function(){
+      var lv = TONE_LADDER.filter(function(x){ return x.lv === (o.tone || 0); })[0] || TONE_LADDER[3];
+      return {lv: lv.lv, n: lv.n, say: lv.say, hit: ''};
+    })(),
+    flow: (o.flow === 'more' || o.flow === 'less' || o.flow === 'shift') ? o.flow : guessFlow(item.title || ''),
+    flow_why: o.flow_why || ''
+  };
+  if(o.flow === 'more' || o.flow === 'less' || o.flow === 'shift') item.flow = o.flow;
+  var llmPts = (o.data_points || []).filter(function(p){
+    return p && p.quote && String(p.quote).length > 3 && typeof p.value === 'number';
+  }).map(function(p){
+    var ind = INDICATORS.filter(function(x){ return x.n === p.indicator || p.indicator.indexOf(x.n) > -1; })[0];
+    return {
+      id: uid(), indicator: p.indicator || '', indId: ind ? ind.id : '',
+      value: p.value, unit: p.unit || '', period: p.period || '',
+      change: p.change || null, source_org: p.source_org || item.src || '',
+      confidence: typeof p.confidence === 'number' ? Math.max(0, Math.min(1, p.confidence)) : 0.6,
+      raw_text: p.raw_text || '', quote: p.quote, domains: ind ? ind.dom : [], method: 'llm'
+    };
+  });
+  var reg = extractDataPoints((item.title || '') + '。' + (item.body || item.read || ''), {date: item.date, src: item.src});
+  var have = {};
+  llmPts.forEach(function(p){ have[(p.indId || p.indicator) + '|' + p.value] = 1; });
+  reg.forEach(function(p){ if(!have[(p.indId || p.indicator) + '|' + p.value]) llmPts.push(p); });
+  item.dps = llmPts;
+  if(o.impact) item.llmImpact = o.impact;
+  return item;
+}
+
 function groupByEvent(){
   var g = {};
   DB.intel.forEach(function(i){
@@ -863,9 +1570,106 @@ function genBrief(days){
 
 /* ---------- 存储 ---------- */
 var DB = null;
+/* ===== V4 种子增强 =====
+   给每条演示情报补上原文链接和正文，数据点由提炼层从正文自动抽出——
+   这样演示数据和真实抓取走的是同一条管道，不是硬编码假数据 */
+
+var SEED_EXTRA = [
+  {m:'7月末外汇储备', url:'https://www.safe.gov.cn/safe/whcbtj/index.html',
+   body:'国家外汇管理局统计数据显示，截至2026年7月末，我国外汇储备规模为34188亿美元，较6月末上升25亿美元，升幅为0.07%。同期，中国黄金储备连续第21个月增加。'},
+  {m:'外储数据点评', url:'',
+   body:'机构点评认为，当前我国黄金储备占外汇储备的比重仍低于全球平均水平，后续增持仍有空间。该判断属于机构预期，不构成事实陈述。'},
+  {m:'前7月进出口', url:'http://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/index.html',
+   body:'海关总署数据显示，今年前7个月我国货物贸易进出口总值30.13万亿元，同比增长17.3%。其中，集成电路出口同比增长近一倍。'},
+  {m:'北京楼市限购松绑', url:'https://zjw.beijing.gov.cn/bjjs/xxgk/index.shtml',
+   body:'北京市住房城乡建设委员会发布通知，在五环路以外区域购买商品住房，不再限制购买套数。五环内政策维持不变。'},
+  {m:'北京全面放开限购', url:'',
+   body:'某自媒体称北京已全面放开限购，楼市即将暴涨，呼吁刚需尽快入场。经比对官方原文，实际政策为五环外不限套数，五环内维持原有限购。'},
+  {m:'M2同比增长9.0%', url:'http://www.pbc.gov.cn/diaochatongjisi/116219/index.html',
+   body:'中国人民银行发布2026年7月金融统计数据。7月末，广义货币M2同比增长9.0%。社会融资规模存量同比增长8.7%。'},
+  {m:'高盛上调AI服务器', url:'',
+   body:'外资投行研报预计，到2028年AI服务器用PCB与CCL市场规模将分别达到840亿美元与480亿美元。该数字为机构长期预测，非已发生事实。'},
+  {m:'国内厂商高频CCL', url:'',
+   body:'媒体报道显示，国内多家厂商的高频覆铜板扩产项目陆续落地，行业交付周期较此前明显缩短。'},
+  {m:'新生人口连续下滑', url:'https://www.stats.gov.cn/sj/zxfb/',
+   body:'国家统计局公布的人口数据显示，全年出生人口954万人，65岁及以上人口占全国人口的比重为22.0%。'},
+  {m:'牛市已来', url:'',
+   body:'该内容为自媒体情绪性表述，全文未引用任何数据来源，未标注信息出处。'}
+];
+
+/* 历史多期数据：趋势图和异常告警需要同一指标的连续观测，
+   CPI 这一组刻意造出方向反转，用来演示告警确实能触发 */
+function seedHistory(){
+  return [
+    {id:uid(), title:'4月CPI同比上涨0.1%，PPI同比下降2.5%', src:'国家统计局',
+     inc:'hard', multi:true, slow:false, hot:false, event:'', flow:'shift',
+     fields:['f2'], chains:[], date:shift(-101), url:'https://www.stats.gov.cn/sj/zxfb/',
+     read:'物价低位运行，说明需求端还没起来，对债券有利、对顺周期不利',
+     body:'国家统计局数据显示，2026年4月份，全国居民消费价格CPI同比上涨0.1%。工业生产者出厂价格PPI同比下降2.5%。'},
+    {id:uid(), title:'5月CPI同比上涨0.3%，PPI同比下降2.2%', src:'国家统计局',
+     inc:'hard', multi:true, slow:false, hot:false, event:'', flow:'shift',
+     fields:['f2'], chains:[], date:shift(-71), url:'https://www.stats.gov.cn/sj/zxfb/',
+     read:'物价小幅回升但仍在低位，通缩压力有缓解迹象',
+     body:'国家统计局数据显示，2026年5月份，全国居民消费价格CPI同比上涨0.3%。工业生产者出厂价格PPI同比下降2.2%。'},
+    {id:uid(), title:'6月CPI同比上涨0.2%，PPI同比下降1.9%', src:'国家统计局',
+     inc:'hard', multi:true, slow:false, hot:false, event:'', flow:'shift',
+     fields:['f2'], chains:[], date:shift(-41), url:'https://www.stats.gov.cn/sj/zxfb/',
+     read:'CPI 小幅回落，PPI 降幅继续收窄，工业端比消费端先回暖',
+     body:'国家统计局数据显示，2026年6月份，全国居民消费价格CPI同比上涨0.2%。工业生产者出厂价格PPI同比下降1.9%。'},
+    {id:uid(), title:'7月CPI同比上涨0.5%，PPI同比下降1.8%', src:'国家统计局',
+     inc:'hard', multi:true, slow:false, hot:false, event:'', flow:'shift',
+     fields:['f2'], chains:[], date:shift(-9), url:'https://www.stats.gov.cn/sj/zxfb/',
+     read:'CPI 涨幅明显扩大，是四个月来最大单月变动，需要留意是不是趋势拐点',
+     body:'国家统计局数据显示，2026年7月份，全国居民消费价格CPI同比上涨0.5%，涨幅比上月扩大0.3个百分点。工业生产者出厂价格PPI同比下降1.8%。'},
+    {id:uid(), title:'5月末M2同比增长8.2%', src:'中国人民银行',
+     inc:'hard', multi:false, slow:false, hot:false, event:'', flow:'more',
+     fields:['f2'], chains:[], date:shift(-70), url:'http://www.pbc.gov.cn/diaochatongjisi/116219/index.html',
+     read:'货币供应温和增长，尚未看到明显宽松',
+     body:'中国人民银行发布2026年5月金融统计数据。5月末，广义货币M2同比增长8.2%。'},
+    {id:uid(), title:'6月末M2同比增长8.6%', src:'中国人民银行',
+     inc:'hard', multi:false, slow:false, hot:false, event:'', flow:'more',
+     fields:['f2'], chains:[], date:shift(-40), url:'http://www.pbc.gov.cn/diaochatongjisi/116219/index.html',
+     read:'货币供应增速继续抬升，钱在慢慢变多',
+     body:'中国人民银行发布2026年6月金融统计数据。6月末，广义货币M2同比增长8.6%。'},
+    {id:uid(), title:'路透：外资机构对中国资产配置比例连续三月回升', src:'华尔街见闻',
+     inc:'view', multi:true, slow:false, hot:false, event:'', flow:'shift',
+     fields:['f1','f6'], chains:[], date:shift(-4), url:'https://wallstreetcn.com/live/global',
+     read:'海外视角的资金流向观察，属于机构行为记录，比观点更值得看',
+     body:'路透报道称，多家外资机构对中国资产的配置比例连续三个月回升。北向资金当月净流入312亿元。'},
+    {id:uid(), title:'微博热搜：#A股又双叒涨了#', src:'热搜／论坛',
+     inc:'emo', multi:false, slow:false, hot:true, event:'', flow:'more',
+     fields:['f1'], chains:[], date:shift(0), url:'',
+     read:'热榜条目，零信息增量。这类内容抓进来只做噪音对照，用来反衬真正的信号',
+     body:'话题内容为市场情绪讨论，无数据、无信源、无政策依据。'}
+  ];
+}
+
+function enrichSeed(d){
+  d.v = 4;
+  d.intel = d.intel.concat(seedHistory());
+  d.intel.forEach(function(it){
+    if(it.url === undefined || it.body === undefined){
+      var e = SEED_EXTRA.filter(function(x){ return (it.title || '').indexOf(x.m) > -1; })[0];
+      if(it.url === undefined) it.url = e ? e.url : '';
+      if(it.body === undefined) it.body = e ? e.body : '';
+    }
+    it.dps = extractDataPoints((it.title || '') + '。' + (it.body || ''), {date: it.date, src: it.src});
+  });
+  d.llm = {vendor: '', key: '', model: ''};
+  d.watch = ['equity', 'bond'];
+  d.feed = {last: '', stat: {}};
+  return d;
+}
+
+/* 关注领域开关同步到 WATCH_DOMAINS */
+function syncWatch(){
+  var w = (DB && DB.watch) || ['equity', 'bond'];
+  WATCH_DOMAINS.forEach(function(d){ d.on = w.indexOf(d.id) > -1; });
+}
+
 function seed(){
   return {
-    v: 3, seeded: true,
+    v: 4, seeded: true,
     intel: [
       {id:uid(), title:'7月末外汇储备34188亿美元，环比增25亿；黄金储备连续21个月增持',
        src:'国家外汇管理局', inc:'hard', multi:true, slow:false, hot:false, event:'7月外储与黄金储备',
@@ -930,10 +1734,11 @@ function seed(){
     ]
   };
 }
+var _loadedFromStorage = false;   // 本机是否确有存档（用于决定 loadFeed 是否覆盖）
 function load(){
   try{
     var raw = localStorage.getItem(KEY);
-    if(raw){ DB = JSON.parse(raw); }
+    if(raw){ DB = JSON.parse(raw); _loadedFromStorage = true; }
   }catch(e){ DB = null; }
   if(!DB || !DB.intel){
     try{
@@ -941,7 +1746,7 @@ function load(){
       if(old){
         var o = JSON.parse(old);
         if(o && o.intel){
-          DB = o; DB.v = 3;
+          DB = o; DB.v = 3; _loadedFromStorage = true;
           DB.chains = JSON.parse(JSON.stringify(DEF_CHAINS));
           DB.intel.forEach(function(i){
             if(i.event===undefined) i.event='';
@@ -951,7 +1756,22 @@ function load(){
       }
     }catch(e2){}
   }
-  if(!DB || !DB.intel){ DB = seed(); }
+  if(!DB || !DB.intel){ DB = enrichSeed(seed()); }
+  /* v3 → v4：补原文链接、正文与数据点，老数据一条不丢 */
+  if(DB.v !== 4){
+    DB.v = 4;
+    (DB.intel || []).forEach(function(i){
+      if(i.url === undefined) i.url = '';
+      if(i.body === undefined) i.body = '';
+    });
+  }
+  (DB.intel || []).forEach(function(i){
+    if(!i.dps) i.dps = extractDataPoints((i.title || '') + '。' + (i.body || i.read || ''), {date: i.date, src: i.src});
+  });
+  if(!DB.llm) DB.llm = {vendor: '', key: '', model: ''};
+  if(!DB.watch || !DB.watch.length) DB.watch = ['equity', 'bond'];
+  if(!DB.feed) DB.feed = {last: '', stat: {}};
+  syncWatch();
   if(!DB.fields || !DB.fields.length) DB.fields = JSON.parse(JSON.stringify(DEF_FIELDS));
   if(!DB.chains || !DB.chains.length) DB.chains = JSON.parse(JSON.stringify(DEF_CHAINS));
   if(!DB.macros) DB.macros = [];
@@ -960,7 +1780,7 @@ function load(){
     if(i.event===undefined) i.event='';
     if(!i.chains) i.chains=[];
   });
-  save();
+  if(_loadedFromStorage) save();   // 仅本机已有存档时写回；演示种子不固化，便于后续拉取在线 feed
 }
 function save(){
   try{ localStorage.setItem(KEY, JSON.stringify(DB)); }
@@ -970,7 +1790,7 @@ function save(){
 /* ==========================================================
    渲染层
    ========================================================== */
-var curTab='intel', curFilter='all', curView='list';
+var curTab='dash', curFilter='all', curView='list';
 
 function go(t){
   curTab=t;
@@ -1081,7 +1901,7 @@ function itemHTML(i){
   }).join('');
   var gap=diffDays(i.date, todayStr());
   var when = gap===0?'今天':(gap===1?'昨天':gap+' 天前');
-  return '<div class="item '+(r.lv==='noise'?'noise':'')+' '+(i.slow?'slow':'')+'">'+
+  return '<div class="item '+(r.lv==='noise'?'noise':'')+' '+(i.slow?'slow':'')+'" onclick="openDetail(\''+i.id+'\')">'+
     '<div class="it-top">'+
       '<span class="tag tag-'+fl.c+'">'+fl.n+'</span>'+
       '<span class="tag tag-lv '+lvCls(r.lv)+'">'+lvName(r.lv)+'</span>'+
@@ -1097,11 +1917,11 @@ function itemHTML(i){
       (i.event?'<span>事件：'+esc(i.event)+'</span>':'')+
       (fnames?'<span>'+fnames+'</span>':'')+
       '<span class="acts">'+
-        '<button class="ib" title="信号分构成" onclick="showFormula(\''+i.id+'\')">'+
+        '<button class="ib" title="信号分构成" onclick="event.stopPropagation();showFormula(\''+i.id+'\')">'+
           '<svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></button>'+
-        '<button class="ib" title="基于这条记判断" onclick="fromIntel(\''+i.id+'\')">'+
+        '<button class="ib" title="基于这条记判断" onclick="event.stopPropagation();fromIntel(\''+i.id+'\')">'+
           '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></button>'+
-        '<button class="ib dn" title="删除" onclick="delIntel(\''+i.id+'\')">'+
+        '<button class="ib dn" title="删除" onclick="event.stopPropagation();delIntel(\''+i.id+'\')">'+
           '<svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button>'+
       '</span>'+
     '</div></div>';
@@ -1542,6 +2362,179 @@ function copyBrief(){
   }
 }
 
+
+
+/* =================== V4 新增：仪表盘 / 数据中心 / 设置 / 详情 =================== */
+function renderDash(){
+  renderFlow(); renderMacro(); renderRadar();
+  var al = detectAnomaly();
+  document.getElementById('dashAlerts').innerHTML = al.length ? al.map(function(a){
+    return '<div class="alert"><div class="al-k">'+esc(a.kind==='reverse'?'方向反转':'波动异常')+'</div>'+
+      '<div class="al-say">'+esc(a.say)+'</div></div>';
+  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
+
+  var heads = DB.intel.slice().map(function(i){ var r=score(i); i._s=r.v; i._lv=r.lv; return i; })
+    .filter(function(i){ return i._lv!=='noise'; })
+    .sort(function(a,b){ if(a.date!==b.date) return a.date<b.date?1:-1; return b._s-a._s; }).slice(0,6);
+  document.getElementById('dashHeads').innerHTML = heads.length ? heads.map(function(i){
+    return '<div class="hl" onclick="openDetail(\''+i.id+'\')">'+
+      '<span class="hl-sc" style="color:'+lvColor(i._lv)+'">'+i._s+'</span>'+
+      '<div class="hl-m"><div class="hl-tt">'+esc(i.title)+'</div>'+
+      '<div class="hl-ft"><span class="src"><span class="tier t'+tierOf(i.src)+'">'+TIER_NAME[tierOf(i.src)]+'</span>'+esc(i.src)+'</span></div></div>'+
+      '<svg class="ic hl-ar" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></div>';
+  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg><div>还没有要闻</div></div>';
+}
+
+function trendSVG(ind){
+  var se = trendSeries(ind.id);
+  if(se.length < 2) return '';
+  var vals = se.map(function(o){ return o.p.value; });
+  var min = Math.min.apply(null, vals), max = Math.max.apply(null, vals);
+  var span = (max-min) || 1;
+  var W=560, H=160, pl=12, pr=12, pt=16, pb=26, n=se.length;
+  var X = function(i){ return pl + i*(W-pl-pr)/(n-1); };
+  var Y = function(v){ return pt + (1-(v-min)/span)*(H-pt-pb); };
+  var line = se.map(function(o,i){ return (i?'L':'M')+X(i).toFixed(1)+' '+Y(o.p.value).toFixed(1); }).join(' ');
+  var area = 'M'+X(0).toFixed(1)+' '+(H-pb)+' '+se.map(function(o,i){ return 'L'+X(i).toFixed(1)+' '+Y(o.p.value).toFixed(1); }).join(' ')+' L'+X(n-1).toFixed(1)+' '+(H-pb)+' Z';
+  var dots = se.map(function(o,i){ return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(o.p.value).toFixed(1)+'" r="3.2" fill="#1c4a72"/>'; }).join('');
+  var lbls = se.map(function(o,i){ return '<text x="'+X(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle" font-size="10.5" fill="#93a1af" font-family="-apple-system,sans-serif">'+esc(o.p.period.slice(2))+'</text>'; }).join('');
+  return '<svg class="trend-svg" viewBox="0 0 '+W+' '+H+'" width="100%" height="'+H+'" preserveAspectRatio="none">'+
+    '<path d="'+area+'" fill="#1c4a72" opacity="0.08"/>'+
+    '<path d="'+line+'" fill="none" stroke="#1c4a72" stroke-width="2.2" stroke-linejoin="round"/>'+ dots + lbls + '</svg>';
+}
+
+function renderDatacenter(){
+  var al = detectAnomaly();
+  document.getElementById('dAlerts').innerHTML = al.length ? al.map(function(a){
+    return '<div class="alert"><div class="al-k">'+esc(a.kind==='reverse'?'方向反转':'波动异常')+'</div>'+
+      '<div class="al-say">'+esc(a.say)+'</div></div>';
+  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="10"/></svg><div>暂无异常，趋势平稳</div></div>';
+
+  var indWith = INDICATORS.filter(function(ind){ return trendSeries(ind.id).length >= 2; });
+  document.getElementById('dTrend').innerHTML = indWith.length ? indWith.map(function(ind){
+    var se = trendSeries(ind.id), last = se[se.length-1], prev = se[se.length-2];
+    var chg = (last.p.value - prev.p.value);
+    return '<div class="trend"><div class="trend-hd"><div><b>'+esc(ind.n)+'</b> '+
+      '<span class="trend-v">'+esc(String(last.p.value))+esc(last.p.unit||'')+'</span> '+
+      '<span class="trend-chg '+(chg>=0?'up':'dn')+'">'+(chg>=0?'▲':'▼')+Math.abs(chg)+'</span></div>'+
+      '<div class="trend-sub">'+esc(last.p.period)+'</div></div>'+ trendSVG(ind) +'</div>';
+  }).join('') : '<div class="empty"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M19 9l-5 5L9 11l-4 4"/></svg><div>暂无可画趋势的指标（需要同一指标 ≥ 2 期观测）</div></div>';
+
+  var rows = INDICATORS.map(function(ind){
+    var se = trendSeries(ind.id);
+    if(!se.length) return null;
+    var last = se[se.length-1];
+    return {n: ind.n, v: esc(String(last.p.value))+esc(last.p.unit||''), p: esc(last.p.period)};
+  }).filter(Boolean);
+  document.getElementById('dIndTable').innerHTML = rows.length ?
+    '<table class="itb"><tr><th>指标</th><th>最新值</th><th>期</th></tr>'+
+    rows.map(function(r){ return '<tr><td>'+r.n+'</td><td>'+r.v+'</td><td>'+r.p+'</td></tr>'; }).join('')+'</table>'
+    : '<div class="empty"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg><div>暂无指标数据</div></div>';
+}
+
+function renderSettings(){
+  var v = document.getElementById('llmVendor');
+  if(LLM_VENDORS && !v.options.length){
+    v.innerHTML = LLM_VENDORS.map(function(x){ return '<option value="'+x.id+'">'+esc(x.n)+'</option>'; }).join('');
+  }
+  var cfg = llmConfig();
+  v.value = cfg.vendor || '';
+  document.getElementById('llmKey').value = cfg.key || '';
+  document.getElementById('llmModel').value = cfg.model || '';
+  llmVendorChange();
+  document.getElementById('watchList').innerHTML = WATCH_DOMAINS.map(function(d){
+    return '<label class="chip'+(d.on?' on':'')+'" onclick="toggleWatch(\''+d.id+'\',this)">'+esc(d.n)+'</label>';
+  }).join('');
+  document.getElementById('srcInfo').innerHTML =
+    '<div class="hint" style="margin-bottom:10px">当前为内置演示数据，已通过「数据提炼层」自动抽取，与真实抓取走同一条管道。后续接入 GitHub Action 每天两次抓取，无需改动前端；也可点顶栏「刷新情报」即时拉取。</div>'+
+    (FEED_SOURCES||[]).map(function(s){
+      return '<div class="src-row"><span class="tag tag-'+s.use+'">'+(s.use==='signal'?'信号源':'噪音源')+'</span> '+esc(s.n)+'</div>';
+    }).join('')+
+    '<div class="hint" style="margin-top:10px">成本闸门：每日两次免费规则初筛，信号分 ≥ '+GATE.llmMinScore+' 才调 LLM，每日上限 '+GATE.dailyLlmCap+' 次。</div>';
+}
+function llmVendorChange(){
+  var v = document.getElementById('llmVendor').value;
+  var x = LLM_VENDORS.filter(function(z){ return z.id===v; })[0];
+  document.getElementById('llmTip').textContent = x ? ('接口：'+x.ep+' ｜ 默认模型：'+(x.model||'—')) : '';
+}
+function saveLLM(){
+  DB.llm = {vendor: document.getElementById('llmVendor').value, key: document.getElementById('llmKey').value.trim(), model: document.getElementById('llmModel').value.trim()};
+  save();
+  if(DB.llm.key && DB.llm.vendor) alert('已保存。下次打开情报详情会尝试用 LLM 做 331 拆解。');
+  else alert('已保存（未填 key，继续使用规则引擎拆解）。');
+}
+function toggleWatch(id, el){
+  el.classList.toggle('on');
+  if(!DB.watch) DB.watch = [];
+  if(el.classList.contains('on')){ if(DB.watch.indexOf(id)<0) DB.watch.push(id); }
+  else { DB.watch = DB.watch.filter(function(x){ return x!==id; }); }
+  save(); syncWatch();
+}
+
+function openDetail(id){
+  var i = DB.intel.filter(function(x){ return x.id===id; })[0];
+  if(!i) return;
+  renderDetail(i);
+  document.getElementById('sec-detail').classList.add('on');
+  window.scrollTo({top:0});
+}
+function closeDetail(){ document.getElementById('sec-detail').classList.remove('on'); }
+function renderDetail(i){
+  var a = i.a331 || analyze331(i);
+  var r = score(i);
+  var fl = FLOW[i.flow] || FLOW.shift;
+  var t = tierOf(i.src);
+  var dps = (i.dps||[]).map(function(p){
+    return '<div class="dp"><div class="dp-hd"><span class="dp-ind">'+esc(p.indicator)+'</span>'+
+      '<span class="dp-val">'+esc(String(p.value))+esc(p.unit||'')+'</span>'+
+      (p.period?'<span class="dp-per">'+esc(p.period)+'</span>':'')+
+      '<span class="dp-conf">置信 '+(typeof p.confidence==='number'?Math.round(p.confidence*100):'?')+'%</span></div>'+
+      (p.quote?'<div class="dp-q">「'+esc(p.quote)+'」</div>':'')+
+      (p.raw_text?'<div class="dp-raw">原文：'+esc(p.raw_text)+'</div>':'')+
+      (p.source_org?'<div class="dp-org">来源：'+esc(p.source_org)+' · '+(p.method==='llm'?'LLM 抽取':'规则抽取')+'</div>':'');
+  }).join('');
+  var impact = translateImpact(i, a).map(function(l){
+    return '<div class="imp"><div class="imp-hd"><span class="dot" style="background:'+l.c+'"></span>'+esc(l.n)+'</div>'+
+      '<div class="imp-txt'+(l.text?'':' imp-empty')+'">'+(l.text||('这条与你'+esc(l.n)+'暂无直接关联'))+'</div>'+
+      (l.extra?'<div class="imp-extra">'+esc(l.extra)+'</div>':'')+'</div>';
+  }).join('');
+  var rel = relatedIntel(i, 5).map(function(x){
+    return '<div class="rel" onclick="openDetail(\''+x.id+'\')"><div class="rel-tt">'+esc(x.title)+'</div>'+
+      '<div class="rel-ft"><span class="tier t'+tierOf(x.src)+'">'+TIER_NAME[tierOf(x.src)]+'</span> '+esc(x.src)+' · '+esc(x.date)+'</div></div>';
+  }).join('');
+  document.getElementById('detailBox').innerHTML =
+    '<div class="ov-hd"><div><div class="ov-title">'+esc(i.title)+'</div>'+
+    '<div class="ov-meta"><span class="tag tag-'+fl.c+'">'+fl.n+'</span>'+
+    '<span class="tag tag-lv '+lvCls(r.lv)+'">'+lvName(r.lv)+' '+r.v+'</span>'+
+    '<span class="tier t'+t+'">'+TIER_NAME[t]+'</span> '+esc(i.src)+' · '+esc(i.date)+
+    (i.event?' · 事件：'+esc(i.event):'')+'</div></div>'+
+    '<button class="ov-close" onclick="closeDetail()">×</button></div>'+
+    '<div class="ov-body">'+
+      '<div class="dsec"><div class="dsec-h">① 他说了什么（原文 + 溯源）</div>'+
+        (i.body?'<div class="dbody">'+esc(i.body)+'</div>':'<div class="dbody dim">该条未附正文，仅标题。</div>')+
+        (i.url?'<a class="dlink" href="'+esc(i.url)+'" target="_blank" rel="noopener">查看原文 ↗</a>':'')+
+      '</div>'+
+      (dps?'<div class="dsec"><div class="dsec-h">数据提炼（自动抽取 · 可溯源到原句）</div><div class="dps">'+dps+'</div></div>':'')+
+      '<div class="dsec"><div class="dsec-h">② 谁说的（信源身份与折扣）</div>'+
+        '<div class="dsrc"><b>'+esc(a.q2_who.roleName)+'</b> · '+esc(a.q2_who.name)+
+        (a.q2_who.discount?'<div class="dnote">'+esc(a.q2_who.discount)+'</div>':'')+'</div></div>'+
+      '<div class="dsec"><div class="dsec-h">③ 为什么现在说（语境）</div>'+
+        '<div class="dwhy">'+esc(a.q3_why.text)+'</div></div>'+
+      '<div class="dsec"><div class="dsec-h">一个重点（钱变多 / 变少 / 换地方）</div>'+
+        '<div class="dflow"><span class="tag tag-'+fl.c+'">'+fl.n+'</span> '+esc(a.flow_why||'')+'</div>'+
+        '<div class="dtone">措辞强度：'+(a.tone?esc(a.tone.n):'—')+(a.tone&&a.tone.say?' — '+esc(a.tone.say):'')+'</div></div>'+
+      '<div class="dsec"><div class="dsec-h">我的钱会怎样（只到行业 / 资产类别）</div><div class="impacts">'+impact+'</div>'+
+        '<div class="disc-inline">本段仅做影响翻译，不含任何标的与买卖建议。</div></div>'+
+      (rel?'<div class="dsec"><div class="dsec-h">相关新闻</div>'+rel+'</div>':'')+
+      '<div class="dsec dsec-ft"><button class="btn btn-sm" onclick="event.stopPropagation();fromIntel(\''+i.id+'\')">基于这条记判断</button>'+
+        '<button class="btn btn-sm" onclick="event.stopPropagation();showFormula(\''+i.id+'\')">信号分构成</button>'+
+        '<button class="ib dn" onclick="event.stopPropagation();delIntel(\''+i.id+'\')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button></div>'+
+    '</div>';
+}
+
+/* ---------- V4 新 JS 结束 ---------- */
+
+
 /* ---------- Modal ---------- */
 var modalOk=null;
 function showModal(title, sub, body, onOk){
@@ -1630,8 +2623,8 @@ function hideTip(){ document.getElementById('backupTip').style.display='none'; }
 
 /* ---------- init ---------- */
 function renderAll(){
-  renderTodo(); renderIntel(); renderFlow(); renderMacro();
-  renderChain(); renderRadar(); renderRv();
+  renderTodo(); renderDash(); renderIntel(); renderDatacenter();
+  renderChain(); renderRv(); renderSettings();
   renderFieldChips(); renderLinkOptions(); renderEventList(); checkTip();
   var d=new Date();
   document.getElementById('hdSub').textContent =
@@ -1669,7 +2662,69 @@ function initForm(){
   preview();
 }
 
+/* 预留真实数据接口：若站点根目录存在 feed.json（由 GitHub Action 每天 0:17 与 12:17 两次抓取并随 Pages 发布），
+   在「本机无存档」的首次访问时作为种子数据加载；已有本机存档则保留用户自己的数据。
+   页面「刷新情报」按钮可随时强制重拉在线 feed 覆盖当前视图（force=true 时绕过本机优先守卫）。 */
+async function loadFeed(force){
+  if(typeof fetch === 'undefined') return false;
+  if(_loadedFromStorage && !force) return false;     // 老用户本机数据优先；force 时允许覆盖
+  try{
+    var r = await fetch('./feed.json', {cache:'no-store'});
+    if(!r.ok) return false;
+    var f = await r.json();
+    return applyFeed(f);
+  }catch(e){ return false; }                          // 离线或无 feed：保持内置演示数据
+}
+
+/* 将在线 feed 合并进当前 DB：索引情报派生数据点、同步关注、落盘并整页重绘 */
+function applyFeed(f){
+  if(!f || !Array.isArray(f.intel) || !f.intel.length) return false;
+  DB.intel = f.intel.map(function(it){
+    if(!it.dps) it.dps = extractDataPoints((it.title||'')+'。'+(it.body||it.read||''), {date: it.date, src: it.src});
+    return it;
+  });
+  if(Array.isArray(f.watch) && f.watch.length) DB.watch = f.watch;
+  if(!DB.llm) DB.llm = {vendor:'', key:'', model:''};
+  if(!DB.feed) DB.feed = {last:'', stat:{}};
+  if(f.generatedAt) DB.feed.last = f.generatedAt;     // 记录在线源抓取时间
+  syncWatch();
+  save();
+  renderAll();
+  return true;
+}
+
+/* 手动刷新：强制重拉在线 feed.json，覆盖当前（含本机存档用户）视图，并给出按钮转圈 + toast 反馈 */
+async function refreshFeed(){
+  var btn = document.getElementById('btnRefresh');
+  if(!btn || btn.disabled) return;
+  var label = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<svg class="ic ic-s spin" viewBox="0 0 24 24"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>刷新中…';
+  try{
+    var ok = await loadFeed(true);
+    toast(ok ? ('已更新情报（'+DB.intel.length+' 条）') : '暂无可更新的在线情报（离线或源未发布）');
+  }catch(e){
+    toast('刷新失败：'+(e && e.message ? e.message : '未知错误'));
+  }finally{
+    btn.disabled = false;
+    btn.innerHTML = label;
+  }
+}
+
+/* 轻量 toast 提示（自包含，不依赖外部库） */
+function toast(msg){
+  try{
+    var el = document.createElement('div');
+    el.className = 'toast';
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(function(){ el.classList.add('show'); }, 10);
+    setTimeout(function(){ el.classList.remove('show'); setTimeout(function(){ if(el.parentNode) el.parentNode.removeChild(el); }, 320); }, 2200);
+  }catch(e){}
+}
+
 load(); initForm(); renderAll();
+loadFeed();
 </script>
 </body>
 </html>

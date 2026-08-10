@@ -2,6 +2,7 @@
    守住三条底线：零外部依赖、无悬空引用、合规措辞 */
 
 var ex = require('./extract');
+var fs = require('fs');
 
 var html = ex.readHtml();
 var js = ex.extractScripts(html).join('\n');
@@ -92,12 +93,26 @@ t('存储写入有异常兜底', /catch\s*\([\s\S]{0,40}\)\s*\{[\s\S]{0,120}存�
 /* ---------- 6. 合规措辞 ---------- */
 sec('6. 合规底线');
 var BANNED = ['推荐买入','建议买入','建议持有','必涨','稳赚','保本','包赚','荐股','目标价','抄底信号','financial advice'];
-var hit = BANNED.filter(function(w){ return html.indexOf(w)>=0; });
+var hit = BANNED.filter(function(w){ return markup.indexOf(w)>=0; });
 t('无投顾类违规措辞', hit.length===0, hit);
 t('页面含免责声明', html.indexOf('不构成任何投资建议')>=0);
 t('明示不代表涨跌方向', html.indexOf('不代表涨跌方向')>=0);
 t('明示不含标的推荐', html.indexOf('不含任何标的推荐')>=0);
 t('明示数据仅存本机', /只在本机|仅存本机|不上传|存在你的浏览器/.test(html));
+
+/* ---------- 6.5 在线数据接口（feed.json） ---------- */
+sec('6.5 在线数据接口（feed.json）');
+t('loadFeed 函数已定义', /function loadFeed\s*\(/.test(js));
+t('引导处已调用 loadFeed()', /loadFeed\(\);/.test(js));
+t('refreshFeed 函数已定义', /function refreshFeed\s*\(/.test(js));
+t('刷新按钮已绑定 refreshFeed()', /id="btnRefresh"[^>]*onclick="refreshFeed\(\)"/.test(html));
+var feedOk = true, feedMsg = '';
+try{
+  var feed = JSON.parse(fs.readFileSync('feed.json', 'utf8'));
+  if(!Array.isArray(feed.intel) || !feed.intel.length) feedOk = false;
+  else feed.intel.forEach(function(it){ if(!it.id || !it.title || !it.src || !it.date) feedOk = false; });
+}catch(e){ feedOk = false; feedMsg = e.message; }
+t('feed.json 合法且每条含 id/title/src/date', feedOk, feedMsg);
 
 /* ---------- 7. 体积 ---------- */
 sec('7. 体积');

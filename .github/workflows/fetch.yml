@@ -1,0 +1,38 @@
+name: 每日两次抓取财经情报
+
+on:
+  schedule:
+    - cron: '17 0,12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 抓取并生成 feed.json
+        run: node scripts/fetch.mjs
+
+      - name: 提交 feed.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.json
+          if git diff --cached --quiet; then
+            echo "feed 无变化，跳过提交"
+          else
+            git commit -m "chore: 每日两次财经情报抓取"
+            git push
+          fi

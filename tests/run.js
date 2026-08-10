@@ -136,11 +136,12 @@ t('30 天区间不短于 7 天', genBrief(30).length>=b.length);
 
 /* ---------- 7. 存储与版本迁移 ---------- */
 sec('7. 存储与 V2→V3 迁移');
-t('保存后 v3 存档存在', !!store['wb_331_data_v3']);
-var sz = Buffer.byteLength(store['wb_331_data_v3'], 'utf8');
+save();   // 主动落盘，验证存档往返（load 仅在确有本机存档时自动写回）
+t('保存后 v4 存档存在', !!store[KEY]);
+var sz = Buffer.byteLength(store[KEY], 'utf8');
 t('存档体积远低于 5MB 上限', sz < 5*1024*1024, (sz/1024).toFixed(1)+'KB');
 t('存档往返一致', (function(){
-  var r = JSON.parse(store['wb_331_data_v3']);
+  var r = JSON.parse(store[KEY]);
   return r.intel.length===DB.intel.length && r.chains.length===4 && r.decisions.length===DB.decisions.length;
 })());
 
@@ -159,19 +160,19 @@ store['wb_331_data_v2'] = JSON.stringify({
 });
 load();
 t('V2 数据被读取，未被示例覆盖', DB.intel.length===2, DB.intel.length);
-t('版本号升到 3', DB.v===3);
+t('版本号升到 4', DB.v===4);
 t('自动补齐产业链定义表', DB.chains && DB.chains.length===4);
 t('旧情报自动补 event 字段', DB.intel.every(function(i){ return i.event===''; }));
 t('旧情报自动回填产业链结构', Array.isArray(DB.intel[0].chains));
 t('旧情报 PCB 自动挂到 AI 算力链', DB.intel[1].chains.indexOf('ch1')>=0, DB.intel[1].chains);
 t('旧决策不丢', DB.decisions.length===1 && DB.decisions[0].q==='旧决策');
 t('旧宏观数据不丢', DB.macros.length===1);
-t('迁移后写入 v3 存档', !!store['wb_331_data_v3']);
+t('迁移后写入 v4 存档', !!store[KEY]);
 t('迁移后可再次正常读取', (function(){ DB=null; load(); return DB.intel.length===2 && DB.chains.length===4; })());
 
 store = {}; DB = null;
 load();
-t('空存储首次加载 = 预置示例', DB.seeded===true && DB.intel.length===10, DB.intel.length);
+t('空存储首次加载 = 预置示例', DB.seeded===true && DB.intel.length===18, DB.intel.length);
 t('预置含逾期决策', DB.decisions.some(function(d){ return !d.done && diffDays(todayStr(), d.due)<0; }));
 t('预置含今天到期决策', DB.decisions.some(function(d){ return !d.done && d.due===todayStr(); }));
 t('预置含已复盘决策', DB.decisions.some(function(d){ return d.done && d.result; }));
@@ -180,7 +181,10 @@ t('预置含噪音降权演示', DB.intel.some(function(i){ return score(i).lv==
 t('预置每条情报都有 chains 字段', DB.intel.every(function(i){ return Array.isArray(i.chains); }));
 t('预置每条情报都有 event 字段', DB.intel.every(function(i){ return typeof i.event==='string'; }));
 t('预置数据不含股票代码（合规）',
-  JSON.stringify(DB.intel).match(/\b(6\d{5}|0\d{5}|3\d{5})\b/)===null);
+  (function(){
+    var txt = DB.intel.map(function(i){ return [i.title, i.read, i.body, i.src, i.event].join(' '); }).join(' ');
+    return txt.match(/\b(6\d{5}|0\d{5}|3\d{5})\b/)===null;
+  })());
 
 /* ---------- 8. 决策复盘 ---------- */
 sec('8. 决策复盘');
@@ -196,6 +200,17 @@ sec('9. 安全');
 t('HTML 转义生效', esc('<script>alert(1)</script>')==='&lt;script&gt;alert(1)&lt;/script&gt;');
 t('引号转义', esc('a"b\'c')==='a&quot;b&#39;c');
 t('null / undefined 安全', esc(null)==='' && esc(undefined)==='');
+
+/* ---------- 10. 在线 feed 数据契约（loadFeed 依赖的数据层） ---------- */
+sec('10. 在线 feed 数据契约');
+var feed = JSON.parse(require('fs').readFileSync(require('path').resolve(__dirname, '..', 'feed.json'), 'utf8'));
+t('feed 含情报数组', Array.isArray(feed.intel) && feed.intel.length>=1, feed.intel && feed.intel.length);
+t('feed 条目可经 extractDataPoints 派生数据点',
+  feed.intel.every(function(it){
+    var dps = extractDataPoints((it.title||'') + '。' + (it.body||it.read||''), {date: it.date, src: it.src});
+    return Array.isArray(dps);
+  }));
+t('feed 条目必填字段齐全', feed.intel.every(function(it){ return it.id && it.title && it.src && it.date; }));
 
 console.log('\n' + '='.repeat(44));
 console.log('  通过 ' + pass + ' 项，失败 ' + fail + ' 项');

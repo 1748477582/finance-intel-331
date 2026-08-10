@@ -5,9 +5,11 @@
   "license": "UNLICENSED",
   "description": "331 财经情报站 · 把财经新闻翻译成对个人的影响。单文件 HTML，零外部依赖，数据只存本机浏览器。",
   "scripts": {
-    "test": "node tests/run.js && node tests/lint.js",
+    "test": "node tests/run.js && node tests/lint.js && node _smoke.js && node _smoke_feed.js",
     "test:core": "node tests/run.js",
-    "test:lint": "node tests/lint.js"
+    "test:lint": "node tests/lint.js",
+    "test:smoke": "node _smoke.js && node _smoke_feed.js",
+    "fetch": "node scripts/fetch.mjs"
   },
   "engines": {
     "node": ">=18"

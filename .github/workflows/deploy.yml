@@ -29,11 +29,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: 数据层断言测试
-        run: node tests/run.js
-
-      - name: 静态一致性与合规检查
-        run: node tests/lint.js
+      - name: 运行全部测试（数据层 / 合规 / 运行时冒烟）
+        run: npm test
 
   deploy:
     name: 部署到 Pages
@@ -51,6 +48,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
+          if [ -f feed.json ]; then cp feed.json _site/feed.json; fi
           touch _site/.nojekyll
 
       - name: 配置 Pages

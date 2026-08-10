@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-10T08:03:46.459Z",
+  "watch": [
+    "equity",
+    "bond"
+  ],
+  "intel": [
+    {
+      "id": "feed_8wu1egsj",
+      "title": "CPI/PPI 月度数据发布（样例）",
+      "src": "国家统计局",
+      "date": "2026-08-10",
+      "body": "国家统计局发布最新物价数据。样例条目，接入真实抓取后替换。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "物价低位运行，对债券有利、对顺周期不利。",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false
+    },
+    {
+      "id": "feed_08240d4v",
+      "title": "M2 货币供应数据发布（样例）",
+      "src": "中国人民银行",
+      "date": "2026-08-10",
+      "body": "中国人民银行发布金融统计数据。样例条目，接入真实抓取后替换。",
+      "url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "货币供应温和增长，尚未看到明显宽松。",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false
+    },
+    {
+      "id": "feed_fuza2tw1",
+      "title": "外资配置中国资产比例（样例）",
+      "src": "华尔街见闻",
+      "date": "2026-08-10",
+      "body": "样例条目，接入真实抓取后替换。",
+      "url": "https://wallstreetcn.com/live/global",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "海外视角的资金流向观察，属于机构行为记录。",
+      "fields": [
+        "f1",
+        "f6"
+      ],
+      "chains": [],
+      "inc": "view",
+      "multi": true,
+      "hot": false
+    },
+    {
+      "id": "feed_epfyx83c",
+      "title": "#A股又双叒涨了#（样例）",
+      "src": "热搜／论坛",
+      "date": "2026-08-10",
+      "body": "话题内容为市场情绪讨论，无数据、无信源、无政策依据。",
+      "url": "",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "热榜条目，零信息增量。",
+      "fields": [
+        "f1"
+      ],
+      "chains": [],
+      "inc": "emo",
+      "multi": false,
+      "hot": true
+    }
+  ]
+}
