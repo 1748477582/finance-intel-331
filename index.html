@@ -375,6 +375,11 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 .dsrc{font-size:14px}
 .dnote{margin-top:6px;font-size:12.5px;color:var(--warn);background:#fdf3e7;padding:7px 9px;border-radius:7px}
 .dwhy{font-size:13.5px;line-height:1.65;color:#16222e}
+.dsum{font-size:14px;line-height:1.7;color:#16222e;background:#eef4ff;border-left:3px solid var(--accent);border-radius:8px;padding:10px 12px;margin-bottom:9px}
+.dsum-tag{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:var(--accent);border-radius:5px;padding:1px 6px;margin-right:7px;vertical-align:middle}
+.dctx{margin-top:8px;font-size:12.5px;color:var(--t3);line-height:1.9}
+.dctx-i{display:inline-block;background:#f2f5f9;border:1px solid #e3e8ee;border-radius:999px;padding:2px 10px;margin:0 6px 4px 0;cursor:pointer;color:var(--navy)}
+.dctx-i:hover{background:#e3ebf6;border-color:var(--accent)}
 .dflow{font-size:14px;margin-bottom:6px}
 .dtone{font-size:12.5px;color:var(--t3)}
 .impacts{display:flex;flex-direction:column;gap:8px}
@@ -1173,13 +1178,23 @@ function trustedPoints(list){
 function buildPrompt(item){
   var roles = SPEAKER_ROLES.map(function(r){ return r.id + '=' + r.n; }).join(' / ');
   var doms = WATCH_DOMAINS.filter(function(d){ return d.on; }).map(function(d){ return d.id + '(' + d.n + ')'; }).join('、');
+  // 规则引擎已算出的线索，喂给模型做支撑——否则模型没有市场语境，会凭空编「为什么现在说」
+  var txt = (item.title || '') + '。' + (item.body || item.read || '');
+  var roleHint = detectRole(txt, item.src);
+  var toneHint = detectTone(txt);
+  var hype = hypeCheck(item);
+  var ctx = contextOf(item, 10);
+  var ctxTxt = ctx.length
+    ? ctx.map(function(c){ return '- ' + c.date + ' ' + (c.src || '') + '：' + c.title; }).join('\n')
+    : '（同领域近 10 天无相关消息，缺少语境，请如实说"缺少同期语境"，禁止编造市场背景）';
+  var fieldTxt = (item.fields || []).join('、') || '未标注';
   return [
     '你是财经新闻结构化拆解助手，严格遵循「331 法则」。只输出 JSON，不要任何解释文字、不要 markdown 代码块。',
     '',
     '【三句话拆解】',
     'q1_what：这条新闻到底说了什么。必须贴近原文表述，禁止美化或替换措辞（例如原文写"稳增长"就不能写成"大放水"）。',
     'q2_who：谁说的。role 从这五类里选一个：' + roles + '。discount 用一句话说明这个身份说这话该打几折。',
-    'q3_why：为什么是现在说。结合发布时间点的市场语境，不要泛泛而谈。',
+    'q3_why：为什么是现在说。必须基于下方「同领域近期消息」来写，说明这条是在什么背景下出台的；若下方为空，明确说"缺少同期语境"，禁止编造市场背景。',
     '',
     '【资金流向】flow 三选一：more=钱变多 / less=钱变少 / shift=钱换地方。flow_why 给一句理由。',
     '',
@@ -1198,6 +1213,13 @@ function buildPrompt(item){
     '{"q1_what":"","q2_who":{"name":"","role":"","discount":""},"q3_why":"","flow":"","flow_why":"","tone":0,' +
     '"data_points":[{"indicator":"","value":0,"unit":"","period":"","change":{"type":"","word":""},"source_org":"","confidence":0,"raw_text":"","quote":""}],' +
     '"impact":{"equity":"","bond":""}}',
+    '',
+    '===== 已知线索（规则引擎已算出，请务必基于这些，不要凭空推断） =====',
+    '信源：' + (item.src || '') + '（角色候选：' + (roleHint ? (roleHint.n + ' / ' + roleHint.id) : '未知') + '）',
+    '措辞强度候选：' + (toneHint ? (toneHint.n + '（命中词：' + toneHint.hit + '）') : '未识别'),
+    '标题加戏检测：' + (hype.risk ? ('风险——' + hype.say) : '无明显加戏'),
+    '涉及领域：' + fieldTxt,
+    '同领域近期消息（写 q3_why 的主要依据）：\n' + ctxTxt,
     '',
     '===== 待分析新闻 =====',
     '标题：' + (item.title || ''),
@@ -1519,11 +1541,11 @@ function bumpLlmUsage(){
   DB.llmStat = u;
   return u.n;
 }
-function llmGate(item){
+function llmGate(item, force){
   if(!item) return {ok: false, why: '情报不存在', code: 'noitem'};
   var cfg = llmConfig();
   if(!cfg.on) return {ok: false, why: '未配置模型 key，当前是规则引擎结果', code: 'nokey'};
-  if(item.a331 && item.a331.engine === 'llm') return {ok: false, why: '这条已完成 AI 拆解', code: 'done'};
+  if(!force && item.a331 && item.a331.engine === 'llm') return {ok: false, why: '这条已完成 AI 拆解', code: 'done'};
   var v = score(item).v;
   if(v < GATE.llmMinScore) return {ok: false, why: '信号分 ' + v + ' 没过闸门（需 ≥ ' + GATE.llmMinScore + '），省下这次调用', code: 'lowscore'};
   var used = llmUsage().n;
@@ -2757,10 +2779,10 @@ function closeDetail(){ document.getElementById('sec-detail').classList.remove('
 
 /* AI 深度拆解：过闸门才发请求，key 只在本机 localStorage，不出浏览器之外 */
 var _deepBusy = {};
-function deepAnalyze(id){
+function deepAnalyze(id, force){
   var i = DB.intel.filter(function(x){ return x.id === id; })[0];
   if(!i || _deepBusy[id]) return;
-  var g = llmGate(i);
+  var g = llmGate(i, force);
   if(!g.ok){
     if(g.code === 'nokey'){ toast('先到「我的 → AI 模型」填入 key'); go('me'); return; }
     toast(g.why); return;
@@ -2816,6 +2838,7 @@ function renderDetail(i){
     '<button class="ov-close" onclick="closeDetail()">×</button></div>'+
     '<div class="ov-body">'+
       '<div class="dsec"><div class="dsec-h">① 他说了什么（原文 + 溯源）</div>'+
+        (isLLM && a.q1_what && a.q1_what.text ? '<div class="dsum"><span class="dsum-tag">AI 提炼</span>'+esc(a.q1_what.text)+'</div>' : '')+
         (i.body?'<div class="dbody">'+esc(i.body)+'</div>':'<div class="dbody dim">该条未附正文，仅标题。</div>')+
         (i.url?'<a class="dlink" href="'+esc(i.url)+'" target="_blank" rel="noopener">查看原文 ↗</a>':'')+
       '</div>'+
@@ -2824,7 +2847,9 @@ function renderDetail(i){
         '<div class="dsrc"><b>'+esc(a.q2_who.roleName)+'</b> · '+esc(a.q2_who.name)+
         (a.q2_who.discount?'<div class="dnote">'+esc(a.q2_who.discount)+'</div>':'')+'</div></div>'+
       '<div class="dsec"><div class="dsec-h">③ 为什么现在说（语境）</div>'+
-        '<div class="dwhy">'+esc(a.q3_why.text)+'</div></div>'+
+        '<div class="dwhy">'+esc(a.q3_why.text)+'</div>'+
+        (a.q3_why && a.q3_why.refs && a.q3_why.refs.length ? '<div class="dctx">同期相关：'+ a.q3_why.refs.map(function(r){ return '<span class="dctx-i" onclick="openDetail(\''+r.id+'\')">'+esc(r.t)+'</span>'; }).join('') +'</div>' : '')+
+      '</div>'+
       '<div class="dsec"><div class="dsec-h">一个重点（钱变多 / 变少 / 换地方）</div>'+
         '<div class="dflow"><span class="tag tag-'+fl.c+'">'+fl.n+'</span> '+esc(a.flow_why||'')+'</div>'+
         '<div class="dtone">措辞强度：'+(a.tone?esc(a.tone.n):'—')+(a.tone&&a.tone.say?' — '+esc(a.tone.say):'')+'</div></div>'+
@@ -2832,8 +2857,10 @@ function renderDetail(i){
         '<div class="disc-inline">本段仅做影响翻译，不含任何标的与买卖建议。</div></div>'+
       (rel?'<div class="dsec"><div class="dsec-h">相关新闻</div>'+rel+'</div>':'')+
       '<div class="dsec dsec-ft">'+
-        (isLLM?'':'<button class="btn btn-sm btn-p" id="btnDeep"'+(gate.ok?'':' disabled title="'+esc(gate.why)+'"')+
-          ' onclick="event.stopPropagation();deepAnalyze(\''+i.id+'\')">AI 深度拆解</button>')+
+        (isLLM
+          ? '<button class="btn btn-sm" onclick="event.stopPropagation();deepAnalyze(\''+i.id+'\',true)">重新 AI 拆解</button>'
+          : '<button class="btn btn-sm btn-p" id="btnDeep"'+(gate.ok?'':' disabled title="'+esc(gate.why)+'"')+
+            ' onclick="event.stopPropagation();deepAnalyze(\''+i.id+'\')">AI 深度拆解</button>')+
         '<button class="btn btn-sm" onclick="event.stopPropagation();fromIntel(\''+i.id+'\')">基于这条记判断</button>'+
         '<button class="btn btn-sm" onclick="event.stopPropagation();showFormula(\''+i.id+'\')">信号分构成</button>'+
         '<button class="ib dn" onclick="event.stopPropagation();delIntel(\''+i.id+'\')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg></button></div>'+
