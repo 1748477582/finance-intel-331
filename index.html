@@ -1458,6 +1458,8 @@ function llmConfig(){
   return {vendor: c.vendor || '', key: c.key || '', model: c.model || '', on: !!(c.key && c.vendor)};
 }
 
+/* LLM 调用队列：串行化请求，避免并发撞限流 */
+var _llmQueue = Promise.resolve();
 function callLLM(item){
   var cfg = llmConfig();
   if(!cfg.on) return Promise.reject(new Error('未配置模型 key'));
@@ -1470,11 +1472,26 @@ function callLLM(item){
   };
   // GLM-4.5 / GLM-4.7 系默认开思维链，慢且会污染 JSON 输出；显式关掉
   if (/^glm-4\.(5|7)/.test(payload.model)) payload.thinking = { type: 'disabled' };
-  return fetch(v.ep, {
+  /* 串行排队 + 429 重试（指数退避，最多 3 次） */
+  _llmQueue = _llmQueue.then(function(){
+    return _callWithRetry(v.ep, payload, cfg.key, 0);
+  });
+  return _llmQueue;
+}
+function _callWithRetry(ep, payload, key, attempt){
+  var MAX_RETRY = 3;
+  var DELAYS = [2000, 4000, 8000]; // 2s → 4s → 8s
+  return fetch(ep, {
     method: 'POST',
-    headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + cfg.key},
+    headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key},
     body: JSON.stringify(payload)
   }).then(function(r){
+    if(r.status === 429 && attempt < MAX_RETRY){
+      var wait = DELAYS[attempt] || DELAYS[DELAYS.length - 1];
+      console.log('[LLM] 429 限流，第 '+(attempt+1)+' 次重试，等待 '+wait+'ms');
+      return new Promise(function(resolve){ setTimeout(resolve, wait); })
+        .then(function(){ return _callWithRetry(ep, payload, key, attempt + 1); });
+    }
     if(!r.ok) throw new Error('模型返回 ' + r.status);
     return r.json();
   }).then(function(j){
