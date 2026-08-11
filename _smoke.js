@@ -205,7 +205,26 @@ try {
     sandbox.openDetail(intel[0].id);
     console.log('--- openDetail("' + intel[0].id + '") OK; detailBox html len =',
       els['detailBox'] ? els['detailBox']._html.length : 0);
-    ok('详情页标注拆解引擎', /eng-ai|eng-rule/.test(els['detailBox']._html));
+    const dh = els['detailBox']._html;
+    ok('详情页标注拆解引擎', /eng-ai|eng-rule/.test(dh));
+    ok('详情页含影响翻译区块', /我的钱会怎样/.test(dh));
+    ok('详情页含置信度与证伪区块', /置信度与证伪/.test(dh));
+    ok('规则版也渲染层级徽章容器或幅度标签（字段存在即可）', /dlevel|dfm-|dfd-/.test(dh) || /幅度/.test(dh));
+    // 用一条带 domains 的 LLM 数据验证投资级字段渲染
+    const lv = sandbox.analyze331(intel[0]);
+    lv.engine = 'llm';
+    lv.impact = {domains:[{id:'equity', dir:'利好', strength:'中', horizon:'半年+', text:'地产链改善', chain:['政策','产业链','组合']}]};
+    lv.confidence = {land_prob:0.7, market_conf:0.5, falsify:'若成交未放量说明力度不足'};
+    lv.reserve = '中金认为作用有限';
+    lv.flow_mag = '中'; lv.flow_dur = '趋势';
+    sandbox.DB.intel[0].a331 = lv;
+    sandbox.openDetail(intel[0].id);
+    const dh2 = els['detailBox']._html;
+    ok('投资级：渲染传导链 chain', /chain-ar/.test(dh2));
+    ok('投资级：渲染置信度进度条', /conf-fill/.test(dh2));
+    ok('投资级：渲染证伪信号', /证伪信号/.test(dh2));
+    ok('投资级：渲染反向验证', /反向验证/.test(dh2));
+    ok('投资级：渲染幅度标签', /dfm-/.test(dh2) && /dfd-/.test(dh2));
   } else {
     console.log('--- no intel to openDetail ---');
   }

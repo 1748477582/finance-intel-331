@@ -382,12 +382,42 @@ font-size:12px;color:var(--t2);line-height:1.65;margin-top:14px;text-align:left}
 .dctx-i:hover{background:#e3ebf6;border-color:var(--accent)}
 .dflow{font-size:14px;margin-bottom:6px}
 .dtone{font-size:12.5px;color:var(--t3)}
+.dlevel{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:#5b6470;border-radius:5px;padding:1px 7px;margin-left:2px;vertical-align:middle}
+.dflow-sub{display:flex;gap:7px;margin:8px 0 2px;flex-wrap:wrap}
+.dfm{font-size:11.5px;font-weight:700;border-radius:6px;padding:2px 8px}
+.dfm-hi{color:#fff;background:#d63c3c}
+.dfm-mid{color:#fff;background:#e08a2b}
+.dfm-lo{color:#fff;background:#9aa3ad}
+.dfd{font-size:11.5px;border:1px solid #cfd6de;border-radius:6px;padding:2px 8px;color:#3a4753}
+.dfd-trend{background:#eef4ff;border-color:#bcd2f2;color:#2b5fa8}
+.dfd-pulse{background:#f3f5f7;border-color:#dfe4ea}
 .impacts{display:flex;flex-direction:column;gap:8px}
 .imp{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px}
 .imp-hd{display:flex;align-items:center;gap:7px;font-weight:700;font-size:13px;margin-bottom:4px}
 .imp-txt{font-size:13px;color:#16222e;line-height:1.6}
 .imp-txt.imp-empty{color:var(--t3)}
 .imp-extra{margin-top:5px;font-size:12px;color:var(--t3);background:#f7f9fb;padding:6px 8px;border-radius:6px}
+.imp-dom{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px;background:#fff}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
+.dot-up{background:#d63c3c}
+.dot-down{background:#127a52}
+.dot-flat{background:#9aa3ad}
+.imp-dir{font-size:11px;font-weight:700;padding:1px 6px;border-radius:5px}
+.imp-dir-up{color:#fff;background:#d63c3c}
+.imp-dir-down{color:#fff;background:#127a52}
+.imp-dir-flat{color:#fff;background:#9aa3ad}
+.imp-st{font-size:11px;color:#3a4753;background:#eef1f4;border-radius:5px;padding:1px 6px}
+.imp-hz{font-size:11px;color:#2b5fa8;background:#eef4ff;border-radius:5px;padding:1px 6px}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-top:7px;font-size:12px;color:#3a4753;line-height:1.7}
+.chain-ar{color:#aab3bd;font-weight:700}
+.conf{display:flex;flex-direction:column;gap:9px;margin:4px 0 2px}
+.conf-row{display:flex;align-items:center;gap:10px;font-size:13px}
+.conf-lab{width:64px;color:var(--t3);flex:none}
+.conf-bar{flex:1;height:9px;background:#eef1f4;border-radius:999px;overflow:hidden}
+.conf-fill{display:block;height:100%;background:linear-gradient(90deg,#2b8a5f,#46b37e);border-radius:999px}
+.conf-num{width:42px;text-align:right;font-variant-numeric:tabular-nums;color:#16222e;flex:none}
+.falsify{margin-top:9px;font-size:12.5px;color:#b54708;background:#fef3e7;border-left:3px solid #e08a2b;border-radius:7px;padding:8px 10px;line-height:1.6}
+.reserve{font-size:13px;color:#16222e;background:#f3f1e8;border-left:3px solid #c9a227;border-radius:7px;padding:9px 11px;line-height:1.65}
 .disc-inline{margin-top:8px;font-size:11.5px;color:#8593a1}
 .rel{border:1px solid #e3e8ee;border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer}
 .rel:hover{background:#f7f9fb}
@@ -806,6 +836,8 @@ var FLOW = {
   less:{n:'钱变少', c:'less', d:'流动性收紧'},
   shift:{n:'钱换地方', c:'shift', d:'结构转移'}
 };
+function flowMagCls(m){ return m === '大' ? 'hi' : (m === '小' ? 'lo' : 'mid'); }
+function flowDurCls(d){ return d === '脉冲' ? 'pulse' : 'trend'; }
 var ACTS = {wait:{n:'观望',c:'wait'}, dig:{n:'调研',c:'dig'}, add:{n:'加仓',c:'add'}, cut:{n:'减仓',c:'cut'}};
 
 var KW_FLOW = {
@@ -1193,10 +1225,10 @@ function buildPrompt(item){
     '',
     '【三句话拆解】',
     'q1_what：这条新闻到底说了什么。必须贴近原文表述，禁止美化或替换措辞（例如原文写"稳增长"就不能写成"大放水"）。',
-    'q2_who：谁说的。role 从这五类里选一个：' + roles + '。discount 用一句话说明这个身份说这话该打几折。',
+    'q2_who：谁说的。role 从这五类里选一个：' + roles + '。discount 用一句话说明这个身份说这话该打几折。level 判断发布主体层级，从「地方/中央/监管/券商/机构/企业」选一：地方政府(省/市政策)、中央部委(央行/财政部/发改委)、监管部门(证监会/金融监管总局/交易所)、券商/机构/企业。地方政策的含金量通常低于中央。',
     'q3_why：为什么是现在说。必须基于下方「同领域近期消息」来写，说明这条是在什么背景下出台的；若下方为空，明确说"缺少同期语境"，禁止编造市场背景。',
     '',
-    '【资金流向】flow 三选一：more=钱变多 / less=钱变少 / shift=钱换地方。flow_why 给一句理由。',
+    '【资金流向】flow 三选一：more=钱变多 / less=钱变少 / shift=钱换地方。flow_why 给一句理由。flow_mag 给幅度：大/中/小（全面宽松=大，定向小幅=中，象征性=小）。flow_dur 给持续性：脉冲=一次性刺激 / 趋势=持续方向。',
     '',
     '【措辞强度】tone 取 0-3：3=已落地(决定/自即日起) 2=将出手(将/抓紧) 1=稳预期(适时/择机/研究) 0=表态(支持/鼓励)。',
     '',
@@ -1207,12 +1239,16 @@ function buildPrompt(item){
     '  4. period 用 ISO：2026-07 / 2026-Q2 / 2026-H1 / 2026。判断不出就留空字符串。',
     '  5. confidence 0-1，预测性、模糊表述要显著降低。',
     '',
-    '【个人影响】impact 针对这些领域各给一句具体影响：' + doms + '。禁止出现任何个股名称、股票代码、基金代码，禁止给出买卖建议。',
+    '【影响翻译】impact.domains 针对这些开启的关注域各给一条：' + doms + '。每个域给 dir(利好/利空/中性)、strength(高/中/低)、horizon(即时/1季/半年+)、text(一句翻译)、chain(传导链三步：一阶政策→二阶产业链/资产→三阶组合)。禁止出现任何个股名称、股票代码、基金代码，禁止给出买卖建议。',
+    '',
+    '【置信度与证伪】confidence.land_prob：这条政策/表态真正落地执行的概率(0-1)。confidence.market_conf：市场短期会据此反应的概率(0-1)。confidence.falsify：什么信号出现说明本判断要修正，给一句具体可观察的信号（例：「若1个月内二手房成交未放量，说明力度不足」）。',
+    '【反向验证】reserve：摘录信源自身的保留或矛盾态度（如研报写「作用有限」「仍需观察」），原文缩写，禁止自行发挥；若无则留空字符串。这是「为什么信这条」的可信度背书。',
     '',
     '输出 JSON schema：',
-    '{"q1_what":"","q2_who":{"name":"","role":"","discount":""},"q3_why":"","flow":"","flow_why":"","tone":0,' +
+    '{"q1_what":"","q2_who":{"name":"","role":"","discount":"","level":"地方/中央/监管/券商/机构/企业"},"q3_why":"","flow":"","flow_mag":"大/中/小","flow_dur":"脉冲/趋势","flow_why":"","tone":0,' +
     '"data_points":[{"indicator":"","value":0,"unit":"","period":"","change":{"type":"","word":""},"source_org":"","confidence":0,"raw_text":"","quote":""}],' +
-    '"impact":{"equity":"","bond":""}}',
+    '"impact":{"domains":[{"id":"equity","dir":"利好/利空/中性","strength":"高/中/低","horizon":"即时/1季/半年+","text":"","chain":["一阶政策","二阶产业链/资产","三阶组合"]}]},' +
+    '"confidence":{"land_prob":0.8,"market_conf":0.6,"falsify":""},"reserve":""}',
     '',
     '===== 已知线索（规则引擎已算出，请务必基于这些，不要凭空推断） =====',
     '信源：' + (item.src || '') + '（角色候选：' + (roleHint ? (roleHint.n + ' / ' + roleHint.id) : '未知') + '）',
@@ -1261,6 +1297,11 @@ function detectRole(text, src){
     best = SPEAKER_ROLES.filter(function(r){ return r.id === rid; })[0];
   }
   return best;
+}
+
+function roleLevel(id){
+  var m = {macro:'中央', rule:'监管', broker:'券商', raise:'企业', give:'机构'};
+  return m[id] || '';
 }
 
 function detectTone(text){
@@ -1334,12 +1375,18 @@ function analyze331(item){
       role: role ? role.id : 'broker',
       roleName: role ? role.n : '中间商',
       discount: role ? role.hint : '',
-      desc: role ? role.d : ''
+      desc: role ? role.d : '',
+      level: role ? roleLevel(role.id) : ''
     },
     q3_why: {text: why, refs: ctx.map(function(c){ return {id: c.id, t: c.title, d: c.date}; })},
     tone: tone,
     flow: flow,
-    flow_why: FLOW[flow] ? FLOW[flow].d : ''
+    flow_mag: '中',
+    flow_dur: '趋势',
+    flow_why: FLOW[flow] ? FLOW[flow].d : '',
+    confidence: {land_prob: 0.5, market_conf: 0.3, falsify: ''},
+    reserve: '',
+    impact: {domains: []}
   };
 }
 
@@ -1513,7 +1560,8 @@ function mergeLLM(item, o){
       role: role ? role.id : 'broker',
       roleName: role ? role.n : '中间商',
       discount: (o.q2_who && o.q2_who.discount) || (role ? role.hint : ''),
-      desc: role ? role.d : ''
+      desc: role ? role.d : '',
+      level: (o.q2_who && o.q2_who.level) || (role ? roleLevel(role.id) : '')
     },
     q3_why: {text: o.q3_why || '', refs: contextOf(item).map(function(c){ return {id: c.id, t: c.title, d: c.date}; })},
     tone: (function(){
@@ -1521,7 +1569,15 @@ function mergeLLM(item, o){
       return {lv: lv.lv, n: lv.n, say: lv.say, hit: ''};
     })(),
     flow: (o.flow === 'more' || o.flow === 'less' || o.flow === 'shift') ? o.flow : guessFlow(item.title || ''),
-    flow_why: o.flow_why || ''
+    flow_mag: (o.flow_mag === '大' || o.flow_mag === '中' || o.flow_mag === '小') ? o.flow_mag : '中',
+    flow_dur: (o.flow_dur === '脉冲' || o.flow_dur === '趋势') ? o.flow_dur : '趋势',
+    flow_why: o.flow_why || '',
+    confidence: {
+      land_prob: Math.max(0, Math.min(1, (o.confidence && typeof o.confidence.land_prob === 'number') ? o.confidence.land_prob : 0.5)),
+      market_conf: Math.max(0, Math.min(1, (o.confidence && typeof o.confidence.market_conf === 'number') ? o.confidence.market_conf : 0.3)),
+      falsify: (o.confidence && o.confidence.falsify) || ''
+    },
+    reserve: o.reserve || ''
   };
   if(o.flow === 'more' || o.flow === 'less' || o.flow === 'shift') item.flow = o.flow;
   var llmPts = (o.data_points || []).filter(function(p){
@@ -2820,6 +2876,9 @@ function deepAnalyze(id, force){
   }).then(function(){ delete _deepBusy[id]; });
 }
 
+function confBar(p){ p = (typeof p === 'number') ? Math.max(0, Math.min(1, p)) : 0; var w = Math.round(p*100); return '<span class="conf-bar"><span class="conf-fill" style="width:'+w+'%"></span></span>'; }
+function pct(p){ p = (typeof p === 'number') ? p : 0; return Math.round(p*100)+'%'; }
+
 function renderDetail(i){
   var a = i.a331 || analyze331(i);
   var r = score(i);
@@ -2839,6 +2898,19 @@ function renderDetail(i){
       '<div class="imp-txt'+(l.text?'':' imp-empty')+'">'+(l.text||('这条与你'+esc(l.n)+'暂无直接关联'))+'</div>'+
       (l.extra?'<div class="imp-extra">'+esc(l.extra)+'</div>':'')+'</div>';
   }).join('');
+  var domains = (i.llmImpact && i.llmImpact.domains) || (a && a.impact && a.impact.domains) || [];
+  var impactHtml = domains.length
+    ? domains.map(function(d){
+        var dirCls = d.dir === '利好' ? 'up' : (d.dir === '利空' ? 'down' : 'flat');
+        var chain = (d.chain || []).map(function(s){ return esc(s); }).join('<span class="chain-ar">→</span>');
+        return '<div class="imp imp-dom"><div class="imp-hd"><span class="dot dot-'+dirCls+'"></span>'+esc(d.id)+
+          (d.dir ? ' <span class="imp-dir imp-dir-'+dirCls+'">'+esc(d.dir)+'</span>' : '')+
+          (d.strength ? ' <span class="imp-st">强度 '+esc(d.strength)+'</span>' : '')+
+          (d.horizon ? ' <span class="imp-hz">'+esc(d.horizon)+'</span>' : '')+'</div>'+
+          (d.text ? '<div class="imp-txt">'+esc(d.text)+'</div>' : '')+
+          (chain ? '<div class="chain">'+chain+'</div>' : '')+'</div>';
+      }).join('')
+    : impact;
   var rel = relatedIntel(i, 5).map(function(x){
     return '<div class="rel" onclick="openDetail(\''+x.id+'\')"><div class="rel-tt">'+esc(x.title)+'</div>'+
       '<div class="rel-ft"><span class="tier t'+tierOf(x.src)+'">'+TIER_NAME[tierOf(x.src)]+'</span> '+esc(x.src)+' · '+esc(x.date)+'</div></div>';
@@ -2861,7 +2933,9 @@ function renderDetail(i){
       '</div>'+
       (dps?'<div class="dsec"><div class="dsec-h">数据提炼（自动抽取 · 可溯源到原句）</div><div class="dps">'+dps+'</div></div>':'')+
       '<div class="dsec"><div class="dsec-h">② 谁说的（信源身份与折扣）</div>'+
-        '<div class="dsrc"><b>'+esc(a.q2_who.roleName)+'</b> · '+esc(a.q2_who.name)+
+        '<div class="dsrc"><b>'+esc(a.q2_who.roleName)+'</b>'+
+        (a.q2_who.level?' <span class="dlevel">'+esc(a.q2_who.level)+'</span>':'')+
+        ' · '+esc(a.q2_who.name)+
         (a.q2_who.discount?'<div class="dnote">'+esc(a.q2_who.discount)+'</div>':'')+'</div></div>'+
       '<div class="dsec"><div class="dsec-h">③ 为什么现在说（语境）</div>'+
         '<div class="dwhy">'+esc(a.q3_why.text)+'</div>'+
@@ -2869,9 +2943,19 @@ function renderDetail(i){
       '</div>'+
       '<div class="dsec"><div class="dsec-h">一个重点（钱变多 / 变少 / 换地方）</div>'+
         '<div class="dflow"><span class="tag tag-'+fl.c+'">'+fl.n+'</span> '+esc(a.flow_why||'')+'</div>'+
+        '<div class="dflow-sub">'+
+          (a.flow_mag?'<span class="dfm dfm-'+flowMagCls(a.flow_mag)+'">幅度 '+esc(a.flow_mag)+'</span>':'')+
+          (a.flow_dur?'<span class="dfd dfd-'+flowDurCls(a.flow_dur)+'">'+esc(a.flow_dur)+'</span>':'')+
+        '</div>'+
         '<div class="dtone">措辞强度：'+(a.tone?esc(a.tone.n):'—')+(a.tone&&a.tone.say?' — '+esc(a.tone.say):'')+'</div></div>'+
-      '<div class="dsec"><div class="dsec-h">我的钱会怎样（只到行业 / 资产类别）</div><div class="impacts">'+impact+'</div>'+
+      '<div class="dsec"><div class="dsec-h">我的钱会怎样（影响翻译 · 只到行业 / 资产类别）</div><div class="impacts">'+impactHtml+'</div>'+
         '<div class="disc-inline">本段仅做影响翻译，不含任何标的与买卖建议。</div></div>'+
+      (a.confidence?'<div class="dsec"><div class="dsec-h">置信度与证伪</div>'+
+        '<div class="conf"><div class="conf-row"><span class="conf-lab">落地概率</span>'+confBar(a.confidence.land_prob)+'<span class="conf-num">'+pct(a.confidence.land_prob)+'</span></div>'+
+        '<div class="conf-row"><span class="conf-lab">市场反应</span>'+confBar(a.confidence.market_conf)+'<span class="conf-num">'+pct(a.confidence.market_conf)+'</span></div></div>'+
+        (a.confidence.falsify?'<div class="falsify">证伪信号：'+esc(a.confidence.falsify)+'</div>':'')+'</div>':'')+
+      (a.reserve?'<div class="dsec"><div class="dsec-h">反向验证（信源自身保留态度）</div>'+
+        '<div class="reserve">'+esc(a.reserve)+'</div></div>':'')+
       (rel?'<div class="dsec"><div class="dsec-h">相关新闻</div>'+rel+'</div>':'')+
       '<div class="dsec dsec-ft">'+
         (isLLM

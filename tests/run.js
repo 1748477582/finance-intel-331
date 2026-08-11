@@ -277,6 +277,30 @@ t('bumpLlmUsage 累加', (function(){ DB.llmStat={day:todayStr(), n:0}; bumpLlmU
 DB.llm = {vendor:'', key:'', model:''};
 DB.llmStat = {day: todayStr(), n: 0};
 
+sec('14. 投资级 331 字段（level / flow_mag / flow_dur / confidence / reserve / impact.domains）');
+var it = {id:'_i1', title:'北京优化住房限购', src:'北京市住建委', body:'非京籍五环内社保年限 2 年改 1 年，公积金贷款上限提高', date: todayStr(), url:'http://x'};
+var rule = analyze331(it);
+t('规则版含 level（由角色映射）', typeof rule.q2_who.level === 'string');
+t('规则版 flow_mag 默认 中', rule.flow_mag === '中');
+t('规则版 flow_dur 默认 趋势', rule.flow_dur === '趋势');
+t('规则版 confidence 三字段齐全', rule.confidence && typeof rule.confidence.land_prob==='number' && typeof rule.confidence.market_conf==='number' && 'falsify' in rule.confidence);
+t('规则版 reserve 默认空串', rule.reserve === '');
+t('规则版 impact.domains 为空数组', Array.isArray(rule.impact.domains) && rule.impact.domains.length===0);
+var o = {
+  q2_who:{name:'北京市住建委', role:'macro', discount:'', level:'地方'},
+  flow:'more', flow_mag:'中', flow_dur:'趋势', flow_why:'门槛降',
+  impact:{domains:[{id:'equity', dir:'利好', strength:'中', horizon:'半年+', text:'地产链边际改善', chain:['政策','产业链','组合']}]},
+  confidence:{land_prob:0.7, market_conf:0.5, falsify:'若成交未放量说明力度不足'},
+  reserve:'中金认为作用有限'
+};
+var m = {}; mergeLLM(m, o);
+t('mergeLLM 透传 level', m.a331.q2_who.level === '地方');
+t('mergeLLM flow_mag 非法值回退 中', (function(){ var x={}; mergeLLM(x,{flow:'more',flow_mag:'巨',flow_dur:'永恒'}); return x.a331.flow_mag==='中' && x.a331.flow_dur==='趋势'; })());
+t('mergeLLM confidence 被 clamp 到 [0,1]', (function(){ var x={}; mergeLLM(x,{confidence:{land_prob:5, market_conf:-1, falsify:'g'}}); return x.a331.confidence.land_prob===1 && x.a331.confidence.market_conf===0; })());
+t('mergeLLM reserve 透传', m.a331.reserve === '中金认为作用有限');
+t('mergeLLM llmImpact.domains 透传', m.llmImpact && m.llmImpact.domains && m.llmImpact.domains[0].id === 'equity');
+t('mergeLLM 旧 impact{equity,bond} 不报错', (function(){ var x={}; mergeLLM(x,{impact:{equity:'好',bond:''}}); return x.llmImpact && !x.llmImpact.domains; })());
+
 console.log('\n' + '='.repeat(44));
 console.log('  通过 ' + pass + ' 项，失败 ' + fail + ' 项');
 if(fail){ console.log('  失败项：\n   - ' + failed.join('\n   - ')); }
