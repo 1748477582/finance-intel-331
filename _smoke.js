@@ -153,9 +153,9 @@ try {
 // ---- 四栏导航 + 二级分组 ----
 try {
   console.log('--- 四栏导航 ---  tabs =', tabKeys.join('/'), '| sections =', secKeys.join('/'));
-  ok('顶栏只有 4 个入口', tabKeys.length === 4, tabKeys);
-  ok('四栏为 dash/intel/data/me',
-    ['dash','intel','data','me'].every(k => tabKeys.indexOf(k) > -1), tabKeys);
+  ok('顶栏有 5 个入口', tabKeys.length === 5, tabKeys);
+  ok('五栏为 dash/intel/data/analysis/me',
+    ['dash','intel','data','analysis','me'].every(k => tabKeys.indexOf(k) > -1), tabKeys);
   ok('每个 tab 都有对应 section', tabKeys.every(k => secKeys.indexOf(k) > -1), secKeys);
 
   const onSec = () => REG.sec.filter(s => s.classList.contains('on')).map(s => s.id);

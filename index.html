@@ -7,21 +7,23 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="331情报站">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#12324f">
+<meta name="theme-color" content="#0c0e14">
 <meta name="description" content="把财经新闻翻译成对个人的影响。信号与噪音分级、资金流向、产业链映射、决策复盘。数据只存本机浏览器，不上传。">
 <meta name="robots" content="noindex, nofollow">
 <title>331 财经情报站</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
---navy:#12324f;--navy2:#1c4a72;--gold:#b8892b;--gold-bg:#fdf6e6;
---bg:#f4f6f8;--card:#fff;--line:#e3e8ee;--line2:#d0d8e2;
---t1:#16222e;--t2:#5a6b7c;--t3:#93a1af;
---more:#d63c3c;--more-bg:#fdeded;
---less:#127a52;--less-bg:#e7f6f0;
---shift:#5b52c4;--shift-bg:#eeecfb;
---warn:#c2410c;--warn-bg:#fff2e8;
---ok:#127a52;
+--navy:#0c0e14;--navy2:#1a1d28;--gold:#6ee7b7;--gold-bg:#0f2a20;
+--bg:#08090f;--card:#111318;--line:#1e2129;--line2:#2a2e3a;
+--t1:#e4e6ed;--t2:#8b90a0;--t3:#5c6170;
+--more:#f87171;--more-bg:#2a1518;
+--less:#6ee7b7;--less-bg:#0f2a20;
+--shift:#fbbf24;--shift-bg:#2a2310;
+--warn:#fbbf24;--warn-bg:#2a2310;
+--ok:#6ee7b7;
+--accent:#6ee7b7;
+--mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
 --r:14px;
 }
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
@@ -440,6 +442,248 @@ nav.subtabs button.on{background:var(--navy);color:#fff}
 .alert-sp{border-left-color:var(--gold);background:var(--gold-bg)}
 .alert-sp .al-k{color:var(--gold)}
 .tl-leg{display:inline-flex;gap:10px;align-items:center;margin-left:10px;flex-wrap:wrap}
+
+/* ============================================================
+   暗夜运维 Dark Ops Theme Overrides
+   ============================================================ */
+body{background:var(--bg)}
+header{background:var(--navy);border-bottom:1px solid var(--line)}
+.logo{background:var(--gold);color:#06281a}
+.brand p{color:#5c6170}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#06281a}
+.btn-gold:hover{background:#86efc4;border-color:#86efc4}
+.btn-p{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+.btn-p:hover{background:rgba(110,231,183,.12);border-color:var(--gold)}
+.btn-g{background:rgba(110,231,183,.1);border-color:rgba(110,231,183,.3);color:var(--gold)}
+.btn-g:hover{background:rgba(110,231,183,.2);border-color:rgba(110,231,183,.5)}
+.btn-dn{border-color:#3d1e22;color:var(--more)}
+.btn:hover{border-color:var(--gold);color:var(--gold)}
+.tip{background:var(--gold-bg);border-color:#1a3d2e;color:var(--gold)}
+.tip button{color:var(--gold)}
+.today-hd{background:#0d0f15}
+.todo{border-bottom-color:var(--line)}
+.spv{background:#0d0f15;border-color:var(--line)}
+.spv-b .fm{color:var(--t3)}
+.item.noise{background:#0d0f15}
+.tag-lv,.tag-chain{background:#1a1d26;color:var(--t2)}
+.tag-lv.s{background:var(--less-bg);color:var(--less)}
+.tag-lv.m{background:var(--warn-bg);color:var(--warn)}
+.tag-lv.n{background:#1a1d26;color:var(--t3)}
+.it-tr{background:#0d0f15;border-left-color:var(--line2)}
+.tier{background:#1a1d26;color:var(--t2)}
+.tier.t1{background:var(--less-bg);color:var(--less)}
+.eg-hd{background:#0d0f15}
+.eg.cf{border-color:#3d3520}
+.eg.cf .eg-hd{background:var(--shift-bg);border-bottom-color:#3d3520}
+.cmp{border-bottom-color:var(--line)}
+.diverge{background:var(--shift-bg);border-color:#3d3520;color:var(--shift)}
+.vsw{background:#0d0f15}
+.vsw button.on{background:var(--card);color:var(--gold);box-shadow:0 0 0 1px var(--line2)}
+.fn.more{border-color:#3d1e22}
+.fn.less{border-color:#1a3d2e}
+.fn.shift{border-color:#3d3520}
+.verdict{background:#0d0f15;border:1px solid var(--line2)}
+.verdict .vl{color:var(--t3)}
+.verdict .vd{color:var(--t2)}
+.mc-r{border-left-color:var(--line)}
+.rad-r{border-bottom-color:var(--line)}
+.rad-r:hover{background:#0d0f15}
+.rad-bar{background:#0d0f15}
+.tr.up,.tr.dn{background:#0d0f15}
+.tr.mid{background:#101218}
+.ch-note{background:var(--gold-bg);border-color:#1a3d2e;color:var(--gold)}
+.rv.od{border-color:#3d1e22}
+.rv.done{background:#0d0f15}
+.act{background:#1a1d26;color:var(--t2)}
+.act.wait{background:#1a1d26;color:var(--t2)}
+.rv-out{background:#0d0f15}
+.st{background:#0d0f15;border:1px solid var(--line)}
+.disc{background:#0d0f15}
+.bnav{background:rgba(13,15,21,.96);backdrop-filter:blur(12px)}
+.bnav button.on{color:var(--gold)}
+nav.tabs button.on{background:var(--gold);color:#06281a}
+.chip.on{background:var(--gold);border-color:var(--gold);color:#06281a}
+.ib:hover{border-color:var(--gold);color:var(--gold)}
+input:focus,select:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(110,231,183,.12)}
+.mask{background:rgba(0,0,0,.65)}
+.brief{background:#0d0f15;border-color:var(--line)}
+.alert{background:var(--more-bg);border-left-color:var(--more)}
+.al-say{color:var(--t1)}
+.hl{border-color:var(--line)}
+.hl:hover{background:#0d0f15;border-color:var(--line2)}
+.hl-tt{color:var(--t1)}
+.trend{border-color:var(--line)}
+.trend-v{color:var(--t1)}
+.xcard{border-color:var(--line)}
+.xcard:hover{border-color:var(--gold);box-shadow:0 0 0 1px rgba(110,231,183,.15)}
+.x-hd{color:var(--t1)}
+.x-badge{background:var(--more-bg);color:var(--more)}
+.x-div{background:var(--shift-bg);border-left-color:var(--shift);color:var(--shift)}
+.itb th,.itb td{border-bottom-color:var(--line)}
+.src-row{color:var(--t1)}
+.tag-signal{background:var(--less-bg);color:var(--less)}
+.tag-noise{background:#1a1d26;color:var(--t2)}
+.ov-box{background:var(--card);border:1px solid var(--line2);box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.ov-hd{background:var(--card);border-bottom-color:var(--line)}
+.ov-title{color:var(--t1)}
+.ov-close{background:#1a1d26;color:var(--t1)}
+.ov-close:hover{background:#252830}
+.dsec{border-bottom-color:var(--line)}
+.dctx-i:hover{background:#1a1d26;border-color:var(--gold)}
+.dlevel{background:#3a3f4d}
+.dfm-hi{background:var(--more)}
+.dfm-mid{background:var(--shift);color:#1a1408}
+.dfm-lo{background:#3a3f4d}
+.dfd{border-color:var(--line2);color:var(--t2);background:#0d0f15}
+.dfd-trend{background:#0d1f2a;border-color:#1a3a4a;color:#7dd3fc}
+.dfd-pulse{background:#0d0f15;border-color:var(--line2)}
+.imp{border-color:var(--line)}
+.imp-extra{background:#0d0f15;color:var(--t2)}
+.imp-dom{border-color:var(--line);background:#0d0f15}
+.imp-txt{color:var(--t1)}
+.imp-st{background:#1a1d26;color:var(--t2)}
+.imp-hz{background:#0d1f2a;color:#7dd3fc}
+.conf-bar{background:#0d0f15}
+.conf-fill{background:linear-gradient(90deg,var(--less),#4ade80)}
+.falsify{background:var(--warn-bg);border-left-color:var(--shift);color:var(--shift)}
+.reserve{background:var(--gold-bg);border-left-color:var(--gold);color:var(--gold)}
+.rel{border-color:var(--line)}
+.rel:hover{background:#0d0f15}
+.rel-tt{color:var(--t1)}
+.eng-ai{background:#0d1f2a;border-color:#1a3a4a;color:#7dd3fc}
+.eng-rule{background:#1a1d26;border-color:var(--line2);color:var(--t2)}
+.chain{color:var(--t2)}
+.dtone{color:var(--t3)}
+.flow-n .fn{background:transparent}
+.chip:hover{border-color:var(--gold)}
+.brand h1{letter-spacing:.5px}
+.card-hd h3 svg{color:var(--gold)!important}
+.toast{background:rgba(20,22,28,.96);border:1px solid var(--line2)}
+.tier,.act,.al-k,.mc-r .rl,.tn,.ch-sec,.itb th,
+.spv-b .fm,.dgate,.x-meta,.ov-meta,.hint{font-family:var(--mono)}
+.tier,.al-k{letter-spacing:.5px;text-transform:uppercase}
+
+/* ============================================================
+   新模块：分析中心（市场热点 / 板块热度 / 舆情追踪）
+   ============================================================ */
+.ana-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.ana-grid{grid-template-columns:1fr}}
+.ana-input{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.ana-input input{flex:1;min-width:200px}
+.ana-input select{width:auto;min-width:130px}
+.ana-card{border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px;background:var(--card)}
+.ana-card-hd{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.ana-card-hd .num{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:1px}
+.ana-card-hd h4{font-size:14px;font-weight:600;flex:1}
+.ana-badge{font-family:var(--mono);font-size:10.5px;font-weight:600;padding:2px 8px;border-radius:5px;letter-spacing:.5px;text-transform:uppercase}
+.ana-badge.live{background:var(--less-bg);color:var(--less)}
+.ana-badge.warn{background:var(--warn-bg);color:var(--shift)}
+.ana-badge.danger{background:var(--more-bg);color:var(--more)}
+.ana-badge.neutral{background:#1a1d26;color:var(--t2)}
+.ana-row{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.6}
+.ana-row:last-child{border-bottom:none}
+.ana-row .k{width:96px;flex:none;color:var(--t3);font-family:var(--mono);font-size:11.5px;padding-top:1px}
+.ana-row .v{flex:1;color:var(--t1)}
+.ana-chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
+.ana-chain-node{background:#0d0f15;border:1px solid var(--line2);border-radius:8px;padding:6px 11px;font-size:12.5px;color:var(--t1)}
+.ana-chain-node.hi{border-color:var(--more);color:var(--more);background:var(--more-bg)}
+.ana-chain-node.mid{border-color:var(--shift);color:var(--shift);background:var(--shift-bg)}
+.ana-chain-arrow{color:var(--t3);font-family:var(--mono);font-size:11px}
+.ana-score{display:flex;align-items:center;gap:14px;margin:10px 0}
+.ana-score-ring{width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+font-size:22px;font-weight:700;font-family:var(--mono);flex:none;border:3px solid var(--line2);background:#0d0f15}
+.ana-score-ring.hot{border-color:var(--more);color:var(--more);box-shadow:0 0 16px rgba(248,113,113,.15)}
+.ana-score-ring.warm{border-color:var(--shift);color:var(--shift)}
+.ana-score-ring.cool{border-color:var(--less);color:var(--less)}
+.ana-score-ring.cold{border-color:var(--t3);color:var(--t3)}
+.ana-score-info{flex:1}
+.ana-score-info .sl{font-size:12px;color:var(--t3);font-family:var(--mono);margin-bottom:2px}
+.ana-score-info .sv{font-size:15px;font-weight:600}
+.ana-bar{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}
+.ana-bar .bl{width:70px;color:var(--t3);font-family:var(--mono);font-size:11px;flex:none}
+.ana-bar .bt{flex:1;height:8px;background:#0d0f15;border-radius:4px;overflow:hidden}
+.ana-bar .bf{height:100%;border-radius:4px;transition:width .4s}
+.ana-bar .bf.info{background:linear-gradient(90deg,#3b82f6,#60a5fa)}
+.ana-bar .bf.market{background:linear-gradient(90deg,var(--more),#fca5a5)}
+.ana-bar .bv{width:32px;text-align:right;font-family:var(--mono);color:var(--t1);flex:none}
+.ana-timeline{position:relative;padding-left:18px;margin:8px 0}
+.ana-timeline::before{content:'';position:absolute;left:5px;top:4px;bottom:4px;width:1px;background:var(--line2)}
+.ana-tl-item{position:relative;padding:6px 0 6px 8px;font-size:12.5px;line-height:1.55}
+.ana-tl-item::before{content:'';position:absolute;left:-16px;top:12px;width:8px;height:8px;border-radius:50%;
+background:var(--card);border:2px solid var(--t3)}
+.ana-tl-item.up::before{border-color:var(--more)}
+.ana-tl-item.down::before{border-color:var(--less)}
+.ana-tl-item.neutral::before{border-color:var(--shift)}
+.ana-tl-date{font-family:var(--mono);font-size:11px;color:var(--t3);margin-right:6px}
+.ana-tl-title{color:var(--t1)}
+.ana-tl-src{font-size:11px;color:var(--t3);margin-top:2px}
+.ana-sig{display:flex;gap:8px;align-items:flex-start;padding:7px 0;font-size:12.5px;line-height:1.55;border-bottom:1px solid var(--line)}
+.ana-sig:last-child{border-bottom:none}
+.ana-sig .idx{font-family:var(--mono);font-size:11px;color:var(--gold);width:22px;flex:none;padding-top:1px}
+.ana-sig .txt{flex:1;color:var(--t1)}
+.ana-sig .txt b{color:var(--shift);font-weight:600}
+.ana-sum{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+@media(max-width:560px){.ana-sum{grid-template-columns:1fr}}
+.ana-sum-box{border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
+.ana-sum-box .n{font-size:26px;font-weight:700;font-family:var(--mono);line-height:1.2}
+.ana-sum-box .l{font-size:11.5px;color:var(--t3);margin-top:3px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.5px}
+.ana-sum-box.pos .n{color:var(--less)}
+.ana-sum-box.neg .n{color:var(--more)}
+.ana-sum-box.neu .n{color:var(--shift)}
+.ana-post{border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin-bottom:9px}
+.ana-post-hd{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap}
+.ana-post-platform{font-family:var(--mono);font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:4px;
+background:#1a1d26;color:var(--t2);letter-spacing:.5px;text-transform:uppercase}
+.ana-post-platform.weibo{background:#2a1518;color:var(--more)}
+.ana-post-platform.zhihu{background:#0d1f2a;color:#7dd3fc}
+.ana-post-platform.jike{background:var(--warn-bg);color:var(--shift)}
+.ana-post-platform.maimai{background:#1a1d26;color:var(--t2)}
+.ana-post-platform.bilibili{background:#0d1f2a;color:#7dd3fc}
+.ana-post-author{font-size:12.5px;font-weight:600;color:var(--t1)}
+.ana-post-time{font-size:11px;color:var(--t3);font-family:var(--mono);margin-left:auto}
+.ana-post-body{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:6px}
+.ana-post-ft{display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--t3);font-family:var(--mono);flex-wrap:wrap}
+.ana-post-ft a{color:var(--gold);text-decoration:none;border-bottom:1px dashed rgba(110,231,183,.4)}
+.ana-post-ft a:hover{color:#86efc4}
+.ana-post-sent{font-size:10.5px;font-weight:600;padding:1px 6px;border-radius:4px;margin-left:auto}
+.ana-post-sent.pos{background:var(--less-bg);color:var(--less)}
+.ana-post-sent.neg{background:var(--more-bg);color:var(--more)}
+.ana-post-sent.neu{background:var(--warn-bg);color:var(--shift)}
+.ana-list-item{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;
+margin-bottom:8px;cursor:pointer;transition:.15s}
+.ana-list-item:hover{border-color:var(--gold);background:#0d0f15}
+.ana-list-item .ai-icon{width:32px;height:32px;border-radius:8px;background:#0d0f15;border:1px solid var(--line2);
+display:flex;align-items:center;justify-content:center;color:var(--gold);flex:none}
+.ana-list-item .ai-body{flex:1;min-width:0}
+.ana-list-item .ai-tt{font-size:13.5px;font-weight:600;color:var(--t1);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ana-list-item .ai-meta{font-size:11.5px;color:var(--t3);font-family:var(--mono);margin-top:2px}
+.ana-list-item .ai-badge{font-family:var(--mono);font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:4px}
+.ana-empty{padding:30px 16px;text-align:center;color:var(--t3);font-size:13px}
+.ana-empty svg{width:36px;height:36px;stroke:var(--line2);stroke-width:1.5;margin-bottom:8px;fill:none}
+.ana-verify{background:#0d0f15;border:1px solid var(--line2);border-radius:8px;padding:10px 12px;
+font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:10px;font-family:var(--mono)}
+.ana-verify b{color:var(--gold);font-weight:600}
+.ana-scenario{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}
+@media(max-width:560px){.ana-scenario{grid-template-columns:1fr}}
+.ana-sc{border:1px solid var(--line);border-radius:9px;padding:10px 12px}
+.ana-sc.base{border-top:3px solid var(--t3)}
+.ana-sc.up{border-top:3px solid var(--less)}
+.ana-sc.down{border-top:3px solid var(--more)}
+.ana-sc .sl{font-family:var(--mono);font-size:10.5px;color:var(--t3);letter-spacing:.5px;text-transform:uppercase;margin-bottom:4px}
+.ana-sc .st{font-size:12.5px;color:var(--t1);line-height:1.55;background:none;padding:0;text-align:left}
+.ana-divider{height:1px;background:var(--line);margin:12px 0}
+.ana-kv{font-size:12.5px;line-height:1.7;color:var(--t2)}
+.ana-kv b{color:var(--t1);font-weight:600}
+.ana-kv .src-tag{font-family:var(--mono);font-size:10.5px;padding:1px 5px;border-radius:3px;background:#1a1d26;color:var(--t2);margin-left:4px}
+.ana-kv .src-tag.s1{background:var(--less-bg);color:var(--less)}
+.ana-kv .src-tag.s4{background:var(--more-bg);color:var(--more)}
+.ana-del{margin-left:auto;color:var(--t3);cursor:pointer;background:none;border:none;font-size:12px;padding:4px 8px;border-radius:6px;font-family:inherit}
+.ana-del:hover{color:var(--more);background:var(--more-bg)}
+.ana-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:560px){.ana-form-grid{grid-template-columns:1fr}}
+.ana-form-grid .fg{margin-bottom:0}
+.ana-tag-sel{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.ana-tag-sel .chip{min-height:32px;font-size:12.5px;padding:0 10px;border-radius:16px}
 </style>
 </head>
 <body>
@@ -480,6 +724,7 @@ nav.subtabs button.on{background:var(--navy);color:#fff}
 <button class="on" data-t="dash" onclick="go('dash')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>今日信号</button>
 <button data-t="intel" onclick="go('intel')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报库</button>
 <button data-t="data" onclick="go('data')"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
+<button data-t="analysis" onclick="go('analysis')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>分析</button>
 <button data-t="me" onclick="go('me')"><svg class="ic ic-s" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>我的</button>
 </nav>
 
@@ -689,6 +934,105 @@ nav.subtabs button.on{background:var(--navy);color:#fff}
 
 </section>
 
+<!-- ============ 分析中心 ============ -->
+<section class="sec" id="sec-analysis">
+<nav class="subtabs" id="subnav-analysis">
+<button class="on" data-s="analysis-event" onclick="subgo('analysis','event')">市场热点</button>
+<button data-s="analysis-sector" onclick="subgo('analysis','sector')">板块热度</button>
+<button data-s="analysis-sentiment" onclick="subgo('analysis','sentiment')">舆情追踪</button>
+</nav>
+
+<!-- ===== 市场热点事件分析 ===== -->
+<div class="sub on" id="sub-analysis-event">
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>事件影响分析</h3><p>把宏观/政策/行业事件拆成传导链、影响分级与监控信号</p></div>
+<button class="btn btn-sm" id="evNewBtn" onclick="toggleEventForm()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>新建分析</button>
+</div>
+<div id="eventForm" style="display:none">
+<div class="ana-verify"><b>身份核验</b>：请确认事件主体、发布机关、生效日期。未确认事件仅做定性传导，不做定量判断。</div>
+<div class="fg"><label>事件标题</label><input type="text" id="evTitle" placeholder="例：央行宣布降准0.5个百分点"></div>
+<div class="ana-form-grid">
+<div class="fg"><label>事件类型</label><select id="evType"><option value="policy">政策发布</option><option value="macro">宏观数据</option><option value="regulate">监管动态</option><option value="geo">地缘事件</option><option value="industry">行业事件</option><option value="company">公司事件</option></select></div>
+<div class="fg"><label>事件状态</label><select id="evStatus"><option value="confirmed">已发布/已确认</option><option value="unconfirmed">未确认/传闻</option></select></div>
+</div>
+<div class="ana-form-grid">
+<div class="fg"><label>发布机关/来源</label><input type="text" id="evSource" placeholder="例：中国人民银行"></div>
+<div class="fg"><label>日期</label><input type="date" id="evDate"></div>
+</div>
+<div class="fg"><label>事件摘要（发生了什么）</label><textarea id="evSummary" placeholder="一句话描述事件核心内容，包含关键数字"></textarea></div>
+<div class="fg"><label>直接影响对象（谁最先受影响）</label><input type="text" id="evDirect" placeholder="例：商业银行、债市、地产链"></div>
+<div class="fg"><label>二阶传导（接下来会怎样）</label><input type="text" id="evSecond" placeholder="例：贷款利率下行→企业融资成本降低"></div>
+<div class="fg"><label>高阶/长期影响</label><input type="text" id="evHigh" placeholder="例：信用扩张→经济企稳预期"></div>
+<div class="fg"><label>基准情景</label><input type="text" id="evBase" placeholder="例：流动性宽松持续1-2个季度"></div>
+<div class="ana-form-grid">
+<div class="fg"><label>上行情景</label><input type="text" id="evUp" placeholder="例：超预期宽松，风险资产估值修复"></div>
+<div class="fg"><label>下行情景</label><input type="text" id="evDown" placeholder="例：宽松不及预期，资金面收紧"></div>
+</div>
+<div class="fg"><label>监控信号（什么数据/事件确认或推翻）</label><textarea id="evMonitor" placeholder="例：DR007持续低于政策利率；社融增速回升"></textarea></div>
+<div class="fg"><label>证伪条件（出现什么说明判断错了）</label><input type="text" id="evFalsify" placeholder="例：降准后资金利率不降反升"></div>
+<button class="btn btn-p" style="width:100%" onclick="saveEventAnalysis()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8"/><path d="M7 3v5h8"/></svg>保存分析</button>
+</div>
+</div>
+<div id="eventList"></div>
+<div class="disc"><b>方法论</b>：事件状态→基线对比→传导链（直接/二阶/高阶）→情景分析→监控触发→证伪条件。所有分析仅作研究辅助，<b>不构成任何投资建议</b>，不代表涨跌方向，不含任何标的推荐。数据仅存本机。</div>
+</div>
+
+<!-- ===== 板块热度分析 ===== -->
+<div class="sub" id="sub-analysis-sector">
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>板块热度双轨评分</h3><p>信息热度 × 行情热度，识别共振与背离</p></div>
+<button class="btn btn-sm" id="secNewBtn" onclick="toggleSectorForm()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>新建评分</button>
+</div>
+<div id="sectorForm" style="display:none">
+<div class="fg"><label>板块/概念名称</label><input type="text" id="secName" placeholder="例：半导体、人工智能、低空经济"></div>
+<div class="ana-form-grid">
+<div class="fg"><label>信息热度（1-5）</label><select id="secInfo"><option value="1">1 - 几乎无报道</option><option value="2">2 - 零星提及</option><option value="3" selected>3 - 常规关注</option><option value="4">4 - 密集报道</option><option value="5">5 - 全网刷屏</option></select></div>
+<div class="fg"><label>行情热度（1-5）</label><select id="secMarket"><option value="1">1 - 成交低迷</option><option value="2">2 - 温和放量</option><option value="3" selected>3 - 正常水平</option><option value="4">4 - 显著放量</option><option value="5">5 - 天量暴涨</option></select></div>
+</div>
+<div class="fg"><label>核心催化（近期发生了什么，每行一条，格式：日期|事件|来源）</label><textarea id="secCatalysts" placeholder="2026-08-09|大基金三期启动投资|证券时报&#10;2026-08-08|龙头公司业绩超预期|公司公告"></textarea></div>
+<div class="fg"><label>观察信号（接下来盯什么）</label><textarea id="secSignals" placeholder="每行一条，例：成交额能否持续放大；政策细则落地节奏"></textarea></div>
+<div class="fg"><label>风险提示</label><textarea id="secRisks" placeholder="每行一条，例：短期涨幅过大获利回吐；政策不及预期"></textarea></div>
+<button class="btn btn-p" style="width:100%" onclick="saveSectorAnalysis()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8"/><path d="M7 3v5h8"/></svg>保存评分</button>
+</div>
+</div>
+<div id="sectorList"></div>
+<div class="disc"><b>评分规则</b>：综合分 = 行情热度×0.55 + 信息热度×0.45。双轨背离时重点关注：信息高行情低=题材未启动，行情高信息低=纯资金驱动。回答基于AI生成框架，仅用于信息参考与研究辅助，<b>不构成任何投资建议</b>。数据仅存本机。</div>
+</div>
+
+<!-- ===== 舆情追踪 ===== -->
+<div class="sub" id="sub-analysis-sentiment">
+<div class="card">
+<div class="card-hd">
+<div><h3><svg class="ic" viewBox="0 0 24 24" style="color:var(--navy)"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>舆情追踪与溯源</h3><p>多平台舆情汇总，每条必带来源链接</p></div>
+<button class="btn btn-sm" id="sentNewBtn" onclick="toggleSentimentForm()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>新建追踪</button>
+</div>
+<div id="sentimentForm" style="display:none">
+<div class="fg"><label>追踪关键词/主题</label><input type="text" id="sentKeyword" placeholder="例：降准、新能源汽车、某品牌"></div>
+<div class="fg"><label>添加舆情条目（每条必须有原帖链接）</label></div>
+<div class="ana-form-grid">
+<div class="fg"><label>平台</label><select id="sentPlatform"><option value="weibo">微博</option><option value="zhihu">知乎</option><option value="jike">即刻</option><option value="maimai">脉脉</option><option value="bilibili">B站</option><option value="news">新闻</option><option value="other">其他</option></select></div>
+<div class="fg"><label>倾向</label><select id="sentTone"><option value="pos">正面</option><option value="neu">中性</option><option value="neg">负面</option></select></div>
+</div>
+<div class="fg"><label>发布者</label><input type="text" id="sentAuthor" placeholder="例：@财经网"></div>
+<div class="fg"><label>内容摘要</label><textarea id="sentContent" placeholder="这条帖子说了什么"></textarea></div>
+<div class="fg"><label>原帖链接（必填）</label><input type="text" id="sentLink" placeholder="https://..."></div>
+<div class="ana-form-grid">
+<div class="fg"><label>互动数据（可选）</label><input type="text" id="sentStats" placeholder="例：1200转 350评 8000赞"></div>
+<div class="fg"><label>日期</label><input type="date" id="sentDate"></div>
+</div>
+<button class="btn btn-sm" onclick="addSentimentItem()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg>添加到列表</button>
+<div id="sentPendingList" style="margin-top:10px"></div>
+<div class="fg" style="margin-top:12px"><label>整体判断</label><textarea id="sentVerdict" placeholder="例：负面舆情为主，主要集中在XX问题；正面集中在XX"></textarea></div>
+<button class="btn btn-p" style="width:100%" onclick="saveSentimentTracker()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8"/><path d="M7 3v5h8"/></svg>保存追踪</button>
+</div>
+</div>
+<div id="sentimentList"></div>
+<div class="disc"><b>溯源原则</b>：每条舆情必须携带可访问的原帖链接，优先使用一手信源。本工具为本地记录框架，不自动爬取平台数据。<b>不构成任何投资建议</b>，数据仅存本机。</div>
+</div>
+</section>
+
 <!-- ============ 我的 ============ -->
 <section class="sec" id="sec-me">
 <nav class="subtabs" id="subnav-me">
@@ -804,6 +1148,7 @@ nav.subtabs button.on{background:var(--navy);color:#fff}
 <button class="on" data-t="dash" onclick="go('dash')"><svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21.4 8 14 2 9.4h7.6z"/></svg>信号</button>
 <button data-t="intel" onclick="go('intel')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>情报</button>
 <button data-t="data" onclick="go('data')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>数据</button>
+<button data-t="analysis" onclick="go('analysis')"><svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>分析</button>
 <button data-t="me" onclick="go('me')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>我的</button>
 </div>
 </div>
@@ -2032,10 +2377,137 @@ function save(){
 }
 
 /* ==========================================================
+   分析中心数据层：市场热点 / 板块热度 / 舆情追踪
+   ========================================================== */
+var EVT_KEY='wb_331_events', SEC_KEY='wb_331_sectors', SENT_KEY='wb_331_sentiment';
+
+function loadList(k){
+  try{ var raw=localStorage.getItem(k); return raw?JSON.parse(raw):[]; }
+  catch(e){ return []; }
+}
+function saveList(k,arr){
+  try{ localStorage.setItem(k, JSON.stringify(arr)); }
+  catch(e){ alert('保存失败：本地存储可能已满。'); }
+}
+function uid(){ return 'a'+Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
+
+/* 事件类型映射 */
+var EVT_TYPES={policy:'政策发布',macro:'宏观数据',regulate:'监管动态',geo:'地缘事件',industry:'行业事件',company:'公司事件'};
+var EVT_STATUS={confirmed:'已发布',unconfirmed:'未确认'};
+
+/* 板块双轨评分：综合 = 行情*0.55 + 信息*0.45 */
+function sectorScore(info,mkt){
+  var i=parseInt(info,10)||0, m=parseInt(mkt,10)||0;
+  return Math.round(m*0.55+i*0.45);
+}
+/* 背离判定 */
+function sectorDivergence(info,mkt){
+  var i=parseInt(info,10)||0, m=parseInt(mkt,10)||0;
+  if(m>=4&&i>=4) return {key:'resonance',label:'强趋势共振',desc:'信息与行情双高，趋势一致性强',cls:'danger'};
+  if(m>=4&&i<=2) return {key:'money',label:'纯资金驱动',desc:'行情热但信息少，警惕情绪退潮',cls:'warn'};
+  if(i>=4&&m<=2) return {key:'pending',label:'题材未启动',desc:'信息密集但行情未动，观察催化',cls:'live'};
+  return {key:'cold',label:'低关注',desc:'信息与行情双低，暂无明显热度',cls:'neutral'};
+}
+function scoreRingCls(s){
+  if(s>=4) return 'hot';
+  if(s>=3) return 'warm';
+  if(s>=2) return 'cool';
+  return 'cold';
+}
+
+/* 舆情统计 */
+function sentimentStats(items){
+  var p=0,n=0,neu=0;
+  (items||[]).forEach(function(it){
+    if(it.tone==='pos') p++; else if(it.tone==='neg') n++; else neu++;
+  });
+  var total=p+n+neu;
+  return {pos:p,neg:n,neu:neu,total:total,
+    posPct:total?Math.round(p/total*100):0,
+    negPct:total?Math.round(n/total*100):0,
+    neuPct:total?Math.round(neu/total*100):0};
+}
+
+/* 预置示例数据 */
+function seedAnalysis(){
+  if(loadList(EVT_KEY).length===0){
+    saveList(EVT_KEY,[
+      {id:uid(),title:'央行降准0.5个百分点，释放长期资金约1万亿',type:'policy',status:'confirmed',
+       source:'中国人民银行',date:'2026-08-09',
+       summary:'央行宣布下调金融机构存款准备金率0.5个百分点，释放长期资金约1万亿元，降低银行资金成本每年约120亿元。',
+       direct:'银行间流动性宽松，DR007下行；债券收益率走低',
+       second:'LPR报价下行预期升温，企业贷款成本降低；地产按揭利率边际改善',
+       high:'信用扩张→社融增速企稳→经济增长预期修复；风险资产估值支撑',
+       base:'流动性宽松持续1-2个季度，资金利率围绕政策利率波动',
+       up:'若后续配合财政发力，宽信用超预期，顺周期板块估值修复',
+       down:'若资金空转、信贷需求不足，宽松效果打折，资金面很快收紧',
+       monitor:'DR007是否持续低于政策利率20BP以上；8月社融增速是否回升；票据利率走势',
+       falsify:'降准后资金利率不降反升，或社融增速继续下滑',
+       ct:Date.now()},
+      {id:uid(),title:'美方拟对部分半导体产品加征关税',type:'geo',status:'unconfirmed',
+       source:'媒体报道（待核）',date:'2026-08-10',
+       summary:'据外媒报道，美方正在考虑对特定半导体产品加征关税，尚未正式公布。',
+       direct:'半导体出口链情绪受压；相关公司股价波动',
+       second:'国产替代逻辑强化；国内晶圆厂资本开支预期变化',
+       high:'全球半导体供应链重构加速；设备材料自主可控长期受益',
+       base:'仅媒体报道阶段，实际政策力度与范围不确定',
+       up:'若消息证伪或范围小于预期，情绪修复',
+       down:'若正式落地且范围扩大，出口链盈利下修',
+       monitor:'官方公告是否发布；USTR听证会进展；行业协会回应',
+       falsify:'官方明确否认或30天内无后续动作',
+       ct:Date.now()}
+    ]);
+  }
+  if(loadList(SEC_KEY).length===0){
+    saveList(SEC_KEY,[
+      {id:uid(),name:'半导体/AI算力',info:5,mkt:4,
+       catalysts:[
+         {date:'2026-08-09',title:'大基金三期启动实质性投资，重点投向设备材料',tone:'up',src:'证券时报'},
+         {date:'2026-08-08',title:'龙头公司Q2业绩超预期，AI芯片订单饱满',tone:'up',src:'公司公告'},
+         {date:'2026-08-06',title:'美方拟限制AI芯片出口（传闻）',tone:'down',src:'外媒'}
+       ],
+       signals:['成交额能否持续在均量1.5倍以上','大基金投资标的落地节奏','费城半导体指数走势'],
+       risks:['短期涨幅较大，获利盘回吐压力','外部限制升级风险','业绩兑现不及预期'],
+       ct:Date.now()},
+      {id:uid(),name:'低空经济',info:4,mkt:2,
+       catalysts:[
+         {date:'2026-08-07',title:'多地发布低空经济产业规划',tone:'up',src:'地方政府官网'},
+         {date:'2026-08-05',title:'eVTOL适航认证取得进展',tone:'up',src:'民航局'}
+       ],
+       signals:['政策细则落地节奏','头部企业订单公告','板块成交额变化'],
+       risks:['商业化进度慢于预期','主题炒作后估值回归','安全事故引发监管收紧'],
+       ct:Date.now()}
+    ]);
+  }
+  if(loadList(SENT_KEY).length===0){
+    saveList(SENT_KEY,[
+      {id:uid(),keyword:'央行降准',
+       verdict:'整体偏正面。市场解读为稳增长信号，流动性宽松预期升温；部分观点关注资金空转风险。',
+       items:[
+         {platform:'weibo',author:'@财经网',date:'2026-08-09',
+          content:'央行降准0.5个百分点，释放长期资金约1万亿元。网友：房贷月供能少多少？',
+          link:'https://weibo.com/example/1',stats:'2.1万转 8600评 15万赞',tone:'pos'},
+         {platform:'zhihu',author:'某宏观分析师',date:'2026-08-09',
+          content:'降准释放宽松信号，但关键看信贷需求能否跟进，否则资金可能空转。',
+          link:'https://www.zhihu.com/question/example',stats:'3200赞 860评论',tone:'neu'},
+         {platform:'jike',author:'@债券交易员',date:'2026-08-09',
+          content:'债市已经price in了，10年国债下不动了，接下来看股市。',
+          link:'https://web.okjike.com/originalPost/example',stats:'480赞 92评论',tone:'neu'},
+         {platform:'weibo',author:'@某股民',date:'2026-08-09',
+          content:'每次降准都喊牛市，结果呢？不抱期待。',
+          link:'https://weibo.com/example/2',stats:'890转 2100评 1.2万赞',tone:'neg'}
+       ],
+       ct:Date.now()}
+    ]);
+  }
+}
+seedAnalysis();
+
+/* ==========================================================
    渲染层
    ========================================================== */
 var curTab='dash', curFilter='all', curView='list';
-var curSub={data:'ind', me:'rv'};
+var curSub={data:'ind', me:'rv', analysis:'event'};
 
 /* 旧入口 -> 新四栏的映射，历史调用点（go('review') 等）不用改 */
 var TAB_ALIAS={settings:['me','set'], review:['me','rv'], chain:['data','chain'],
@@ -2052,6 +2524,7 @@ function go(t){
     b.classList.toggle('on', b.getAttribute('data-t')===t);
   });
   if(a) subgo(a[0], a[1]);
+  if(t==='analysis') renderAnalysisAll();
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
@@ -3158,6 +3631,280 @@ function toast(msg){
     setTimeout(function(){ el.classList.add('show'); }, 10);
     setTimeout(function(){ el.classList.remove('show'); setTimeout(function(){ if(el.parentNode) el.parentNode.removeChild(el); }, 320); }, 2200);
   }catch(e){}
+}
+
+/* ==========================================================
+   分析中心渲染层
+   ========================================================== */
+var PLATFORM_LABEL={weibo:'微博',zhihu:'知乎',jike:'即刻',maimai:'脉脉',bilibili:'B站',news:'新闻',other:'其他'};
+var TONE_LABEL={pos:'正面',neu:'中性',neg:'负面'};
+var _pendingSentItems=[];
+
+function renderAnalysisAll(){
+  renderEventList();
+  renderSectorList();
+  renderSentimentList();
+}
+
+function escHtml(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ---- 市场热点 ---- */
+function toggleEventForm(){
+  var f=document.getElementById('eventForm');
+  f.style.display=f.style.display==='none'?'block':'none';
+}
+function saveEventAnalysis(){
+  var title=document.getElementById('evTitle').value.trim();
+  if(!title){alert('请填写事件标题');return;}
+  var list=loadList(EVT_KEY);
+  list.unshift({
+    id:uid(),title:title,
+    type:document.getElementById('evType').value,
+    status:document.getElementById('evStatus').value,
+    source:document.getElementById('evSource').value.trim(),
+    date:document.getElementById('evDate').value,
+    summary:document.getElementById('evSummary').value.trim(),
+    direct:document.getElementById('evDirect').value.trim(),
+    second:document.getElementById('evSecond').value.trim(),
+    high:document.getElementById('evHigh').value.trim(),
+    base:document.getElementById('evBase').value.trim(),
+    up:document.getElementById('evUp').value.trim(),
+    down:document.getElementById('evDown').value.trim(),
+    monitor:document.getElementById('evMonitor').value.trim(),
+    falsify:document.getElementById('evFalsify').value.trim(),
+    ct:Date.now()
+  });
+  saveList(EVT_KEY,list);
+  ['evTitle','evSource','evSummary','evDirect','evSecond','evHigh','evBase','evUp','evDown','evMonitor','evFalsify'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('eventForm').style.display='none';
+  renderEventList();
+  toast('事件分析已保存');
+}
+function delEvent(id){
+  if(!confirm('确定删除这条事件分析？'))return;
+  saveList(EVT_KEY,loadList(EVT_KEY).filter(function(x){return x.id!==id;}));
+  renderEventList();
+}
+function renderEventList(){
+  var box=document.getElementById('eventList');
+  if(!box)return;
+  var list=loadList(EVT_KEY);
+  if(!list.length){box.innerHTML='<div class="ana-empty">暂无事件分析，点击"新建分析"开始</div>';return;}
+  box.innerHTML=list.map(function(e){
+    var statusBadge=e.status==='confirmed'?'<span class="ana-badge live">已发布</span>':'<span class="ana-badge warn">未确认</span>';
+    var typeLabel=EVT_TYPES[e.type]||e.type;
+    var html='<div class="ana-card">';
+    html+='<div class="ana-card-hd"><span class="num">EVENT</span><h4>'+escHtml(e.title)+'</h4>'+statusBadge;
+    html+='<button class="ana-del" onclick="delEvent(\''+e.id+'\')">删除</button></div>';
+    html+='<div class="ana-row"><span class="k">类型</span><span class="v">'+escHtml(typeLabel)+'</span></div>';
+    if(e.source)html+='<div class="ana-row"><span class="k">来源</span><span class="v">'+escHtml(e.source)+'</span></div>';
+    if(e.date)html+='<div class="ana-row"><span class="k">日期</span><span class="v">'+escHtml(e.date)+'</span></div>';
+    if(e.summary)html+='<div class="ana-row"><span class="k">事件摘要</span><span class="v">'+escHtml(e.summary)+'</span></div>';
+    html+='<div class="ana-divider"></div>';
+    html+='<div class="ana-card-hd"><span class="num">01</span><h4>传导链</h4></div>';
+    html+='<div class="ana-chain">';
+    if(e.direct)html+='<span class="ana-chain-node hi">'+escHtml(e.direct)+'</span>';
+    if(e.second)html+='<span class="ana-chain-arrow">→</span><span class="ana-chain-node mid">'+escHtml(e.second)+'</span>';
+    if(e.high)html+='<span class="ana-chain-arrow">→</span><span class="ana-chain-node">'+escHtml(e.high)+'</span>';
+    html+='</div>';
+    if(e.base||e.up||e.down){
+      html+='<div class="ana-card-hd" style="margin-top:8px"><span class="num">02</span><h4>三情景</h4></div>';
+      html+='<div class="ana-scenario">';
+      if(e.base)html+='<div class="ana-sc base"><div class="sl">基准</div><div class="st">'+escHtml(e.base)+'</div></div>';
+      if(e.up)html+='<div class="ana-sc up"><div class="sl">上行</div><div class="st">'+escHtml(e.up)+'</div></div>';
+      if(e.down)html+='<div class="ana-sc down"><div class="sl">下行</div><div class="st">'+escHtml(e.down)+'</div></div>';
+      html+='</div>';
+    }
+    if(e.monitor){
+      html+='<div class="ana-card-hd" style="margin-top:8px"><span class="num">03</span><h4>监控触发</h4></div>';
+      var sigs=e.monitor.split(/[;；\n]/).filter(Boolean);
+      sigs.forEach(function(s,i){html+='<div class="ana-sig"><span class="idx">'+String(i+1).padStart(2,'0')+'</span><span class="txt">'+escHtml(s)+'</span></div>';});
+    }
+    if(e.falsify){
+      html+='<div class="falsify" style="margin-top:8px;padding:10px 12px;border-radius:8px;border-left:3px solid;font-size:12.5px;line-height:1.6"><b>证伪条件：</b>'+escHtml(e.falsify)+'</div>';
+    }
+    html+='</div>';
+    return html;
+  }).join('');
+}
+
+/* ---- 板块热度 ---- */
+function toggleSectorForm(){
+  var f=document.getElementById('sectorForm');
+  f.style.display=f.style.display==='none'?'block':'none';
+}
+function saveSectorAnalysis(){
+  var name=document.getElementById('secName').value.trim();
+  if(!name){alert('请填写板块名称');return;}
+  var info=parseInt(document.getElementById('secInfo').value,10);
+  var mkt=parseInt(document.getElementById('secMarket').value,10);
+  var catalysts=[];
+  document.getElementById('secCatalysts').value.split('\n').forEach(function(line){
+    line=line.trim();
+    if(!line)return;
+    var parts=line.split('|');
+    if(parts.length>=2){
+      catalysts.push({date:parts[0].trim(),title:parts[1].trim(),tone:parts[2]||'neutral',src:parts[3]||''});
+    }
+  });
+  var signals=document.getElementById('secSignals').value.split('\n').map(function(s){return s.trim();}).filter(Boolean);
+  var risks=document.getElementById('secRisks').value.split('\n').map(function(s){return s.trim();}).filter(Boolean);
+  var list=loadList(SEC_KEY);
+  list.unshift({id:uid(),name:name,info:info,mkt:mkt,catalysts:catalysts,signals:signals,risks:risks,ct:Date.now()});
+  saveList(SEC_KEY,list);
+  ['secName','secCatalysts','secSignals','secRisks'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('sectorForm').style.display='none';
+  renderSectorList();
+  toast('板块评分已保存');
+}
+function delSector(id){
+  if(!confirm('确定删除这条板块评分？'))return;
+  saveList(SEC_KEY,loadList(SEC_KEY).filter(function(x){return x.id!==id;}));
+  renderSectorList();
+}
+function renderSectorList(){
+  var box=document.getElementById('sectorList');
+  if(!box)return;
+  var list=loadList(SEC_KEY);
+  if(!list.length){box.innerHTML='<div class="ana-empty">暂无板块评分，点击"新建评分"开始</div>';return;}
+  box.innerHTML=list.map(function(s){
+    var comp=sectorScore(s.info,s.mkt);
+    var div=sectorDivergence(s.info,s.mkt);
+    var ringCls=scoreRingCls(comp);
+    var html='<div class="ana-card">';
+    html+='<div class="ana-card-hd"><span class="num">SECTOR</span><h4>'+escHtml(s.name)+'</h4>';
+    html+='<span class="ana-badge '+div.cls+'">'+escHtml(div.label)+'</span>';
+    html+='<button class="ana-del" onclick="delSector(\''+s.id+'\')">删除</button></div>';
+    html+='<div class="ana-score">';
+    html+='<div class="ana-score-ring '+ringCls+'">'+comp+'</div>';
+    html+='<div class="ana-score-info">';
+    html+='<div class="sl">综合热度（行情55% + 信息45%）</div>';
+    html+='<div class="sv">'+escHtml(div.desc)+'</div>';
+    html+='</div></div>';
+    html+='<div class="ana-bar"><span class="bl">信息热度</span><div class="bt"><div class="bf info" style="width:'+(s.info/5*100)+'%"></div></div><span class="bv">'+s.info+'/5</span></div>';
+    html+='<div class="ana-bar"><span class="bl">行情热度</span><div class="bt"><div class="bf market" style="width:'+(s.mkt/5*100)+'%"></div></div><span class="bv">'+s.mkt+'/5</span></div>';
+    if(s.catalysts&&s.catalysts.length){
+      html+='<div class="ana-card-hd" style="margin-top:10px"><span class="num">01</span><h4>催化时间线</h4></div>';
+      html+='<div class="ana-timeline">';
+      s.catalysts.slice().reverse().forEach(function(c){
+        var toneCls=c.tone==='up'||c.tone==='多'?'up':(c.tone==='down'||c.tone==='空'?'down':'neutral');
+        html+='<div class="ana-tl-item '+toneCls+'"><span class="ana-tl-date">'+escHtml(c.date)+'</span><span class="ana-tl-title">'+escHtml(c.title)+'</span>';
+        if(c.src)html+='<div class="ana-tl-src">来源：'+escHtml(c.src)+'</div>';
+        html+='</div>';
+      });
+      html+='</div>';
+    }
+    if(s.signals&&s.signals.length){
+      html+='<div class="ana-card-hd" style="margin-top:8px"><span class="num">02</span><h4>观察信号</h4></div>';
+      s.signals.forEach(function(sig,i){html+='<div class="ana-sig"><span class="idx">'+String(i+1).padStart(2,'0')+'</span><span class="txt">'+escHtml(sig)+'</span></div>';});
+    }
+    if(s.risks&&s.risks.length){
+      html+='<div class="ana-card-hd" style="margin-top:8px"><span class="num">03</span><h4>风险提示</h4></div>';
+      s.risks.forEach(function(r,i){html+='<div class="ana-sig"><span class="idx" style="color:var(--more)">'+String(i+1).padStart(2,'0')+'</span><span class="txt" style="color:var(--t2)">'+escHtml(r)+'</span></div>';});
+    }
+    html+='</div>';
+    return html;
+  }).join('');
+}
+
+/* ---- 舆情追踪 ---- */
+function toggleSentimentForm(){
+  var f=document.getElementById('sentimentForm');
+  f.style.display=f.style.display==='none'?'block':'none';
+  _pendingSentItems=[];
+  renderPendingSent();
+}
+function addSentimentItem(){
+  var content=document.getElementById('sentContent').value.trim();
+  var link=document.getElementById('sentLink').value.trim();
+  if(!content){alert('请填写内容摘要');return;}
+  if(!link){alert('每条舆情必须填写原帖链接');return;}
+  _pendingSentItems.push({
+    platform:document.getElementById('sentPlatform').value,
+    tone:document.getElementById('sentTone').value,
+    author:document.getElementById('sentAuthor').value.trim(),
+    content:content,
+    link:link,
+    stats:document.getElementById('sentStats').value.trim(),
+    date:document.getElementById('sentDate').value
+  });
+  ['sentAuthor','sentContent','sentLink','sentStats'].forEach(function(id){document.getElementById(id).value='';});
+  renderPendingSent();
+}
+function renderPendingSent(){
+  var box=document.getElementById('sentPendingList');
+  if(!box)return;
+  if(!_pendingSentItems.length){box.innerHTML='';return;}
+  box.innerHTML='<div class="ana-verify">已添加 '+_pendingSentItems.length+' 条舆情，继续添加或保存</div>'+
+    _pendingSentItems.map(function(it,i){
+      return '<div class="ana-post"><div class="ana-post-hd"><span class="ana-post-platform '+it.platform+'">'+(PLATFORM_LABEL[it.platform]||it.platform)+'</span>'+
+        '<span class="ana-post-author">'+escHtml(it.author||'匿名')+'</span>'+
+        '<span class="ana-post-sent '+it.tone+'">'+TONE_LABEL[it.tone]+'</span>'+
+        '<button class="ana-del" onclick="_pendingSentItems.splice('+i+',1);renderPendingSent()">移除</button></div>'+
+        '<div class="ana-post-body">'+escHtml(it.content)+'</div></div>';
+    }).join('');
+}
+function saveSentimentTracker(){
+  var kw=document.getElementById('sentKeyword').value.trim();
+  if(!kw){alert('请填写追踪关键词');return;}
+  if(!_pendingSentItems.length){alert('请至少添加一条舆情');return;}
+  var list=loadList(SENT_KEY);
+  list.unshift({
+    id:uid(),keyword:kw,
+    verdict:document.getElementById('sentVerdict').value.trim(),
+    items:_pendingSentItems.slice(),
+    ct:Date.now()
+  });
+  saveList(SENT_KEY,list);
+  _pendingSentItems=[];
+  ['sentKeyword','sentVerdict'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('sentimentForm').style.display='none';
+  renderSentimentList();
+  toast('舆情追踪已保存');
+}
+function delSentiment(id){
+  if(!confirm('确定删除这条舆情追踪？'))return;
+  saveList(SENT_KEY,loadList(SENT_KEY).filter(function(x){return x.id!==id;}));
+  renderSentimentList();
+}
+function renderSentimentList(){
+  var box=document.getElementById('sentimentList');
+  if(!box)return;
+  var list=loadList(SENT_KEY);
+  if(!list.length){box.innerHTML='<div class="ana-empty">暂无舆情追踪，点击"新建追踪"开始</div>';return;}
+  box.innerHTML=list.map(function(s){
+    var st=sentimentStats(s.items);
+    var html='<div class="ana-card">';
+    html+='<div class="ana-card-hd"><span class="num">SENTIMENT</span><h4>'+escHtml(s.keyword)+'</h4>';
+    html+='<button class="ana-del" onclick="delSentiment(\''+s.id+'\')">删除</button></div>';
+    html+='<div class="ana-sum">';
+    html+='<div class="ana-sum-box pos"><div class="n">'+st.pos+'</div><div class="l">正面 '+st.posPct+'%</div></div>';
+    html+='<div class="ana-sum-box neu"><div class="n">'+st.neu+'</div><div class="l">中性 '+st.neuPct+'%</div></div>';
+    html+='<div class="ana-sum-box neg"><div class="n">'+st.neg+'</div><div class="l">负面 '+st.negPct+'%</div></div>';
+    html+='</div>';
+    if(s.verdict){
+      html+='<div class="reserve" style="padding:10px 12px;border-radius:8px;border-left:3px solid;font-size:12.5px;line-height:1.6;margin-bottom:10px"><b>整体判断：</b>'+escHtml(s.verdict)+'</div>';
+    }
+    html+='<div class="ana-card-hd"><span class="num">DETAIL</span><h4>舆情详情（'+st.total+'条）</h4></div>';
+    s.items.forEach(function(it){
+      html+='<div class="ana-post">';
+      html+='<div class="ana-post-hd">';
+      html+='<span class="ana-post-platform '+escHtml(it.platform)+'">'+(PLATFORM_LABEL[it.platform]||it.platform)+'</span>';
+      html+='<span class="ana-post-author">'+escHtml(it.author||'匿名')+'</span>';
+      if(it.date)html+='<span class="ana-post-time">'+escHtml(it.date)+'</span>';
+      html+='<span class="ana-post-sent '+it.tone+'">'+TONE_LABEL[it.tone]+'</span>';
+      html+='</div>';
+      html+='<div class="ana-post-body">'+escHtml(it.content)+'</div>';
+      html+='<div class="ana-post-ft">';
+      if(it.stats)html+='<span>'+escHtml(it.stats)+'</span>';
+      html+='<a href="'+escHtml(it.link)+'" target="_blank" rel="noopener">查看原帖 →</a>';
+      html+='</div></div>';
+    });
+    html+='</div>';
+    return html;
+  }).join('');
 }
 
 load(); initForm(); renderAll();
