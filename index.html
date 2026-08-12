@@ -140,7 +140,9 @@ padding:3px 9px;border-radius:6px;line-height:1.5;white-space:nowrap}
 .tag-slow{background:var(--gold-bg);color:var(--gold)}
 .tag-hot{background:var(--more-bg);color:var(--more)}
 .tag-chain{background:#eef1f5;color:var(--t2)}
-.sc{margin-left:auto;font-size:19px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.sc{margin-left:auto;font-size:19px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1;white-space:nowrap}
+.stars{display:inline-flex;align-items:center;margin-right:5px;opacity:.85;vertical-align:middle}
+.star-ico{width:52px;height:11px;flex:none}
 .it-tt{font-size:15px;font-weight:500;line-height:1.5;margin-bottom:5px}
 .it-tr{font-size:13.5px;color:var(--t2);background:#f7f9fb;border-left:2px solid var(--line2);
 padding:7px 11px;border-radius:0 7px 7px 0;margin-bottom:8px;line-height:1.55}
@@ -541,6 +543,12 @@ input:focus,select:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 
 .imp-extra{background:#0d0f15;color:var(--t2)}
 .imp-dom{border-color:var(--line);background:#0d0f15}
 .imp-txt{color:var(--t1)}
+.dot-up{background:var(--more)}
+.dot-down{background:var(--less)}
+.dot-flat{background:#3a3f4d}
+.imp-dir-up{background:var(--more)}
+.imp-dir-down{background:var(--less)}
+.imp-dir-flat{background:#3a3f4d}
 .imp-st{background:#1a1d26;color:var(--t2)}
 .imp-hz{background:#0d1f2a;color:#7dd3fc}
 .conf-bar{background:#0d0f15}
@@ -1192,12 +1200,16 @@ var KW_FLOW = {
 };
 
 var DEF_FIELDS = [
-  {id:'f1', n:'股市基金', c:'#d63c3c', kw:['股','基金','A股','券商','证监会','板块','ETF','上市','IPO','指数']},
-  {id:'f2', n:'货币政策', c:'#1c4a72', kw:['央行','降准','降息','M2','利率','流动性','MLF','LPR','人民银行','逆回购','社融']},
-  {id:'f3', n:'楼市房贷', c:'#b8892b', kw:['楼市','房','限购','首付','房贷','地产','住建','房价','商品房','土拍']},
-  {id:'f4', n:'新能源车', c:'#127a52', kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率']},
-  {id:'f5', n:'半导体AI', c:'#5b52c4', kw:['半导体','芯片','集成电路','AI','算力','PCB','CCL','服务器','人工智能','光模块','晶圆']},
-  {id:'f6', n:'黄金外汇', c:'#c2410c', kw:['黄金','外储','外汇','汇率','美元','人民币','储备','美联储','贵金属']}
+  {id:'f1', n:'股市基金', c:'#f87171', kw:['股','基金','A股','券商','证监会','板块','ETF','上市','IPO','指数']},
+  {id:'f2', n:'货币政策', c:'#60a5fa', kw:['央行','降准','降息','M2','利率','流动性','MLF','LPR','人民银行','逆回购','社融']},
+  {id:'f3', n:'楼市房贷', c:'#fbbf24', kw:['楼市','房','限购','首付','房贷','地产','住建','房价','商品房','土拍']},
+  {id:'f4', n:'新能源车', c:'#34d399', kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率']},
+  {id:'f5', n:'半导体AI', c:'#a78bfa', kw:['半导体','芯片','集成电路','AI','算力','PCB','CCL','服务器','人工智能','光模块','晶圆']},
+  {id:'f6', n:'黄金外汇', c:'#fb923c', kw:['黄金','外储','外汇','汇率','美元','人民币','储备','美联储','贵金属']},
+  {id:'f7', n:'财政政策', c:'#f472b6', kw:['财政','国债','专项债','减税','退税','赤字','财政支出','地方债','特别国债']},
+  {id:'f8', n:'国际贸易', c:'#22d3ee', kw:['关税','出口','进口','贸易','制裁','地缘','外贸','海关','WTO','反倾销']},
+  {id:'f9', n:'消费民生', c:'#fde047', kw:['CPI','物价','消费','就业','工资','社保','养老金','医保','个税','收入']},
+  {id:'f10', n:'大宗商品', c:'#c084fc', kw:['原油','石油','铜','钢铁','煤炭','铁矿石','期货','天然气','大豆','大宗商品']}
 ];
 
 /* ===== V4 新增：信源身份 · 抓取源 · 模型适配 · 关注领域 =====
@@ -1283,22 +1295,22 @@ var LLM_VENDORS = [
 
 /* 关注领域 = 个人影响翻译层的目标。on 为 true 的才会生成个人影响段落 */
 var WATCH_DOMAINS = [
-  {id:'equity', n:'A股权益', on:true, c:'#d63c3c', d:'板块与行业轮动',
+  {id:'equity', n:'A股权益', on:true, c:'#f87171', d:'板块与行业轮动',
    ask:'这条消息让哪些行业的钱更多、哪些更少？',
    more:'风险偏好回升，顺周期与高弹性板块通常先动，但注意兑现节奏',
    less:'估值承压，高估值成长股的回撤幅度往往大于指数',
    shift:'总量不变但结构在换，重点看政策点名的方向和被抽水的方向'},
-  {id:'bond', n:'存款理财与债券', on:true, c:'#1c4a72', d:'利率与固收',
+  {id:'bond', n:'存款理财与债券', on:true, c:'#60a5fa', d:'利率与固收',
    ask:'我的存款利息和债基净值会怎么变？',
    more:'利率下行，存量债券价格上涨，债基净值受益；但新增存款的利息会变少',
    less:'利率上行，债券价格下跌，债基短期回撤；新增存款和新发理财的收益变高',
    shift:'总量没变，关注期限利差与信用利差的结构变化，长短端可能背离'},
-  {id:'house', n:'房产与房贷', on:false, c:'#b8892b', d:'房价与还款成本',
+  {id:'house', n:'房产与房贷', on:false, c:'#fbbf24', d:'房价与还款成本',
    ask:'我的房贷月供和房子估值会怎么变？',
    more:'房贷利率有下行空间，存量房贷重定价日后月供可能减少',
    less:'融资成本抬升，购房杠杆受限，成交量通常先于价格走弱',
    shift:'限购限贷是区域性的，只影响特定城市和特定套数，别当全国性结论'},
-  {id:'fx', n:'汇率与海外资产', on:false, c:'#c2410c', d:'人民币与外币配置',
+  {id:'fx', n:'汇率与海外资产', on:false, c:'#fb923c', d:'人民币与外币配置',
    ask:'换汇成本和我的海外资产折算价值会怎么变？',
    more:'国内宽松通常带来人民币贬值压力，持有外币资产折算收益增加',
    less:'国内收紧或外部宽松，人民币走强，换汇成本下降',
@@ -1308,7 +1320,7 @@ var WATCH_DOMAINS = [
 /* 产业链映射表：关键词 → 上中下游 → 板块归类
    只做客观结构映射，不含任何标的推荐 */
 var DEF_CHAINS = [
-  {id:'ch1', n:'AI 算力硬件', c:'#5b52c4',
+  {id:'ch1', n:'AI 算力硬件', c:'#a78bfa',
    kw:['AI','算力','服务器','PCB','CCL','覆铜板','光模块','GPU','数据中心','液冷','大模型','英伟达','交换机','HBM'],
    tiers:[
      {n:'上游 · 材料与元件', items:['覆铜板 CCL','电子级玻纤布','高频高速树脂','光芯片','HBM 存储','高端铜箔']},
@@ -1317,7 +1329,7 @@ var DEF_CHAINS = [
    ],
    sector:'电子 · 通信设备 · 计算机',
    note:'公募持仓已从纯硬件向 AI 应用端迁移，硬件端拥挤度需留意。高盛上调 2028 年 PCB 840 亿／CCL 480 亿美元属长期预测，不是当期业绩。'},
-  {id:'ch2', n:'新能源车', c:'#127a52',
+  {id:'ch2', n:'新能源车', c:'#34d399',
    kw:['新能源','汽车','电池','充电','车企','锂','整车','渗透率','储能','电解液','正极','负极'],
    tiers:[
      {n:'上游 · 资源与材料', items:['锂矿','钴镍','正极材料','负极材料','电解液','隔膜']},
@@ -1326,7 +1338,7 @@ var DEF_CHAINS = [
    ],
    sector:'电力设备 · 汽车 · 有色金属',
    note:'补贴政策变化主要影响下游需求节奏，上游资源价格更看全球供给。注意区分政策利好与真实销量。'},
-  {id:'ch3', n:'地产链', c:'#b8892b',
+  {id:'ch3', n:'地产链', c:'#fbbf24',
    kw:['楼市','房','限购','首付','房贷','地产','住建','房价','商品房','土拍','建材','家电','家居'],
    tiers:[
      {n:'上游 · 土地与建材', items:['土地出让','水泥','钢材','玻璃','防水材料']},
@@ -1335,7 +1347,7 @@ var DEF_CHAINS = [
    ],
    sector:'房地产 · 建筑材料 · 家用电器',
    note:'政策底不等于市场底。限购松绑影响的是预期，真正要看的是月度成交量和二手房挂牌价，后周期家电家居通常滞后 6 到 12 个月。'},
-  {id:'ch4', n:'黄金与贵金属', c:'#c2410c',
+  {id:'ch4', n:'黄金与贵金属', c:'#fb923c',
    kw:['黄金','外储','贵金属','白银','央行购金','金价','避险'],
    tiers:[
      {n:'上游 · 矿产资源', items:['金矿开采','矿产资源储量','冶炼加工']},
@@ -1372,6 +1384,19 @@ function score(it){
 function lvName(lv){return {strong:'强信号', mid:'可参考', noise:'噪音'}[lv];}
 function lvCls(lv){return {strong:'s', mid:'m', noise:'n'}[lv];}
 function lvColor(lv){return {strong:'var(--less)', mid:'var(--warn)', noise:'var(--t3)'}[lv];}
+function scoreStars(v){
+  var n = v>=80?5 : v>=65?4 : v>=50?3 : v>=35?2 : v>=20?1 : 0;
+  var s='<svg class="star-ico" viewBox="0 0 60 12">';
+  for(var i=0;i<5;i++){
+    var cx = 6+i*12;
+    if(i<n){
+      s+='<path d="M'+cx+' 1.5l2.3 4.7 5.2.8-3.8 3.7.9 5.2-4.6-2.4-4.6 2.4.9-5.2-3.8-3.7 5.2-.8z" fill="currentColor"/>';
+    } else {
+      s+='<path d="M'+cx+' 1.5l2.3 4.7 5.2.8-3.8 3.7.9 5.2-4.6-2.4-4.6 2.4.9-5.2-3.8-3.7 5.2-.8z" fill="none" stroke="currentColor" stroke-width="1"/>';
+    }
+  }
+  return s+'</svg>';
+}
 
 function guessFlow(txt){
   var best='shift', hi=0;
@@ -2658,7 +2683,7 @@ function itemHTML(i){
       '<span class="tag tag-lv '+lvCls(r.lv)+'">'+lvName(r.lv)+'</span>'+
       (i.slow?'<span class="tag tag-slow">慢信号</span>':'')+
       (i.hot?'<span class="tag tag-hot">热搜</span>':'')+ cnames +
-      '<span class="sc" style="color:'+lvColor(r.lv)+'">'+r.v+'</span>'+
+      '<span class="sc" style="color:'+lvColor(r.lv)+'"><span class="stars">'+scoreStars(r.v)+'</span> '+r.v+'</span>'+
     '</div>'+
     '<div class="it-tt">'+esc(i.title)+'</div>'+
     (i.read?'<div class="it-tr">'+esc(i.read)+'</div>':'')+
@@ -2804,9 +2829,9 @@ function renderFlow(){
   document.getElementById('flowBar').innerHTML=
     '<svg viewBox="0 0 600 34" width="100%" height="34" preserveAspectRatio="none" style="border-radius:8px;overflow:hidden">'+
     '<rect x="0" y="0" width="600" height="34" fill="#f0f3f6"/>'+
-    '<rect x="0" y="0" width="'+(w[0]*6)+'" height="34" fill="#d63c3c"/>'+
-    '<rect x="'+(w[0]*6)+'" y="0" width="'+(w[1]*6)+'" height="34" fill="#127a52"/>'+
-    '<rect x="'+((w[0]+w[1])*6)+'" y="0" width="'+(w[2]*6)+'" height="34" fill="#5b52c4"/></svg>';
+    '<rect x="0" y="0" width="'+(w[0]*6)+'" height="34" fill="#f87171"/>'+
+    '<rect x="'+(w[0]*6)+'" y="0" width="'+(w[1]*6)+'" height="34" fill="#6ee7b7"/>'+
+    '<rect x="'+((w[0]+w[1])*6)+'" y="0" width="'+(w[2]*6)+'" height="34" fill="#a78bfa"/></svg>';
 
   var vt='数据不足', vd='多记几条情报后自动给出判断';
   if(tot>=3){
@@ -2917,8 +2942,9 @@ function openChain(){
     '<div class="fg"><label>下游（逗号分隔）</label><input type="text" id="h3" placeholder="例：整机厂商,工业应用,服务机器人"></div>'+
     '<div class="fg"><label>板块归类</label><input type="text" id="hS" placeholder="例：机械设备 · 电力设备"></div>'+
     '<div class="fg"><label>标识色</label><select id="hC">'+
-    '<option value="#5b52c4">紫</option><option value="#d63c3c">红</option><option value="#1c4a72">蓝</option>'+
-    '<option value="#b8892b">金</option><option value="#127a52">绿</option><option value="#c2410c">橙</option></select></div>',
+    '<option value="#a78bfa">紫</option><option value="#f87171">红</option><option value="#60a5fa">蓝</option>'+
+    '<option value="#fbbf24">金</option><option value="#6ee7b7">绿</option><option value="#fb923c">橙</option>'+
+    '<option value="#22d3ee">青</option><option value="#f472b6">粉</option><option value="#c084fc">亮紫</option></select></div>',
     function(){
       var n=document.getElementById('hN').value.trim();
       if(!n){alert('填个链条名');return false;}
@@ -2942,9 +2968,9 @@ function renderRadar(){
     return '<div class="rad-r" onclick="go(\'intel\');setView(\'list\');setFilter(\'all\')">'+
       '<div class="rad-nm"><span style="width:9px;height:9px;border-radius:50%;background:'+f.c+';display:inline-block;flex:none"></span>'+esc(f.n)+'</div>'+
       '<div class="rad-bar">'+
-        '<div class="rad-seg" style="width:'+(c.more/t*100)+'%;background:#d63c3c"></div>'+
-        '<div class="rad-seg" style="width:'+(c.less/t*100)+'%;background:#127a52"></div>'+
-        '<div class="rad-seg" style="width:'+(c.shift/t*100)+'%;background:#5b52c4"></div></div>'+
+        '<div class="rad-seg" style="width:'+(c.more/t*100)+'%;background:#f87171"></div>'+
+        '<div class="rad-seg" style="width:'+(c.less/t*100)+'%;background:#6ee7b7"></div>'+
+        '<div class="rad-seg" style="width:'+(c.shift/t*100)+'%;background:#a78bfa"></div></div>'+
       '<div class="rad-v"><b>'+rel.length+'</b> 条<br><span style="font-size:11px">均分 '+avg+'</span></div></div>';
   }).join('');
 
@@ -2976,8 +3002,9 @@ function openField(){
     '<div class="fg"><label>领域名称</label><input type="text" id="dN" placeholder="例：就业收入"></div>'+
     '<div class="fg"><label>匹配关键词（逗号分隔）</label><input type="text" id="dK" placeholder="例：就业,工资,收入,失业,招聘"></div>'+
     '<div class="fg"><label>标识色</label><select id="dC">'+
-    '<option value="#d63c3c">红</option><option value="#1c4a72">蓝</option><option value="#b8892b">金</option>'+
-    '<option value="#127a52">绿</option><option value="#5b52c4">紫</option><option value="#c2410c">橙</option></select></div>',
+    '<option value="#f87171">红</option><option value="#60a5fa">蓝</option><option value="#fbbf24">金</option>'+
+    '<option value="#6ee7b7">绿</option><option value="#a78bfa">紫</option><option value="#fb923c">橙</option>'+
+    '<option value="#22d3ee">青</option><option value="#f472b6">粉</option><option value="#c084fc">亮紫</option></select></div>',
     function(){
       var n=document.getElementById('dN').value.trim();
       if(!n){alert('填个领域名');return false;}
@@ -3005,7 +3032,7 @@ function renderRv(){
     '<div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:center;padding:8px 0">'+
     '<svg width="132" height="132" viewBox="0 0 132 132">'+
     '<circle cx="66" cy="66" r="'+R+'" fill="none" stroke="#f0f3f6" stroke-width="13"/>'+
-    '<circle cx="66" cy="66" r="'+R+'" fill="none" stroke="'+(rate>=60?'#127a52':(rate>=40?'#c2410c':'#d63c3c'))+
+    '<circle cx="66" cy="66" r="'+R+'" fill="none" stroke="'+(rate>=60?'#6ee7b7':(rate>=40?'#fb923c':'#f87171'))+
     '" stroke-width="13" stroke-linecap="round" stroke-dasharray="'+C+'" stroke-dashoffset="'+off+
     '" transform="rotate(-90 66 66)"/>'+
     '<text x="66" y="62" text-anchor="middle" font-size="27" font-weight="700" fill="#16222e" font-family="-apple-system,sans-serif">'+rate+'%</text>'+
@@ -3158,11 +3185,11 @@ function trendSVG(ind){
   var Y = function(v){ return pt + (1-(v-min)/span)*(H-pt-pb); };
   var line = se.map(function(o,i){ return (i?'L':'M')+X(i).toFixed(1)+' '+Y(o.p.value).toFixed(1); }).join(' ');
   var area = 'M'+X(0).toFixed(1)+' '+(H-pb)+' '+se.map(function(o,i){ return 'L'+X(i).toFixed(1)+' '+Y(o.p.value).toFixed(1); }).join(' ')+' L'+X(n-1).toFixed(1)+' '+(H-pb)+' Z';
-  var dots = se.map(function(o,i){ return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(o.p.value).toFixed(1)+'" r="3.2" fill="#1c4a72"/>'; }).join('');
+  var dots = se.map(function(o,i){ return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(o.p.value).toFixed(1)+'" r="3.2" fill="#60a5fa"/>'; }).join('');
   var lbls = se.map(function(o,i){ return '<text x="'+X(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle" font-size="10.5" fill="#93a1af" font-family="-apple-system,sans-serif">'+esc(o.p.period.slice(2))+'</text>'; }).join('');
   return '<svg class="trend-svg" viewBox="0 0 '+W+' '+H+'" width="100%" height="'+H+'" preserveAspectRatio="none">'+
-    '<path d="'+area+'" fill="#1c4a72" opacity="0.08"/>'+
-    '<path d="'+line+'" fill="none" stroke="#1c4a72" stroke-width="2.2" stroke-linejoin="round"/>'+ dots + lbls + '</svg>';
+    '<path d="'+area+'" fill="#60a5fa" opacity="0.12"/>'+
+    '<path d="'+line+'" fill="none" stroke="#60a5fa" stroke-width="2.2" stroke-linejoin="round"/>'+ dots + lbls + '</svg>';
 }
 
 function renderDatacenter(){
@@ -3224,7 +3251,7 @@ function signalTrendSVG(t){
   }).join('');
 
   /* 每日资金流向堆叠带：同一天里 钱变多／变少／换地方 各占多少条 */
-  var FC = {more:'#d63c3c', less:'#127a52', shift:'#5b52c4'};
+  var FC = {more:'#f87171', less:'#6ee7b7', shift:'#a78bfa'};
   var FN = {more:'钱变多', less:'钱变少', shift:'钱换地方'};
   var bw = Math.max(5, Math.min(20, (W-padL-padR)/Math.max(n,1)*0.62));
   var bands = (t.flows||[]).map(function(fo, i){
