@@ -83,21 +83,16 @@ self.addEventListener('fetch', function(event) {
     return;
   }
 
-  /* 其他资源（图标、manifest等）：缓存优先，后台更新 */
+  /* 其他资源（图标、manifest等）：网络优先，缓存回退 */
   event.respondWith(
-    caches.match(req).then(function(cached) {
-      const fetchPromise = fetch(req).then(function(response) {
-        if (response && response.status === 200) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(function(cache) {
-            cache.put(req, clone);
-          });
-        }
-        return response;
-      }).catch(function() {
-        return cached;
+    fetch(req).then(function(response) {
+      const clone = response.clone();
+      caches.open(CACHE_NAME).then(function(cache) {
+        cache.put(req, clone);
       });
-      return cached || fetchPromise;
+      return response;
+    }).catch(function() {
+      return caches.match(req);
     })
   );
 });

@@ -7,8 +7,7 @@
       "change": 2.35,
       "amount": 1234.56,
       "net_inflow": 45.67,
-      "leader": "中芯国际",
-      "leader_change": 5.23,
+      "leader": "",
       "fields": ["f5"]
     },
     {
@@ -16,8 +15,7 @@
       "change": 3.12,
       "amount": 987.65,
       "net_inflow": 32.45,
-      "leader": "科大讯飞",
-      "leader_change": 6.78,
+      "leader": "",
       "fields": ["f5"]
     },
     {
@@ -25,8 +23,7 @@
       "change": -1.23,
       "amount": 876.54,
       "net_inflow": -12.34,
-      "leader": "比亚迪",
-      "leader_change": -2.15,
+      "leader": "",
       "fields": ["f4"]
     },
     {
@@ -34,8 +31,7 @@
       "change": -0.87,
       "amount": 654.32,
       "net_inflow": -8.76,
-      "leader": "宁德时代",
-      "leader_change": -1.56,
+      "leader": "",
       "fields": ["f4"]
     },
     {
@@ -43,8 +39,7 @@
       "change": 1.56,
       "amount": 543.21,
       "net_inflow": 15.43,
-      "leader": "万科A",
-      "leader_change": 3.21,
+      "leader": "",
       "fields": ["f3"]
     },
     {
@@ -52,8 +47,7 @@
       "change": 0.45,
       "amount": 765.43,
       "net_inflow": 8.92,
-      "leader": "招商银行",
-      "leader_change": 0.87,
+      "leader": "",
       "fields": ["f2", "f6"]
     },
     {
@@ -61,8 +55,7 @@
       "change": 1.89,
       "amount": 321.45,
       "net_inflow": 12.34,
-      "leader": "山东黄金",
-      "leader_change": 2.56,
+      "leader": "",
       "fields": ["f6"]
     },
     {
@@ -70,8 +63,7 @@
       "change": 0.78,
       "amount": 432.10,
       "net_inflow": 5.67,
-      "leader": "中国建筑",
-      "leader_change": 1.23,
+      "leader": "",
       "fields": ["f7"]
     },
     {
@@ -79,8 +71,7 @@
       "change": -0.34,
       "amount": 678.90,
       "net_inflow": -3.45,
-      "leader": "贵州茅台",
-      "leader_change": -0.67,
+      "leader": "",
       "fields": ["f9"]
     },
     {
@@ -88,8 +79,7 @@
       "change": 2.10,
       "amount": 567.89,
       "net_inflow": 18.76,
-      "leader": "紫金矿业",
-      "leader_change": 3.45,
+      "leader": "",
       "fields": ["f10"]
     },
     {
@@ -97,8 +87,7 @@
       "change": 0.56,
       "amount": 345.67,
       "net_inflow": 4.32,
-      "leader": "中国神华",
-      "leader_change": 0.89,
+      "leader": "",
       "fields": ["f10"]
     },
     {
@@ -106,8 +95,7 @@
       "change": 1.23,
       "amount": 234.56,
       "net_inflow": 7.65,
-      "leader": "中远海控",
-      "leader_change": 2.34,
+      "leader": "",
       "fields": ["f8"]
     }
   ],

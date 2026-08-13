@@ -50,7 +50,7 @@ const SECTOR_MAP = [
   { name: '黄金', fields: ['f6'], emCode: 'BK0478' },
   { name: '基建', fields: ['f7'], emCode: 'BK0424' },
   { name: '消费', fields: ['f9'], emCode: 'BK0438' },
-  { name: '有色金属', fields: ['f10'], emCode: 'BK0478' },
+  { name: '有色金属', fields: ['f10'], emCode: 'BK0479' },
   { name: '煤炭', fields: ['f10'], emCode: 'BK0437' },
   { name: '港口航运', fields: ['f8'], emCode: 'BK0450' },
 ];
@@ -72,15 +72,35 @@ async function fetchEastMoneySector(sector) {
     // f43: 最新价, f170: 涨跌幅, f47: 成交量, f48: 成交额
     const change = d.f170 ? d.f170 / 100 : 0;
     const amount = d.f48 ? d.f48 / 100000000 : 0; // 转成亿
-    return {
-      name: sector.name,
-      change: Math.round(change * 100) / 100,
-      amount: Math.round(amount * 100) / 100,
-      net_inflow: 0, // 资金流向需要另外接口，先留0
-      leader: '',
-      leader_change: 0,
-      fields: sector.fields,
-    };
+    
+    // 获取资金流向数据
+    const inflowUrl = `https://push2.eastmoney.com/api/qt/clist/get?secid=90.${sector.emCode}&fields=f62,f184`;
+    try {
+      const inflowData = await http(inflowUrl);
+      const inflow = inflowData && inflowData.data;
+      const netInflow = inflow ? (inflow.f62 ? inflow.f62 / 1000000 : 0) : 0; // 转成百万
+      return {
+        name: sector.name,
+        change: Math.round(change * 100) / 100,
+        amount: Math.round(amount * 100) / 100,
+        net_inflow: Math.round(netInflow * 100) / 100,
+        leader: '',
+        leader_change: 0,
+        fields: sector.fields,
+      };
+    } catch (e) {
+      log('资金流向获取失败:', sector.name, e.message);
+      // 资金流向获取失败时使用0作为默认值
+      return {
+        name: sector.name,
+        change: Math.round(change * 100) / 100,
+        amount: Math.round(amount * 100) / 100,
+        net_inflow: 0,
+        leader: '',
+        leader_change: 0,
+        fields: sector.fields,
+      };
+    }
   } catch (e) {
     log('板块抓取失败:', sector.name, e.message);
     return null;

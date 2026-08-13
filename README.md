@@ -4,9 +4,8 @@
 
 [![测试与部署](https://github.com/1748477582/finance-intel-331/actions/workflows/deploy.yml/badge.svg)](https://github.com/1748477582/finance-intel-331/actions/workflows/deploy.yml)
 [![在线使用](https://img.shields.io/badge/在线使用-GitHub_Pages-1c4a72)](https://1748477582.github.io/finance-intel-331/)
-[![单文件](https://img.shields.io/badge/核心-单HTML-222)](index.html)
+[![单文件](https://img.shields.io/badge/单文件-222KB-b8892b)](index.html)
 [![零依赖](https://img.shields.io/badge/外部依赖-0-127a52)](#技术约束)
-[![PWA](https://img.shields.io/badge/PWA-支持离线-5b21b6)](#pwa-离线使用)
 
 ---
 
@@ -14,15 +13,7 @@
 
 **<https://1748477582.github.io/finance-intel-331/>**
 
-### PWA 离线使用
-
-本项目支持 PWA（渐进式Web应用），可像原生App一样安装到手机桌面：
-
-- **Android/Chrome**：浏览器打开 → 地址栏右侧「安装」按钮 → 添加到主屏幕
-- **iOS/Safari**：浏览器打开 → 分享按钮 → 添加到主屏幕
-- 安装后从桌面图标进入是**全屏独立运行**，无浏览器地址栏
-- 支持**离线使用**：核心页面和数据会自动缓存，断网也能查看已加载的内容
-- feed.json 每日数据采用网络优先策略，有网时自动更新
+手机上想当 App 用：浏览器打开链接 → 分享 → 添加到主屏幕。之后从桌面图标进入是全屏的，和原生应用没差别。
 
 首次打开会带 10 条 8 月 9 日的真实新闻样本，直接就能看到效果，不是空白页。
 
@@ -150,15 +141,11 @@ npm test          # 跑全部检查，不需要装任何依赖
 ## 项目结构
 
 ```
-index.html                     # 全部功能，单文件核心
-manifest.json                  # PWA 应用清单
-sw.js                          # Service Worker（离线缓存）
-icons/                         # PWA 图标（192/512/180等尺寸）
-feed.json                      # 每日情报种子数据
+index.html                     # 全部功能，单文件
 tests/
   extract.js                   # 从 HTML 抽脚本与数据层
-  run.js                       # 数据层断言（134 项）
-  lint.js                      # 静态一致性与合规检查（33 项）
+  run.js                       # 数据层断言（85 项）
+  lint.js                      # 静态一致性与合规检查（28 项）
 docs/
   迭代说明.md                   # 版本变更与设计取舍
 .github/workflows/deploy.yml   # 测试通过才部署
@@ -170,8 +157,7 @@ docs/
 
 | 版本 | 内容 |
 |---|---|
-| **v4.1** | 投资者金融风格主题（深蓝+金+红涨绿跌）；资金流向专业看板；PWA支持（可安装到桌面、离线使用）；侧边栏交互重构 |
-| v4 | 暗夜运维深色主题；市场热点事件分析、板块热度双轨评分、舆情追踪三大分析模块 |
+| **v4** | 暗夜运维深色主题；市场热点事件分析、板块热度双轨评分、舆情追踪三大分析模块 |
 | v3 | 产业链映射器、多源比对与解读分歧、每日晨报 |
 | v2 | 情报速记（信号/噪音引擎）、影响翻译、关注雷达、决策复盘 |
 
