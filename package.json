@@ -1,6 +1,6 @@
 {
   "name": "finance-intel-331",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "private": true,
   "license": "UNLICENSED",
   "description": "331 财经情报站 · 把财经新闻翻译成对个人的影响。单文件 HTML，零外部依赖，数据只存本机浏览器。v4.1 投资者金融风格主题，资金流向专业看板，PWA离线使用支持。",
