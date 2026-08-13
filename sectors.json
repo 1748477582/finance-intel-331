@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-13",
+  "updated": "2026-08-13 15:00:00",
+  "sectors": [
+    {
+      "name": "半导体",
+      "change": 2.35,
+      "amount": 1234.56,
+      "net_inflow": 45.67,
+      "leader": "中芯国际",
+      "leader_change": 5.23,
+      "fields": ["f5"]
+    },
+    {
+      "name": "人工智能",
+      "change": 3.12,
+      "amount": 987.65,
+      "net_inflow": 32.45,
+      "leader": "科大讯飞",
+      "leader_change": 6.78,
+      "fields": ["f5"]
+    },
+    {
+      "name": "新能源汽车",
+      "change": -1.23,
+      "amount": 876.54,
+      "net_inflow": -12.34,
+      "leader": "比亚迪",
+      "leader_change": -2.15,
+      "fields": ["f4"]
+    },
+    {
+      "name": "锂电池",
+      "change": -0.87,
+      "amount": 654.32,
+      "net_inflow": -8.76,
+      "leader": "宁德时代",
+      "leader_change": -1.56,
+      "fields": ["f4"]
+    },
+    {
+      "name": "房地产",
+      "change": 1.56,
+      "amount": 543.21,
+      "net_inflow": 15.43,
+      "leader": "万科A",
+      "leader_change": 3.21,
+      "fields": ["f3"]
+    },
+    {
+      "name": "银行",
+      "change": 0.45,
+      "amount": 765.43,
+      "net_inflow": 8.92,
+      "leader": "招商银行",
+      "leader_change": 0.87,
+      "fields": ["f2", "f6"]
+    },
+    {
+      "name": "黄金",
+      "change": 1.89,
+      "amount": 321.45,
+      "net_inflow": 12.34,
+      "leader": "山东黄金",
+      "leader_change": 2.56,
+      "fields": ["f6"]
+    },
+    {
+      "name": "基建",
+      "change": 0.78,
+      "amount": 432.10,
+      "net_inflow": 5.67,
+      "leader": "中国建筑",
+      "leader_change": 1.23,
+      "fields": ["f7"]
+    },
+    {
+      "name": "消费",
+      "change": -0.34,
+      "amount": 678.90,
+      "net_inflow": -3.45,
+      "leader": "贵州茅台",
+      "leader_change": -0.67,
+      "fields": ["f9"]
+    },
+    {
+      "name": "有色金属",
+      "change": 2.10,
+      "amount": 567.89,
+      "net_inflow": 18.76,
+      "leader": "紫金矿业",
+      "leader_change": 3.45,
+      "fields": ["f10"]
+    },
+    {
+      "name": "煤炭",
+      "change": 0.56,
+      "amount": 345.67,
+      "net_inflow": 4.32,
+      "leader": "中国神华",
+      "leader_change": 0.89,
+      "fields": ["f10"]
+    },
+    {
+      "name": "港口航运",
+      "change": 1.23,
+      "amount": 234.56,
+      "net_inflow": 7.65,
+      "leader": "中远海控",
+      "leader_change": 2.34,
+      "fields": ["f8"]
+    }
+  ],
+  "indices": [
+    {
+      "name": "上证指数",
+      "change": 0.87,
+      "close": 3256.78,
+      "amount": 4567.89,
+      "fields": ["f1"]
+    },
+    {
+      "name": "深证成指",
+      "change": 1.23,
+      "close": 10876.54,
+      "amount": 5678.90,
+      "fields": ["f1"]
+    },
+    {
+      "name": "创业板指",
+      "change": 1.56,
+      "close": 2156.78,
+      "amount": 2345.67,
+      "fields": ["f1"]
+    }
+  ]
+}

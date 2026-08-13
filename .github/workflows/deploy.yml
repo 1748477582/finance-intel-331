@@ -44,11 +44,24 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 抓取板块行情数据
+        run: node scripts/fetch_sectors.mjs
+        continue-on-error: true
+
       - name: 组装站点目录
         run: |
           mkdir -p _site
           cp index.html _site/index.html
           if [ -f feed.json ]; then cp feed.json _site/feed.json; fi
+          if [ -f sectors.json ]; then cp sectors.json _site/sectors.json; fi
+          if [ -f manifest.json ]; then cp manifest.json _site/manifest.json; fi
+          if [ -f sw.js ]; then cp sw.js _site/sw.js; fi
+          if [ -d icons ]; then cp -r icons _site/icons; fi
           touch _site/.nojekyll
 
       - name: 配置 Pages

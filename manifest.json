@@ -1,0 +1,44 @@
+{
+  "name": "财经情报站",
+  "short_name": "情报站",
+  "description": "把财经新闻翻译成这件事对我意味着什么。不做投资建议，只做信息处理。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["finance", "news", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今日信号",
+      "short_name": "今日",
+      "description": "查看今日资金流向与异常信号",
+      "url": "./index.html#dash",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "快速录入",
+      "short_name": "录入",
+      "description": "快速记录一条情报",
+      "url": "./index.html#intel",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
