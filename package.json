@@ -1,9 +1,9 @@
 {
-  "name": "finance-intel-331",
+  "name": "finance-intel",
   "version": "4.1.0",
   "private": true,
   "license": "UNLICENSED",
-  "description": "331 财经情报站 · 把财经新闻翻译成对个人的影响。单文件 HTML，零外部依赖，数据只存本机浏览器。v4 新增市场热点/板块热度/舆情追踪三大分析模块，暗夜运维深色主题。",
+  "description": "财富情报网 · 把财经新闻翻译成对个人的影响。单文件 HTML，零外部依赖，数据只存本机浏览器。浅色主题，含市场热点/板块热度/舆情追踪与板块行情。",
   "scripts": {
     "test": "node tests/run.js && node tests/lint.js && node _smoke.js && node _smoke_feed.js",
     "test:core": "node tests/run.js",
