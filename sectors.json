@@ -7,7 +7,7 @@
       "change": 2.35,
       "amount": 1234.56,
       "net_inflow": 45.67,
-      "leader": "",
+      "leader": "GPU/算力",
       "fields": ["f5"]
     },
     {
@@ -15,7 +15,7 @@
       "change": 3.12,
       "amount": 987.65,
       "net_inflow": 32.45,
-      "leader": "",
+      "leader": "大模型",
       "fields": ["f5"]
     },
     {
@@ -23,7 +23,7 @@
       "change": -1.23,
       "amount": 876.54,
       "net_inflow": -12.34,
-      "leader": "",
+      "leader": "整车",
       "fields": ["f4"]
     },
     {
@@ -31,7 +31,7 @@
       "change": -0.87,
       "amount": 654.32,
       "net_inflow": -8.76,
-      "leader": "",
+      "leader": "固态电池",
       "fields": ["f4"]
     },
     {
@@ -39,7 +39,7 @@
       "change": 1.56,
       "amount": 543.21,
       "net_inflow": 15.43,
-      "leader": "",
+      "leader": "头部房企",
       "fields": ["f3"]
     },
     {
@@ -47,7 +47,7 @@
       "change": 0.45,
       "amount": 765.43,
       "net_inflow": 8.92,
-      "leader": "",
+      "leader": "国有大行",
       "fields": ["f2", "f6"]
     },
     {
@@ -55,7 +55,7 @@
       "change": 1.89,
       "amount": 321.45,
       "net_inflow": 12.34,
-      "leader": "",
+      "leader": "金矿",
       "fields": ["f6"]
     },
     {
@@ -63,7 +63,7 @@
       "change": 0.78,
       "amount": 432.10,
       "net_inflow": 5.67,
-      "leader": "",
+      "leader": "基建工程",
       "fields": ["f7"]
     },
     {
@@ -71,7 +71,7 @@
       "change": -0.34,
       "amount": 678.90,
       "net_inflow": -3.45,
-      "leader": "",
+      "leader": "必选消费",
       "fields": ["f9"]
     },
     {
@@ -79,7 +79,7 @@
       "change": 2.10,
       "amount": 567.89,
       "net_inflow": 18.76,
-      "leader": "",
+      "leader": "工业金属",
       "fields": ["f10"]
     },
     {
@@ -87,7 +87,7 @@
       "change": 0.56,
       "amount": 345.67,
       "net_inflow": 4.32,
-      "leader": "",
+      "leader": "动力煤",
       "fields": ["f10"]
     },
     {
@@ -95,7 +95,7 @@
       "change": 1.23,
       "amount": 234.56,
       "net_inflow": 7.65,
-      "leader": "",
+      "leader": "集装箱",
       "fields": ["f8"]
     }
   ],
