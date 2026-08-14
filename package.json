@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "description": "财富情报网 · 把财经新闻翻译成对个人的影响。单文件 HTML，零外部依赖，数据只存本机浏览器。浅色主题，含市场热点/板块热度/舆情追踪与板块行情。",
   "scripts": {
-    "test": "node tests/run.js && node tests/lint.js && node _smoke.js && node _smoke_feed.js",
+    "test": "node tests/run.js && node tests/lint.js && node _smoke.js && node _smoke_feed.js && node tests/report_smoke.js",
     "test:core": "node tests/run.js",
     "test:lint": "node tests/lint.js",
     "test:smoke": "node _smoke.js && node _smoke_feed.js",

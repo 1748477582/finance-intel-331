@@ -49,6 +49,8 @@ jobs:
           mkdir -p _site
           cp index.html _site/index.html
           if [ -f feed.json ]; then cp feed.json _site/feed.json; fi
+          if [ -f report.html ]; then cp report.html _site/report.html; fi
+          if [ -f sectors.json ]; then cp sectors.json _site/sectors.json; fi
           touch _site/.nojekyll
 
       - name: 配置 Pages

@@ -442,6 +442,8 @@ border-radius:11px;border:1px solid var(--line)}
 nav.subtabs button{flex:1;min-height:36px;border:none;background:none;border-radius:8px;
 font-size:13px;font-weight:600;color:var(--t2);cursor:pointer;font-family:inherit;transition:.15s}
 nav.subtabs button.on{background:var(--navy);color:#fff}
+nav.subtabs a.subtab-lnk{flex:1;min-height:36px;display:flex;align-items:center;justify-content:center;border:none;background:none;border-radius:8px;color:var(--gold);font-size:14px;font-weight:600;text-decoration:none;cursor:pointer;font-family:inherit}
+nav.subtabs a.subtab-lnk:hover{background:var(--navy2)}
 .sub{display:none}
 .sub.on{display:block}
 .bkrow{display:flex;gap:8px;flex-wrap:wrap}
@@ -1024,6 +1026,7 @@ font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:10px;font-family:va
 <button class="on" data-s="analysis-event" onclick="subgo('analysis','event')">市场热点</button>
 <button data-s="analysis-sector" onclick="subgo('analysis','sector')">板块热度</button>
 <button data-s="analysis-sentiment" onclick="subgo('analysis','sentiment')">舆情追踪</button>
+<a class="subtab-lnk" href="report.html">分析报告</a>
 </nav>
 
 <!-- ===== 市场热点事件分析 ===== -->
