@@ -74,6 +74,18 @@ setTimeout(() => {
     t('合规终检 badge 为 badge-ok（全文无泄漏）', badge && /badge-ok/.test(badge.className), badge && badge.className);
     t('报告正文已渲染（含「板块确信度排行」）', els['report'] && /板块确信度排行/.test(els['report'].innerHTML), els['report'] && els['report'].innerHTML.slice(0, 40));
 
+    // 周报/晨报：时间范围过滤（P2）
+    const allTotal = sandbox.BUCKETS.short.length + sandbox.BUCKETS.mid.length + sandbox.BUCKETS.long.length;
+    sandbox.CURRANGE = 'today'; sandbox.render();
+    const todayTotal = sandbox.BUCKETS.short.length + sandbox.BUCKETS.mid.length + sandbox.BUCKETS.long.length;
+    t('范围过滤·今日 条数 < 全部', todayTotal > 0 && todayTotal < allTotal, { allTotal, todayTotal });
+    const todayView = sandbox.VIEW;
+    const md = sandbox.maxDate(sandbox.FEED);
+    t('范围过滤·今日 仅含当日及之后', todayView && todayView.intel.every(x => (x.date || '') >= md), todayView && todayView.date);
+    sandbox.CURRANGE = 'all'; sandbox.render();
+    const backTotal = sandbox.BUCKETS.short.length + sandbox.BUCKETS.mid.length + sandbox.BUCKETS.long.length;
+    t('范围过滤切回 全部 还原', backTotal === allTotal, { allTotal, backTotal });
+
     console.log('\n报告冒烟：通过 ' + pass + '，失败 ' + fail);
     process.exit(fail > 0 ? 1 : 0);
   } catch (e) {

@@ -45,6 +45,10 @@ font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;transition:.15
 .btn-sm{min-height:34px;padding:0 11px;font-size:13px;border-radius:8px}
 a.btn{display:inline-flex}
 .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0 4px}
+.seg{display:inline-flex;border:1px solid var(--line2);border-radius:10px;overflow:hidden}
+.seg-btn{border:none;border-radius:0;border-right:1px solid var(--line2);min-height:34px}
+.seg-btn:last-child{border-right:none}
+.seg-btn.on{background:var(--gold);color:#06281a;font-weight:600}
 .badge{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;font-size:12.5px;font-weight:500}
 .badge-ok{background:var(--less-bg);color:var(--less)}
 .badge-warn{background:var(--more-bg);color:var(--more)}
@@ -128,8 +132,13 @@ textarea{resize:vertical;min-height:64px}
 <div class="wrap">
   <div class="controls">
     <button class="btn btn-p" onclick="regen()">重新生成</button>
+    <span class="seg" role="group" aria-label="时间范围">
+      <button class="btn btn-sm seg-btn on" id="rAll" onclick="setRange('all')">全部</button>
+      <button class="btn btn-sm seg-btn" id="rWeek" onclick="setRange('week')">近 7 日</button>
+      <button class="btn btn-sm seg-btn" id="rToday" onclick="setRange('today')">今日</button>
+    </span>
     <span id="badge" class="badge badge-mut">合规净化：待生成</span>
-    <span class="badge badge-mut" id="dateBadge">数据日期：—</span>
+    <span class="badge badge-mut" id="dateBadge">数据范围：—</span>
   </div>
 
   <div class="profile" id="profilePanel" style="display:none">
@@ -153,7 +162,7 @@ textarea{resize:vertical;min-height:64px}
 
 <script>
 /* ============== 财富情报网 · 分析报告（数据层 + 渲染层，单文件） ============== */
-var FEED=null, SECTORS=[], PROFILE=null, AGG=[], FIELD_MAP={}, BUCKETS=null;
+var FEED=null, SECTORS=[], PROFILE=null, AGG=[], FIELD_MAP={}, BUCKETS=null, VIEW=null, CURRANGE='all';
 var LS_KEY='wn_report_profile_v1';
 
 /* ---------- 合规净化器（P0） ---------- */
@@ -194,6 +203,18 @@ function itemLandProb(it){
 function itemHorizon(it){
   if(it.horizon) return it.horizon;
   return it.slow? '半年+' : '1季';
+}
+
+/* ---------- 周报 / 晨报：时间范围过滤（P2） ---------- */
+function maxDate(feed){ var md=''; (feed.intel||[]).forEach(function(it){ var d=it.date||''; if(d>md) md=d; }); return md; }
+function weekCutoff(md){ var dt=new Date(md+'T00:00:00'); dt.setDate(dt.getDate()-6); return dt.toISOString().slice(0,10); }
+function rangeLabel(r, md){ if(r==='today') return '今日（'+md+'）'; if(r==='week') return '近 7 日（截止 '+md+'）'; return '全部（截止 '+md+'）'; }
+function activeFeed(){
+  var md=maxDate(FEED); if(!md) return {intel:FEED.intel||[], date:rangeLabel('all', md)};
+  if(CURRANGE==='all') return {intel:FEED.intel||[], date:rangeLabel('all', md)};
+  var cutoff=(CURRANGE==='today')? md : weekCutoff(md);
+  var arr=(FEED.intel||[]).filter(function(it){ return (it.date||'') >= cutoff; });
+  return {intel:arr, date:rangeLabel(CURRANGE, md)};
 }
 
 /* ---------- 跨条目聚合 + 板块确信度（P0） ---------- */
@@ -255,10 +276,12 @@ function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){retur
 
 function render(){
   if(!FEED||!SECTORS.length&&!FEED){ $('report').innerHTML='<div class="card"><div class="empty">数据尚未加载。</div></div>'; return; }
+  VIEW=activeFeed();
   FIELD_MAP=buildFieldMap(SECTORS);
-  AGG=aggregate(FEED, SECTORS);
-  BUCKETS=bucketItems(FEED);
+  AGG=aggregate(VIEW, SECTORS);
+  BUCKETS=bucketItems(VIEW);
   if(PROFILE===null) PROFILE=loadProfile();
+  var db=$('dateBadge'); if(db) db.textContent='数据范围：'+VIEW.date;
 
   var html='';
   html+=renderHead();
@@ -272,17 +295,18 @@ function render(){
 }
 
 function renderHead(){
-  var sig=(FEED.intel||[]).filter(function(i){return i.use!=='noise';}).length;
+  var sig=(VIEW.intel||[]).filter(function(i){return i.use!=='noise';}).length;
   var withCat=AGG.filter(function(o){return o.cat>0;}).length;
   var top=AGG.length? AGG[0] : null;
   return ''+
   '<div class="card"><div class="card-hd"><div><h3>报告总览</h3>'+
-  '<p>跨条目聚合：把指向同一行业的多条情报合成一个行业结论；多条印证=信号强化，多条冲突=重点观察。</p></div></div>'+
+  '<p>跨条目聚合：把指向同一行业的多条情报合成一个行业结论；多条印证=信号强化，多条冲突=重点观察。切换上方「今日 / 近 7 日 / 全部」可生成对应周期的晨报或周报视图。</p></div></div>'+
   '<div class="ov">'+
     ovBox(sig,'有效信号条数')+
     ovBox(withCat,'有催化的板块数')+
     ovBox(top? top.sector+'（'+top.conf+'）':'—','最高板块确信度')+
     ovBox((SECTORS.length||0),'监控板块数')+
+    ovBox(VIEW.date,'当前数据范围')+
   '</div></div>';
 }
 function ovBox(n,l){ return '<div class="box"><div class="n">'+esc(n)+'</div><div class="l">'+esc(l)+'</div></div>'; }
@@ -451,7 +475,7 @@ function buildMarkdown(){
   var L=[];
   L.push('# 财富情报网 · 分析报告');
   L.push('');
-  L.push('> 数据日期：'+(FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN'));
+  L.push('> 数据日期：'+((VIEW&&VIEW.date)||FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN'));
   L.push('> 本工具不提供投资建议，不推荐任何标的，不承诺收益。结论止于行业与资产类别。');
   L.push('');
   L.push('## 板块确信度排行');
@@ -490,7 +514,7 @@ function downloadHtml(){
     '.tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;margin:0 2px}'+
     '.chain-step{background:#e7ecf3;border:1px solid #d3dae6;border-radius:10px;padding:8px 11px;font-size:13px;display:inline-block;margin:4px 0}'+
     '.rk{padding:12px 0;border-bottom:1px dashed #e4e8ef}.nm{font-weight:600}.meta{font-size:12px;color:#5b6675}</style></head><body>'+
-    '<h2>财富情报网 · 分析报告</h2><p style="color:#5b6675">数据日期：'+(FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN')+'</p>'+
+    '<h2>财富情报网 · 分析报告</h2><p style="color:#5b6675">数据日期：'+((VIEW&&VIEW.date)||FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN')+'</p>'+
     rep.innerHTML+
     '<p style="font-size:12px;color:#8a93a3;margin-top:16px">本工具不提供投资建议，不推荐任何标的，不承诺收益。结论止于行业与资产类别。</p>'+
     '</body></html>';
@@ -498,6 +522,13 @@ function downloadHtml(){
   var url=URL.createObjectURL(blob); var a=document.createElement('a');
   a.href=url; a.download='财富情报网-分析报告-'+(FEED.date||'data')+'.html'; document.body.appendChild(a); a.click();
   document.body.removeChild(a); URL.revokeObjectURL(url); toast('报告已下载');
+}
+function setRange(r){
+  CURRANGE=r;
+  var map={all:'rAll',week:'rWeek',today:'rToday'};
+  ['all','week','today'].forEach(function(k){ var b=$(map[k]); if(b) b.classList.toggle('on', k===r); });
+  render();
+  toast('已切换至'+(r==='all'?'全部':r==='week'?'近 7 日':'今日')+'视图');
 }
 function regen(){ render(); toast('已重新生成'); }
 
