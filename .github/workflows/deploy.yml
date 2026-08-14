@@ -1,4 +1,4 @@
-name: 测试与部署
+name: 测试
 
 on:
   push:
@@ -9,12 +9,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   test:
@@ -31,36 +25,3 @@ jobs:
 
       - name: 运行全部测试（数据层 / 合规 / 运行时冒烟）
         run: npm test
-
-  deploy:
-    name: 部署到 Pages
-    needs: test
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 组装站点目录
-        run: |
-          mkdir -p _site
-          cp index.html _site/index.html
-          if [ -f feed.json ]; then cp feed.json _site/feed.json; fi
-          if [ -f report.html ]; then cp report.html _site/report.html; fi
-          if [ -f sectors.json ]; then cp sectors.json _site/sectors.json; fi
-          touch _site/.nojekyll
-
-      - name: 配置 Pages
-        uses: actions/configure-pages@v5
-
-      - name: 上传站点
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '_site'
-
-      - name: 发布
-        id: deployment
-        uses: actions/deploy-pages@v4

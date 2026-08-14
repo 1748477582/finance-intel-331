@@ -2840,6 +2840,8 @@ function subgo(g,k){
 
 /* Stage 4：左右滑切 Tab（移动端手势）+ 键盘左右（桌面） */
 function initSwipe(){
+  // 测试 / 无 DOM 环境下 document 可能无 addEventListener，安全退出（真实浏览器始终存在）
+  if(typeof document==='undefined' || typeof document.addEventListener!=='function') return;
   var ORDER=['dash','intel','data','analysis','me'];
   var x0=null, y0=null, t0=0;
   function inForm(t){ return !!(t.closest && t.closest('input,textarea,select,.board-scroll,.no-swipe')); }
