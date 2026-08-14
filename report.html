@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="财富情报网·报告">
+<meta name="theme-color" content="#f3f5f9">
+<meta name="description" content="财富情报网分析报告：把分散的财经情报聚合成行业级结论。跨条目聚合、板块确信度、信号链、板块×事件矩阵、时间分桶。数据只存本机，不含任何个股名称或代码。">
+<meta name="robots" content="noindex, nofollow">
+<title>财富情报网 · 分析报告</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+--navy:#16324f;--navy2:#e7ecf3;--gold:#0f9d77;--gold-bg:#e3f5ee;
+--bg:#f3f5f9;--card:#ffffff;--line:#e4e8ef;--line2:#d3dae6;
+--t1:#16202e;--t2:#5b6675;--t3:#8a93a3;
+--more:#e04646;--more-bg:#fdeaea;
+--less:#1f9d6b;--less-bg:#e6f6ee;
+--shift:#c8860a;--shift-bg:#fbf1dc;
+--accent:#0f9d77;
+--r:14px;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+background:var(--bg);color:var(--t1);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;
+padding-bottom:calc(40px + env(safe-area-inset-bottom))}
+.wrap{max-width:1080px;margin:0 auto;padding:0 14px}
+header{background:var(--card);color:var(--t1);padding:14px 0 16px;border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--gold);display:flex;align-items:center;justify-content:center;color:#06281a;flex:none;font-weight:700;font-size:17px}
+.brand h1{font-size:18px;font-weight:600;letter-spacing:.3px}
+.brand p{font-size:12px;color:var(--t2);font-weight:400}
+.hd-act{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:0 14px;
+border-radius:10px;border:1px solid var(--line2);background:var(--card);color:var(--t1);
+font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;transition:.15s;white-space:nowrap;text-decoration:none}
+.btn:active{transform:scale(.97)}
+.btn:hover{border-color:var(--t3)}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#06281a;font-weight:600}
+.btn-gold:hover{background:#0c8464;border-color:#0c8464;color:#fff}
+.btn-p{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn-p:hover{background:#23486e;border-color:#23486e}
+.btn-sm{min-height:34px;padding:0 11px;font-size:13px;border-radius:8px}
+a.btn{display:inline-flex}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0 4px}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;font-size:12.5px;font-weight:500}
+.badge-ok{background:var(--less-bg);color:var(--less)}
+.badge-warn{background:var(--more-bg);color:var(--more)}
+.badge-mut{background:var(--navy2);color:var(--t2)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0;box-shadow:0 1px 2px rgba(20,32,46,.04)}
+.card-hd{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+.card-hd h3{font-size:16px;font-weight:600;display:flex;align-items:center;gap:8px}
+.card-hd p{font-size:12.5px;color:var(--t2);margin-top:2px;max-width:62ch}
+.hint{font-size:12px;color:var(--t3);margin-top:6px}
+.empty{padding:24px;text-align:center;color:var(--t3);font-size:13.5px}
+/* overview */
+.ov{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.ov .box{background:var(--navy2);border-radius:10px;padding:12px 14px}
+.ov .n{font-size:24px;font-weight:700;color:var(--navy)}
+.ov .l{font-size:12px;color:var(--t2);margin-top:2px}
+/* confidence ranking */
+.rk{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.rk:last-child{border-bottom:none}
+.rk .pos{width:22px;text-align:center;color:var(--t3);font-weight:600;font-size:13px;flex:none}
+.rk .main{flex:1;min-width:0}
+.rk .nm{font-weight:600;font-size:15px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rk .meta{font-size:12px;color:var(--t2);margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}
+.rk .score{width:120px;text-align:right;flex:none}
+.rk .sc-n{font-size:20px;font-weight:700}
+.rk .sc-l{font-size:11px;color:var(--t3)}
+.cbar{height:8px;border-radius:6px;background:var(--navy2);overflow:hidden;margin-top:6px}
+.cbar>i{display:block;height:100%;border-radius:6px;background:var(--gold)}
+.tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;font-weight:500}
+.tag-in{background:var(--less-bg);color:var(--less)}
+.tag-out{background:var(--more-bg);color:var(--more)}
+.tag-conv{background:var(--gold-bg);color:var(--gold)}
+.tag-conf{background:var(--shift-bg);color:var(--shift)}
+.tag-me{background:var(--navy);color:#fff}
+/* chain */
+.chain{display:flex;flex-wrap:wrap;align-items:stretch;gap:0;margin-top:6px}
+.chain-step{background:var(--navy2);border:1px solid var(--line2);border-radius:10px;padding:8px 11px;font-size:13px;max-width:240px}
+.chain-step .cl{font-size:11px;color:var(--t3);display:block;margin-bottom:2px}
+.arrow{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:9px solid var(--line2);margin:0 8px;flex:none;align-self:center}
+/* matrix */
+.matrix-wrap{width:100%;overflow-x:auto}
+svg.matrix{width:100%;min-width:560px;height:auto;display:block}
+/* buckets */
+.buckets{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.bucket{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px}
+.bucket h4{font-size:14px;margin-bottom:8px;display:flex;align-items:center;gap:7px}
+.bucket .it{padding:7px 0;border-bottom:1px dashed var(--line);font-size:13px}
+.bucket .it:last-child{border-bottom:none}
+.bucket .it .st{font-size:11px;color:var(--t3);margin-top:2px}
+/* profile */
+.profile{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:12px}
+.profile h4{font-size:14px;margin-bottom:8px}
+.chk-grid{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chk{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line2);border-radius:8px;padding:6px 10px;font-size:13px;cursor:pointer}
+.chk input{width:16px;height:16px}
+textarea,input[type=text]{width:100%;border:1px solid var(--line2);border-radius:8px;padding:9px 11px;font-size:14px;font-family:inherit;background:var(--card);color:var(--t1)}
+textarea{resize:vertical;min-height:64px}
+.disclaim{font-size:12px;color:var(--t3);line-height:1.7;margin-top:8px;padding:12px 14px;background:var(--navy2);border-radius:10px}
+.note{font-size:12.5px;color:var(--t2);background:var(--shift-bg);border-radius:8px;padding:9px 12px;margin-top:10px}
+@media(max-width:560px){.rk .score{width:90px}.cbar{margin-top:4px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hd">
+    <div class="brand">
+      <div class="logo">报</div>
+      <div>
+        <h1>财富情报网 · 分析报告</h1>
+        <p>把分散的财经情报，聚合成行业级结论</p>
+      </div>
+    </div>
+    <div class="hd-act">
+      <a class="btn btn-sm" href="index.html">返回主站</a>
+      <button class="btn btn-sm" onclick="toggleProfile()">个人相关性</button>
+      <button class="btn btn-sm" onclick="copyMd()">复制 Markdown</button>
+      <button class="btn btn-sm btn-gold" onclick="downloadHtml()">下载报告</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <button class="btn btn-p" onclick="regen()">重新生成</button>
+    <span id="badge" class="badge badge-mut">合规净化：待生成</span>
+    <span class="badge badge-mut" id="dateBadge">数据日期：—</span>
+  </div>
+
+  <div class="profile" id="profilePanel" style="display:none">
+    <h4>个人相关性层（仅本机保存，不上传）</h4>
+    <div class="hint">勾选你长期关注的行业，报告会自动高亮与你相关的板块。下方「持仓模板」只填行业 / 资产类别，绝不要填个股代码——它本身不会被写进报告，仅用于本机高亮。</div>
+    <div class="chk-grid" id="secChks"></div>
+    <label style="font-size:13px;color:var(--t2)">持仓模板（行业 / 资产类别描述，可选）</label>
+    <textarea id="holdTpl" placeholder="例：科技成长、贵金属、可选消费。只填行业与资产类别，不填个股代码。"></textarea>
+    <div style="margin-top:10px;display:flex;gap:8px">
+      <button class="btn btn-gold" onclick="saveProfile()">保存并高亮</button>
+      <button class="btn" onclick="toggleProfile()">收起</button>
+    </div>
+  </div>
+
+  <div id="report"></div>
+
+  <div class="disclaim">
+    合规声明：本工具<strong>不提供任何投资建议，不推荐任何标的，不承诺任何收益</strong>。本报告仅做信息的跨条目聚合与行业级翻译，所有结论止于行业与资产类别，<strong>不含任何个股名称、股票代码、基金代码或买卖建议</strong>。「合规净化器」会在生成后对全文做一次强制扫描，剥离任何可能泄漏的标的名称或代码。生成的报告自带本免责声明，复制出去也带着。
+  </div>
+</div>
+
+<script>
+/* ============== 财富情报网 · 分析报告（数据层 + 渲染层，单文件） ============== */
+var FEED=null, SECTORS=[], PROFILE=null, AGG=[], FIELD_MAP={}, BUCKETS=null;
+var LS_KEY='wn_report_profile_v1';
+
+/* ---------- 合规净化器（P0） ---------- */
+/* 强制扫描全文，剥离任何个股代码 / 基金代码 / 标的名称。这是聚合层失守时的兜底。 */
+var RE_CODE=/\b\d{6}(?:\.(?:SH|SZ|HK|BJ))?\b/gi;   // 6 位 A股/基代码
+var RE_HK=/\b\d{4,5}\.HK\b/gi;                       // 港股代码
+var NAME_DENY=['中芯国际','比亚迪','贵州茅台','宁德时代','招商银行','工商银行','东方财富','中信证券','北方华创','中微公司'];
+function purify(text){
+  if(text==null) return {text:'',removed:[],clean:true};
+  var removed=[], t=String(text);
+  var m;
+  RE_CODE.lastIndex=0; while((m=RE_CODE.exec(t))!==null) removed.push(m[0]);
+  t=t.replace(RE_CODE,'〔代码已隐去〕');
+  RE_HK.lastIndex=0; while((m=RE_HK.exec(t))!==null) removed.push(m[0]);
+  t=t.replace(RE_HK,'〔代码已隐去〕');
+  NAME_DENY.forEach(function(n){ if(t.indexOf(n)>=0){ removed.push(n); t=t.split(n).join('〔标的已隐去〕'); } });
+  return {text:t, removed:removed, clean:removed.length===0};
+}
+/* 所有动态文本经此函数落地，从源头杜绝泄漏 */
+function T(s){ return purify(s).text; }
+
+/* ---------- 数据映射 ---------- */
+function buildFieldMap(sectors){
+  var m={};
+  (sectors||[]).forEach(function(s){ (s.fields||[]).forEach(function(f){ (m[f]=m[f]||[]).push(s.name); }); });
+  return m;
+}
+function itemSectors(item){
+  if(item.sector) return Array.isArray(item.sector)? item.sector.slice() : [item.sector];
+  var set={}; (item.fields||[]).forEach(function(f){ (FIELD_MAP[f]||[]).forEach(function(n){ set[n]=1; }); });
+  return Object.keys(set);
+}
+function itemLandProb(it){
+  if(typeof it.land_prob==='number') return it.land_prob;
+  if(it.a331 && it.a331.confidence && typeof it.a331.confidence.land_prob==='number') return it.a331.confidence.land_prob;
+  return 0.5;
+}
+function itemHorizon(it){
+  if(it.horizon) return it.horizon;
+  return it.slow? '半年+' : '1季';
+}
+
+/* ---------- 跨条目聚合 + 板块确信度（P0） ---------- */
+/* 板块确信度 = 归一化(催化数) × 平均落地概率 × 资金流向方向因子(0~1) */
+function aggregate(feed, sectors){
+  var out={};
+  sectors.forEach(function(s){ out[s.name]={sector:s.name, change:s.change||0, net:(typeof s.net_inflow==='number'?s.net_inflow:0), items:[], cat:0, landSum:0, bull:0, bear:0}; });
+  (feed.intel||[]).forEach(function(it){
+    if(it.use==='noise') return;                 // 纯噪音不参与聚合
+    itemSectors(it).forEach(function(sn){
+      if(!out[sn]) out[sn]={sector:sn, change:0, net:0, items:[], cat:0, landSum:0, bull:0, bear:0};
+      var o=out[sn];
+      o.items.push(it);
+      if(it.use==='signal' && (it.inc==='hard'||it.inc==='policy')){ o.cat++; o.landSum+=itemLandProb(it); }
+      if(it.flow==='more') o.bull++; else if(it.flow==='less') o.bear++;
+    });
+  });
+  var arr=Object.keys(out).map(function(k){
+    var o=out[k]; o.landAvg=o.cat? o.landSum/o.cat : 0; return o;
+  });
+  var maxAbs=1; arr.forEach(function(o){ maxAbs=Math.max(maxAbs, Math.abs(o.net)); });
+  arr.forEach(function(o){
+    o.dir=o.net>0?1:(o.net<0?-1:0);
+    o.conflict=(o.bull>0 && o.bear>0);
+    o.horizon=dominantHorizon(o.items);
+    o.conf=sectorConfidence(o, maxAbs);
+  });
+  arr.sort(function(a,b){ return b.conf-a.conf; });
+  return arr;
+}
+function sectorConfidence(o, maxAbs){
+  var catNorm=Math.min(1, o.cat/2);                       // 单条催化 = 0.5，两条 = 1.0
+  var flowSigned=maxAbs? o.net/maxAbs : 0;
+  flowSigned=Math.max(-1, Math.min(1, flowSigned));
+  var flowScore=0.5 + 0.5*flowSigned;                    // 资金流入→高，流出→低
+  var land=o.cat? o.landAvg : 0.5;
+  return Math.round(catNorm*land*flowScore*100);
+}
+function dominantHorizon(items){
+  var cnt={}; (items||[]).forEach(function(it){ var h=itemHorizon(it); cnt[h]=(cnt[h]||0)+1; });
+  var best=null,bn=0; Object.keys(cnt).forEach(function(k){ if(cnt[k]>bn){bn=cnt[k];best=k;} });
+  return best;
+}
+
+/* ---------- 时间维度分桶（P1） ---------- */
+function bucketItems(feed){
+  var b={short:[], mid:[], long:[]};
+  (feed.intel||[]).forEach(function(it){
+    if(it.use==='noise') return;
+    var h=itemHorizon(it);
+    var key=(h==='即时')?'short':(h==='半年+'?'long':'mid');
+    b[key].push({it:it, sectors:itemSectors(it)});
+  });
+  return b;
+}
+
+/* ===================== 渲染层 ===================== */
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+function render(){
+  if(!FEED||!SECTORS.length&&!FEED){ $('report').innerHTML='<div class="card"><div class="empty">数据尚未加载。</div></div>'; return; }
+  FIELD_MAP=buildFieldMap(SECTORS);
+  AGG=aggregate(FEED, SECTORS);
+  BUCKETS=bucketItems(FEED);
+  if(PROFILE===null) PROFILE=loadProfile();
+
+  var html='';
+  html+=renderHead();
+  html+=renderConfidence();
+  html+=renderMatrix();
+  html+=renderChains();
+  html+=renderBuckets();
+  html+=renderPersonal();
+  $('report').innerHTML=html;
+  runCompliance();
+}
+
+function renderHead(){
+  var sig=(FEED.intel||[]).filter(function(i){return i.use!=='noise';}).length;
+  var withCat=AGG.filter(function(o){return o.cat>0;}).length;
+  var top=AGG.length? AGG[0] : null;
+  return ''+
+  '<div class="card"><div class="card-hd"><div><h3>报告总览</h3>'+
+  '<p>跨条目聚合：把指向同一行业的多条情报合成一个行业结论；多条印证=信号强化，多条冲突=重点观察。</p></div></div>'+
+  '<div class="ov">'+
+    ovBox(sig,'有效信号条数')+
+    ovBox(withCat,'有催化的板块数')+
+    ovBox(top? top.sector+'（'+top.conf+'）':'—','最高板块确信度')+
+    ovBox((SECTORS.length||0),'监控板块数')+
+  '</div></div>';
+}
+function ovBox(n,l){ return '<div class="box"><div class="n">'+esc(n)+'</div><div class="l">'+esc(l)+'</div></div>'; }
+
+function renderConfidence(){
+  var rows=AGG.filter(function(o){return o.items.length>0;});
+  if(!rows.length) return '<div class="card"><div class="card-hd"><h3>板块确信度排行</h3></div><div class="empty">暂无可聚合的板块信号。</div></div>';
+  var body=rows.map(function(o,idx){
+    var dirTag=o.dir>0? '<span class="tag tag-in">资金流入 '+fmt(o.net)+'亿</span>' : o.dir<0? '<span class="tag tag-out">资金流出 '+fmt(o.net)+'亿</span>' : '<span class="tag tag-mut">资金持平</span>';
+    var conv=o.cat>1? '<span class="tag tag-conv">多源印证×'+o.cat+'</span>' : (o.cat===1?'<span class="tag tag-conv">单一催化</span>':'<span class="tag tag-conf">无明确催化</span>');
+    var conf=o.conflict? '<span class="tag tag-conf">多空冲突·重点观察</span>' : '';
+    var me=(PROFILE&&PROFILE.watch&&PROFILE.watch.indexOf(o.sector)>=0)? '<span class="tag tag-me">与你相关</span>' : '';
+    return ''+
+    '<div class="rk">'+
+      '<div class="pos">'+(idx+1)+'</div>'+
+      '<div class="main">'+
+        '<div class="nm">'+T(o.sector)+' '+me+'</div>'+
+        '<div class="meta">'+dirTag+' '+conv+' '+(o.cat? '<span class="tag tag-mut">落地概率 '+Math.round(o.landAvg*100)+'%</span>':'')+' '+conf+'</div>'+
+        '<div class="cbar"><i style="width:'+o.conf+'%"></i></div>'+
+      '</div>'+
+      '<div class="score"><div class="sc-n">'+o.conf+'</div><div class="sc-l">板块确信度</div></div>'+
+    '</div>';
+  }).join('');
+  return '<div class="card"><div class="card-hd"><div><h3>板块确信度排行</h3>'+
+    '<p>板块确信度 = 催化数 × 平均落地概率 × 资金流向方向。≥3 条催化满分，资金流出会显著拉低评分。</p></div></div>'+body+'</div>';
+}
+
+function renderMatrix(){
+  var pts=AGG.filter(function(o){return o.items.length>0;});
+  if(!pts.length) return '<div class="card"><div class="card-hd"><h3>板块 × 事件矩阵</h3></div><div class="empty">暂无数据。</div></div>';
+  var maxAbs=1; pts.forEach(function(o){ maxAbs=Math.max(maxAbs, Math.abs(o.net)); });
+  var W=720,H=440,padL=64,padR=24,padT=24,padB=54;
+  var x0=padL, x1=W-padR, y0=H-padB, y1=padT;
+  function sx(v){ return x0 + (v+maxAbs)/(2*maxAbs)*(x1-x0); }
+  function sy(v){ return y0 + (100-v)/100*(y1-y0); }
+  var cx=sx(0), cy=sy(50);
+  var dots=pts.map(function(o){
+    var x=sx(o.net), y=sy(o.conf);
+    var col=o.dir>0? 'var(--less)' : (o.dir<0? 'var(--more)' : 'var(--t3)');
+    var me=(PROFILE&&PROFILE.watch&&PROFILE.watch.indexOf(o.sector)>=0);
+    return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="'+(me?8:6)+'" fill="'+col+'" stroke="'+(me?'var(--navy)':'#fff')+'" stroke-width="'+(me?2:1.5)+'">'+
+      '<title>'+esc(o.sector)+'：确信度 '+o.conf+'，净流入 '+fmt(o.net)+'亿</title></circle>'+
+      '<text x="'+x.toFixed(1)+'" y="'+(y-12).toFixed(1)+'" font-size="12" fill="var(--t1)" text-anchor="middle">'+esc(o.sector)+(me?' ★':'')+'</text>';
+  }).join('');
+  var svg='<svg class="matrix" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="板块与事件矩阵">'+
+    '<rect x="'+x0+'" y="'+y1+'" width="'+(x1-x0)+'" height="'+(y0-y1)+'" fill="#fafbfd" stroke="var(--line)"/>'+
+    '<line x1="'+cx+'" y1="'+y1+'" x2="'+cx+'" y2="'+y0+'" stroke="var(--line2)" stroke-dasharray="4 4"/>'+
+    '<line x1="'+x0+'" y1="'+cy+'" x2="'+x1+'" y2="'+cy+'" stroke="var(--line2)" stroke-dasharray="4 4"/>'+
+    '<text x="'+(x1-4)+'" y="'+(y1+14)+'" font-size="11" fill="var(--t3)" text-anchor="end">确信度高</text>'+
+    '<text x="'+(x1-4)+'" y="'+(y0+16)+'" font-size="11" fill="var(--t3)" text-anchor="end">确信度低</text>'+
+    '<text x="'+(x0+4)+'" y="'+(y0+16)+'" font-size="11" fill="var(--t3)" text-anchor="start">资金流出</text>'+
+    '<text x="'+(x1-4)+'" y="'+(y0+16)+'" font-size="11" fill="var(--t3)" text-anchor="end">资金流入</text>'+
+    dots+
+    '<text x="'+(x0+8)+'" y="'+(y1+22)+'" font-size="12.5" font-weight="600" fill="var(--gold)">高确信信号（有催化＋有资金）</text>'+
+    '<text x="'+(x1-8)+'" y="'+(y1+22)+'" font-size="12.5" font-weight="600" fill="var(--shift)">资金试探（需验证催化质量）</text>'+
+    '<text x="'+(x0+8)+'" y="'+(y0-10)+'" font-size="12.5" font-weight="600" fill="var(--more)">催化仍在·资金撤离（重点观察）</text>'+
+    '<text x="'+(x1-8)+'" y="'+(y0-10)+'" font-size="12.5" font-weight="600" fill="var(--t3)">虚火 / 沉寂</text>'+
+    '</svg>';
+  return '<div class="card"><div class="card-hd"><div><h3>板块 × 事件矩阵</h3>'+
+    '<p>横轴=资金净流入（亿），纵轴=板块确信度。落在「有催化＋有资金」象限的是高确信信号；只有催化没有资金的，往往是虚火。</p></div></div>'+
+    '<div class="matrix-wrap">'+svg+'</div></div>';
+}
+
+function renderChains(){
+  var rows=AGG.filter(function(o){return o.items.length>0 && o.cat>0;}).slice(0,8);
+  if(!rows.length) return '<div class="card"><div class="card-hd"><h3>信号链可视化</h3></div><div class="empty">暂无可渲染的传导链。</div></div>';
+  var body=rows.map(function(o){
+    // 取该板块落地概率最高的、带 signal_chain 的条目
+    var it=o.items.filter(function(x){return Array.isArray(x.signal_chain)&&x.signal_chain.length;})
+                  .sort(function(a,b){return itemLandProb(b)-itemLandProb(a);})[0]
+            || o.items.filter(function(x){return Array.isArray(x.signal_chain)&&x.signal_chain.length;})[0];
+    if(!it||!Array.isArray(it.signal_chain)||!it.signal_chain.length) return '';
+    var steps=it.signal_chain.map(function(s,i){
+      var lab=['政策 / 事件','行业','关联资产（板块级）','对你个人'][i]||('环节'+(i+1));
+      return '<div class="chain-step"><span class="cl">'+esc(lab)+'</span>'+T(s)+'</div>';
+    }).join('<span class="arrow"></span>');
+    var me=(PROFILE&&PROFILE.watch&&PROFILE.watch.indexOf(o.sector)>=0)?' <span class="tag tag-me">与你相关</span>':'';
+    return '<div style="padding:10px 0;border-bottom:1px dashed var(--line)">'+
+      '<div class="nm" style="font-weight:600">'+T(o.sector)+'（确信度 '+o.conf+'）'+me+'</div>'+
+      '<div class="chain">'+steps+'</div></div>';
+  }).filter(Boolean).join('');
+  return '<div class="card"><div class="card-hd"><div><h3>信号链可视化</h3>'+
+    '<p>331 法则的精华：把「政策 / 事件 → 行业 → 关联资产（板块级）→ 对你个人」的因果链画出来。全程止于行业与资产类别，不含任何标的。</p></div></div>'+
+    (body||'<div class="empty">暂无可渲染的传导链。</div>')+'</div>';
+}
+
+function renderBuckets(){
+  function col(title, key, color){
+    var items=BUCKETS[key];
+    var b = items.length? items.map(function(r){
+      var secs=r.sectors.map(function(s){return T(s);}).join('、');
+      return '<div class="it">'+T(r.it.title)+'<div class="st">行业：'+secs+'</div></div>';
+    }).join('') : '<div class="empty" style="padding:14px">该时间窗暂无信号</div>';
+    return '<div class="bucket"><h4><svg class="ic" viewBox="0 0 24 24" style="color:'+color+';width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'+title+'</h4>'+b+'</div>';
+  }
+  return '<div class="card"><div class="card-hd"><div><h3>时间维度分桶</h3>'+
+    '<p>用每条情报的落地概率与时限（即时 / 1 季 / 半年+），把结论分到未来 1 周 / 1 月 / 1 季视图，而不是混在一起。</p></div></div>'+
+    '<div class="buckets">'+
+      col('短期（未来 1 周）','short','var(--more)')+
+      col('中期（未来 1 季）','mid','var(--shift)')+
+      col('长期（半年+）','long','var(--gold)')+
+    '</div></div>';
+}
+
+function renderPersonal(){
+  if(!PROFILE||!PROFILE.watch||!PROFILE.watch.length) return '';
+  var me=AGG.filter(function(o){return PROFILE.watch.indexOf(o.sector)>=0;});
+  var list=PROFILE.watch.map(function(s){
+    var o=AGG.filter(function(x){return x.sector===s;})[0];
+    return '<div class="it">'+T(s)+(o&&o.items.length? '（确信度 '+o.conf+'，'+o.items.length+' 条信号）':'（当前无聚合信号）')+'</div>';
+  }).join('');
+  return '<div class="card"><div class="card-hd"><div><h3>个人相关性</h3>'+
+    '<p>以下板块在你的关注列表中，已在上文高亮。你的关注行业仅本机保存，本报告不写入任何持仓明细。</p></div></div>'+
+    '<div class="bucket" style="background:var(--gold-bg)">'+list+'</div></div>';
+}
+
+/* ---------- 合规净化器终检 ---------- */
+function runCompliance(){
+  var el=$('report');
+  var txt=el? el.textContent : '';
+  var r=purify(txt);
+  var badge=$('badge');
+  if(r.clean){
+    badge.className='badge badge-ok';
+    badge.textContent='合规净化：全文已扫描，无个股名 / 代码泄漏 ✓';
+  }else{
+    badge.className='badge badge-warn';
+    badge.textContent='合规净化：已剥离 '+r.removed.length+' 处敏感词（'+r.removed.slice(0,4).join('、')+'）';
+  }
+}
+
+/* ---------- 个人相关性层（localStorage） ---------- */
+function loadProfile(){
+  try{ var s=localStorage.getItem(LS_KEY); if(s) return JSON.parse(s); }catch(e){}
+  return {watch:[], holdings:''};
+}
+function saveProfile(){
+  var watch=[]; var nodes=document.querySelectorAll('#secChks input:checked');
+  nodes.forEach(function(n){ watch.push(n.value); });
+  PROFILE={watch:watch, holdings:($('holdTpl').value||'')};
+  try{ localStorage.setItem(LS_KEY, JSON.stringify(PROFILE)); }catch(e){}
+  // 同步勾选 UI 状态
+  render();
+  var b=$('badge'); b.className='badge badge-mut'; b.textContent='已按关注行业高亮（仅本机）';
+}
+function buildProfilePanel(){
+  var box=$('secChks');
+  if(!box) return;
+  if(!SECTORS.length){ box.innerHTML='<span class="hint">板块数据未加载，无法列出。</span>'; return; }
+  var cur=(PROFILE&&PROFILE.watch)||[];
+  box.innerHTML=SECTORS.map(function(s){
+    var on=cur.indexOf(s.name)>=0? 'checked':'';
+    return '<label class="chk"><input type="checkbox" value="'+esc(s.name)+'" '+on+'>'+esc(s.name)+'</label>';
+  }).join('');
+  if(PROFILE&&PROFILE.holdings) $('holdTpl').value=PROFILE.holdings;
+}
+function toggleProfile(){
+  var p=$('profilePanel');
+  if(p.style.display==='none'){ if(PROFILE===null) PROFILE=loadProfile(); buildProfilePanel(); p.style.display='block'; }
+  else p.style.display='none';
+}
+
+/* ---------- 导出（P2） ---------- */
+function mdEscape(s){ return String(s==null?'':s).replace(/\|/g,'/').replace(/\n/g,' '); }
+function buildMarkdown(){
+  var L=[];
+  L.push('# 财富情报网 · 分析报告');
+  L.push('');
+  L.push('> 数据日期：'+(FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN'));
+  L.push('> 本工具不提供投资建议，不推荐任何标的，不承诺收益。结论止于行业与资产类别。');
+  L.push('');
+  L.push('## 板块确信度排行');
+  AGG.filter(function(o){return o.items.length>0;}).forEach(function(o,i){
+    L.push((i+1)+'. **'+o.sector+'** — 确信度 '+o.conf+'（催化 '+o.cat+' 条，落地概率 '+Math.round(o.landAvg*100)+'%，净流入 '+fmt(o.net)+'亿）'+(o.conflict?'［多空冲突·重点观察］':''));
+  });
+  L.push('');
+  L.push('## 时间维度分桶');
+  [['短期（1周）','short'],['中期（1季）','mid'],['长期（半年+）','long']].forEach(function(pair){
+    var items=BUCKETS[pair[1]];
+    L.push('### '+pair[0]);
+    if(items.length) items.forEach(function(r){ L.push('- '+mdEscape(r.it.title)+'（'+r.sectors.join('、')+'）'); });
+    else L.push('- 暂无');
+  });
+  L.push('');
+  L.push('---');
+  L.push('*本报告由财富情报网自动聚合生成，仅供信息处理参考，不构成任何投资建议。*');
+  return L.join('\n');
+}
+function copyMd(){
+  var md=buildMarkdown();
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(md).then(function(){ toast('Markdown 已复制'); }, function(){ fallbackCopy(md); });
+  }else fallbackCopy(md);
+}
+function fallbackCopy(t){
+  var ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select();
+  try{ document.execCommand('copy'); toast('Markdown 已复制'); }catch(e){ toast('复制失败，请手动选择'); }
+  document.body.removeChild(ta);
+}
+function downloadHtml(){
+  var rep=$('report'); if(!rep) return;
+  var doc='<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>财富情报网 · 分析报告</title>'+
+    '<style>body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f3f5f9;color:#16202e;padding:24px;line-height:1.6}'+
+    '.cbar{height:8px;background:#e7ecf3;border-radius:6px;overflow:hidden;margin-top:6px}.cbar i{display:block;height:100%;background:#0f9d77}'+
+    '.tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;margin:0 2px}'+
+    '.chain-step{background:#e7ecf3;border:1px solid #d3dae6;border-radius:10px;padding:8px 11px;font-size:13px;display:inline-block;margin:4px 0}'+
+    '.rk{padding:12px 0;border-bottom:1px dashed #e4e8ef}.nm{font-weight:600}.meta{font-size:12px;color:#5b6675}</style></head><body>'+
+    '<h2>财富情报网 · 分析报告</h2><p style="color:#5b6675">数据日期：'+(FEED.date||'?')+' ｜ 生成：'+new Date().toLocaleString('zh-CN')+'</p>'+
+    rep.innerHTML+
+    '<p style="font-size:12px;color:#8a93a3;margin-top:16px">本工具不提供投资建议，不推荐任何标的，不承诺收益。结论止于行业与资产类别。</p>'+
+    '</body></html>';
+  var blob=new Blob([doc],{type:'text/html;charset=utf-8'});
+  var url=URL.createObjectURL(blob); var a=document.createElement('a');
+  a.href=url; a.download='财富情报网-分析报告-'+(FEED.date||'data')+'.html'; document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url); toast('报告已下载');
+}
+function regen(){ render(); toast('已重新生成'); }
+
+/* ---------- 工具 ---------- */
+function $(id){ return document.getElementById(id); }
+function fmt(v){ return (v>0?'+':'')+ (Math.round(v*100)/100); }
+var toastTimer=null;
+function toast(msg){
+  var t=$('toast'); if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast'; document.body.appendChild(t); }
+  t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer=setTimeout(function(){ t.classList.remove('show'); }, 1800);
+}
+
+/* ---------- 加载 ---------- */
+function loadData(){
+  Promise.all([
+    fetch('feed.json').then(function(r){return r.json();}),
+    fetch('sectors.json').then(function(r){return r.json();})
+  ]).then(function(res){
+    FEED=res[0];
+    SECTORS=(res[1]&&res[1].sectors)? res[1].sectors : (Array.isArray(res[1])? res[1] : []);
+    $('dateBadge').textContent='数据日期：'+(FEED.date||(SECTORS.date)||'?');
+    render();
+  }).catch(function(e){
+    $('report').innerHTML='<div class="card"><div class="empty">数据加载失败：'+esc(e&&e.message||e)+
+      '。<br>请通过 GitHub Pages 在线打开（本页需同源读取 feed.json / sectors.json）。</div></div>';
+  });
+}
+loadData();
+</script>
+</body>
+</html>
