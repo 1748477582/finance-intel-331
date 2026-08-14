@@ -2481,12 +2481,12 @@ function seed(){
 var _loadedFromStorage = false;   // 本机是否确有存档（用于决定 loadFeed 是否覆盖）
 function load(){
   try{
-    var raw = localStorage.getItem(KEY);
+    var raw = localStorage.getItem(KEY) || localStorage.getItem('wb_331_data_v4');
     if(raw){ DB = JSON.parse(raw); _loadedFromStorage = true; }
   }catch(e){ DB = null; }
   if(!DB || !DB.intel){
     try{
-      var old = localStorage.getItem('wb_data_v2');
+      var old = localStorage.getItem('wb_331_data_v2');
       if(old){
         var o = JSON.parse(old);
         if(o && o.intel){
@@ -2539,8 +2539,10 @@ function save(){
 var EVT_KEY='wb_events', SEC_KEY='wb_sectors', SENT_KEY='wb_sentiment';
 
 function loadList(k){
-  try{ var raw=localStorage.getItem(k); return raw?JSON.parse(raw):[]; }
-  catch(e){ return []; }
+  try{ var raw=localStorage.getItem(k); if(raw) return JSON.parse(raw); }catch(e){}
+  /* 兼容旧版本（含 331 前缀）的存档，升级不丢数据 */
+  try{ var old=localStorage.getItem('wb_331_'+k.slice(3)); if(old){ var a=JSON.parse(old); saveList(k,a); return a; } }catch(e){}
+  return [];
 }
 function saveList(k,arr){
   try{ localStorage.setItem(k, JSON.stringify(arr)); }
