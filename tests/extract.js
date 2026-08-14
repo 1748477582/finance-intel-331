@@ -4,7 +4,7 @@ var path = require('path');
 
 var HTML_PATH = path.join(__dirname, '..', 'index.html');
 var RENDER_MARK = '/* ==========================================================\n   渲染层';
-var CORE_MARK = '331 财经情报站 —— 数据层';
+var CORE_MARK = '财富情报网 —— 数据层';
 
 function readHtml(){
   return fs.readFileSync(HTML_PATH, 'utf8').replace(/\r\n/g, '\n');

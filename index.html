@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="331情报站">
+<meta name="apple-mobile-web-app-title" content="财富情报网">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#f3f5f9">
 <meta name="description" content="把财经新闻翻译成对个人的影响。信号与噪音分级、资金流向、产业链映射、决策复盘。数据只存本机浏览器，不上传。">
 <meta name="robots" content="noindex, nofollow">
-<title>331财富情报网</title>
+<title>财富情报网</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
@@ -777,7 +777,7 @@ font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:10px;font-family:va
 <div class="hd">
 <div class="brand">
 <div class="logo"><svg class="ic" viewBox="0 0 24 24" style="width:21px;height:21px"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></div>
-<div><h1>331财富情报网</h1><p id="hdSub">信号提纯 · 影响翻译 · 决策留痕</p></div>
+<div><h1>财富情报网</h1><p id="hdSub">信号提纯 · 影响翻译 · 决策留痕</p></div>
 </div>
 <div class="hd-act">
 <button class="btn btn-gold btn-sm" id="btnRefresh" onclick="refreshFeed()"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>刷新情报</button>
@@ -1268,7 +1268,7 @@ font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:10px;font-family:va
 本工具只做「财经新闻 → 结构化 → 个人影响」的翻译与记录，<b>不提供任何买卖建议，不承诺任何收益</b>。信号分是基于信源层级与信息增量的机械计算，反映的是「这条信息值不值得你花时间」，<b>不代表行情涨跌方向</b>。产业链映射只呈现客观的上下游结构与板块归类，<b>不含标的推荐</b>。所有数据仅存在你自己的浏览器本地，不上传任何服务器；换设备或清缓存前请先导出备份。工具是辅助，真正起作用的是你自己的分析框架。
 </div>
 
-<footer>331财富情报网 · 数据存于本机浏览器 · 建议每周导出一次备份</footer>
+<footer>财富情报网 · 数据存于本机浏览器 · 建议每周导出一次备份</footer>
 </div>
 
 <div class="bnav">
@@ -1285,10 +1285,10 @@ font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:10px;font-family:va
 
 <script>
 /* ==========================================================
-   331 财经情报站 —— 数据层
+   财富情报网 —— 数据层
    本段无任何 DOM 依赖，迁移微信小程序时可整体复制
    ========================================================== */
-var KEY = 'wb_331_data_v4';
+var KEY = 'wb_data_v4';
 
 var SOURCES = [
   {n:'中国人民银行', t:1, w:40},{n:'国家统计局', t:1, w:40},
@@ -1418,7 +1418,7 @@ var SPIKE_MIN = 3;
 /* 大模型适配：三家都是 OpenAI 兼容格式，换厂商只改 endpoint 和 model */
 var LLM_VENDORS = [
   {id:'glm', n:'智谱 GLM（推荐 · 资源包优先）', ep:'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-   model:'glm-4.7', tip:'智谱开放平台获取 API Key。已默认用 GLM-4.7（实名认证 500万体验包，优先消耗）；glm-4.7-flash / glm-4-flash 更省、走通用 1200万资源包；glm-4.1v-flashx 是视觉模型，文本 331 拆解用不上'},
+   model:'glm-4.7', tip:'智谱开放平台获取 API Key。已默认用 GLM-4.7（实名认证 500万体验包，优先消耗）；glm-4.7-flash / glm-4-flash 更省、走通用 1200万资源包；glm-4.1v-flashx 是视觉模型，文本结构化拆解用不上'},
   {id:'qwen', n:'通义千问', ep:'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
    model:'qwen-plus', tip:'阿里云百炼控制台创建 API-KEY，模型名可填 qwen-plus / qwen-max'},
   {id:'doubao', n:'豆包 · 火山方舟', ep:'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
@@ -2253,7 +2253,7 @@ function genBrief(days){
 
   var L=[];
   var d=new Date();
-  L.push('【331 情报晨报】'+d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日');
+  L.push('【情报晨报】'+d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日');
   L.push('统计区间：'+start+' 至 '+end+'（'+days+' 天）');
   L.push('');
   L.push('■ 资金流向格局：'+vt);
@@ -2486,7 +2486,7 @@ function load(){
   }catch(e){ DB = null; }
   if(!DB || !DB.intel){
     try{
-      var old = localStorage.getItem('wb_331_data_v2');
+      var old = localStorage.getItem('wb_data_v2');
       if(old){
         var o = JSON.parse(old);
         if(o && o.intel){
@@ -2536,7 +2536,7 @@ function save(){
 /* ==========================================================
    分析中心数据层：市场热点 / 板块热度 / 舆情追踪
    ========================================================== */
-var EVT_KEY='wb_331_events', SEC_KEY='wb_331_sectors', SENT_KEY='wb_331_sentiment';
+var EVT_KEY='wb_events', SEC_KEY='wb_sectors', SENT_KEY='wb_sentiment';
 
 function loadList(k){
   try{ var raw=localStorage.getItem(k); return raw?JSON.parse(raw):[]; }
@@ -3488,7 +3488,7 @@ function llmVendorChange(){
 function saveLLM(){
   DB.llm = {vendor: document.getElementById('llmVendor').value, key: document.getElementById('llmKey').value.trim(), model: document.getElementById('llmModel').value.trim()};
   save();
-  if(DB.llm.key && DB.llm.vendor) alert('已保存。下次打开情报详情会尝试用 LLM 做 331 拆解。');
+  if(DB.llm.key && DB.llm.vendor) alert('已保存。下次打开情报详情会尝试用 LLM 做结构化拆解。');
   else alert('已保存（未填 key，继续使用规则引擎拆解）。');
 }
 function toggleWatch(id, el){
@@ -3650,9 +3650,9 @@ function exportJSON(){
   var blob=new Blob([JSON.stringify(DB,null,2)],{type:'application/json'});
   var a=document.createElement('a');
   a.href=URL.createObjectURL(blob);
-  a.download='331情报站备份_'+todayStr()+'.json';
+  a.download='财富情报网备份_'+todayStr()+'.json';
   a.click(); URL.revokeObjectURL(a.href);
-  localStorage.setItem('wb_331_lastBackup', todayStr()+'|'+DB.intel.length);
+  localStorage.setItem('wb_lastBackup', todayStr()+'|'+DB.intel.length);
   hideTip();
 }
 function importJSON(ev){
@@ -3691,7 +3691,7 @@ function exportCSV(){
   }).join('\r\n');
   var a=document.createElement('a');
   a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
-  a.download='331情报库_'+todayStr()+'.csv';
+  a.download='财富情报库_'+todayStr()+'.csv';
   a.click(); URL.revokeObjectURL(a.href);
 }
 function askClear(){
@@ -3707,7 +3707,7 @@ function askClear(){
 }
 function checkTip(){
   var n=DB.intel.length+DB.decisions.length;
-  var last=localStorage.getItem('wb_331_lastBackup');
+  var last=localStorage.getItem('wb_lastBackup');
   var lastN=last?parseInt(last.split('|')[1],10):0;
   if(n>=30 && n-lastN>=30){
     document.getElementById('backupTip').style.display='flex';
