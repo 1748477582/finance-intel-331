@@ -1,20 +1,140 @@
 {
-  "generatedAt": "2026-08-16T13:00:29.049Z",
+  "generatedAt": "2026-08-17T01:55:29.268Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 14,
+    "total": 19,
     "llm": 0,
-    "stats": "error: fetch failed",
+    "stats": 6,
     "pbc": 6,
-    "sina724": 3,
+    "sina724": 2,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_5tamqrup",
+      "id": "feed_cgahvioo",
+      "title": "2026年8月上旬流通领域重要生产资料市场价格变动情况",
+      "src": "国家统计局",
+      "date": "2026-08-14",
+      "body": "",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260813_1965025.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_0r4lg1v7",
+      "title": "2026年7月份居民消费价格同比上涨0.5%",
+      "src": "国家统计局",
+      "date": "2026-08-09",
+      "body": "全国居民消费价格同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品价格下降1.5%，非食品价格上涨0.9%；消费品价格上涨0.2%，服务价格上涨0.7%。1 ­ ­ — 7月平均，全国居民消费价格比上年同期上涨0.9%。7月份，全国居民消费价格环比下降0.1%。其中，城市下降0.1%，农村下降0.2%；食品价格持平，非食品价格下降0.1%；消费品价格下降0.6%，服务价格上涨0.4%。一、各类商品及服务价格同比变动情况7月份，食品烟酒及在外餐饮类价格同比下降0.8%，影响CPI（居民消费价格指数）下降约0.22个百分点。食品中，畜肉类价格下降6.0%，影响CPI下降约0.25个百分点，其中猪肉价格下降13.3%；奶类价格下降1.5%，影响CPI下降约0.02个百分点；鲜果价格下降1.1%，影响CPI下降约0.02个百分点；蛋类价格上涨14.4%，影响CPI上涨约0.07个百分点。其他七大类价格同比六涨一降。其中，其他用品及服务、医疗保健价格分别上涨5.8%和2.9%，衣着、教育文化娱乐价格分别上涨1.4%和1.3%，生活用品及服务、交通通信价格分别上涨0.8%和0.4%；居住价格下降0.3%。二、各类商品及服务价格环比变动情况7月份，食品烟酒及在外餐饮类价格环比持平。食品中，畜肉类价格上涨1.9%，影响CPI上涨约0.07个百分点，其中猪肉价格上涨4.1%；鲜菜价格上涨1.3%，影响CPI上涨约0.02个百分点；鲜果价格下降3.8%，影响CPI下降约0.07个百分点；蛋类价格下降1.7%，影响CPI下降约0.01个百分点。其他七大类价格环比三涨两平两降。其中，教育",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+      "event": "CPI 2026-07",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_yw3w7v7q",
+      "title": "2026年7月份工业生产者出厂价格同比上涨3.5%",
+      "src": "国家统计局",
+      "date": "2026-08-09",
+      "body": "全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。工业生产者购进价格同比上涨5.5%，环比下降1.0%。1 — 7月平均，工业生产者出厂价格比上年同期上涨1.8%，工业生产者购进价格上涨2.8%。一、工业生产者价格同比变动情况7月份，工业生产者出厂价格中，生产资料价格同比上涨4.8%，影响工业生产者出厂价格总水平上涨约3.72个百分点。其中，采掘工业价格上涨16.4%，原材料工业价格上涨6.1%，加工工业价格上涨3.1%。生活资料价格下降0.8%，影响工业生产者出厂价格总水平下降约0.17个百分点。其中，食品价格下降2.1%，衣着价格下降1.1%，一般日用品价格下降1.0%，耐用消费品价格上涨0.4%。工业生产者购进价格中，有色金属材料及电线类价格上涨19.0%，燃料动力类、化工原料类价格均上涨9.3%，纺织原料类价格上涨3.2%，黑色金属材料类价格上涨1.4%；建筑材料及非金属类价格下降4.1%，农副产品类价格下降0.8%。二、工业生产者价格环比变动情况7月份，工业生产者出厂价格中，生产资料价格环比下降0.9%，影响工业生产者出厂价格总水平下降约0.70个百分点。其中，采掘工业价格下降0.2%，原材料工业价格下降2.4%，加工工业价格下降0.1%。生活资料价格下降0.1%，影响工业生产者出厂价格总水平下降约0.01个百分点。其中，食品和耐用消费品价格均持平，衣着价格下降0.3%，一般日用品价格下降0.2%。工业生产者购进价格中，燃料动力类、化工原料类价格均下降2.6%，有色金属材料及电线类价格下降1.4%，黑色金属材料类、纺织原料类价格均下降0.2%，建筑材料及非金属",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965007.html",
+      "event": "PPI 2026-07",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_4z9s0pwn",
+      "title": "2026年7月下旬流通领域重要生产资料市场价格变动情况",
+      "src": "国家统计局",
+      "date": "2026-08-04",
+      "body": "",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260803_1964273.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_r2nv4430",
+      "title": "2026年7月中国采购经理指数运行情况",
+      "src": "国家统计局",
+      "date": "2026-07-31",
+      "body": "",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "event": "PMI 2026-07",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_pf35h6xw",
+      "title": "2025年我国“三新”经济增加值占国内生产总值比重为18.39%",
+      "src": "国家统计局",
+      "date": "2026-07-30",
+      "body": "",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260730_1964247.html",
+      "event": "GDP",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rsokny3i",
       "title": "中国人民银行公告﹝2026﹞第21号",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -34,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_hymismxj",
+      "id": "feed_xvfgz5as",
       "title": "中国人民银行国家外汇管理局发布《关于跨国公司本外币跨境资金集中运营业务有关事宜的通知》",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -54,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kk4f0frl",
+      "id": "feed_qwrvsjvx",
       "title": "2026年7月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -74,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gnozb7ou",
+      "id": "feed_xpxbye2m",
       "title": "中国人民银行副行长邹澜出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -94,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_sivcn4x6",
+      "id": "feed_mxck0xsr",
       "title": "2026年第二季度中国货币政策执行报告",
       "src": "中国人民银行",
       "date": "2026-08-12",
@@ -114,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_239rd5iu",
+      "id": "feed_2702qczq",
       "title": "2026年上半年中国货币政策大事记",
       "src": "中国人民银行",
       "date": "2026-08-12",
@@ -134,54 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_2eod2bdv",
-      "title": "【多国央行陷入“救火-加杠杆-再救火”的循环困境】英格兰银行首席经济学家Huw Pill警告，各国央行为防止市场崩溃而推…",
+      "id": "feed_06im9frp",
+      "title": "10年期日本国债收益率上行5.5个基点，报2.930%。",
       "src": "新浪财经 7x24",
-      "date": "2026-08-16",
-      "body": "【多国央行陷入“救火-加杠杆-再救火”的循环困境】英格兰银行首席经济学家Huw Pill警告，各国央行为防止市场崩溃而推出的救助机制，正在无意间补贴政府借贷、推高系统性杠杆，并可能干扰货币政策传导。 Pill将这一困境形容为“打地鼠”：“讽刺的是，脆弱性恰恰是由那些为降低脆弱性而引入的机制所制造的。” 对冲基金持有的美国国债已从十年前的6000亿美元膨胀至2.4万亿美元。目前，这一循环已进入新一轮的杠杆积累阶段，而各方尚未找到有效的破局之道。",
-      "url": "https://finance.sina.cn/7x24/2026-08-16/detail-ininpmth0840095.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_agos2zii",
-      "title": "【德国上半年对美直接投资额跌至3年来新低 】受美国政府贸易政策不确定性带来的影响，德国企业今年上半年对美直接投资总额降至…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-16",
-      "body": "【德国上半年对美直接投资额跌至3年来新低 】受美国政府贸易政策不确定性带来的影响，德国企业今年上半年对美直接投资总额降至43亿欧元（约合50亿美元），为3年来新低。路透社16日援引德国经济研究所基于德国央行数据的测算报道，今年上半年德国企业对美直接投资同比下降近三分之二，与2024年同期相比降幅接近80%，为2023年以来最低水平。自美国总统特朗普开启第二任期以来，美国政府以加征进口关税威胁其贸易伙伴，争取对美有利的贸易条件。2025年7月，特朗普和欧盟委员会主席冯德莱恩在英国宣布美欧达成新贸易协议，协议包括美国将对欧盟输美产品征收15%的关税、欧盟将对美增加6000亿美元投资及购买价值7500亿美元的美国能源等。德国经济研究所研究员萨米娜·苏丹告诉路透社记者，自特朗普重返白宫以来，德国企业对美投资便持续走低；在美经营的德国企业将所获利润用于在美再投资，但对投入新资本普遍持观望态度。（新华社）",
-      "url": "https://finance.sina.cn/7x24/2026-08-16/detail-ininpmtf1222719.d.html",
-      "event": "关税 2025-07",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_w71jcsff",
-      "title": "【贝特利：首次公开发行股票并在创业板上市网上路演公告】贝特利公告称，公司首次公开发行不超6570万股人民币普通股（A股）…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-16",
-      "body": "【贝特利：首次公开发行股票并在创业板上市网上路演公告】贝特利公告称，公司首次公开发行不超6570万股人民币普通股（A股）的申请已获深交所上市审核委员会审议通过，并获中国证监会同意注册。本次发行采用战略配售、网下发行和网上发行相结合方式，发行后总股本为26270万股。初始战略配售1971万股，约占发行数量30%。发行人和保荐人国信证券定于2026年8月18日举行网上路演，网址为全景路演（https://rs.p5w.net），时间为14:00 - 17:00 。",
-      "url": "https://finance.sina.cn/7x24/2026-08-16/detail-ininpmtk9594593.d.html",
+      "date": "2026-08-17",
+      "body": "10年期日本国债收益率上行5.5个基点，报2.930%。",
+      "url": "https://finance.sina.cn/7x24/2026-08-17/detail-ininqtnx7853727.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -197,12 +275,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_f3nmfkcn",
-      "title": "网红小家电集体吃灰",
+      "id": "feed_6upnh49c",
+      "title": "日本30年期国债收益率上行5个基点，报4.06%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-08-17",
+      "body": "日本30年期国债收益率上行5个基点，报4.06%。",
+      "url": "https://finance.sina.cn/7x24/2026-08-17/detail-ininqtnx7843022.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_18nybzxr",
+      "title": "居民存款7月又少了6300亿",
       "src": "热搜／论坛",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E5%B0%8F%E5%AE%B6%E7%94%B5%E9%9B%86%E4%BD%93%E5%90%83%E7%81%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B1%85%E6%B0%91%E5%AD%98%E6%AC%BE7%E6%9C%88%E5%8F%88%E5%B0%91%E4%BA%866300%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -217,12 +316,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ei09m4pn",
-      "title": "A股又见大肉签",
+      "id": "feed_pau4pdzv",
+      "title": "罕见爆仓！华尔街巨头巨亏1000亿",
       "src": "热搜／论坛",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%8F%88%E8%A7%81%E5%A4%A7%E8%82%89%E7%AD%BE&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%95%E8%A7%81%E7%88%86%E4%BB%93%EF%BC%81%E5%8D%8E%E5%B0%94%E8%A1%97%E5%B7%A8%E5%A4%B4%E5%B7%A8%E4%BA%8F1000%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -237,12 +336,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bg9h3808",
-      "title": "首个被AI老板开除的人类员工",
+      "id": "feed_xk1uwro8",
+      "title": "茅台的价值正在被重新定义",
       "src": "热搜／论坛",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%A6%96%E4%B8%AA%E8%A2%ABAI%E8%80%81%E6%9D%BF%E5%BC%80%E9%99%A4%E7%9A%84%E4%BA%BA%E7%B1%BB%E5%91%98%E5%B7%A5&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8C%85%E5%8F%B0%E7%9A%84%E4%BB%B7%E5%80%BC%E6%AD%A3%E5%9C%A8%E8%A2%AB%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -257,12 +356,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bjtj3eq3",
-      "title": "全球疯抢磷化铟",
+      "id": "feed_0o04ygqd",
+      "title": "DeepSeek调价生效 涨幅最高达1100%",
       "src": "热搜／论坛",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E7%96%AF%E6%8A%A2%E7%A3%B7%E5%8C%96%E9%93%9F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=DeepSeek%E8%B0%83%E4%BB%B7%E7%94%9F%E6%95%88+%E6%B6%A8%E5%B9%85%E6%9C%80%E9%AB%98%E8%BE%BE1100%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -277,12 +376,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_arxapbi4",
-      "title": "旺旺 真听劝",
+      "id": "feed_bobcxjkg",
+      "title": "中国车“本土化细节”震动日本",
       "src": "热搜／论坛",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%97%BA%E6%97%BA+%E7%9C%9F%E5%90%AC%E5%8A%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%BD%A6%E2%80%9C%E6%9C%AC%E5%9C%9F%E5%8C%96%E7%BB%86%E8%8A%82%E2%80%9D%E9%9C%87%E5%8A%A8%E6%97%A5%E6%9C%AC&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
