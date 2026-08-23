@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-23T02:00:00.818Z",
+  "generatedAt": "2026-08-23T13:02:39.641Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 18,
+    "total": 21,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 1,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_pb34nmef",
+      "id": "feed_ixu613vc",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4qbzox1x",
+      "id": "feed_brmw2mot",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0e5l7cie",
+      "id": "feed_84d1qmcf",
       "title": "2026年7月份规模以上工业增加值增长4.5%",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ucsecnr9",
+      "id": "feed_trgq4vh5",
       "title": "2026年1—7月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gyd5bnkg",
+      "id": "feed_hp3ez7sp",
       "title": "2026年1—7月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_z65sg73t",
+      "id": "feed_rv79hn28",
       "title": "2026年1—7月份社会消费品零售总额增长1.2%",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_by409ugo",
+      "id": "feed_0138xunm",
       "title": "中澳（大利亚）两国央行续签双边本币互换协议",
       "src": "中国人民银行",
       "date": "2026-08-19",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dper6yne",
+      "id": "feed_zuij0y9y",
       "title": "中国人民银行新增8家数字人民币业务运营机构",
       "src": "中国人民银行",
       "date": "2026-08-17",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bl6eojzi",
+      "id": "feed_3n62ihi6",
       "title": "中国人民银行公告﹝2026﹞第21号",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6dam6uzu",
+      "id": "feed_yyk43g0t",
       "title": "中国人民银行国家外汇管理局发布《关于跨国公司本外币跨境资金集中运营业务有关事宜的通知》",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_30pqe7e9",
+      "id": "feed_lovixa6y",
       "title": "2026年7月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_utpjgynl",
+      "id": "feed_6h0oo4ut",
       "title": "中国人民银行副行长邹澜出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -254,14 +254,35 @@
       "use": "signal"
     },
     {
-      "id": "feed_fykk7se1",
-      "title": "【安徽15条金融措施支持文旅业发展】据安徽日报，近日，安徽省在金融支持文旅产业方面再出实招。省地方金融管理局、省文化和旅…",
+      "id": "feed_cr0kqr2t",
+      "title": "【洛轴股份：将举行创业板IPO网上路演】洛轴股份公告称，公司首次公开发行股票并在创业板上市申请已获证监会同意注册，本次公…",
       "src": "新浪财经 7x24",
       "date": "2026-08-23",
-      "body": "【安徽15条金融措施支持文旅业发展】据安徽日报，近日，安徽省在金融支持文旅产业方面再出实招。省地方金融管理局、省文化和旅游厅联合印发《金融支持文化旅游业发展若干措施》，推出15条举措，加快构建与文化旅游业发展相适应的金融服务体系，助力将文化旅游业打造成为支柱产业。其中，“皖旅贷”针对景区、文创、康养等各类文旅企业设立专项信贷产品，支持企业经营周转和项目建设，符合条件的企业可享受财政贴息支持；“皖旅债”支持文旅企业发行各类债券融资产品，引导专业中介机构开展发债培训、投资者对接等服务；“皖旅保”鼓励有条件的市推行政府购买旅游救助保险、给予文旅企业保费补贴；“皖旅担”推动政府性融资担保机构开发文旅担保产品，符合条件的担保贷款纳入现代服务业专项担保计划；“皖旅投”争取国家级文化产业投资基金在皖参股设立子基金，招引优质PE、VC机构赋能产业发展。",
-      "url": "https://finance.sina.cn/7x24/2026-08-23/detail-iniphhce3852555.d.html",
+      "body": "【洛轴股份：将举行创业板IPO网上路演】洛轴股份公告称，公司首次公开发行股票并在创业板上市申请已获证监会同意注册，本次公开发行新股12400.00万股，约占发行后总股本的17.13%。发行采用战略配售、网下发行、网上发行相结合的方式，初始战略配售4960.00万股，占发行总量40%；回拨前网下初始发行5952.00万股、网上初始发行1488.00万股，分别占扣除初始战略配售后发行量的80%、20%。公司及保荐人中信建投证券定于2026年8月25日14:00-17:00在全景路演举行网上路演。",
+      "url": "https://finance.sina.cn/7x24/2026-08-23/detail-inipiiqm0400787.d.html",
       "event": "",
-      "flow": "more",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_p3emhmxy",
+      "title": "【格林生物：披露创业板IPO网上摇号中签结果】格林生物公告称，公司首次公开发行3333.33万股A股并在创业板上市的申请…",
+      "src": "新浪财经 7x24",
+      "date": "2026-08-23",
+      "body": "【格林生物：披露创业板IPO网上摇号中签结果】格林生物公告称，公司首次公开发行3333.33万股A股并在创业板上市的申请已获证监会注册，本次网上发行摇号抽签仪式已完成，中签号码共24994个，每个中签号码可认购500股公司A股股票。网上中签投资者需于2026年8月24日（T+2日）日终确保资金账户有足额新股认购资金，不足部分视为放弃认购，对应股份由保荐人（主承销商）包销。本次网上发行股票无流通限制及限售期安排，自上市之日起即可流通。",
+      "url": "https://finance.sina.cn/7x24/2026-08-23/detail-inipiiqn2350032.d.html",
+      "event": "",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
@@ -275,12 +296,54 @@
       "use": "signal"
     },
     {
-      "id": "feed_okxhbwtn",
-      "title": "DeepSeek再度调价",
+      "id": "feed_so4x4ps1",
+      "title": "【中信建投：海外风险可控 科技等待出清】中信建投发文称，A股两融与ETF资金此消彼长，出清未完但波动收敛，前期抄底资金的…",
+      "src": "新浪财经 7x24",
+      "date": "2026-08-23",
+      "body": "【中信建投：海外风险可控 科技等待出清】中信建投发文称，A股两融与ETF资金此消彼长，出清未完但波动收敛，前期抄底资金的回本卖压或制约反弹斜率。10Y美债在4.7%高位波动，隐含通胀与AI债务融资抬升长端利率的双重因素；美国财政部加大国债回购，显示出政策不愿金融条件硬紧缩伤及AI与整体经济，利率对权益的压制相对可控。策略层面修复行情下有底上有顶，政策托底意愿明确，但增量资金尚未形成合力，存量博弈特征明显，指数向上突破需要更强的催化。配置层面兼顾景气与平衡，等待科技板块出清。行业重点关注：AI（上游材料设备、国产算力等）、创新药、有色、机械、新能源、红利等。",
+      "url": "https://finance.sina.cn/7x24/2026-08-23/detail-inipiiqm0395526.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_c00fpwb8",
+      "title": "【8月23日《新闻联播》主要内容】今天《新闻联播》主要内容有： 1.【新思想引领新征程】用好红色资源 赓续红色血脉； 2…",
+      "src": "新浪财经 7x24",
+      "date": "2026-08-23",
+      "body": "【8月23日《新闻联播》主要内容】今天《新闻联播》主要内容有： 1.【新思想引领新征程】用好红色资源 赓续红色血脉； 2.【凝心聚力 真抓实干 奋力实现“十五五”良好开局】青海：完善生态保护修复体系 筑牢“中华水塔”生态屏障； 3.1—7月我国电子商务稳定创新发展； 4.多家商业银行发布优化后的消费贷贴息政策执行方案； 5.我国矿山生态保护修复向绿向新； 6.国产农机“新装”上阵； 7.第二届世界人形机器人运动会在北京开幕； 8.中国第16次北冰洋考察冰站调查全部完成； 9.国内联播快讯： （1）金融监管总局强化非车险业务综合治理； （2）前7个月中国与APEC其他经济体进出口超18万亿元； （3）三台风同时影响 东南沿海多地有强降雨； （4）第48届世界技能大赛中国代表团成立； （5）第二十五届“汉语桥”世界大学生中文比赛全球总决赛举行； 10.伊朗称参与美对伊“经济战”的国家将被视为敌人 伊朗再次要求卡塔尔将扣留的伊朗飞行员送回； 11.加拿大宣布对美等额反制关税将于9月8日生效； 12.国际联播快讯： （1）中国参建坦桑尼亚最大水电项目正式启用； （2）叙利亚谴责以色列制造袭击侵犯其主权； （3）美法官推翻美暂停发75国移民签证政策； （4）日本茨城县5.8级地震 数十人受伤； 13.二十四节气·处暑。",
+      "url": "https://finance.sina.cn/7x24/2026-08-23/detail-inipichs6808620.d.html",
+      "event": "关税",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_jxg6bwuv",
+      "title": "7元成本卖到598元 企业被罚3.8亿",
       "src": "热搜／论坛",
       "date": "2026-08-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=DeepSeek%E5%86%8D%E5%BA%A6%E8%B0%83%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=7%E5%85%83%E6%88%90%E6%9C%AC%E5%8D%96%E5%88%B0598%E5%85%83+%E4%BC%81%E4%B8%9A%E8%A2%AB%E7%BD%9A3.8%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -295,12 +358,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_nhlsjffc",
-      "title": "追觅造车梦遇挫 员工被裁工位闲置",
+      "id": "feed_ywpylzfj",
+      "title": "一群娇羞机器人向你跑来",
       "src": "热搜／论坛",
       "date": "2026-08-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%BD%E8%A7%85%E9%80%A0%E8%BD%A6%E6%A2%A6%E9%81%87%E6%8C%AB+%E5%91%98%E5%B7%A5%E8%A2%AB%E8%A3%81%E5%B7%A5%E4%BD%8D%E9%97%B2%E7%BD%AE&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E7%BE%A4%E5%A8%87%E7%BE%9E%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%90%91%E4%BD%A0%E8%B7%91%E6%9D%A5&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -315,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_971vrjsm",
-      "title": "“AI红娘”承诺三年不结婚就退款",
+      "id": "feed_59pmdbte",
+      "title": "多款汽车被召回",
       "src": "热搜／论坛",
       "date": "2026-08-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E7%BA%A2%E5%A8%98%E2%80%9D%E6%89%BF%E8%AF%BA%E4%B8%89%E5%B9%B4%E4%B8%8D%E7%BB%93%E5%A9%9A%E5%B0%B1%E9%80%80%E6%AC%BE&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%AC%BE%E6%B1%BD%E8%BD%A6%E8%A2%AB%E5%8F%AC%E5%9B%9E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -335,12 +398,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_0jagrz98",
-      "title": "信用卡利息一年能省5000元了",
+      "id": "feed_kzr05odn",
+      "title": "“未成年小鼻嘎”机器人萌翻全场",
       "src": "热搜／论坛",
       "date": "2026-08-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%88%A9%E6%81%AF%E4%B8%80%E5%B9%B4%E8%83%BD%E7%9C%815000%E5%85%83%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%9C%AA%E6%88%90%E5%B9%B4%E5%B0%8F%E9%BC%BB%E5%98%8E%E2%80%9D%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%90%8C%E7%BF%BB%E5%85%A8%E5%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -355,12 +418,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_fb1s4cr7",
-      "title": "中国版Moderna崛起",
+      "id": "feed_dsi4imkc",
+      "title": "人类400米世界纪录被机器人全面超越",
       "src": "热搜／论坛",
       "date": "2026-08-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%89%88Moderna%E5%B4%9B%E8%B5%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E7%B1%BB400%E7%B1%B3%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%E8%A2%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%A8%E9%9D%A2%E8%B6%85%E8%B6%8A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
