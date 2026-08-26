@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-26T01:58:43.400Z",
+  "generatedAt": "2026-08-26T13:17:05.649Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 18,
+    "total": 12,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
+    "pbc": "error: fetch failed",
     "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_cg5g1w2z",
+      "id": "feed_tq815k6y",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pxg1gole",
+      "id": "feed_g8i3j27g",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_iqfhih9n",
+      "id": "feed_0fffh9x8",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_482j42jr",
+      "id": "feed_3amkhb7g",
       "title": "2026年7月份规模以上工业增加值增长4.5%",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_zsnkcbux",
+      "id": "feed_mqvubtxj",
       "title": "2026年1—7月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_mbmfz78q",
+      "id": "feed_v1nas2m5",
       "title": "2026年1—7月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,133 +134,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_9x8p0q9k",
-      "title": "2026年7月金融市场运行情况",
-      "src": "中国人民银行",
-      "date": "2026-08-21",
-      "body": "月金融市场运行情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年7月金融市场运行情况字号大中小文章来源：2026-08-24 18:00:02打印本页关闭窗口一、货币市场运行情况2026年7月，同业拆借日均成交3232.9亿元，同比减少24.3%；银行间市场债券回购日均成交6.5万亿元，同比减少14.2%。2026年7月末，同业拆借未到期余额1.0万亿元，银行间市场债券回购未到期余额9.8万亿元。2026年7月，银行业存款类金融机构间利率债隔夜质押式回购（DR001）月加权平均利率为1.39%，环比上升1个基点；DR007月加权平均利率为1.43%，环比下降2个基点；银行间市场隔夜质押式回购（R001）月加权平均利率为1.42%，环比基本持平。2026年7月，DR001与央行公开市场7天期逆回购操作利率的利差日均值为-1个基点，R001与DR001的利差日均值为3个基点。图1货币市场利率走势图2 2026年1-7月DR001与央行政策利率1二、债券市场运行情况2026年7月，政府债券净融资13176.4亿元，同比增加694.6亿元；企业债券净融资4535.9亿元，同比增加1787.5亿元",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082118245286995/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4kvjsr9v",
-      "title": "中澳（大利亚）两国央行续签双边本币互换协议",
-      "src": "中国人民银行",
-      "date": "2026-08-19",
-      "body": "两国央行续签双边本币互换协议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中澳（大利亚）两国央行续签双边本币互换协议字号大中小文章来源：2026-08-19 17:00:02打印本页关闭窗口经国务院批准，近日中国人民银行与澳大利亚储备银行续签了双边本币互换协议，互换规模由原来的2000亿元人民币/410亿澳大利亚元扩大至2200亿元人民币/460亿澳大利亚元，协议有效期五年，经双方同意可以展期。双方再次续签双边本币互换协议并扩大规模，有助于进一步深化两国货币金融合作，促进双边贸易和投资便利化，维护金融市场稳定。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081915294182128/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3rrvyoan",
-      "title": "中国人民银行新增8家数字人民币业务运营机构",
-      "src": "中国人民银行",
-      "date": "2026-08-17",
-      "body": "中国人民银行新增8家数字人民币业务运营机构术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行新增8家数字人民币业务运营机构字号大中小文章来源：2026-08-17 15:00:28打印本页关闭窗口为贯彻落实“十五五”规划纲要关于“稳步发展数字人民币”的决策部署，进一步提升数字人民币服务的普惠性，持续响应人民群众对安全、便捷、高效的数字人民币服务需求，中国人民银行新增平安银行、恒丰银行、渤海银行、上海银行、杭州银行、徽商银行、长沙银行、广西北部湾银行成为银行类数字人民币业务运营机构，并接入央行端数字人民币系统。新增机构将在完成业务、技术准备后开展数字人民币业务。目前，数字人民币业务运营机构已扩容至30家。下一步，中国人民银行将按照市场化、法治化原则有序推进运营机构扩容，进一步激发市场主体的积极性和创造性，建设开放包容、公平竞争的数字人民币发展环境。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081714114337358/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_095tu718",
-      "title": "中国人民银行公告﹝2026﹞第21号",
-      "src": "中国人民银行",
-      "date": "2026-08-14",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081417014187625/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_eee891eu",
-      "title": "中国人民银行国家外汇管理局发布《关于跨国公司本外币跨境资金集中运营业务有关事宜的通知》",
-      "src": "中国人民银行",
-      "date": "2026-08-14",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081410142217598/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ieax34j5",
-      "title": "2026年7月金融统计数据报告",
-      "src": "中国人民银行",
-      "date": "2026-08-14",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081414193264304/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4vlgtu8v",
-      "title": "日本20年期国债收益率下跌2个基点，至4.040%。",
+      "id": "feed_x1zy66ul",
+      "title": "【美国国债在PCE价格指数公布后抹去涨幅】美国国债价格恢复走弱，此前在纽约时间上午8:30公布的一系列美国经济数据之前，…",
       "src": "新浪财经 7x24",
       "date": "2026-08-26",
-      "body": "日本20年期国债收益率下跌2个基点，至4.040%。",
-      "url": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5408393.d.html",
-      "event": "",
+      "body": "【美国国债在PCE价格指数公布后抹去涨幅】美国国债价格恢复走弱，此前在纽约时间上午8:30公布的一系列美国经济数据之前，国债价格曾短暂触及盘中高点。数据显示，美联储青睐的通胀指标——个人消费支出价格 (PCE) 指数符合或者接近预期。数据公布后，短端收益率一度上涨3个基点至盘中高点，其中2年期国债收益率反弹至4.21%以上，之前一度跌至4.16%远端收益率也抹去跌幅并回升，但涨幅较小7月个人收入和支出数据显示，个人消费支出价格指数环比上涨0.2%，剔除食品和能源的核心指数也上涨0.2%，经济学家此前预期分别为0.1%和0.2%，同比涨幅分别为3.7%和3.3%。",
+      "url": "https://finance.sina.cn/7x24/2026-08-26/detail-inipsezp9119743.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -275,12 +155,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_4woecuk0",
-      "title": "星宇股份解聘百名应届生 HR总监停职",
+      "id": "feed_ewabkugs",
+      "title": "上海13岁女孩靠AI 3天赚了1.8万元",
       "src": "热搜／论坛",
       "date": "2026-08-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E8%A7%A3%E8%81%98%E7%99%BE%E5%90%8D%E5%BA%94%E5%B1%8A%E7%94%9F+HR%E6%80%BB%E7%9B%91%E5%81%9C%E8%81%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B713%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%9D%A0AI+3%E5%A4%A9%E8%B5%9A%E4%BA%861.8%E4%B8%87%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -295,12 +175,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pqr9lzou",
-      "title": "本田明年将不再投放燃油车？多方回应",
+      "id": "feed_qyru9647",
+      "title": "四万亿元投资来了",
       "src": "热搜／论坛",
       "date": "2026-08-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%AC%E7%94%B0%E6%98%8E%E5%B9%B4%E5%B0%86%E4%B8%8D%E5%86%8D%E6%8A%95%E6%94%BE%E7%87%83%E6%B2%B9%E8%BD%A6%EF%BC%9F%E5%A4%9A%E6%96%B9%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E4%B8%87%E4%BA%BF%E5%85%83%E6%8A%95%E8%B5%84%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -315,12 +195,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_xo4lhwfv",
-      "title": "金价上涨 有人一口气购13万黄金",
+      "id": "feed_f1ws2nni",
+      "title": "不想让中介赚差价 年轻人找网友买房",
       "src": "热搜／论坛",
       "date": "2026-08-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E4%B8%8A%E6%B6%A8+%E6%9C%89%E4%BA%BA%E4%B8%80%E5%8F%A3%E6%B0%94%E8%B4%AD13%E4%B8%87%E9%BB%84%E9%87%91&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E6%83%B3%E8%AE%A9%E4%B8%AD%E4%BB%8B%E8%B5%9A%E5%B7%AE%E4%BB%B7+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%89%BE%E7%BD%91%E5%8F%8B%E4%B9%B0%E6%88%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -335,12 +215,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_qrn15qn0",
-      "title": "宁德时代的高利润该咋看",
+      "id": "feed_x1i4s2st",
+      "title": "没有厨房的“幽灵生意”这次彻底凉了",
       "src": "热搜／论坛",
       "date": "2026-08-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E7%9A%84%E9%AB%98%E5%88%A9%E6%B6%A6%E8%AF%A5%E5%92%8B%E7%9C%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E6%9C%89%E5%8E%A8%E6%88%BF%E7%9A%84%E2%80%9C%E5%B9%BD%E7%81%B5%E7%94%9F%E6%84%8F%E2%80%9D%E8%BF%99%E6%AC%A1%E5%BD%BB%E5%BA%95%E5%87%89%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -355,12 +235,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_wfu1stlb",
-      "title": "8.86秒！人形机器人百米再破纪录",
+      "id": "feed_oiuvqh92",
+      "title": "鸭货为什么卖不动了",
       "src": "热搜／论坛",
       "date": "2026-08-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=8.86%E7%A7%92%EF%BC%81%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%99%BE%E7%B1%B3%E5%86%8D%E7%A0%B4%E7%BA%AA%E5%BD%95&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%B8%AD%E8%B4%A7%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
