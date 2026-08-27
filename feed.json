@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-27T09:48:33.384Z",
+  "generatedAt": "2026-08-27T22:16:13.367Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 21,
+    "total": 20,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 4,
+    "sina724": 3,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_8wfigjer",
+      "id": "feed_2njem20n",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7u86k4r4",
+      "id": "feed_tszpjnzk",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_llhjl78f",
+      "id": "feed_tuohpgvr",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_e4qwep77",
+      "id": "feed_dfna88yt",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kq0trp6u",
+      "id": "feed_qsz2z05l",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kanuwt1w",
+      "id": "feed_b48zzqo0",
       "title": "2026年7月份规模以上工业增加值增长4.5%",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,7 +134,27 @@
       "use": "signal"
     },
     {
-      "id": "feed_p1vgfl3l",
+      "id": "feed_ck9em51s",
+      "title": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建",
+      "src": "中国人民银行",
+      "date": "2026-08-27",
+      "body": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建字号大中小文章来源：2026-08-27 18:02:03打印本页关闭窗口2026年8月26日，因尼泊尔一侧发生泥石流灾害，造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联。为贯彻落实习近平总书记重要指示精神，做好金融支持救灾及灾后重建工作，中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元，引导和鼓励金融机构加大对受灾地区经营主体的信贷支持力度。下一步，中国人民银行将督促西藏自治区分行用好新增支农支小再贷款额度，指导金融机构积极对接受灾地区经营主体的融资需求,为支持救灾及灾后重建营造良好的货币金融环境。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082717370314545/index.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_wqk4by5d",
       "title": "中国人民银行副行长陆磊出席第十五届中国支付清算论坛",
       "src": "中国人民银行",
       "date": "2026-08-27",
@@ -154,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rk0rfwgb",
+      "id": "feed_0cj01wfd",
       "title": "2026年7月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-08-21",
@@ -174,11 +194,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_etlwlyk2",
+      "id": "feed_w8zgnnsu",
       "title": "中澳（大利亚）两国央行续签双边本币互换协议",
       "src": "中国人民银行",
       "date": "2026-08-19",
-      "body": "两国央行续签双边本币互换协议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中澳（大利亚）两国央行续签双边本币互换协议字号大中小文章来源：2026-08-19 17:00:02打印本页关闭窗口经国务院批准，近日中国人民银行与澳大利亚储备银行续签了双边本币互换协议，互换规模由原来的2000亿元人民币/410亿澳大利亚元扩大至2200亿元人民币/460亿澳大利亚元，协议有效期五年，经双方同意可以展期。双方再次续签双边本币互换协议并扩大规模，有助于进一步深化两国货币金融合作，促进双边贸易和投资便利化，维护金融市场稳定。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "body": "",
       "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081915294182128/index.html",
       "event": "",
       "flow": "shift",
@@ -194,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_79g1okch",
+      "id": "feed_94f7713k",
       "title": "中国人民银行新增8家数字人民币业务运营机构",
       "src": "中国人民银行",
       "date": "2026-08-17",
@@ -214,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gv9e3356",
+      "id": "feed_127jkttt",
       "title": "中国人民银行公告﹝2026﹞第21号",
       "src": "中国人民银行",
       "date": "2026-08-14",
@@ -234,75 +254,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_garabo9w",
-      "title": "中国人民银行国家外汇管理局发布《关于跨国公司本外币跨境资金集中运营业务有关事宜的通知》",
-      "src": "中国人民银行",
-      "date": "2026-08-14",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081410142217598/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_09nkimd3",
-      "title": "欧洲央行拉德夫：10 月、12 月利率会议均存在政策调整可能性。",
+      "id": "feed_l4eh9jjh",
+      "title": "【美联储9月维持利率不变的概率为63.5%】据CME“美联储观察”：美联储到9月维持利率不变的概率为63.5%，累计加息…",
       "src": "新浪财经 7x24",
-      "date": "2026-08-27",
-      "body": "欧洲央行拉德夫：10 月、12 月利率会议均存在政策调整可能性。",
-      "url": "https://finance.sina.cn/7x24/2026-08-27/detail-inipucsr9054660.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_mt3gkyjt",
-      "title": "欧洲央行拉德夫：欧洲央行 9 月应当认真考量采取适度的政策调整。",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-27",
-      "body": "欧洲央行拉德夫：欧洲央行 9 月应当认真考量采取适度的政策调整。",
-      "url": "https://finance.sina.cn/7x24/2026-08-27/detail-inipucsr9053478.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ofa731mf",
-      "title": "【*ST清越：存在两类强制退市风险】*ST清越公告称，截至2026年8月27日，公司股票收盘价0.93元，总市值4.19…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-27",
-      "body": "【*ST清越：存在两类强制退市风险】*ST清越公告称，截至2026年8月27日，公司股票收盘价0.93元，总市值4.19亿元，已连续10个交易日收盘价低于1元，若连续20个交易日收盘价均低于1元，将被上交所实施交易类强制退市，且交易类强制退市股票不进入退市整理期。此外，公司因涉嫌定期报告等财务数据虚假记载被证监会立案调查，2026年5月8日收到《行政处罚事先告知书》，可能触及重大违法强制退市情形，目前尚未收到正式处罚决定。",
-      "url": "https://finance.sina.cn/7x24/2026-08-27/detail-inipucsr9051009.d.html",
-      "event": "",
+      "date": "2026-08-28",
+      "body": "【美联储9月维持利率不变的概率为63.5%】据CME“美联储观察”：美联储到9月维持利率不变的概率为63.5%，累计加息25个基点的概率为36.5%。美联储到10月维持利率不变的概率为47.3%，累计加息25个基点的概率为43.4%，累计加息50个基点的概率为9.3%。",
+      "url": "https://finance.sina.cn/7x24/2026-08-28/detail-inipvfec8981057.d.html",
+      "event": "美联储",
       "flow": "less",
       "slow": false,
       "read": "",
@@ -317,12 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_arge08r7",
-      "title": "英国央行在短期回购操作中投放1248.25亿英镑。",
+      "id": "feed_ge7232my",
+      "title": "【卡利巴夫反击贝森特：你的信誉岌岌可危 干点正事吧】伊朗议会议长卡利巴夫在社交媒体上发文，反讽美国财政部长贝森特，并引用…",
       "src": "新浪财经 7x24",
-      "date": "2026-08-27",
-      "body": "英国央行在短期回购操作中投放1248.25亿英镑。",
-      "url": "https://finance.sina.cn/7x24/2026-08-27/detail-inipucsr9047429.d.html",
+      "date": "2026-08-28",
+      "body": "【卡利巴夫反击贝森特：你的信誉岌岌可危 干点正事吧】伊朗议会议长卡利巴夫在社交媒体上发文，反讽美国财政部长贝森特，并引用纽约时报报道指出，其债市信誉正面临考验。他直接喊话贝森特：“斯科特，老兄，你的信誉岌岌可危。干点正事吧。”帖文还附上了纽约时报的报道链接。",
+      "url": "https://finance.sina.cn/7x24/2026-08-28/detail-inipvfec8973703.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -332,18 +290,39 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_8l9gfhd3",
-      "title": "元宇宙愿支付最高170亿美元和解",
+      "id": "feed_rzzs1jde",
+      "title": "美国财政部官员：我们希望最终能达成一份得到二十国集团所有成员共同认可的联合公报，内容涵盖提振增长、削减全球失衡、应对主权…",
+      "src": "新浪财经 7x24",
+      "date": "2026-08-28",
+      "body": "美国财政部官员：我们希望最终能达成一份得到二十国集团所有成员共同认可的联合公报，内容涵盖提振增长、削减全球失衡、应对主权债务挑战以及金融素养议题。",
+      "url": "https://finance.sina.cn/7x24/2026-08-28/detail-inipvfec8967399.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_e4k2cajv",
+      "title": "黄仁勋：谁跟我吃饭股票价就会翻倍",
       "src": "热搜／论坛",
       "date": "2026-08-27",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%83%E5%AE%87%E5%AE%99%E6%84%BF%E6%94%AF%E4%BB%98%E6%9C%80%E9%AB%98170%E4%BA%BF%E7%BE%8E%E5%85%83%E5%92%8C%E8%A7%A3&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E8%B0%81%E8%B7%9F%E6%88%91%E5%90%83%E9%A5%AD%E8%82%A1%E7%A5%A8%E4%BB%B7%E5%B0%B1%E4%BC%9A%E7%BF%BB%E5%80%8D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -358,12 +337,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_sbt88dbp",
-      "title": "昔日“果冻大王”风光不再",
+      "id": "feed_854akxn8",
+      "title": "商务部新任发言人亮相",
       "src": "热搜／论坛",
       "date": "2026-08-27",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%98%94%E6%97%A5%E2%80%9C%E6%9E%9C%E5%86%BB%E5%A4%A7%E7%8E%8B%E2%80%9D%E9%A3%8E%E5%85%89%E4%B8%8D%E5%86%8D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E6%96%B0%E4%BB%BB%E5%8F%91%E8%A8%80%E4%BA%BA%E4%BA%AE%E7%9B%B8&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -378,12 +357,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zp8ovqe3",
-      "title": "星巴克 抓紧吃点下地干活",
+      "id": "feed_b1w6fe6n",
+      "title": "美股开盘：英伟达绩后大涨超6%",
       "src": "热搜／论坛",
       "date": "2026-08-27",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B+%E6%8A%93%E7%B4%A7%E5%90%83%E7%82%B9%E4%B8%8B%E5%9C%B0%E5%B9%B2%E6%B4%BB&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%BC%80%E7%9B%98%EF%BC%9A%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%BB%A9%E5%90%8E%E5%A4%A7%E6%B6%A8%E8%B6%856%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -398,12 +377,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_n5djokg7",
-      "title": "人民币买卖新规来了",
+      "id": "feed_tqb8mtll",
+      "title": "OpenAI发布入侵抱抱脸事件官方报告",
       "src": "热搜／论坛",
       "date": "2026-08-27",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E5%B8%81%E4%B9%B0%E5%8D%96%E6%96%B0%E8%A7%84%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E5%8F%91%E5%B8%83%E5%85%A5%E4%BE%B5%E6%8A%B1%E6%8A%B1%E8%84%B8%E4%BA%8B%E4%BB%B6%E5%AE%98%E6%96%B9%E6%8A%A5%E5%91%8A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -418,12 +397,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_txur8obe",
-      "title": "A股收盘：全市场超3300只个股上涨",
+      "id": "feed_zbsialtc",
+      "title": "Hark与英伟达达成多年战略合作",
       "src": "热搜／论坛",
       "date": "2026-08-27",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E5%85%A8%E5%B8%82%E5%9C%BA%E8%B6%853300%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=Hark%E4%B8%8E%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%BE%BE%E6%88%90%E5%A4%9A%E5%B9%B4%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
