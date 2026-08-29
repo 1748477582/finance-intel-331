@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-28T22:20:04.900Z",
+  "generatedAt": "2026-08-29T07:05:01.942Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 24,
+    "total": 11,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 7,
+    "pbc": "error: fetch failed",
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_cgybo4ar",
+      "id": "feed_sqhtq9jd",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cvtoqji6",
+      "id": "feed_tbynz7es",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_819rvqrb",
+      "id": "feed_vk1akn3r",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uzprtma0",
+      "id": "feed_bjo2veh6",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o8y5o5y3",
+      "id": "feed_wmzez773",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_nuxqpb4y",
+      "id": "feed_zsi8p7p7",
       "title": "2026年7月份规模以上工业增加值增长4.5%",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,279 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_0ex67sxc",
-      "title": "中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问",
-      "src": "中国人民银行",
-      "date": "2026-08-28",
-      "body": "中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问字号大中小文章来源：2026-08-28 19:01:19打印本页关闭窗口8月28日，中国人民银行、国家金融监督管理总局联合印发《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》（以下简称《意见》）。中国人民银行有关部门负责人就相关问题回答了记者提问。1.问：《意见》出台的背景是什么？答：中央城市工作会议指出，我国城镇化正从快速增长期转向稳定发展期。党中央、国务院就加快构建房地产发展新模式作出部署。“十五五”规划纲要提出，完善商品房开发、融资、销售等基础制度。《意见》作为商品住房销售制度改革的配套制度，是完善房地产基础制度的重要组成部分，立足房地产行业转型发展和构建新模式需要，从宏观层面构建房地产信贷基础制度，优化房地产信贷体系，更好满足房地产合理信贷需求，维护购房人合法权益，促进金融与房地产良性循环。《意见》与个人住房贷款、商品住房开发贷款",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082816463825521/index.html",
-      "event": "房地产",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_lz12ba6t",
-      "title": "中国人民银行公告﹝2026﹞第22号",
-      "src": "中国人民银行",
-      "date": "2026-08-28",
-      "body": "中国人民银行公告﹝2026﹞第22号术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行公告﹝2026﹞第22号字号大中小文章来源：2026-08-28 11:00:00打印本页关闭窗口中国人民银行定于2026年9月4日发行科创未来（人工智能）金银纪念币一套。该套金银纪念币共3枚，其中金质纪念币1枚，银质纪念币2枚，均为中华人民共和国法定货币。一、纪念币图案（一）正面图案。该套金银纪念币正面图案均为中华人民共和国国徽，并刊国名、年号。（二）背面图案。5克正方形金质纪念币背面图案为芯片、脑形电路纹理、数字0和1等图形组合设计，并刊“科创未来·人工智能”字样及面额。15克圆形银质纪念币背面图案为人侧面头像、电路纹理、螺旋点阵等图形组合设计，并刊“科创未来·人工智能”字样及面额。15克圆形银质纪念币背面图案为钥匙、人工智能领域元素符号等图形组合设计，并刊“科创未来·人工智能”字样及面额。二、纪念币规格及发行量5克正方形金质纪念币为精制币，含纯金5克，规格18毫米×18毫米，面额80元，成色99.9%，最大发行量10000枚。15克圆形银质纪念币为精制币，含纯银15克，直径33毫米，面额5元，成色9",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082809193480410/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_c2dcagw8",
-      "title": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建",
-      "src": "中国人民银行",
-      "date": "2026-08-27",
-      "body": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建字号大中小文章来源：2026-08-27 18:02:03打印本页关闭窗口2026年8月26日，因尼泊尔一侧发生泥石流灾害，造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联。为贯彻落实习近平总书记重要指示精神，做好金融支持救灾及灾后重建工作，中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元，引导和鼓励金融机构加大对受灾地区经营主体的信贷支持力度。下一步，中国人民银行将督促西藏自治区分行用好新增支农支小再贷款额度，指导金融机构积极对接受灾地区经营主体的融资需求,为支持救灾及灾后重建营造良好的货币金融环境。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082717370314545/index.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_38se3508",
-      "title": "中国人民银行副行长陆磊出席第十五届中国支付清算论坛",
-      "src": "中国人民银行",
-      "date": "2026-08-27",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082717390451589/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zc36zr7l",
-      "title": "2026年7月金融市场运行情况",
-      "src": "中国人民银行",
-      "date": "2026-08-21",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026082118245286995/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_1ama4fxq",
-      "title": "中澳（大利亚）两国央行续签双边本币互换协议",
-      "src": "中国人民银行",
-      "date": "2026-08-19",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081915294182128/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_c20rr38v",
-      "title": "【美联储9月加息25个基点的概率为59.7%】据CME“美联储观察”：美联储到9月维持利率不变的概率为40.3%，累计加…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "【美联储9月加息25个基点的概率为59.7%】据CME“美联储观察”：美联储到9月维持利率不变的概率为40.3%，累计加息25个基点的概率为59.7%。美联储到10月维持利率不变的概率为28.7%，累计加息25个基点的概率为54.1%，累计加息50个基点的概率为17.2%。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxqkz8797520.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_wd7mda10",
-      "title": "安德森研究所经济学家、前美联储货币事务部副主任James Clouse：市场似乎将其解读为偏鹰派，我认为这是合理的。但他…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "安德森研究所经济学家、前美联储货币事务部副主任James Clouse：市场似乎将其解读为偏鹰派，我认为这是合理的。但他所说的只是这意味着他们还有工作要做。他并没有真正谈及时间问题。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxqmc5566321.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_e8hj31fb",
-      "title": "周五（8月28日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7308元，较周四纽约尾盘跌114…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "周五（8月28日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7308元，较周四纽约尾盘跌114点，日内整体交投于6.7176-6.7328元区间，美联储主席沃什讲稿披露时回升至平盘，随后持续下跌。本周，离岸人民币累计下跌大约0.15%。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxkcf5676870.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_rj598j2l",
-      "title": "【现货黄金跌约3.1%，沃什讲话偏鹰派】周五（8月28日）纽约尾盘，现货黄金跌3.08%，报4457.57美元/盎司，美…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "【现货黄金跌约3.1%，沃什讲话偏鹰派】周五（8月28日）纽约尾盘，现货黄金跌3.08%，报4457.57美元/盎司，美联储主席沃什在杰克逊霍尔全球央行年会的讲稿披露时、北京时间22:00微涨至4631.61美元刷新日高，随后打破日内长时间的高位窄幅震荡状态并快速下跌，本周累计下跌3.22%，周一至沃什讲话这段时间持续窄幅震、形成期内顶部。现货白银跌4.17%，报66.3390美元/盎司，本周累跌3.89%。COMEX铜期货跌0.84%，报6.6330美元/磅，本周累跌0.73%。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxkcc8899745.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_7vjre8so",
-      "title": "波音：经修订的 2024 年五年期信贷协议总承诺额度为 40 亿美元，现定于 2030 年 5 月 15 日到期。",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "波音：经修订的 2024 年五年期信贷协议总承诺额度为 40 亿美元，现定于 2030 年 5 月 15 日到期。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxkcf5668870.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_vyey7pl7",
-      "title": "波音：经修订的 2023 年五年期信贷协议总承诺额度为 30 亿美元，现定于 2029 年 8 月 24 日到期。",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "波音：经修订的 2023 年五年期信贷协议总承诺额度为 30 亿美元，现定于 2029 年 8 月 24 日到期。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxkcc8896131.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_5zxcm4eb",
-      "title": "美国证券交易委员会文件：波音于 2026 年 8 月 24 日签署规模 30 亿美元、期限 364 天的循环信贷协议。该…",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-29",
-      "body": "美国证券交易委员会文件：波音于 2026 年 8 月 24 日签署规模 30 亿美元、期限 364 天的循环信贷协议。该协议要求波音维持至少 50 亿美元的流动性。",
-      "url": "https://finance.sina.cn/7x24/2026-08-29/detail-inipxkcf5668225.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_as430qke",
-      "title": "电梯亲密视频董事长近半股份转配偶",
+      "id": "feed_tntqtpr2",
+      "title": "股价0.85元 “中华老字号”锁定退市",
       "src": "热搜／论坛",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E6%A2%AF%E4%BA%B2%E5%AF%86%E8%A7%86%E9%A2%91%E8%91%A3%E4%BA%8B%E9%95%BF%E8%BF%91%E5%8D%8A%E8%82%A1%E4%BB%BD%E8%BD%AC%E9%85%8D%E5%81%B6&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%82%A1%E4%BB%B70.85%E5%85%83+%E2%80%9C%E4%B8%AD%E5%8D%8E%E8%80%81%E5%AD%97%E5%8F%B7%E2%80%9D%E9%94%81%E5%AE%9A%E9%80%80%E5%B8%82&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -421,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_vof8ht4f",
-      "title": "“花宽体机的钱 坐窄体机的座”",
+      "id": "feed_pqeyhl8r",
+      "title": "427万辆新能源车陷“逃生困境”",
       "src": "热搜／论坛",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%8A%B1%E5%AE%BD%E4%BD%93%E6%9C%BA%E7%9A%84%E9%92%B1+%E5%9D%90%E7%AA%84%E4%BD%93%E6%9C%BA%E7%9A%84%E5%BA%A7%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=427%E4%B8%87%E8%BE%86%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E9%99%B7%E2%80%9C%E9%80%83%E7%94%9F%E5%9B%B0%E5%A2%83%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -441,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_75dur1gd",
-      "title": "年内“最赚钱”30只新股",
+      "id": "feed_cud5i2lo",
+      "title": "“预制房”被推上风口",
       "src": "热搜／论坛",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E5%86%85%E2%80%9C%E6%9C%80%E8%B5%9A%E9%92%B1%E2%80%9D30%E5%8F%AA%E6%96%B0%E8%82%A1&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%A2%84%E5%88%B6%E6%88%BF%E2%80%9D%E8%A2%AB%E6%8E%A8%E4%B8%8A%E9%A3%8E%E5%8F%A3&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -461,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_k4k3dnw2",
-      "title": "油价今晚上调 加满一箱多花14.5元",
+      "id": "feed_sy3zpi48",
+      "title": "老庙老凤祥周生生金价集体大跌",
       "src": "热搜／论坛",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%B9%E4%BB%B7%E4%BB%8A%E6%99%9A%E4%B8%8A%E8%B0%83+%E5%8A%A0%E6%BB%A1%E4%B8%80%E7%AE%B1%E5%A4%9A%E8%8A%B114.5%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E5%BA%99%E8%80%81%E5%87%A4%E7%A5%A5%E5%91%A8%E7%94%9F%E7%94%9F%E9%87%91%E4%BB%B7%E9%9B%86%E4%BD%93%E5%A4%A7%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -481,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_h82ij2j1",
-      "title": "10万买奥迪A6 20万买玛莎拉蒂",
+      "id": "feed_4fwlg1a4",
+      "title": "电动车大洗牌：雅迪收购外卖神车金箭",
       "src": "热搜／论坛",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=10%E4%B8%87%E4%B9%B0%E5%A5%A5%E8%BF%AAA6+20%E4%B8%87%E4%B9%B0%E7%8E%9B%E8%8E%8E%E6%8B%89%E8%92%82&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E5%8A%A8%E8%BD%A6%E5%A4%A7%E6%B4%97%E7%89%8C%EF%BC%9A%E9%9B%85%E8%BF%AA%E6%94%B6%E8%B4%AD%E5%A4%96%E5%8D%96%E7%A5%9E%E8%BD%A6%E9%87%91%E7%AE%AD&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
