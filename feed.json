@@ -1,20 +1,40 @@
 {
-  "generatedAt": "2026-08-30T16:41:02.719Z",
+  "generatedAt": "2026-08-31T05:34:49.713Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 19,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 2,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_rsvtv241",
+      "id": "feed_03e68fuq",
+      "title": "2026年8月中国采购经理指数运行情况",
+      "src": "国家统计局",
+      "date": "2026-08-31",
+      "body": "国家统计局服务业调查中心中国物流与采购联合会一、中国制造业采购经理指数运行情况8月份，制造业采购经理指数（PMI）为49.8%，比上月上升0.6个百分点，景气水平回升。从企业规模看，大型企业PMI为50.6%，比上月上升1.1个百分点，高于临界点；中型企业PMI为49.4%，比上月下降0.3个百分点，低于临界点；小型企业PMI为47.9%，比上月上升0.5个百分点，低于临界点。从分类指数看，构成制造业PMI的5个分类指数中，生产指数、新订单指数和供应商配送时间指数均高于临界点；原材料库存指数、从业人员指数低于临界点。生产指数为50.4%，比上月上升0.5个百分点，表明制造业生产活动有所加快。新订单指数为50.6%，比上月上升2.1个百分点，表明制造业市场需求明显改善。原材料库存指数为48.1%，比上月下降0.2个百分点，表明制造业主要原材料库存量继续下降。从业人员指数为48.7%，比上月下降0.3个百分点，表明制造业企业用工景气度有所回落。供应商配送时间指数为50.1%，比上月上升0.6个百分点，表明制造业原材料供应商交货时间加快。表1中国制造业PMI及构成指数（经季节调整）单位：% PMI生产新订单原材料库存从业人员供应商配送时间2025年8月49.4 50.8 49.5 48.0 47.9 50.5 2025年9月49.8 51.9 49.7 48.5 48.5 50.8 2025年10月49.0 49.7 48.8 47.3 48.3 50.0 2025年11月49.2 50.0 49.2 47.3 48.4 50.1 2025年12月50.1 51.7 50.8 47.",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260831_1965154.html",
+      "event": "PMI 2026-08",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_8qxejko4",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -34,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_j7hwr6bk",
+      "id": "feed_05414e4u",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -54,11 +74,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_vpbx914c",
+      "id": "feed_9jczzxqo",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
-      "body": "中国统计信息服务中心卓创资讯据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年8月中旬与8月上旬相比，33种产品价格上涨，14种下降，3种持平。2026年8月中旬流通领域重要生产资料市场价格变动情况产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属螺纹钢（Φ 20mm，HRB400E）吨3062.9 0.2 0.0线材（Φ 8 — 10mm，HPB300）吨3254.7 10.2 0.3普通中板（20mm，Q235）吨3482.4 15.5 0.4热轧普通板卷（4.75 — 11.5mm，Q235）吨3265.3 24.2 0.7无缝钢管（219*6，20#）吨4010.5 -12.2 -0.3角钢（5#）吨3410.1 -6.9 -0.2二、有色金属电解铜（1#）吨108236.3 738.0 0.7铝锭（A00）吨23956.3 183.0 0.8铅锭（1#）吨15665.6 203.1 1.3锌锭（0#）吨25517.5 143.3 0.6三、化工产品硫酸（98%）吨1940.6 -43.1 -2.2烧碱（液碱，32%）吨684.5 -0.3 0.0甲醇（优等品）吨2635.6 156.2 6.3纯苯（石油苯，工业级）吨7943.2 456.2 6.1乙醇（95.0%）吨5389.2 -69.4 -1.3聚乙烯（LLDPE，熔融指数2薄膜料）吨8602.3 189.0 2.2聚丙烯（拉丝料）吨9034.4 195.8 2.2冰醋酸（99.5%及以上）吨2966.7 -22.5 -0.8顺丁胶（BR9000）吨13489.6 917.",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260821_1965093.html",
       "event": "",
       "flow": "shift",
@@ -74,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_429ahber",
+      "id": "feed_wjnxs9sn",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -94,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xszawm91",
+      "id": "feed_z5v17xpn",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -114,27 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8oye7wao",
-      "title": "2026年7月份规模以上工业增加值增长4.5%",
-      "src": "国家统计局",
-      "date": "2026-08-17",
-      "body": "",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965055.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": true,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_6z0cwlca",
+      "id": "feed_4se3n0oo",
       "title": "中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ri90n103",
+      "id": "feed_9p47mxcr",
       "title": "中国人民银行公告﹝2026﹞第22号",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ruig1hqh",
+      "id": "feed_okerx9x4",
       "title": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建",
       "src": "中国人民银行",
       "date": "2026-08-27",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_sf0qc8np",
+      "id": "feed_gslihaen",
       "title": "中国人民银行副行长陆磊出席第十五届中国支付清算论坛",
       "src": "中国人民银行",
       "date": "2026-08-27",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0lhp0rfa",
+      "id": "feed_srqrlbns",
       "title": "2026年7月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-08-21",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_q9ax9nas",
+      "id": "feed_hud34504",
       "title": "中澳（大利亚）两国央行续签双边本币互换协议",
       "src": "中国人民银行",
       "date": "2026-08-19",
@@ -254,12 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_8qztc5el",
-      "title": "阿联酋与埃及央行联合声明称，埃及银行在阿联酋的分支机构将采取一切必要行动和措施，确保该行所有业务照常开展。",
+      "id": "feed_9mqb0nsj",
+      "title": "阿布扎比阿尔法将对 MICAD 信贷合资企业的出资承诺提升至 10 亿美元。",
       "src": "新浪财经 7x24",
-      "date": "2026-08-30",
-      "body": "阿联酋与埃及央行联合声明称，埃及银行在阿联酋的分支机构将采取一切必要行动和措施，确保该行所有业务照常开展。",
-      "url": "https://finance.sina.cn/7x24/2026-08-30/detail-iniqcmtf8089172.d.html",
+      "date": "2026-08-31",
+      "body": "阿布扎比阿尔法将对 MICAD 信贷合资企业的出资承诺提升至 10 亿美元。",
+      "url": "https://finance.sina.cn/7x24/2026-08-31/detail-iniqetnt4671455.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -275,33 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_vjp0yfus",
-      "title": "阿联酋与埃及央行确认双方就埃及银行阿联酋分行事宜保持全面合作与协调。",
-      "src": "新浪财经 7x24",
-      "date": "2026-08-30",
-      "body": "阿联酋与埃及央行确认双方就埃及银行阿联酋分行事宜保持全面合作与协调。",
-      "url": "https://finance.sina.cn/7x24/2026-08-30/detail-iniqcmtf8088472.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0fu5bmim",
-      "title": "中国男人正在抛弃皮鞋",
+      "id": "feed_pvumex7u",
+      "title": "宇树股价正式“腰斩”",
       "src": "热搜／论坛",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B7%E4%BA%BA%E6%AD%A3%E5%9C%A8%E6%8A%9B%E5%BC%83%E7%9A%AE%E9%9E%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E8%82%A1%E4%BB%B7%E6%AD%A3%E5%BC%8F%E2%80%9C%E8%85%B0%E6%96%A9%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -316,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_hcn9s5sp",
-      "title": "卤味三巨头：鸭脖真的不好卖了",
+      "id": "feed_pg10n32w",
+      "title": "费大厨开到美国 辣椒炒肉210元一份",
       "src": "热搜／论坛",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%A4%E5%91%B3%E4%B8%89%E5%B7%A8%E5%A4%B4%EF%BC%9A%E9%B8%AD%E8%84%96%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B4%B9%E5%A4%A7%E5%8E%A8%E5%BC%80%E5%88%B0%E7%BE%8E%E5%9B%BD+%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89210%E5%85%83%E4%B8%80%E4%BB%BD&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -336,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_4jjrbzbv",
-      "title": "760元一粒的片仔癀卖不动了",
+      "id": "feed_xckxi0eu",
+      "title": "7000亿足疗市场跑不出一家上市龙头",
       "src": "热搜／论坛",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=760%E5%85%83%E4%B8%80%E7%B2%92%E7%9A%84%E7%89%87%E4%BB%94%E7%99%80%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=7000%E4%BA%BF%E8%B6%B3%E7%96%97%E5%B8%82%E5%9C%BA%E8%B7%91%E4%B8%8D%E5%87%BA%E4%B8%80%E5%AE%B6%E4%B8%8A%E5%B8%82%E9%BE%99%E5%A4%B4&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -356,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bm1xosif",
-      "title": "开学三件套齐涨价家长直呼吃不消",
+      "id": "feed_yysvcp42",
+      "title": "订单爆了排到年底！这个市场热起来了",
       "src": "热搜／论坛",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%AE%A2%E5%8D%95%E7%88%86%E4%BA%86%E6%8E%92%E5%88%B0%E5%B9%B4%E5%BA%95%EF%BC%81%E8%BF%99%E4%B8%AA%E5%B8%82%E5%9C%BA%E7%83%AD%E8%B5%B7%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -376,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_e32f0g0w",
-      "title": "赛考斯感慨中国已进入22世纪",
+      "id": "feed_75g1cgkg",
+      "title": "全球亿万富翁人数创历史新高",
       "src": "热搜／论坛",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B5%9B%E8%80%83%E6%96%AF%E6%84%9F%E6%85%A8%E4%B8%AD%E5%9B%BD%E5%B7%B2%E8%BF%9B%E5%85%A522%E4%B8%96%E7%BA%AA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81%E4%BA%BA%E6%95%B0%E5%88%9B%E5%8E%86%E5%8F%B2%E6%96%B0%E9%AB%98&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
