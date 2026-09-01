@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-01T05:08:10.361Z",
+  "generatedAt": "2026-09-01T16:40:33.950Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 22,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 5,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_nuey1932",
+      "id": "feed_c613o7nj",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n4jprftw",
+      "id": "feed_8pflmvz7",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ebxxukyv",
+      "id": "feed_npckpull",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dazk9vm2",
+      "id": "feed_85q4on3u",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_08tscklq",
+      "id": "feed_mobrhkxr",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uteijrwi",
+      "id": "feed_48fvxjme",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_y3t85psd",
+      "id": "feed_ok99k2x6",
       "title": "中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_h1c9eeqc",
+      "id": "feed_6um4dswf",
       "title": "中国人民银行公告﹝2026﹞第22号",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uzw602dp",
+      "id": "feed_i8pxyznl",
       "title": "中国人民银行新增西藏自治区分行支农支小再贷款额度50亿元支持救灾及灾后重建",
       "src": "中国人民银行",
       "date": "2026-08-27",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_e3yl1uno",
+      "id": "feed_mgr77ty1",
       "title": "中国人民银行副行长陆磊出席第十五届中国支付清算论坛",
       "src": "中国人民银行",
       "date": "2026-08-27",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_b36zwmze",
+      "id": "feed_bafhjuyl",
       "title": "2026年7月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-08-21",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_mt2oallq",
+      "id": "feed_bg7yvo7t",
       "title": "中澳（大利亚）两国央行续签双边本币互换协议",
       "src": "中国人民银行",
       "date": "2026-08-19",
@@ -254,33 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_znp2tuzr",
-      "title": "【摩根士丹利：欧洲房地产市场出现了一些积极迹象】摩根士丹利在一份报告中表示，欧洲房地产行业出现了一些积极迹象，该报告将 …",
+      "id": "feed_6885ldk4",
+      "title": "美国两年期国债收益率突破 4.38%，创 2025 年 1 月以来新高。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-01",
-      "body": "【摩根士丹利：欧洲房地产市场出现了一些积极迹象】摩根士丹利在一份报告中表示，欧洲房地产行业出现了一些积极迹象，该报告将 Shaftesbury Capital 和 WDP 的评级上调至“增持”，并将 Colonial SFL 和 Unite Group 的评级下调至“持股观望”。",
-      "url": "https://finance.sina.cn/7x24/2026-09-01/detail-iniqhwmy4847785.d.html",
-      "event": "房地产",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ebwey9l1",
-      "title": "【日本40年期国债领跌 财政担忧搅动债市】随着油价延续涨势，财政担忧持续搅动市场，日本40年期国债收益率领涨。40年期国…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-01",
-      "body": "【日本40年期国债领跌 财政担忧搅动债市】随着油价延续涨势，财政担忧持续搅动市场，日本40年期国债收益率领涨。40年期国债收益率上涨6.5个基点至4.265%。30年期国债收益率上涨5.5个基点至4.185%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-01/detail-iniqhwna1617767.d.html",
+      "date": "2026-09-02",
+      "body": "美国两年期国债收益率突破 4.38%，创 2025 年 1 月以来新高。",
+      "url": "https://finance.sina.cn/7x24/2026-09-02/detail-iniqixxq1549893.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -296,75 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_sefwe8v6",
-      "title": "【印度央行出手干预，卢比升至两个月高位】受印度央行抛售美元、对冲油价上涨对本币冲击影响，卢比汇率攀升至两个月高点，表现优…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-01",
-      "body": "【印度央行出手干预，卢比升至两个月高位】受印度央行抛售美元、对冲油价上涨对本币冲击影响，卢比汇率攀升至两个月高点，表现优于亚洲其他货币。原油价格走高加剧印度通胀上行担忧，债券价格小幅走弱。美元兑印度卢比下跌 0.3%，报 94.9075。美伊冲突再度升级，霍尔木兹海峡能源运输前景不确定性加剧，原油连续第二个交易日上涨，布伦特原油突破每桶 91 美元。HDFC 证券外汇分析师迪利普・帕尔马尔（ Dilip Parmar）表示，卢比最初受印度央行在离岸与在岸市场的干预提振，但进口商把美元兑卢比的每一次回落都当作购汇时机。95 关口对美元买方具备重要心理意义，地缘局势与油价的不确定性进一步放大该点位的重要性。海外外汇存款计划带来的资金流入，配合印度央行的汇市干预，为卢比提供支撑。",
-      "url": "https://finance.sina.cn/7x24/2026-09-01/detail-iniqhwna1609001.d.html",
-      "event": "汇率",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4fki6ra8",
-      "title": "【陕西对电动汽车大功率充电设施建设给予财政补贴】据“陕西发布”消息，近日，据陕西省汽车工业协会消息，日前，《陕西省电动汽…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-01",
-      "body": "【陕西对电动汽车大功率充电设施建设给予财政补贴】据“陕西发布”消息，近日，据陕西省汽车工业协会消息，日前，《陕西省电动汽车大功率充电设施建设财政补贴方案》（简称《方案》）印发，该方案由省发展改革委和省财政厅研究制定，旨在发挥省级财政资金的扶持引导作用，推动陕西电动汽车大功率充电设施建设提速增效。《方案》提出，通过省级产业类统筹资金，对2026年至2027年期间，在陕西履行备案、投资建设、竣工验收并投入商业运行全过程的公共大功率充电设施建设项目（含充换电场站配套大功率充电设施）给予补贴。",
-      "url": "https://finance.sina.cn/7x24/2026-09-01/detail-iniqhwna1603965.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_u4j6oxw8",
-      "title": "日本40年期国债收益率上升6.5个基点至4.265%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-01",
-      "body": "日本40年期国债收益率上升6.5个基点至4.265%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-01/detail-iniqhwmy4827748.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_xjw11c9r",
-      "title": "六大行房贷余额少了5000多亿",
+      "id": "feed_gelvik0c",
+      "title": "手机一夜涨价！赶紧下手还是等等",
       "src": "热搜／论坛",
       "date": "2026-09-01",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AD%E5%A4%A7%E8%A1%8C%E6%88%BF%E8%B4%B7%E4%BD%99%E9%A2%9D%E5%B0%91%E4%BA%865000%E5%A4%9A%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E4%B8%80%E5%A4%9C%E6%B6%A8%E4%BB%B7%EF%BC%81%E8%B5%B6%E7%B4%A7%E4%B8%8B%E6%89%8B%E8%BF%98%E6%98%AF%E7%AD%89%E7%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -379,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2recizd1",
-      "title": "华为小米荣耀手机今日集体调价",
+      "id": "feed_1frv570b",
+      "title": "手握3.8万亿的“国家队”赚了3900亿",
       "src": "热搜／论坛",
       "date": "2026-09-01",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E8%8D%A3%E8%80%80%E6%89%8B%E6%9C%BA%E4%BB%8A%E6%97%A5%E9%9B%86%E4%BD%93%E8%B0%83%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%8F%A13.8%E4%B8%87%E4%BA%BF%E7%9A%84%E2%80%9C%E5%9B%BD%E5%AE%B6%E9%98%9F%E2%80%9D%E8%B5%9A%E4%BA%863900%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -399,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bkfugjit",
-      "title": "苹果迈入“特努斯时代”",
+      "id": "feed_5goar5nc",
+      "title": "“豆包手机”外观公布 有4种配色",
       "src": "热搜／论坛",
       "date": "2026-09-01",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E8%BF%88%E5%85%A5%E2%80%9C%E7%89%B9%E5%8A%AA%E6%96%AF%E6%97%B6%E4%BB%A3%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%B1%86%E5%8C%85%E6%89%8B%E6%9C%BA%E2%80%9D%E5%A4%96%E8%A7%82%E5%85%AC%E5%B8%83+%E6%9C%894%E7%A7%8D%E9%85%8D%E8%89%B2&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -419,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_yenai988",
-      "title": "希音上市首日一度跌近10%",
+      "id": "feed_bkypl5aa",
+      "title": "华为、小米、荣耀回应涨价",
       "src": "热搜／论坛",
       "date": "2026-09-01",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B8%8C%E9%9F%B3%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E4%B8%80%E5%BA%A6%E8%B7%8C%E8%BF%9110%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E3%80%81%E5%B0%8F%E7%B1%B3%E3%80%81%E8%8D%A3%E8%80%80%E5%9B%9E%E5%BA%94%E6%B6%A8%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -439,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_h90hiwmn",
-      "title": "“出现大量1折票” 机票价格降了",
+      "id": "feed_y6c4q2s4",
+      "title": "中国制造的“机器鸭”卖断货",
       "src": "热搜／论坛",
       "date": "2026-09-01",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%87%8F1%E6%8A%98%E7%A5%A8%E2%80%9D+%E6%9C%BA%E7%A5%A8%E4%BB%B7%E6%A0%BC%E9%99%8D%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%9A%84%E2%80%9C%E6%9C%BA%E5%99%A8%E9%B8%AD%E2%80%9D%E5%8D%96%E6%96%AD%E8%B4%A7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
