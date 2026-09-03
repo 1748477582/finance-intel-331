@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-02T16:35:02.651Z",
+  "generatedAt": "2026-09-03T04:33:47.910Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 22,
+    "total": 15,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 11,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_01pss26t",
+      "id": "feed_y23bpc76",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gczgzvv6",
+      "id": "feed_5ltiuxpl",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_s2qmkf2d",
+      "id": "feed_xur6bftf",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_d0rulucd",
+      "id": "feed_u9y4eoko",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6uccf4yh",
+      "id": "feed_to8bnl87",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ynx5uc3k",
+      "id": "feed_hktybn1f",
       "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
       "src": "国家统计局",
       "date": "2026-08-17",
@@ -134,13 +134,76 @@
       "use": "signal"
     },
     {
-      "id": "feed_xtwxawsz",
-      "title": "俄罗斯统计局表示，今年1-6月俄罗斯企业利润同比下降13.3%，至11.7万亿卢布。",
+      "id": "feed_hrizdlu0",
+      "title": "【美联储“褐皮书”：美经济前景面临更大不确定性】美国联邦储备委员会2日发布的全国经济形势调查报告显示，7月初至8月24日…",
       "src": "新浪财经 7x24",
       "date": "2026-09-03",
-      "body": "俄罗斯统计局表示，今年1-6月俄罗斯企业利润同比下降13.3%，至11.7万亿卢布。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqnien1242388.d.html",
+      "body": "【美联储“褐皮书”：美经济前景面临更大不确定性】美国联邦储备委员会2日发布的全国经济形势调查报告显示，7月初至8月24日，美国经济活动总体保持轻度至温和增长，但能源价格上涨、政策变化和国际冲突等因素带来更大不确定性。根据美国“联邦储备法”，美国全国划分为12个联邦储备区，每区设立一家联邦储备银行。该报告根据12家联邦储备银行的最新调查结果编制而成，也被称为“褐皮书”。报告说，12个联邦储备区中，10个经济活动实现轻度至温和增长，2个没有变化。消费支出小幅增加，但消费者对价格较为敏感。受消费者信心不足、高油价和融资成本上升等因素影响，汽车销售低迷。农业虽略有改善，但总体仍较疲弱。报告指出，受能源价格上涨、政策变化和国际冲突等因素影响，不确定性持续高企。（新华社）",
+      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqpkrw4347930.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_hy6btx4n",
+      "title": "【南非标准银行：中国零关税政策和人民币结算助力非洲对华贸易】南非标准银行集团商业及企业银行业务首席执行官比尔·布莱基2日…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-03",
+      "body": "【南非标准银行：中国零关税政策和人民币结算助力非洲对华贸易】南非标准银行集团商业及企业银行业务首席执行官比尔·布莱基2日发表题为《中国零关税政策为非洲企业开辟出口多元化新机遇》的文章说，中国对53个非洲建交国全面实施零关税举措正帮助非洲企业降低出口成本，同时人民币跨境结算能力不断提升也为非中贸易提供更多便利。文章摘要如下：自中国今年5月1日起对53个非洲建交国全面实施零关税举措以来，包括南非、肯尼亚、津巴布韦和尼日利亚在内的非洲国家出口商已经开始从更有利的中国市场准入条件中获得切实收益。（新华社）",
+      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqpkrw4344316.d.html",
+      "event": "关税",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_v0qnqsnn",
+      "title": "日本金融厅将调查信用金库持有的日本国债账面亏损情况。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-03",
+      "body": "日本金融厅将调查信用金库持有的日本国债账面亏损情况。",
+      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqpkry1113736.d.html",
       "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_j7uzcgw5",
+      "title": "【泰铢上涨近1%，创6月以来最大涨幅】泰铢汇率上涨近1%，报1美元兑32.985泰铢，创下6月12日以来最大涨幅。泰铢成…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-03",
+      "body": "【泰铢上涨近1%，创6月以来最大涨幅】泰铢汇率上涨近1%，报1美元兑32.985泰铢，创下6月12日以来最大涨幅。泰铢成为周四亚洲表现最佳的货币。三菱日联银行外汇分析师Lloyd Chan表示：“今日泰铢升值出乎我们意料，这与美债收益率走高、油价上涨的全球市场走势并不相符。”“油价是影响泰铢的关键因素，其影响力大于黄金。此外，泰国央行一直在努力削弱金价对泰铢的影响。”",
+      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqpkry1111077.d.html",
+      "event": "汇率",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -155,222 +218,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_xdiho4ub",
-      "title": "俄罗斯国家统计局公布：7月失业率为2.3%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯国家统计局公布：7月失业率为2.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4469177.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zjt7ig2j",
-      "title": "俄罗斯国家统计局数据显示，7月俄罗斯零售额同比增长5.3%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯国家统计局数据显示，7月俄罗斯零售额同比增长5.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4469148.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_tp065a43",
-      "title": "俄罗斯国家统计局公布数据显示，6月俄罗斯实际工资同比增长3.4%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯国家统计局公布数据显示，6月俄罗斯实际工资同比增长3.4%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqnien1241627.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0372wqve",
-      "title": "俄罗斯统计局：截至8月31日当周，俄罗斯周度消费者通缩率为0.01%（此前一周通胀率为0.01%）。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：截至8月31日当周，俄罗斯周度消费者通缩率为0.01%（此前一周通胀率为0.01%）。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqnien1241218.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_36q820ch",
-      "title": "俄罗斯统计局：7月失业率为2.3%，前一个月经初步统计为2.2%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：7月失业率为2.3%，前一个月经初步统计为2.2%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4468649.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_t3fmmt9f",
-      "title": "俄罗斯统计局：7月俄罗斯零售额同比增长5.3%，前值为同比增长7.3%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：7月俄罗斯零售额同比增长5.3%，前值为同比增长7.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4468622.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zygckktr",
-      "title": "俄罗斯统计局：1-7月俄罗斯零售额同比增长5.4%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：1-7月俄罗斯零售额同比增长5.4%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4468552.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_23zhpwe2",
-      "title": "俄罗斯统计局：上半年俄罗斯实际工资同比上涨6.5%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：上半年俄罗斯实际工资同比上涨6.5%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4468506.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_gt44f2n5",
-      "title": "俄罗斯统计局：6月俄罗斯实际工资同比上涨3.4%，前值为同比上涨4.5%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：6月俄罗斯实际工资同比上涨3.4%，前值为同比上涨4.5%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqniek4468433.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_koox4dwl",
-      "title": "俄罗斯统计局：俄罗斯第二季度资本投资同比下降6.6%，第一季度为同比下降14.3%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-03",
-      "body": "俄罗斯统计局：俄罗斯第二季度资本投资同比下降6.6%，第一季度为同比下降14.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-03/detail-iniqnien1240910.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_glo9r2dz",
-      "title": "“口袋空调”卖爆了",
+      "id": "feed_y3cls63a",
+      "title": "全球股市大反转",
       "src": "热搜／论坛",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8F%A3%E8%A2%8B%E7%A9%BA%E8%B0%83%E2%80%9D%E5%8D%96%E7%88%86%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82%E5%A4%A7%E5%8F%8D%E8%BD%AC&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -385,10 +238,30 @@
       "use": "noise"
     },
     {
-      "id": "feed_xg6dl4hs",
+      "id": "feed_f0by8bvb",
+      "title": "微信 单删提示",
+      "src": "热搜／论坛",
+      "date": "2026-09-03",
+      "body": "热榜话题，无数据、无信源、无政策依据。",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1+%E5%8D%95%E5%88%A0%E6%8F%90%E7%A4%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "热榜条目，零信息增量。",
+      "fields": [
+        "f1"
+      ],
+      "chains": [],
+      "inc": "emo",
+      "multi": false,
+      "hot": true,
+      "use": "noise"
+    },
+    {
+      "id": "feed_ayrz81qq",
       "title": "仿生机器人女性偏多",
       "src": "热搜／论坛",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
       "url": "https://www.baidu.com/s?wd=%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A5%B3%E6%80%A7%E5%81%8F%E5%A4%9A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
@@ -405,12 +278,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_qlq96526",
-      "title": "9.9元卖爆 “中国版乐高”能跑多远",
+      "id": "feed_pk3ynygy",
+      "title": "国内市场皮鞋卖不动了吗",
       "src": "热搜／论坛",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=9.9%E5%85%83%E5%8D%96%E7%88%86+%E2%80%9C%E4%B8%AD%E5%9B%BD%E7%89%88%E4%B9%90%E9%AB%98%E2%80%9D%E8%83%BD%E8%B7%91%E5%A4%9A%E8%BF%9C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%86%85%E5%B8%82%E5%9C%BA%E7%9A%AE%E9%9E%8B%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86%E5%90%97&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -425,32 +298,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pqd7h5jt",
-      "title": "《富爸爸穷爸爸》作者称负债12亿美元",
+      "id": "feed_2n9b0x62",
+      "title": "创业板指涨逾1% 影视传媒股涨幅居前",
       "src": "热搜／论坛",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E3%80%8B%E4%BD%9C%E8%80%85%E7%A7%B0%E8%B4%9F%E5%80%BA12%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "热榜条目，零信息增量。",
-      "fields": [
-        "f1"
-      ],
-      "chains": [],
-      "inc": "emo",
-      "multi": false,
-      "hot": true,
-      "use": "noise"
-    },
-    {
-      "id": "feed_x260od4f",
-      "title": "张雪惊讶97岁李锦记掌门人喝冰可乐",
-      "src": "热搜／论坛",
-      "date": "2026-09-02",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E6%83%8A%E8%AE%B697%E5%B2%81%E6%9D%8E%E9%94%A6%E8%AE%B0%E6%8E%8C%E9%97%A8%E4%BA%BA%E5%96%9D%E5%86%B0%E5%8F%AF%E4%B9%90&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E6%B6%A8%E9%80%BE1%25+%E5%BD%B1%E8%A7%86%E4%BC%A0%E5%AA%92%E8%82%A1%E6%B6%A8%E5%B9%85%E5%B1%85%E5%89%8D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
