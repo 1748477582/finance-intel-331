@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-06T04:39:06.762Z",
+  "generatedAt": "2026-09-06T15:28:23.632Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 15,
+    "total": 11,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 4,
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_62t10to0",
+      "id": "feed_qbsjtj5q",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_01xo1uu2",
+      "id": "feed_h6mw2jm2",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_45lwbv1d",
+      "id": "feed_j8mpan0l",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_geehafyd",
+      "id": "feed_b0vw349r",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cdhg860c",
+      "id": "feed_ao5lfvy7",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ap2w64aw",
+      "id": "feed_pglqkan8",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -134,96 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_slo39cg7",
-      "title": "【美联储加息迫在眉睫 特朗普政府加大对沃什施压】距离美联储即将审议加息的议息会议还有十天，特朗普政府正展开全方位施压，试…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-06",
-      "body": "【美联储加息迫在眉睫 特朗普政府加大对沃什施压】距离美联储即将审议加息的议息会议还有十天，特朗普政府正展开全方位施压，试图阻止本次加息落地。 过去一周，总统、副总统、财政部长以及总统高级经济顾问纷纷公开敦促美联储不要加息，部分官员直接要求降息。即便以特朗普长期批评美联储的过往标准来看，此番公开施压的规模也实属罕见。 特朗普没有像对待前主席鲍威尔那样直接抨击新任美联储主席沃什，但周五他进一步升级施压，放出威胁：若美联储不降息，美国将停止与对美贸易顺差国开展贸易。这是特朗普首次以贸易手段直接要挟美联储降息。 本周早些时候，副总统万斯表态：“我们认为美联储应当下调利率。”他补充称：“我们已经采取诸多举措压低利率，如果美联储能施以援手，那自然再好不过。” 财政部长斯科特·贝森特在的访谈中提到，按照美联储过往惯例，遭遇供给冲击时，除非通胀产生二次、三次传导效应，否则一般不会加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-06/detail-iniqwhca6936149.d.html",
-      "event": "利率",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_u5gxq5dr",
-      "title": "【9月加息？美银、花旗分歧明显】全球投资者将紧盯美国8月通胀数据，因为这些数据可能决定美联储是否会在9月晚些时候加息。然…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-06",
-      "body": "【9月加息？美银、花旗分歧明显】全球投资者将紧盯美国8月通胀数据，因为这些数据可能决定美联储是否会在9月晚些时候加息。然而，华尔街主要机构对这份报告的解读存在明显分歧：美银证券认为数据将足够强劲，支持9月加息落地；花旗则预计核心通胀将进一步降温，美联储更可能按兵不动。据追风交易台，美银证券预测美国8月核心CPI环比上涨0.22%，对应核心PCE约0.24%，年率将升至3.4%，认为这一水平足以说服美联储主席沃什通胀尚未得到充分控制，从而支持再度加息。然而，花旗预测美国8月核心CPI环比仅增0.184%，年率降至2.3%——若成真，将是2021年4月核心CPI突破2%以来的最低年率读数，足以令大多数官员选择维持利率不变。花旗指出，此次8月PCE（个人消费支出物价指数）数据的不确定性高于寻常——美联储对部分关键分项进行了方法论调整，这意味着CPI与PPI数据向PCE的常规映射关系在本月变得不够清晰，同时过去五年的PCE历史数据也将面临修订，预计将使核心PCE年率下调逾30个基点至3.0%左右。这一技术性因素增加了市场对最终PCE读数的解读难度。（券商中国）",
-      "url": "https://finance.sina.cn/7x24/2026-09-06/detail-iniqwhca6934099.d.html",
-      "event": "CPI 2021-04",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zkqnvdft",
-      "title": "【美国非农“爆表” 98%新增就业来自女性】据业内对美国劳工统计局周五发布的数据进行的分析，当月新增的16.2万个就业岗…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-06",
-      "body": "【美国非农“爆表” 98%新增就业来自女性】据业内对美国劳工统计局周五发布的数据进行的分析，当月新增的16.2万个就业岗位中，女性占到了15.8万个，比例约达98%。Indeed招聘实验室经济研究总监Laura Ullrich表示，随着周五非农报告的发布，女性与男性就业人数之间的差距已攀升至前所未有的水平。“我们正处于一场变革之中，”Ullrich表示，“这种变化正发生在我们眼前。”被视为过去一年多来劳动力市场增长引擎的医疗保健行业，8月份继续增加岗位。该行业中超过五分之四的雇员是女性。此外，地方政府和教育部门的就业市场在8月份强势复苏，新增就业岗位4.2万个，约占净增总数的四分之一。在教育、培训和图书馆相关岗位中，女性占比接近四分之三。",
-      "url": "https://finance.sina.cn/7x24/2026-09-06/detail-iniqvzve7027001.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_erj8lzno",
-      "title": "【超越中国！越南蝉联美国最大贸易逆差国】继今年上半年首次超过中国大陆成为美国最大贸易逆差来源国以来，越南继续保持领先优势…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-06",
-      "body": "【超越中国！越南蝉联美国最大贸易逆差国】继今年上半年首次超过中国大陆成为美国最大贸易逆差来源国以来，越南继续保持领先优势，前8月外贸规模再创历史新高。越南国家统计局近日发布的数据显示，2026年前8个月，越南商品进出口总额达7701.4亿美元，创下历史同期最高纪录，同比增长28.7%。其中，出口同比增长22.4%，达3748.4亿美元；进口同比增长35.3%，达3953亿美元，逆差进一步扩大，超过200亿美元。就在2025年同期，越南还保持着140.2亿美元的贸易顺差。（第一财经）",
-      "url": "https://finance.sina.cn/7x24/2026-09-06/detail-iniqvzvc0247046.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ji0kzbbd",
-      "title": "银行集中“清淤”",
+      "id": "feed_r3mocrm4",
+      "title": "安徽 新“五子登科”",
       "src": "热搜／论坛",
       "date": "2026-09-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%93%B6%E8%A1%8C%E9%9B%86%E4%B8%AD%E2%80%9C%E6%B8%85%E6%B7%A4%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD+%E6%96%B0%E2%80%9C%E4%BA%94%E5%AD%90%E7%99%BB%E7%A7%91%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -238,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8puty43q",
-      "title": "全球黄金大搬家",
+      "id": "feed_1tnn2esq",
+      "title": "3600亿元！8家中央金融企业大动作",
       "src": "热搜／论坛",
       "date": "2026-09-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%BB%84%E9%87%91%E5%A4%A7%E6%90%AC%E5%AE%B6&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=3600%E4%BA%BF%E5%85%83%EF%BC%818%E5%AE%B6%E4%B8%AD%E5%A4%AE%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E5%A4%A7%E5%8A%A8%E4%BD%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -258,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_0r82c00r",
-      "title": "特斯拉赛博出租车被查",
+      "id": "feed_146wpin1",
+      "title": "小米澎程将上市 多家车企送祝福",
       "src": "热搜／论坛",
       "date": "2026-09-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E8%B5%9B%E5%8D%9A%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%A2%AB%E6%9F%A5&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E5%B0%86%E4%B8%8A%E5%B8%82+%E5%A4%9A%E5%AE%B6%E8%BD%A6%E4%BC%81%E9%80%81%E7%A5%9D%E7%A6%8F&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -278,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_yl5r1nfg",
-      "title": "“香港大药房”连续被曝光仍卖出上亿",
+      "id": "feed_up74gnkq",
+      "title": "8家中央金融企业迎来增资 有何考量",
       "src": "热搜／论坛",
       "date": "2026-09-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%A6%99%E6%B8%AF%E5%A4%A7%E8%8D%AF%E6%88%BF%E2%80%9D%E8%BF%9E%E7%BB%AD%E8%A2%AB%E6%9B%9D%E5%85%89%E4%BB%8D%E5%8D%96%E5%87%BA%E4%B8%8A%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=8%E5%AE%B6%E4%B8%AD%E5%A4%AE%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E8%BF%8E%E6%9D%A5%E5%A2%9E%E8%B5%84+%E6%9C%89%E4%BD%95%E8%80%83%E9%87%8F&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -298,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_foaerg34",
-      "title": "阿里巴巴前高管在美失踪后确认身亡",
+      "id": "feed_iex9otl7",
+      "title": "财政部570亿增资三家保险公司",
       "src": "热搜／论坛",
       "date": "2026-09-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%89%8D%E9%AB%98%E7%AE%A1%E5%9C%A8%E7%BE%8E%E5%A4%B1%E8%B8%AA%E5%90%8E%E7%A1%AE%E8%AE%A4%E8%BA%AB%E4%BA%A1&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B4%A2%E6%94%BF%E9%83%A8570%E4%BA%BF%E5%A2%9E%E8%B5%84%E4%B8%89%E5%AE%B6%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B8&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
