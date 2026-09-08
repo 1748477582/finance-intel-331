@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-08T04:36:05.980Z",
+  "generatedAt": "2026-09-08T16:38:34.716Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 15,
+    "total": 11,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 4,
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ds6ly1rk",
+      "id": "feed_3ob8hska",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8fk7xjjr",
+      "id": "feed_zdgod8a2",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_10ppc8he",
+      "id": "feed_tmbpbfjs",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_spxg40fy",
+      "id": "feed_cnmjowov",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xozi32cr",
+      "id": "feed_03vcrj8i",
       "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-08-24",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_444nz2t1",
+      "id": "feed_hbbsynhr",
       "title": "国家统计局关于2026年早稻产量数据的公告",
       "src": "国家统计局",
       "date": "2026-08-21",
@@ -134,96 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_az8zam49",
-      "title": "交易员称，印度央行大概率正在抛售美元以限制卢比贬值幅度。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-08",
-      "body": "交易员称，印度央行大概率正在抛售美元以限制卢比贬值幅度。",
-      "url": "https://finance.sina.cn/7x24/2026-09-08/detail-inirauhw9269018.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_16kq3skc",
-      "title": "【澳大利亚储备银行亨特：通胀为首要任务 或需进一步加息】澳大利亚储备银行副行长萨拉・亨特表示，尽管本国房地产市场正走弱，…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-08",
-      "body": "【澳大利亚储备银行亨特：通胀为首要任务 或需进一步加息】澳大利亚储备银行副行长萨拉・亨特表示，尽管本国房地产市场正走弱，央行理事会仍将高通胀视作首要任务，或需要进一步加息以应对通胀。亨特周二在悉尼的一场会议上称：“理事会态度十分明确，无法容忍通胀长期高于目标水平。倘若实际通胀走势高于我们的预测，理事会很可能不得不通过加息来解决这一问题。”受通胀与经济数据走强影响，澳大利亚储备银行面临越来越大的压力，市场预期其最早将于本月重启加息。货币市场押注，三周后加息概率为69%，并且已完全计价11月议息会议将会加息。不过亨特提醒，7月通胀数据属于月度数据，可能存在波动。澳储行官员已明确，在判断国内通胀形势时更倾向于参考季度报告。澳储行一直难以将通胀回落至2‑3%目标区间的中值，预计直至2028年初才能实现该目标。若将现金利率从当前4.35%上调至4.6%，利率将达到约15年来最高水平。",
-      "url": "https://finance.sina.cn/7x24/2026-09-08/detail-inirauhy6040439.d.html",
-      "event": "房地产",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_dbdkc64d",
-      "title": "【香港证监会与金管局的2025年联合调查：香港投资产品销售创新高 固定收益、货币及商品相关的产品需求强劲】香港证券及期货…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-08",
-      "body": "【香港证监会与金管局的2025年联合调查：香港投资产品销售创新高 固定收益、货币及商品相关的产品需求强劲】香港证券及期货事务监察委员会与香港金融管理局（金管局）今天发表的年度联合调查显示，香港2025年非交易所买卖投资产品的销售按年飙升63%，创下9.9万亿元的历史新高。增长动力来自破纪录的市场参与度及对固定收益、货币及商品相关的产品的强劲需求。参与客户及公司的数目均创新高，推动总交易额强劲增长。完成至少一项非交易所买卖投资产品交易的客户数目跃升33%至超过160万名，而从事投资产品销售的持牌法团及注册机构数目则上升9%至452家。值得注意的是，大型公司数目更上升27%至128家。集体投资计划（增长85%）及结构性产品（增长53%）共同带动销售破纪录，集体投资计划更自2020年以来首次超越结构性产品，成为最畅销的产品种类。",
-      "url": "https://finance.sina.cn/7x24/2026-09-08/detail-inirauhy6031453.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3o95dnzw",
-      "title": "30年期日本国债收益率下跌6.0个基点，至3.960%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-08",
-      "body": "30年期日本国债收益率下跌6.0个基点，至3.960%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-08/detail-inirauhw9250128.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_v8y6hort",
-      "title": "铜价“爆了”",
+      "id": "feed_125cuz2z",
+      "title": "三折叠、阔折叠、中折叠 你选谁",
       "src": "热搜／论坛",
       "date": "2026-09-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%93%9C%E4%BB%B7%E2%80%9C%E7%88%86%E4%BA%86%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E6%8A%98%E5%8F%A0%E3%80%81%E9%98%94%E6%8A%98%E5%8F%A0%E3%80%81%E4%B8%AD%E6%8A%98%E5%8F%A0+%E4%BD%A0%E9%80%89%E8%B0%81&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -238,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zfv0lunf",
-      "title": "特斯拉限时降价惹怒新车主",
+      "id": "feed_5dxec9jc",
+      "title": "8月汽车销量前十已无燃油车",
       "src": "热搜／论坛",
       "date": "2026-09-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E9%99%90%E6%97%B6%E9%99%8D%E4%BB%B7%E6%83%B9%E6%80%92%E6%96%B0%E8%BD%A6%E4%B8%BB&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=8%E6%9C%88%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%89%8D%E5%8D%81%E5%B7%B2%E6%97%A0%E7%87%83%E6%B2%B9%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -258,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8rfwpnle",
-      "title": "6G手机要来了",
+      "id": "feed_vemb22t1",
+      "title": "智己无方向盘车这你受得了吗",
       "src": "热搜／论坛",
       "date": "2026-09-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=6G%E6%89%8B%E6%9C%BA%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%99%BA%E5%B7%B1%E6%97%A0%E6%96%B9%E5%90%91%E7%9B%98%E8%BD%A6%E8%BF%99%E4%BD%A0%E5%8F%97%E5%BE%97%E4%BA%86%E5%90%97&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -278,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_63erasna",
-      "title": "东北工业大省终于等来“大动脉”",
+      "id": "feed_5lpa7hnr",
+      "title": "浙江一公司收到美国3.66亿元关税退税",
       "src": "热搜／论坛",
       "date": "2026-09-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E5%8C%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E7%9C%81%E7%BB%88%E4%BA%8E%E7%AD%89%E6%9D%A5%E2%80%9C%E5%A4%A7%E5%8A%A8%E8%84%89%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E4%B8%80%E5%85%AC%E5%8F%B8%E6%94%B6%E5%88%B0%E7%BE%8E%E5%9B%BD3.66%E4%BA%BF%E5%85%83%E5%85%B3%E7%A8%8E%E9%80%80%E7%A8%8E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -298,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_sn6padc8",
-      "title": "华为新三折叠内部结构首拆",
+      "id": "feed_wtxzw8t1",
+      "title": "火腿肠 慢衰退",
       "src": "热搜／论坛",
       "date": "2026-09-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E6%96%B0%E4%B8%89%E6%8A%98%E5%8F%A0%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84%E9%A6%96%E6%8B%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%81%AB%E8%85%BF%E8%82%A0+%E6%85%A2%E8%A1%B0%E9%80%80&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
