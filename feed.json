@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-09T04:42:12.553Z",
+  "generatedAt": "2026-09-09T16:38:42.136Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 18,
+    "total": 19,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 1,
+    "sina724": 2,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_8ry4wggk",
+      "id": "feed_6zmfy0iu",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_i74y0ogy",
+      "id": "feed_vs8wllca",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1ppexqtg",
+      "id": "feed_z4d4sh9n",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_05v2h9wp",
+      "id": "feed_zo7qjx9k",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_t2seo9zi",
+      "id": "feed_ggdssimo",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rnm3q4yg",
+      "id": "feed_drcgn6kv",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dl2brh4s",
+      "id": "feed_6x3vr9wc",
       "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
       "src": "中国人民银行",
       "date": "2026-09-09",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_oa3430jc",
+      "id": "feed_tcv8jxky",
       "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
       "src": "中国人民银行",
       "date": "2026-09-04",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_msy9hsx3",
+      "id": "feed_04qpi9dg",
       "title": "2026年2季度末金融业机构总资产562.2万亿元",
       "src": "中国人民银行",
       "date": "2026-09-03",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_x1ws3slp",
+      "id": "feed_zmnyjl7s",
       "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-02",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_deansxam",
+      "id": "feed_p8qhdvyt",
       "title": "中国人民银行有关部门负责人就《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》答记者问",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_3ndvsagi",
+      "id": "feed_1k3a8t3l",
       "title": "中国人民银行公告﹝2026﹞第22号",
       "src": "中国人民银行",
       "date": "2026-08-28",
@@ -254,14 +254,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_rwwhsmps",
-      "title": "【泰国拟拨款500亿泰铢补贴居民屋顶光伏项目】泰国财政部长埃克尼提・尼提坦帕帕斯（Ekniti Nitithanprap…",
+      "id": "feed_mr5tt8d2",
+      "title": "【摩根士丹利首席投资官建议用能源股进行对冲 同时回避30年期美国国债】摩根士丹利的Mike Wilson表示，担心利率和…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-09",
-      "body": "【泰国拟拨款500亿泰铢补贴居民屋顶光伏项目】泰国财政部长埃克尼提・尼提坦帕帕斯（Ekniti Nitithanprapas）表示，泰国财政部正考虑推出一项规模500亿泰铢（合15.2亿美元）的计划，为100万户家庭的屋顶光伏安装提供补贴。埃克尼提在周三对记者称，每户家庭最高可获得5万泰铢补贴，剩余安装费用可通过国有银行提供的低息贷款解决。财政部计划于本周五或下周初与相关部门商讨该提案细节。",
-      "url": "https://finance.sina.cn/7x24/2026-09-09/detail-inirexfw8997212.d.html",
+      "date": "2026-09-10",
+      "body": "【摩根士丹利首席投资官建议用能源股进行对冲 同时回避30年期美国国债】摩根士丹利的Mike Wilson表示，担心利率和油价上涨的投资者，应偏向质量更高的美国股票，并利用能源股进行投资组合对冲，同时避开30年期美国国债。Wilson周三接受采访时表示：“别自欺欺人了，标普500仍然是全球质量最高的股票市场。所以如果你很紧张，那就持有标普500。”他补充称：“不要持有长期债券。过去五年，长期债券的表现简直是一场灾难。” Wilson对能源股的看好，也凸显了这一行业的双重作用。原油价格反弹一方面加剧了通胀担忧，并对美国国债构成压力；另一方面，石油公司股价自6月以来明显跑赢大盘。从6月1日至周二，标普500能源指数上涨13%，远高于标普500指数同期1%的涨幅。作为摩根士丹利首席美国股票策略师和首席投资官的Wilson还指出，美国国内能源生产能够在一定程度上隔绝欧洲和日本所面临的供应冲击。",
+      "url": "https://finance.sina.cn/7x24/2026-09-10/detail-inirhezk5556020.d.html",
       "event": "",
-      "flow": "more",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -275,12 +275,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_drlql4q2",
-      "title": "海底捞暴跌",
+      "id": "feed_qbp5w4p7",
+      "title": "【交易员押注欧洲央行和英国央行将加息四次 油价飙升加剧通胀担忧】交易员正在加大对欧洲央行和英国央行加息的押注，因为能源价…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-10",
+      "body": "【交易员押注欧洲央行和英国央行将加息四次 油价飙升加剧通胀担忧】交易员正在加大对欧洲央行和英国央行加息的押注，因为能源价格上涨可能令通胀在未来一年难以消退。互换市场目前显示，交易员预计欧洲央行到2027年12月将加息约90个基点，为本轮紧缩周期中最高。这意味着政策制定者在此期间可能需加息三次，每次25个基点，并有60%的概率进行第四次加息。互换市场显示，预计英国央行同期加息幅度也大致相当，将推动利率升至2025年2月以来最高。欧洲和英国均高度依赖进口石油，尤其是天然气，因此经济容易受到价格飙升的冲击。市场普遍预计欧洲央行将在周四会议上加息。互换市场的变动凸显市场对伊朗战争引发通胀飙升的担忧。",
+      "url": "https://finance.sina.cn/7x24/2026-09-10/detail-inirhezh8779951.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_73kcljw6",
+      "title": "研究员警告：AI若失控恐将毁灭人类",
       "src": "热搜／论坛",
       "date": "2026-09-09",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%BA%95%E6%8D%9E%E6%9A%B4%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%A0%94%E7%A9%B6%E5%91%98%E8%AD%A6%E5%91%8A%EF%BC%9AAI%E8%8B%A5%E5%A4%B1%E6%8E%A7%E6%81%90%E5%B0%86%E6%AF%81%E7%81%AD%E4%BA%BA%E7%B1%BB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -295,12 +316,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_v04crg7z",
-      "title": "华为小米抢先苹果把折叠屏卖到2万元",
+      "id": "feed_ollhxlts",
+      "title": "俞敏洪找到了“最强打工人”",
       "src": "热搜／论坛",
       "date": "2026-09-09",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E6%8A%A2%E5%85%88%E8%8B%B9%E6%9E%9C%E6%8A%8A%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8D%96%E5%88%B02%E4%B8%87%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%9E%E6%95%8F%E6%B4%AA%E6%89%BE%E5%88%B0%E4%BA%86%E2%80%9C%E6%9C%80%E5%BC%BA%E6%89%93%E5%B7%A5%E4%BA%BA%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -315,12 +336,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_6789tca8",
-      "title": "A股“股王”盘初跳水",
+      "id": "feed_52h4o9xq",
+      "title": "铜价创新高 原因找到了",
       "src": "热搜／论坛",
       "date": "2026-09-09",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E2%80%9C%E8%82%A1%E7%8E%8B%E2%80%9D%E7%9B%98%E5%88%9D%E8%B7%B3%E6%B0%B4&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%93%9C%E4%BB%B7%E5%88%9B%E6%96%B0%E9%AB%98+%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -335,12 +356,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pnfogssx",
-      "title": "苹果折叠屏 多少钱你愿意买",
+      "id": "feed_dve1yd4i",
+      "title": "iPhone 18 Pro 小号灵动岛",
       "src": "热搜／论坛",
       "date": "2026-09-09",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8F+%E5%A4%9A%E5%B0%91%E9%92%B1%E4%BD%A0%E6%84%BF%E6%84%8F%E4%B9%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+18+Pro+%E5%B0%8F%E5%8F%B7%E7%81%B5%E5%8A%A8%E5%B2%9B&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -355,12 +376,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_57j09ivr",
-      "title": "AI眼镜突然卖不动了",
+      "id": "feed_ryzjn4dd",
+      "title": "电视关机还在偷听用户对话？LG回应",
       "src": "热搜／论坛",
       "date": "2026-09-09",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=AI%E7%9C%BC%E9%95%9C%E7%AA%81%E7%84%B6%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E8%A7%86%E5%85%B3%E6%9C%BA%E8%BF%98%E5%9C%A8%E5%81%B7%E5%90%AC%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%EF%BC%9FLG%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
