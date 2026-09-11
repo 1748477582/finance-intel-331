@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-11T04:40:15.206Z",
+  "generatedAt": "2026-09-11T16:28:42.619Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 22,
+    "total": 23,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 5,
+    "sina724": 6,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_3tg0cs7c",
+      "id": "feed_7boslnuq",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4tr0j7cl",
+      "id": "feed_s9u0qzyq",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,11 +54,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_6pwe7jp8",
+      "id": "feed_7jq3y164",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
-      "body": "中国统计信息服务中心卓创资讯据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年8月下旬与8月中旬相比，34种产品价格上涨，14种下降，2种持平。2026年8月下旬流通领域重要生产资料市场价格变动情况产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属螺纹钢（Φ 20mm，HRB400E）吨3130.3 67.4 2.2线材（Φ 8 — 10mm，HPB300）吨3317.8 63.1 1.9普通中板（20mm，Q235）吨3526.9 44.5 1.3热轧普通板卷（4.75 — 11.5mm，Q235）吨3326.4 61.1 1.9无缝钢管（219*6，20#）吨4011.9 1.4 0.0角钢（5#）吨3435.4 25.3 0.7二、有色金属电解铜（1#）吨108899.3 663.0 0.6铝锭（A00）吨23835.7 -120.6 -0.5铅锭（1#）吨15946.4 280.8 1.8锌锭（0#）吨26090.7 573.2 2.2三、化工产品硫酸（98%）吨1903.8 -36.8 -1.9烧碱（液碱，32%）吨685.4 0.9 0.1甲醇（优等品）吨2873.2 237.6 9.0纯苯（石油苯，工业级）吨8129.7 186.5 2.3乙醇（95.0%）吨5340.5 -48.7 -0.9聚乙烯（LLDPE，熔融指数2薄膜料）吨8745.5 143.2 1.7聚丙烯（拉丝料）吨9187.1 152.7 1.7冰醋酸（99.5%及以上）吨3153.8 187.1 6.3顺丁胶（BR9000）吨14176.2 686.6 5",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260903_1965182.html",
       "event": "",
       "flow": "shift",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_om0dmtd1",
+      "id": "feed_9sqg5aca",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_et0ppnm1",
+      "id": "feed_iep0vbkc",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_95l3gyce",
+      "id": "feed_jflpouo1",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dug3nhkl",
+      "id": "feed_eb2ue2ub",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0rf3wr58",
+      "id": "feed_mp9mvuwz",
       "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_y5dbx7kq",
+      "id": "feed_etdlzmca",
       "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
       "src": "中国人民银行",
       "date": "2026-09-09",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rtb4oj6h",
+      "id": "feed_521126h0",
       "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
       "src": "中国人民银行",
       "date": "2026-09-04",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o8ursqb2",
+      "id": "feed_nkl9ztfh",
       "title": "2026年2季度末金融业机构总资产562.2万亿元",
       "src": "中国人民银行",
       "date": "2026-09-03",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_z8maahsd",
+      "id": "feed_rasmu1yv",
       "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-02",
@@ -254,12 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_8tst7w2f",
-      "title": "印尼5年期国债收益率上行8个基点，为一周最大升幅。",
+      "id": "feed_qr2qxe22",
+      "title": "美国商务部长卢特尼克：美国或将尝试为 5000 美元支票项目 “创收”。5000美元支票计划不会依靠税收资金。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-11",
-      "body": "印尼5年期国债收益率上行8个基点，为一周最大升幅。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmruc2125635.d.html",
+      "date": "2026-09-12",
+      "body": "美国商务部长卢特尼克：美国或将尝试为 5000 美元支票项目 “创收”。5000美元支票计划不会依靠税收资金。",
+      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirntfs8829811.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -275,14 +275,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_e4wqm2gn",
-      "title": "道明证券预计，日本央行将在2026年9月和12月各加息25个基点，随后在2027年4月、7月和10月再次加息。",
+      "id": "feed_33md8qu7",
+      "title": "【美国第二季度家庭净资产创纪录环比增加12.803万亿美元】美联储数据显示，美国第二季度家庭净资产环比增加12.803万…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-11",
-      "body": "道明证券预计，日本央行将在2026年9月和12月各加息25个基点，随后在2027年4月、7月和10月再次加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmrtz5347107.d.html",
-      "event": "",
-      "flow": "less",
+      "date": "2026-09-12",
+      "body": "【美国第二季度家庭净资产创纪录环比增加12.803万亿美元】美联储数据显示，美国第二季度家庭净资产环比增加12.803万亿美元，第一季度增幅修正为7,929亿美元。第二季度家庭净资产的名义增量创1950年代有数据记录以来最大。",
+      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirntfu5598639.d.html",
+      "event": "美联储",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -290,19 +290,19 @@
         "f2"
       ],
       "chains": [],
-      "inc": "policy",
+      "inc": "hard",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_6pq4mo0o",
-      "title": "【道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力】道明证券指出，随着日本央行的政策转向鹰派方向，日…",
+      "id": "feed_ehi8v2qt",
+      "title": "【美联储下周加息几成定局 手机资费大涨或是关键推手】美国手机服务价格涨幅创纪录，推动一项关键通胀指标高于预期，可能进而锁…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-11",
-      "body": "【道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力】道明证券指出，随着日本央行的政策转向鹰派方向，日元作为全球套利交易融资货币的吸引力预计将逐渐下降。道明在报告中指出，“日本经济正处于转折点，日本央行不能承担落后的风险。”“日本央行将放弃‘渐进式’货币紧缩立场，采取更加积极主动的政策正常化方式。”日本央行预计将在9月和12月将政策利率上调25个基点，并在2027年4月、7月和10月进一步上调，使政策利率升至2.25%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5465449.d.html",
-      "event": "",
+      "date": "2026-09-12",
+      "body": "【美联储下周加息几成定局 手机资费大涨或是关键推手】美国手机服务价格涨幅创纪录，推动一项关键通胀指标高于预期，可能进而锁定了美联储下周加息的决定。美国劳工统计局周五公布的数据显示，8月份剔除食品和能源后的核心消费者价格指数环比上涨0.3%，高于彭博调查预估中值0.2%。其中，无线电话服务价格单月上涨5.9%，单这一项就为核心CPI贡献了约0.1个百分点。这一分项主要反映移动运营商提供的预付费和月度套餐价格。美国银行、巴克莱和Pantheon Macroeconomics的经济学家指出，AT&T和T-Mobile US等主要运营商近期调整资费方案，可能是推高该分项的主要原因。美国劳工统计局拒绝进一步说明这些运营商的调整具体如何影响该数据。",
+      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirntfu5597603.d.html",
+      "event": "CPI",
       "flow": "less",
       "slow": false,
       "read": "",
@@ -317,12 +317,54 @@
       "use": "signal"
     },
     {
-      "id": "feed_lmo6kkjb",
-      "title": "【克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变】俄罗斯央行将再次面临是否暂停宽松周期的抉择。尽管政治压…",
+      "id": "feed_llmyvkyf",
+      "title": "俄罗斯统计局：8 月俄罗斯消费者物价指数环比下降 0.08%，8月俄罗斯消费者物价指数同比上涨 6.33%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-12",
+      "body": "俄罗斯统计局：8 月俄罗斯消费者物价指数环比下降 0.08%，8月俄罗斯消费者物价指数同比上涨 6.33%。",
+      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirntfu5591073.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_vothlbwq",
+      "title": "俄新社援引俄罗斯统计局消息：俄罗斯第二季度国内生产总值同比增长 1.3%，数据已确认。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-12",
+      "body": "俄新社援引俄罗斯统计局消息：俄罗斯第二季度国内生产总值同比增长 1.3%，数据已确认。",
+      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirntfu5590344.d.html",
+      "event": "GDP",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_iw2097e4",
+      "title": "波兰央行货币政策委员Dabrowski： 利率将维持不变直至 2027 年第二季度。波兰降息概率略高于加息。",
       "src": "新浪财经 7x24",
       "date": "2026-09-11",
-      "body": "【克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变】俄罗斯央行将再次面临是否暂停宽松周期的抉择。尽管政治压力似乎有所减小，但由于燃料供应中断和政府支出增加，行长Elvira Nabiullina面临着不断加剧的通胀风险。 尽管俄罗斯在利率决议一周后就将举行议会选举，但据知情人士透露，克里姆林宫并未施压要求央行采取特定行动。由于相关讨论并不公开，知情人士要求匿名。俄罗斯央行周五可能在“维持基准利率于14%不变”和“小幅降息25个基点”之间二选一。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5464146.d.html",
+      "body": "波兰央行货币政策委员Dabrowski： 利率将维持不变直至 2027 年第二季度。波兰降息概率略高于加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirnnxu8934565.d.html",
       "event": "利率",
       "flow": "more",
       "slow": false,
@@ -332,39 +374,18 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_rtlyklib",
-      "title": "道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-11",
-      "body": "道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5463443.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
       "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_f4vfasgs",
-      "title": "车主留意！油价要调了",
+      "id": "feed_ip1wzywj",
+      "title": "lululemon为什么卖不动了",
       "src": "热搜／论坛",
       "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E4%B8%BB%E7%95%99%E6%84%8F%EF%BC%81%E6%B2%B9%E4%BB%B7%E8%A6%81%E8%B0%83%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=lululemon%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -379,12 +400,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7bfpe583",
-      "title": "苹果首款天价折叠屏 被炒到了9万",
+      "id": "feed_g51m7u2t",
+      "title": "iPhone都已成年了 我还在用正太苹果",
       "src": "热搜／论坛",
       "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E5%A4%A9%E4%BB%B7%E6%8A%98%E5%8F%A0%E5%B1%8F+%E8%A2%AB%E7%82%92%E5%88%B0%E4%BA%869%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone%E9%83%BD%E5%B7%B2%E6%88%90%E5%B9%B4%E4%BA%86+%E6%88%91%E8%BF%98%E5%9C%A8%E7%94%A8%E6%AD%A3%E5%A4%AA%E8%8B%B9%E6%9E%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -399,12 +420,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8y4k4x5q",
-      "title": "日韩股市大跌",
+      "id": "feed_c45xogtg",
+      "title": "“10台手机卖不出1台折叠屏”",
       "src": "热搜／论坛",
       "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E5%A4%A7%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C10%E5%8F%B0%E6%89%8B%E6%9C%BA%E5%8D%96%E4%B8%8D%E5%87%BA1%E5%8F%B0%E6%8A%98%E5%8F%A0%E5%B1%8F%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -419,12 +440,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_v74724bx",
-      "title": "燃油车卖不动 加油站怎么办",
+      "id": "feed_0x8tmeck",
+      "title": "iPhone Duo 无法同时播放两个视频",
       "src": "热搜／论坛",
       "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%87%83%E6%B2%B9%E8%BD%A6%E5%8D%96%E4%B8%8D%E5%8A%A8+%E5%8A%A0%E6%B2%B9%E7%AB%99%E6%80%8E%E4%B9%88%E5%8A%9E&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+Duo+%E6%97%A0%E6%B3%95%E5%90%8C%E6%97%B6%E6%92%AD%E6%94%BE%E4%B8%A4%E4%B8%AA%E8%A7%86%E9%A2%91&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -439,12 +460,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_kjgpl0db",
-      "title": "董事怒怼记者“滚开” 涉事公司致歉",
+      "id": "feed_eoo1m2ux",
+      "title": "网友最关心的不是车 是雷总去哪开门",
       "src": "热搜／论坛",
       "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E4%BA%8B%E6%80%92%E6%80%BC%E8%AE%B0%E8%80%85%E2%80%9C%E6%BB%9A%E5%BC%80%E2%80%9D+%E6%B6%89%E4%BA%8B%E5%85%AC%E5%8F%B8%E8%87%B4%E6%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E5%8F%8B%E6%9C%80%E5%85%B3%E5%BF%83%E7%9A%84%E4%B8%8D%E6%98%AF%E8%BD%A6+%E6%98%AF%E9%9B%B7%E6%80%BB%E5%8E%BB%E5%93%AA%E5%BC%80%E9%97%A8&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
