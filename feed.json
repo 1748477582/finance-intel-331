@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-10T16:24:24.840Z",
+  "generatedAt": "2026-09-11T04:40:15.206Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 12,
+    "total": 22,
     "llm": 0,
     "stats": 6,
-    "pbc": "error: fetch failed",
-    "sina724": 1,
+    "pbc": 6,
+    "sina724": 5,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_mlkl1kbz",
+      "id": "feed_3tg0cs7c",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_3xlbit60",
+      "id": "feed_4tr0j7cl",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jrrvgppv",
+      "id": "feed_6pwe7jp8",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_b0zn278n",
+      "id": "feed_om0dmtd1",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_m4u0fg2f",
+      "id": "feed_et0ppnm1",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_opus0us4",
+      "id": "feed_95l3gyce",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,12 +134,153 @@
       "use": "signal"
     },
     {
-      "id": "feed_nk2gd0yx",
-      "title": "欧洲央行消息人士：可能进一步收紧政策，最早或于10月讨论再次加息。",
+      "id": "feed_dug3nhkl",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况字号大中小文章来源：2026-09-10 19:47:25打印本页关闭窗口国务院新闻办公室于2026年9月10日（星期四）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，请中国人民银行副行长陆磊，金融监管总局副局长丛林，中国证监会副主席李超，国家外汇局新闻发言人、副局长李斌介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况，并答记者问。以下为文字实录。国务院新闻办新闻局局长、新闻发言人寿小丽:女士们、先生们，大家下午好！欢迎出席国务院新闻办新闻发布会。今天，我们继续举行“开局起步‘十五五’”系列主题新闻发布会。我们今天邀请到中国人民银行副行长陆磊先生，金融监管总局副局长丛林女士，中国证监会副主席李超先生，国家外汇局新闻发言人、副局长李斌先生，请他们为大家介绍金融领域贯彻实施“十五五”规划，推动金融强国建设有关情况，并回答大家关心的问题。下面，我们首先请",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_0rf3wr58",
+      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长陶玲出席金砖国家财长和央行行长会议字号大中小文章来源：2026-09-10 17:59:27打印本页关闭窗口2026年9月10日，中国人民银行副行长陶玲出席在印度孟买举行的本年度第二次金砖国家财长和央行行长会议，与会各方就全球经济形势、国际金融治理、金砖应急储备安排、跨境支付、金融科技、可持续金融等议题进行了讨论。会议审议并通过了《金砖国家财长和央行行长联合声明》。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_y5dbx7kq",
+      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
+      "src": "中国人民银行",
+      "date": "2026-09-09",
+      "body": "中国人民银行副行长宣昌能出席国际清算银行行长例会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长宣昌能出席国际清算银行行长例会字号大中小文章来源：2026-09-09 10:05:48打印本页关闭窗口2026年9月6日至7日，中国人民银行副行长宣昌能出席国际清算银行（BIS）在瑞士巴塞尔举行的行长例会。与会央行行长就全球经济金融形势，央行如何应对供给冲击、人工智能技术快速迭代以及多变的外部环境对货币政策的挑战，央行政策沟通等议题开展了深入交流。会议期间，宣昌能副行长会见了部分与会央行行长，就共同关心的问题交换了意见。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rtb4oj6h",
+      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
+      "src": "中国人民银行",
+      "date": "2026-09-04",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_o8ursqb2",
+      "title": "2026年2季度末金融业机构总资产562.2万亿元",
+      "src": "中国人民银行",
+      "date": "2026-09-03",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090314250952275/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_z8maahsd",
+      "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
+      "src": "中国人民银行",
+      "date": "2026-09-02",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090214465859469/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_8tst7w2f",
+      "title": "印尼5年期国债收益率上行8个基点，为一周最大升幅。",
       "src": "新浪财经 7x24",
       "date": "2026-09-11",
-      "body": "欧洲央行消息人士：可能进一步收紧政策，最早或于10月讨论再次加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirkiyt2402222.d.html",
+      "body": "印尼5年期国债收益率上行8个基点，为一周最大升幅。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmruc2125635.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_e4wqm2gn",
+      "title": "道明证券预计，日本央行将在2026年9月和12月各加息25个基点，随后在2027年4月、7月和10月再次加息。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-11",
+      "body": "道明证券预计，日本央行将在2026年9月和12月各加息25个基点，随后在2027年4月、7月和10月再次加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmrtz5347107.d.html",
       "event": "",
       "flow": "less",
       "slow": false,
@@ -155,12 +296,75 @@
       "use": "signal"
     },
     {
-      "id": "feed_r0gktv8i",
-      "title": "手机进入奢侈品时代",
+      "id": "feed_6pq4mo0o",
+      "title": "【道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力】道明证券指出，随着日本央行的政策转向鹰派方向，日…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-11",
+      "body": "【道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力】道明证券指出，随着日本央行的政策转向鹰派方向，日元作为全球套利交易融资货币的吸引力预计将逐渐下降。道明在报告中指出，“日本经济正处于转折点，日本央行不能承担落后的风险。”“日本央行将放弃‘渐进式’货币紧缩立场，采取更加积极主动的政策正常化方式。”日本央行预计将在9月和12月将政策利率上调25个基点，并在2027年4月、7月和10月进一步上调，使政策利率升至2.25%。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5465449.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_lmo6kkjb",
+      "title": "【克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变】俄罗斯央行将再次面临是否暂停宽松周期的抉择。尽管政治压…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-11",
+      "body": "【克里姆林宫据悉准许俄罗斯央行暂停降息 利率料将维持在14%不变】俄罗斯央行将再次面临是否暂停宽松周期的抉择。尽管政治压力似乎有所减小，但由于燃料供应中断和政府支出增加，行长Elvira Nabiullina面临着不断加剧的通胀风险。 尽管俄罗斯在利率决议一周后就将举行议会选举，但据知情人士透露，克里姆林宫并未施压要求央行采取特定行动。由于相关讨论并不公开，知情人士要求匿名。俄罗斯央行周五可能在“维持基准利率于14%不变”和“小幅降息25个基点”之间二选一。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5464146.d.html",
+      "event": "利率",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rtlyklib",
+      "title": "道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-11",
+      "body": "道明证券：日本央行鹰派立场转变将降低日元作为套利交易融资货币的吸引力。",
+      "url": "https://finance.sina.cn/7x24/2026-09-11/detail-inirmmnc5463443.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_f4vfasgs",
+      "title": "车主留意！油价要调了",
       "src": "热搜／论坛",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E8%BF%9B%E5%85%A5%E5%A5%A2%E4%BE%88%E5%93%81%E6%97%B6%E4%BB%A3&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E4%B8%BB%E7%95%99%E6%84%8F%EF%BC%81%E6%B2%B9%E4%BB%B7%E8%A6%81%E8%B0%83%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -175,12 +379,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_1fx8dssd",
-      "title": "苹果折叠屏让人更怀念乔布斯了",
+      "id": "feed_7bfpe583",
+      "title": "苹果首款天价折叠屏 被炒到了9万",
       "src": "热搜／论坛",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8F%E8%AE%A9%E4%BA%BA%E6%9B%B4%E6%80%80%E5%BF%B5%E4%B9%94%E5%B8%83%E6%96%AF%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E5%A4%A9%E4%BB%B7%E6%8A%98%E5%8F%A0%E5%B1%8F+%E8%A2%AB%E7%82%92%E5%88%B0%E4%BA%869%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -195,12 +399,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_0m17d8tf",
-      "title": "证监会最新定调未来5年资本市场",
+      "id": "feed_8y4k4x5q",
+      "title": "日韩股市大跌",
       "src": "热搜／论坛",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%AF%81%E7%9B%91%E4%BC%9A%E6%9C%80%E6%96%B0%E5%AE%9A%E8%B0%83%E6%9C%AA%E6%9D%A55%E5%B9%B4%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E5%A4%A7%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -215,12 +419,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_jtojplv9",
-      "title": "多邻国 iPhone Duo",
+      "id": "feed_v74724bx",
+      "title": "燃油车卖不动 加油站怎么办",
       "src": "热搜／论坛",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E9%82%BB%E5%9B%BD+iPhone+Duo&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%87%83%E6%B2%B9%E8%BD%A6%E5%8D%96%E4%B8%8D%E5%8A%A8+%E5%8A%A0%E6%B2%B9%E7%AB%99%E6%80%8E%E4%B9%88%E5%8A%9E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -235,12 +439,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_lmnut1s7",
-      "title": "“每卖10辆新车6辆是新能源”",
+      "id": "feed_kjgpl0db",
+      "title": "董事怒怼记者“滚开” 涉事公司致歉",
       "src": "热搜／论坛",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%AF%8F%E5%8D%9610%E8%BE%86%E6%96%B0%E8%BD%A66%E8%BE%86%E6%98%AF%E6%96%B0%E8%83%BD%E6%BA%90%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E4%BA%8B%E6%80%92%E6%80%BC%E8%AE%B0%E8%80%85%E2%80%9C%E6%BB%9A%E5%BC%80%E2%80%9D+%E6%B6%89%E4%BA%8B%E5%85%AC%E5%8F%B8%E8%87%B4%E6%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
