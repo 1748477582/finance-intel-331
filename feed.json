@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-12T04:34:09.470Z",
+  "generatedAt": "2026-09-12T15:31:59.995Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 11,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 3,
+    "pbc": "error: fetch failed",
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_7b5di9x0",
+      "id": "feed_ngl9ardn",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_21b306w1",
+      "id": "feed_twqv2h3m",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jfubq11a",
+      "id": "feed_8ve8j2so",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gjzudf6r",
+      "id": "feed_xgab579g",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8vvmq569",
+      "id": "feed_s4lskpb6",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_9kmlkabd",
+      "id": "feed_mbdggl17",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,195 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_a372xx4f",
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
-      "src": "中国人民银行",
-      "date": "2026-09-10",
-      "body": "系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况字号大中小文章来源：2026-09-10 19:47:25打印本页关闭窗口国务院新闻办公室于2026年9月10日（星期四）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，请中国人民银行副行长陆磊，金融监管总局副局长丛林，中国证监会副主席李超，国家外汇局新闻发言人、副局长李斌介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况，并答记者问。以下为文字实录。国务院新闻办新闻局局长、新闻发言人寿小丽:女士们、先生们，大家下午好！欢迎出席国务院新闻办新闻发布会。今天，我们继续举行“开局起步‘十五五’”系列主题新闻发布会。我们今天邀请到中国人民银行副行长陆磊先生，金融监管总局副局长丛林女士，中国证监会副主席李超先生，国家外汇局新闻发言人、副局长李斌先生，请他们为大家介绍金融领域贯彻实施“十五五”规划，推动金融强国建设有关情况，并回答大家关心的问题。下面，我们首先请",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_kenhrz7y",
-      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
-      "src": "中国人民银行",
-      "date": "2026-09-10",
-      "body": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长陶玲出席金砖国家财长和央行行长会议字号大中小文章来源：2026-09-10 17:59:27打印本页关闭窗口2026年9月10日，中国人民银行副行长陶玲出席在印度孟买举行的本年度第二次金砖国家财长和央行行长会议，与会各方就全球经济形势、国际金融治理、金砖应急储备安排、跨境支付、金融科技、可持续金融等议题进行了讨论。会议审议并通过了《金砖国家财长和央行行长联合声明》。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ywrbh5kf",
-      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
-      "src": "中国人民银行",
-      "date": "2026-09-09",
-      "body": "中国人民银行副行长宣昌能出席国际清算银行行长例会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长宣昌能出席国际清算银行行长例会字号大中小文章来源：2026-09-09 10:05:48打印本页关闭窗口2026年9月6日至7日，中国人民银行副行长宣昌能出席国际清算银行（BIS）在瑞士巴塞尔举行的行长例会。与会央行行长就全球经济金融形势，央行如何应对供给冲击、人工智能技术快速迭代以及多变的外部环境对货币政策的挑战，央行政策沟通等议题开展了深入交流。会议期间，宣昌能副行长会见了部分与会央行行长，就共同关心的问题交换了意见。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_kareywvr",
-      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
-      "src": "中国人民银行",
-      "date": "2026-09-04",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_osdwe7vc",
-      "title": "2026年2季度末金融业机构总资产562.2万亿元",
-      "src": "中国人民银行",
-      "date": "2026-09-03",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090314250952275/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_cgs7w76z",
-      "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
-      "src": "中国人民银行",
-      "date": "2026-09-02",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090214465859469/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_8o1xpd0o",
-      "title": "【欧洲央行官员科赫尔：高油价可能迫使欧央行进一步加息】欧洲央行一名高级政策官员警告称，如果油价在年底前持续维持在每桶10…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-12",
-      "body": "【欧洲央行官员科赫尔：高油价可能迫使欧央行进一步加息】欧洲央行一名高级政策官员警告称，如果油价在年底前持续维持在每桶100美元附近，欧洲央行将不得不进一步加息。 欧洲央行于周四完成本年度第二次加息后，奥地利央行行长马丁·科赫尔在接受采访时警告，中东紧张局势持续、能源价格高企，“通胀风险较数月前有所上升”。 自7月初美伊停火协议破裂以来，油价暴涨逾45%，突破每桶100美元。欧洲天然气价格自6月以来几乎翻倍，逼近每兆瓦时80欧元。",
-      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirpute8522441.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_7dbxpfct",
-      "title": "欧洲央行高官马丁·科赫警告称，高油价可能迫使央行进一步加息。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-12",
-      "body": "欧洲央行高官马丁·科赫警告称，高油价可能迫使央行进一步加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirputh5291194.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_6gt3qbd0",
-      "title": "【中信证券：本轮房地产政策更多是行业新旧模式转换的制度性重构，对地产链的影响以中长期制度效应为主】据中信证券，2026年…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-12",
-      "body": "【中信证券：本轮房地产政策更多是行业新旧模式转换的制度性重构，对地产链的影响以中长期制度效应为主】据中信证券，2026年8月28日，住建部、自然资源部、金融监管总局、央行、证监会等多部委密集发布房地产新政，涉及商品住房销售制度改革、房地产信贷管理、资本市场支持与房地产融资监管等多项文件。中信证券认为，本轮政策是7月30日中共中央政治局会议提出“稳定房地产市场”后，对房地产基础制度改革的系统性推进，政策重心由“稳成交、放需求”转向“建制度、控风险”。本轮新政以抬高预售门槛、推进现房销售、强化项目制融资与资金闭环管理为主线，覆盖销售、信贷、资本市场与监管四个维度，推动房企融资由“主体信用”转向“项目情况”。中信证券认为，政策短期刺激意味不浓，更多是行业新旧模式转换的制度性重构，对地产链的影响以中长期制度效应为主。",
-      "url": "https://finance.sina.cn/7x24/2026-09-12/detail-inirpqmk5373456.d.html",
-      "event": "房地产 2026-08",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4p235t49",
-      "title": "超100万人预约购买iPhoneDuo",
+      "id": "feed_feuch4tf",
+      "title": "iPhone 18 Pro系列开售秒售罄",
       "src": "热搜／论坛",
       "date": "2026-09-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B6%85100%E4%B8%87%E4%BA%BA%E9%A2%84%E7%BA%A6%E8%B4%AD%E4%B9%B0iPhoneDuo&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+18+Pro%E7%B3%BB%E5%88%97%E5%BC%80%E5%94%AE%E7%A7%92%E5%94%AE%E7%BD%84&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -337,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_y1dlro2k",
-      "title": "华为三折叠新机开售即售罄",
+      "id": "feed_cev04g8n",
+      "title": "iPhone Duo炒到9万 黄牛贷款欲囤货",
       "src": "热搜／论坛",
       "date": "2026-09-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E4%B8%89%E6%8A%98%E5%8F%A0%E6%96%B0%E6%9C%BA%E5%BC%80%E5%94%AE%E5%8D%B3%E5%94%AE%E7%BD%84&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E7%82%92%E5%88%B09%E4%B8%87+%E9%BB%84%E7%89%9B%E8%B4%B7%E6%AC%BE%E6%AC%B2%E5%9B%A4%E8%B4%A7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -357,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_6h2b9vvh",
-      "title": "“10台手机卖不出1台折叠屏”",
+      "id": "feed_aarjge2u",
+      "title": "小米高管称门店客流量暴涨400％",
       "src": "热搜／论坛",
       "date": "2026-09-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C10%E5%8F%B0%E6%89%8B%E6%9C%BA%E5%8D%96%E4%B8%8D%E5%87%BA1%E5%8F%B0%E6%8A%98%E5%8F%A0%E5%B1%8F%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E9%AB%98%E7%AE%A1%E7%A7%B0%E9%97%A8%E5%BA%97%E5%AE%A2%E6%B5%81%E9%87%8F%E6%9A%B4%E6%B6%A8400%EF%BC%85&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -377,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_5a60rn5q",
-      "title": "A股史上最大注销式回购",
+      "id": "feed_5ujf722t",
+      "title": "苹果18 抢不到",
       "src": "热搜／论坛",
       "date": "2026-09-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E6%B3%A8%E9%94%80%E5%BC%8F%E5%9B%9E%E8%B4%AD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C18+%E6%8A%A2%E4%B8%8D%E5%88%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -397,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_va7ozhhk",
-      "title": "“让苹果上瘾的人先花钱”",
+      "id": "feed_f9nmgh40",
+      "title": "iPhone18Pro以旧换新政策",
       "src": "热搜／论坛",
       "date": "2026-09-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AE%A9%E8%8B%B9%E6%9E%9C%E4%B8%8A%E7%98%BE%E7%9A%84%E4%BA%BA%E5%85%88%E8%8A%B1%E9%92%B1%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone18Pro%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E6%94%BF%E7%AD%96&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
