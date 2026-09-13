@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-12T15:31:59.995Z",
+  "generatedAt": "2026-09-13T04:47:56.411Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 11,
+    "total": 12,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 0,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ngl9ardn",
+      "id": "feed_ztdosyyg",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_twqv2h3m",
+      "id": "feed_o87rok6f",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8ve8j2so",
+      "id": "feed_ec37faum",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xgab579g",
+      "id": "feed_cp9npu0z",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_s4lskpb6",
+      "id": "feed_2zrgr4qw",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_mbdggl17",
+      "id": "feed_vu684n9y",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,12 +134,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_feuch4tf",
-      "title": "iPhone 18 Pro系列开售秒售罄",
+      "id": "feed_y6yjbxi1",
+      "title": "【第16次APEC能源部长会议在京闭幕】9月11日，第16次亚太经合组织能源部长会议在京闭幕。会议紧扣2026 APEC…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-13",
+      "body": "【第16次APEC能源部长会议在京闭幕】9月11日，第16次亚太经合组织能源部长会议在京闭幕。会议紧扣2026 APEC“中国年”“建设亚太共同体，促进共同繁荣”总主题，以“共筑普惠、创新、协同的亚太能源共同体”为能源领域主题。中央政治局常委、国务院副总理丁薛祥出席会议开幕式并致辞。（国家能源局）",
+      "url": "https://finance.sina.cn/7x24/2026-09-13/detail-inirscye4617023.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_8q92l63n",
+      "title": "半年内订单爆发！百亿风口来了",
       "src": "热搜／论坛",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone+18+Pro%E7%B3%BB%E5%88%97%E5%BC%80%E5%94%AE%E7%A7%92%E5%94%AE%E7%BD%84&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8A%E5%B9%B4%E5%86%85%E8%AE%A2%E5%8D%95%E7%88%86%E5%8F%91%EF%BC%81%E7%99%BE%E4%BA%BF%E9%A3%8E%E5%8F%A3%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -154,12 +175,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_cev04g8n",
-      "title": "iPhone Duo炒到9万 黄牛贷款欲囤货",
+      "id": "feed_bwy6xerf",
+      "title": "广告反复跳转 手机里的退出键去哪了",
       "src": "热搜／论坛",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E7%82%92%E5%88%B09%E4%B8%87+%E9%BB%84%E7%89%9B%E8%B4%B7%E6%AC%BE%E6%AC%B2%E5%9B%A4%E8%B4%A7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%91%8A%E5%8F%8D%E5%A4%8D%E8%B7%B3%E8%BD%AC+%E6%89%8B%E6%9C%BA%E9%87%8C%E7%9A%84%E9%80%80%E5%87%BA%E9%94%AE%E5%8E%BB%E5%93%AA%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -174,12 +195,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_aarjge2u",
-      "title": "小米高管称门店客流量暴涨400％",
+      "id": "feed_oj491679",
+      "title": "“太乙圣莲”欲“复活”哪吒汽车",
       "src": "热搜／论坛",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E9%AB%98%E7%AE%A1%E7%A7%B0%E9%97%A8%E5%BA%97%E5%AE%A2%E6%B5%81%E9%87%8F%E6%9A%B4%E6%B6%A8400%EF%BC%85&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%AA%E4%B9%99%E5%9C%A3%E8%8E%B2%E2%80%9D%E6%AC%B2%E2%80%9C%E5%A4%8D%E6%B4%BB%E2%80%9D%E5%93%AA%E5%90%92%E6%B1%BD%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -194,12 +215,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_5ujf722t",
-      "title": "苹果18 抢不到",
+      "id": "feed_gekc5n81",
+      "title": "“噪音博主”戳中买房人最深的痛",
       "src": "热搜／论坛",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C18+%E6%8A%A2%E4%B8%8D%E5%88%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%99%AA%E9%9F%B3%E5%8D%9A%E4%B8%BB%E2%80%9D%E6%88%B3%E4%B8%AD%E4%B9%B0%E6%88%BF%E4%BA%BA%E6%9C%80%E6%B7%B1%E7%9A%84%E7%97%9B&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -214,12 +235,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_f9nmgh40",
-      "title": "iPhone18Pro以旧换新政策",
+      "id": "feed_zruqx6di",
+      "title": "企二代为什么集体拒绝接班",
       "src": "热搜／论坛",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone18Pro%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E6%94%BF%E7%AD%96&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BC%81%E4%BA%8C%E4%BB%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9B%86%E4%BD%93%E6%8B%92%E7%BB%9D%E6%8E%A5%E7%8F%AD&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
