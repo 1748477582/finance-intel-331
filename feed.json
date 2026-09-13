@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-13T04:47:56.411Z",
+  "generatedAt": "2026-09-13T16:17:19.004Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 12,
+    "total": 21,
     "llm": 0,
     "stats": 6,
-    "pbc": "error: fetch failed",
-    "sina724": 1,
+    "pbc": 6,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ztdosyyg",
+      "id": "feed_jbjzbj5u",
       "title": "2026年8月份居民消费价格同比上涨0.8%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o87rok6f",
+      "id": "feed_2r9i4096",
       "title": "2026年8月份工业生产者出厂价格同比上涨3.8%环比上涨0.4%",
       "src": "国家统计局",
       "date": "2026-09-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ec37faum",
+      "id": "feed_3z5qrk8m",
       "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cp9npu0z",
+      "id": "feed_lve2v8oq",
       "title": "2026年8月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-08-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2zrgr4qw",
+      "id": "feed_b8dhuc24",
       "title": "2025年经济发展新动能指数增长12.5%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vu684n9y",
+      "id": "feed_ixcqf2ww",
       "title": "2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "src": "国家统计局",
       "date": "2026-08-27",
@@ -134,14 +134,134 @@
       "use": "signal"
     },
     {
-      "id": "feed_y6yjbxi1",
-      "title": "【第16次APEC能源部长会议在京闭幕】9月11日，第16次亚太经合组织能源部长会议在京闭幕。会议紧扣2026 APEC…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-13",
-      "body": "【第16次APEC能源部长会议在京闭幕】9月11日，第16次亚太经合组织能源部长会议在京闭幕。会议紧扣2026 APEC“中国年”“建设亚太共同体，促进共同繁荣”总主题，以“共筑普惠、创新、协同的亚太能源共同体”为能源领域主题。中央政治局常委、国务院副总理丁薛祥出席会议开幕式并致辞。（国家能源局）",
-      "url": "https://finance.sina.cn/7x24/2026-09-13/detail-inirscye4617023.d.html",
+      "id": "feed_ujo00ymq",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况字号大中小文章来源：2026-09-10 19:47:25打印本页关闭窗口国务院新闻办公室于2026年9月10日（星期四）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，请中国人民银行副行长陆磊，金融监管总局副局长丛林，中国证监会副主席李超，国家外汇局新闻发言人、副局长李斌介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况，并答记者问。以下为文字实录。国务院新闻办新闻局局长、新闻发言人寿小丽:女士们、先生们，大家下午好！欢迎出席国务院新闻办新闻发布会。今天，我们继续举行“开局起步‘十五五’”系列主题新闻发布会。我们今天邀请到中国人民银行副行长陆磊先生，金融监管总局副局长丛林女士，中国证监会副主席李超先生，国家外汇局新闻发言人、副局长李斌先生，请他们为大家介绍金融领域贯彻实施“十五五”规划，推动金融强国建设有关情况，并回答大家关心的问题。下面，我们首先请",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html",
       "event": "",
       "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_583ynted",
+      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长陶玲出席金砖国家财长和央行行长会议字号大中小文章来源：2026-09-10 17:59:27打印本页关闭窗口2026年9月10日，中国人民银行副行长陶玲出席在印度孟买举行的本年度第二次金砖国家财长和央行行长会议，与会各方就全球经济形势、国际金融治理、金砖应急储备安排、跨境支付、金融科技、可持续金融等议题进行了讨论。会议审议并通过了《金砖国家财长和央行行长联合声明》。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_p5l16h68",
+      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
+      "src": "中国人民银行",
+      "date": "2026-09-09",
+      "body": "中国人民银行副行长宣昌能出席国际清算银行行长例会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长宣昌能出席国际清算银行行长例会字号大中小文章来源：2026-09-09 10:05:48打印本页关闭窗口2026年9月6日至7日，中国人民银行副行长宣昌能出席国际清算银行（BIS）在瑞士巴塞尔举行的行长例会。与会央行行长就全球经济金融形势，央行如何应对供给冲击、人工智能技术快速迭代以及多变的外部环境对货币政策的挑战，央行政策沟通等议题开展了深入交流。会议期间，宣昌能副行长会见了部分与会央行行长，就共同关心的问题交换了意见。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_dbmcfkms",
+      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
+      "src": "中国人民银行",
+      "date": "2026-09-04",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_056jykfh",
+      "title": "2026年2季度末金融业机构总资产562.2万亿元",
+      "src": "中国人民银行",
+      "date": "2026-09-03",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090314250952275/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_xu953cra",
+      "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
+      "src": "中国人民银行",
+      "date": "2026-09-02",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090214465859469/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_ch71c0po",
+      "title": "【哈塞特称白宫将支持美联储的决定】白宫经济顾问凯文·哈塞特表示，政府将“百分之百支持”美联储主席凯文·沃什以及委员会本周…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-14",
+      "body": "【哈塞特称白宫将支持美联储的决定】白宫经济顾问凯文·哈塞特表示，政府将“百分之百支持”美联储主席凯文·沃什以及委员会本周做出的任何利率决议。不过哈塞特称，在特朗普此前表示不确定美联储是否会加息之后，他与特朗普总统都认为没有理由加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-14/detail-inirtfms4315527.d.html",
+      "event": "美联储",
+      "flow": "more",
       "slow": false,
       "read": "",
       "fields": [
@@ -155,12 +275,75 @@
       "use": "signal"
     },
     {
-      "id": "feed_8q92l63n",
-      "title": "半年内订单爆发！百亿风口来了",
+      "id": "feed_1nbdtydc",
+      "title": "美国国家经济委员会主任哈塞特：目前没有理由加息。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-13",
+      "body": "美国国家经济委员会主任哈塞特：目前没有理由加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-13/detail-inirtfmq7520679.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_g362tahb",
+      "title": "【特朗普敦促美联储降息 表示美国利率应该全球最低】美国总统特朗普再次表示，美国应该拥有全球最低的利率。但与此同时，他亲自…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-13",
+      "body": "【特朗普敦促美联储降息 表示美国利率应该全球最低】美国总统特朗普再次表示，美国应该拥有全球最低的利率。但与此同时，他亲自挑选的美联储主席凯文·沃什正面临越来越大的加息压力。特朗普周日在爱尔兰出席爱尔兰高尔夫球公开赛期间对记者表示：“美国如此强大，我们应该支付全球最低的利率，不管他们那些公式怎么算。”当被问及是否预计美联储将加息时，特朗普说：“我不知道。”",
+      "url": "https://finance.sina.cn/7x24/2026-09-13/detail-inirszcs7649021.d.html",
+      "event": "利率",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_a3h95mul",
+      "title": "【国泰海通：核心通胀升温，美联储加息近在咫尺】国泰海通研报认为， 8月美国核心CPI环比超预期回升至0.3%，结构上呈现…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-13",
+      "body": "【国泰海通：核心通胀升温，美联储加息近在咫尺】国泰海通研报认为， 8月美国核心CPI环比超预期回升至0.3%，结构上呈现核心商品降温，部分核心服务分项环比偏强的特点，通胀压力尚不广泛。数据公布后，市场进一步押注美联储9月加息。我们认为，在通胀数据并未呈现明确回落趋势以及为了维护自身抗通胀信誉的情况下，9月美联储加息或已近在咫尺。",
+      "url": "https://finance.sina.cn/7x24/2026-09-13/detail-inirszcs7645466.d.html",
+      "event": "CPI",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_2gzlazzu",
+      "title": "iPhone 17大降价",
       "src": "热搜／论坛",
       "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8A%E5%B9%B4%E5%86%85%E8%AE%A2%E5%8D%95%E7%88%86%E5%8F%91%EF%BC%81%E7%99%BE%E4%BA%BF%E9%A3%8E%E5%8F%A3%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+17%E5%A4%A7%E9%99%8D%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -175,12 +358,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bwy6xerf",
-      "title": "广告反复跳转 手机里的退出键去哪了",
+      "id": "feed_8hxloa4y",
+      "title": "一夜之间 多家顶级AI公司想踩刹车",
       "src": "热搜／论坛",
       "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%91%8A%E5%8F%8D%E5%A4%8D%E8%B7%B3%E8%BD%AC+%E6%89%8B%E6%9C%BA%E9%87%8C%E7%9A%84%E9%80%80%E5%87%BA%E9%94%AE%E5%8E%BB%E5%93%AA%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%A4%9C%E4%B9%8B%E9%97%B4+%E5%A4%9A%E5%AE%B6%E9%A1%B6%E7%BA%A7AI%E5%85%AC%E5%8F%B8%E6%83%B3%E8%B8%A9%E5%88%B9%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -195,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_oj491679",
-      "title": "“太乙圣莲”欲“复活”哪吒汽车",
+      "id": "feed_krz4vwr8",
+      "title": "开屏广告 该治治了",
       "src": "热搜／论坛",
       "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%AA%E4%B9%99%E5%9C%A3%E8%8E%B2%E2%80%9D%E6%AC%B2%E2%80%9C%E5%A4%8D%E6%B4%BB%E2%80%9D%E5%93%AA%E5%90%92%E6%B1%BD%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A+%E8%AF%A5%E6%B2%BB%E6%B2%BB%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -215,12 +398,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_gekc5n81",
-      "title": "“噪音博主”戳中买房人最深的痛",
+      "id": "feed_d1x8w1z5",
+      "title": "电视都不好卖了",
       "src": "热搜／论坛",
       "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%99%AA%E9%9F%B3%E5%8D%9A%E4%B8%BB%E2%80%9D%E6%88%B3%E4%B8%AD%E4%B9%B0%E6%88%BF%E4%BA%BA%E6%9C%80%E6%B7%B1%E7%9A%84%E7%97%9B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E8%A7%86%E9%83%BD%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -235,12 +418,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zruqx6di",
-      "title": "企二代为什么集体拒绝接班",
+      "id": "feed_uzqab4x4",
+      "title": "香飘飘筹备开9家线下门店",
       "src": "热搜／论坛",
       "date": "2026-09-13",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BC%81%E4%BA%8C%E4%BB%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9B%86%E4%BD%93%E6%8B%92%E7%BB%9D%E6%8E%A5%E7%8F%AD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%A6%99%E9%A3%98%E9%A3%98%E7%AD%B9%E5%A4%87%E5%BC%809%E5%AE%B6%E7%BA%BF%E4%B8%8B%E9%97%A8%E5%BA%97&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
