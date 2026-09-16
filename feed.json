@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-15T16:59:11.970Z",
+  "generatedAt": "2026-09-16T04:49:28.825Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 12,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 6,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_yee2n8e9",
+      "id": "feed_fvqwpikk",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7y8lssoj",
+      "id": "feed_2bglgvxj",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jih9w1k4",
+      "id": "feed_mtrlya72",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bv8ghbpw",
+      "id": "feed_i24d51e3",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yay1zodc",
+      "id": "feed_zqzi72bs",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_fqt7oik9",
+      "id": "feed_tmjzjrqo",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,54 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_i8re89b8",
-      "title": "【DoubleLine：美联储需加息以稳定债市】DoubleLine Capital的Jeffrey Sherman表示…",
+      "id": "feed_p1e4pqkz",
+      "title": "香港行政长官李家超在施政报告中表示，金管局正在研究外汇基金适度增持黄金。",
       "src": "新浪财经 7x24",
       "date": "2026-09-16",
-      "body": "【DoubleLine：美联储需加息以稳定债市】DoubleLine Capital的Jeffrey Sherman表示，美联储需要加息，以让交易员相信其致力于压低通胀，并缓解本周推动10年期美国国债收益率突破5%的市场担忧。该资产管理公司的这位副首席投资官接受彭博电视采访时表示，美联储主席凯文·沃什“明天就有能力通过加息来帮上一把”。Sherman说，“市场已经在消化加息预期，他们要么拿出行动，要么就闭嘴。”Sherman还表示，美联储需要释放信号，表明周三加息25个基点之后还会进一步加息。这样做将逆转美联储自2025年9月以来三次降息所带来的政策宽松。掉期交易员已基本消化本周加息25个基点的预期，并预计到2027年9月累计加息约0.95个百分点。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrq3600442.d.html",
-      "event": "利率 2025-09",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ho82wi5f",
-      "title": "法国央行预测 2026 年调和消费者物价指数（HICP）通胀率为 2.3%（6 月预测值为 2.5%），2027 年为 …",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-16",
-      "body": "法国央行预测 2026 年调和消费者物价指数（HICP）通胀率为 2.3%（6 月预测值为 2.5%），2027 年为 1.9%（此前预测 1.7%），2028 年为 1.6%（此前预测 1.7%）。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrq3597756.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_vavbekhq",
-      "title": "波兰通讯社：财政部预估，截至 2026 年 8 月底，波兰预算赤字约为 1510 亿兹罗提。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-16",
-      "body": "波兰通讯社：财政部预估，截至 2026 年 8 月底，波兰预算赤字约为 1510 亿兹罗提。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrq3594461.d.html",
+      "body": "香港行政长官李家超在施政报告中表示，金管局正在研究外汇基金适度增持黄金。",
+      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-iniryvca3480307.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -197,75 +155,52 @@
       "use": "signal"
     },
     {
-      "id": "feed_l7359nqi",
-      "title": "法国央行调查显示，第三季度国内生产总值增长 0.1%。",
-      "src": "新浪财经 7x24",
+      "id": "feed_0bxdb7et",
+      "title": "昔日“彩电大王”要退市了",
+      "src": "热搜／论坛",
       "date": "2026-09-16",
-      "body": "法国央行调查显示，第三季度国内生产总值增长 0.1%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrn6820966.d.html",
-      "event": "GDP",
-      "flow": "shift",
+      "body": "热榜话题，无数据、无信源、无政策依据。",
+      "url": "https://www.baidu.com/s?wd=%E6%98%94%E6%97%A5%E2%80%9C%E5%BD%A9%E7%94%B5%E5%A4%A7%E7%8E%8B%E2%80%9D%E8%A6%81%E9%80%80%E5%B8%82%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "event": "",
+      "flow": "more",
       "slow": false,
-      "read": "",
+      "read": "热榜条目，零信息增量。",
       "fields": [
-        "f1",
-        "f2"
+        "f1"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "emo",
       "multi": false,
-      "hot": false,
-      "use": "signal"
+      "hot": true,
+      "use": "noise"
     },
     {
-      "id": "feed_o6ufbf9j",
-      "title": "法国央行：预计2026年经济将增长0.4%。",
-      "src": "新浪财经 7x24",
+      "id": "feed_f7c38817",
+      "title": "电动汽车充电不花钱 多地试点",
+      "src": "热搜／论坛",
       "date": "2026-09-16",
-      "body": "法国央行：预计2026年经济将增长0.4%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrq3593222.d.html",
+      "body": "热榜话题，无数据、无信源、无政策依据。",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E5%85%85%E7%94%B5%E4%B8%8D%E8%8A%B1%E9%92%B1+%E5%A4%9A%E5%9C%B0%E8%AF%95%E7%82%B9&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
-      "flow": "shift",
+      "flow": "more",
       "slow": false,
-      "read": "",
+      "read": "热榜条目，零信息增量。",
       "fields": [
-        "f1",
-        "f2"
+        "f1"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "emo",
       "multi": false,
-      "hot": false,
-      "use": "signal"
+      "hot": true,
+      "use": "noise"
     },
     {
-      "id": "feed_wyw62um0",
-      "title": "美联储表示，联邦公开市场委员会（FOMC）会议已于周二上午 10:30 如期召开。",
-      "src": "新浪财经 7x24",
+      "id": "feed_anlrr6t3",
+      "title": "“订单绕了一圈还是回到中国”",
+      "src": "热搜／论坛",
       "date": "2026-09-16",
-      "body": "美联储表示，联邦公开市场委员会（FOMC）会议已于周二上午 10:30 如期召开。",
-      "url": "https://finance.sina.cn/7x24/2026-09-16/detail-inirxtrn6819036.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_u881ee56",
-      "title": "娃哈哈因拖欠公积金被查封办公楼",
-      "src": "热搜／论坛",
-      "date": "2026-09-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A8%83%E5%93%88%E5%93%88%E5%9B%A0%E6%8B%96%E6%AC%A0%E5%85%AC%E7%A7%AF%E9%87%91%E8%A2%AB%E6%9F%A5%E5%B0%81%E5%8A%9E%E5%85%AC%E6%A5%BC&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AE%A2%E5%8D%95%E7%BB%95%E4%BA%86%E4%B8%80%E5%9C%88%E8%BF%98%E6%98%AF%E5%9B%9E%E5%88%B0%E4%B8%AD%E5%9B%BD%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -280,12 +215,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pmvkpchi",
-      "title": "AI开始预测人类",
+      "id": "feed_vv80ok4a",
+      "title": "我不得不把才华埋葬在昨天",
       "src": "热搜／论坛",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=AI%E5%BC%80%E5%A7%8B%E9%A2%84%E6%B5%8B%E4%BA%BA%E7%B1%BB&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%88%91%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%8A%8A%E6%89%8D%E5%8D%8E%E5%9F%8B%E8%91%AC%E5%9C%A8%E6%98%A8%E5%A4%A9&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -300,52 +235,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_17piyzwf",
-      "title": "AI正在惩罚用它写作业的中学生",
+      "id": "feed_2wig47xc",
+      "title": "A股大反攻",
       "src": "热搜／论坛",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=AI%E6%AD%A3%E5%9C%A8%E6%83%A9%E7%BD%9A%E7%94%A8%E5%AE%83%E5%86%99%E4%BD%9C%E4%B8%9A%E7%9A%84%E4%B8%AD%E5%AD%A6%E7%94%9F&sa=fyb_finance&rsv_dl=fyb_finance",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "热榜条目，零信息增量。",
-      "fields": [
-        "f1"
-      ],
-      "chains": [],
-      "inc": "emo",
-      "multi": false,
-      "hot": true,
-      "use": "noise"
-    },
-    {
-      "id": "feed_ddp83b7t",
-      "title": "电池税正式落地 新能源车要涨价吗",
-      "src": "热搜／论坛",
-      "date": "2026-09-15",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E6%B1%A0%E7%A8%8E%E6%AD%A3%E5%BC%8F%E8%90%BD%E5%9C%B0+%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E8%A6%81%E6%B6%A8%E4%BB%B7%E5%90%97&sa=fyb_finance&rsv_dl=fyb_finance",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "热榜条目，零信息增量。",
-      "fields": [
-        "f1"
-      ],
-      "chains": [],
-      "inc": "emo",
-      "multi": false,
-      "hot": true,
-      "use": "noise"
-    },
-    {
-      "id": "feed_h39t73pi",
-      "title": "李大霄：A股牛市已经告一段落",
-      "src": "热搜／论坛",
-      "date": "2026-09-15",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E5%A4%A7%E9%9C%84%EF%BC%9AA%E8%82%A1%E7%89%9B%E5%B8%82%E5%B7%B2%E7%BB%8F%E5%91%8A%E4%B8%80%E6%AE%B5%E8%90%BD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%A4%A7%E5%8F%8D%E6%94%BB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
