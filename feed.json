@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-18T16:24:23.269Z",
+  "generatedAt": "2026-09-19T04:37:34.482Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 29,
+    "total": 21,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 12,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_sh08xq1f",
+      "id": "feed_52p2ma1d",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pa0naq70",
+      "id": "feed_slbf8i7f",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_lu06pbm8",
+      "id": "feed_zbvxdae2",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_v4lclesp",
+      "id": "feed_a4nsj1x4",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_04ubj7c2",
+      "id": "feed_d7zncqgy",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_hao3i5gs",
+      "id": "feed_56rafget",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yoo3q4ex",
+      "id": "feed_n8bz2dj7",
       "title": "中老跨境数字支付互联互通正式启动",
       "src": "中国人民银行",
       "date": "2026-09-18",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gs0wx0ov",
+      "id": "feed_mmjmgwox",
       "title": "2026年8月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-09-14",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7vlvwidl",
+      "id": "feed_7bjpo9f7",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rdvas8c0",
+      "id": "feed_b0qiahyc",
       "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vczypwbx",
+      "id": "feed_2urip6tr",
       "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
       "src": "中国人民银行",
       "date": "2026-09-09",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pvhhwuqr",
+      "id": "feed_eum4p9jh",
       "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
       "src": "中国人民银行",
       "date": "2026-09-04",
@@ -254,76 +254,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_6e67axme",
-      "title": "秘鲁央行：预计 2026 年私人投资将增长 14%。",
+      "id": "feed_i9q7tezu",
+      "title": "【汪涛：创造未来产能、创新，要靠企业投资】9月19日，2026清华五道口首席经济学家论坛在清华大学举行，主题为“2026…",
       "src": "新浪财经 7x24",
       "date": "2026-09-19",
-      "body": "秘鲁央行：预计 2026 年私人投资将增长 14%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrat0148317.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_2re0scqm",
-      "title": "【英国两年期国债收益率周五涨超10个基点】周五（9月18日）欧市尾盘，英国10年期国债收益率涨7.3个基点，报5.295…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "【英国两年期国债收益率周五涨超10个基点】周五（9月18日）欧市尾盘，英国10年期国债收益率涨7.3个基点，报5.295%，本周累计下跌4.8个基点，9月15-17日持续下跌，期间美联储宣布加息、英国央行决定按兵不动。两年期英债收益率涨10.3个基点，报4.839%，本周累涨2.6个基点，整体呈现出V形走势30年期英债收益率涨2.2个基点，50年期英债收益率跌5.6个基点。2/10年期英债收益率利差跌3.046个基点，报+45.504个基点。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrat0148221.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_1e0k5hd4",
-      "title": "秘鲁央行预计 2026 年通胀率为 4.2%，此前预估为 3.8%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "秘鲁央行预计 2026 年通胀率为 4.2%，此前预估为 3.8%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrar3373510.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_lqxs56l4",
-      "title": "秘鲁央行：厄尔尼诺现象将使秘鲁 2026 年经济增速下降 0.9 个百分点。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "秘鲁央行：厄尔尼诺现象将使秘鲁 2026 年经济增速下降 0.9 个百分点。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrar3372545.d.html",
-      "event": "",
+      "body": "【汪涛：创造未来产能、创新，要靠企业投资】9月19日，2026清华五道口首席经济学家论坛在清华大学举行，主题为“2026中国与世界经济回顾和展望——全球再平衡与国际货币体系重构”。瑞银投资银行资深研究顾问汪涛出席并演讲。汪涛指出，在AI快速发展和地缘政治的背景下，全球经济面临的一大挑战是全球经济发展的分化，即所谓的K型发展。目前AI高速发展带来的固定资本投资和创新，基本是美国领先、中国紧随其后，但全球其他地方没有跟随，生产力提高的溢出效应也很有限。对很多发展中国家或中等收入国家来说，它们在分化中已经被逐渐落在后面。 汪涛指出，投资方面，房地产拉动经济的时代已经过去，靠不住了。拉动经济、创造未来产能、创新，实际上要靠企业投资。（睿见）",
+      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inisisqc3130767.d.html",
+      "event": "房地产",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -338,75 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_lq205rmm",
-      "title": "秘鲁央行预计 2026 年财政赤字为国内生产总值的 1.5%，此前预估为 1.8%。",
+      "id": "feed_y286fjds",
+      "title": "【欧盟税务高官：暂不推行欧盟统一科技巨头税】尽管法国再度敦促欧盟采取行动，但欧盟最高税务官员表示，在穷尽全球层面针对数字…",
       "src": "新浪财经 7x24",
       "date": "2026-09-19",
-      "body": "秘鲁央行预计 2026 年财政赤字为国内生产总值的 1.5%，此前预估为 1.8%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrat0143716.d.html",
-      "event": "GDP",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_oa9av2gf",
-      "title": "秘鲁央行预计2026年国内生产总值增长率为3.2%，低于之前预估的3.4%。预计 2027 年国内生产总值增速为 3.0…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "秘鲁央行预计2026年国内生产总值增长率为3.2%，低于之前预估的3.4%。预计 2027 年国内生产总值增速为 3.0%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrar3370298.d.html",
-      "event": "GDP",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_bxbn13rc",
-      "title": "【比特币升逾8万美元 投资者消化美国加密货币法案受挫及美联储加息】加密货币周五上涨，市场风险偏好上升，投资者消化了美国加…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "【比特币升逾8万美元 投资者消化美国加密货币法案受挫及美联储加息】加密货币周五上涨，市场风险偏好上升，投资者消化了美国加密货币法案未获通过以及美联储三年多来首次加息的影响。最大的加密货币比特币一度上涨5.2%，报约80,443美元，收复本周早些时候的部分失地。第二大加密货币以太币一度上涨5.1%，至约2,576美元。XRP、Solana和Monero等规模较小的加密货币也上涨。此次上涨表明，数字资产投资者已经消化了过去一周的大部分利空消息。美国一项重要的加密货币监管法案《Clarity Act》周二在程序性投票中未能通过，此前市场已认为该法案不太可能在参议院过关；而美联储周三加息25个基点也符合市场普遍预期。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inishrar3366698.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_407brit0",
-      "title": "【北京：支持金融机构面向算力基础设施建设和词元消费场景开发专项金融产品 为企业提供中长期信贷支持】北京市经济和信息化局、…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-18",
-      "body": "【北京：支持金融机构面向算力基础设施建设和词元消费场景开发专项金融产品 为企业提供中长期信贷支持】北京市经济和信息化局、北京市发展和改革委员会关于印发《北京市加快词元经济发展的行动方案（2026—2028年）》。其中提到，创新算力与词元金融工具。支持金融机构面向算力基础设施建设和词元消费场景开发专项金融产品，为企业提供中长期信贷支持。实施词元工程师再技能化培训。统筹产教融合、超级经济个体（OPC）产业实训等政策资源，支持词元工厂、数字产业园区和线上培训平台，对软件工程师开展模型调优、推理加速、平台运维、安全合规等培训，培育词元工程化人才梯队。",
-      "url": "https://finance.sina.cn/7x24/2026-09-18/detail-inishkuv0265884.d.html",
+      "body": "【欧盟税务高官：暂不推行欧盟统一科技巨头税】尽管法国再度敦促欧盟采取行动，但欧盟最高税务官员表示，在穷尽全球层面针对数字服务征税的全部可行方案之前，不会针对亚马逊、谷歌、Meta等科技巨头实施欧盟统一征税。欧盟委员沃普克・霍克斯特拉接受采访时表示，欧盟应当等待，“穷尽寻求全球性解决方案的一切可能”，而针对数字服务企业征税的国际相关努力一直遭到美国反对。他称：“如若不先走完这一步，人们总会质疑，当初本是否应当给予全球方案更多机会。”法国本月呼吁推出欧盟层面统一数字税，认为该项税收可为欧盟未来预算带来可观收入，减轻欧洲纳税人的负担。法国的主张得到欧洲议会支持，但落地这项欧盟统一政策，有可能进一步恶化欧美经济关系。",
+      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inisisqc3122697.d.html",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -422,13 +296,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_v0qihblf",
-      "title": "美联储施密德：我认同沃什主席关于债券收益率上行原因的分析框架，即经济增长、人工智能投资带来的资本需求以及地缘政治挑战。",
+      "id": "feed_gq3g3rgx",
+      "title": "【英媒：英国富豪拉特克利夫称对英国失去信心，同时就天然气储备量发出警告，英政府回应】据英国广播公司（BBC）当地时间18…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-18",
-      "body": "美联储施密德：我认同沃什主席关于债券收益率上行原因的分析框架，即经济增长、人工智能投资带来的资本需求以及地缘政治挑战。",
-      "url": "https://finance.sina.cn/7x24/2026-09-18/detail-inishkuv0265017.d.html",
-      "event": "美联储",
+      "date": "2026-09-19",
+      "body": "【英媒：英国富豪拉特克利夫称对英国失去信心，同时就天然气储备量发出警告，英政府回应】据英国广播公司（BBC）当地时间18日报道，英国富豪拉特克利夫表示，他对英国失去了信心，英国“正在走下坡路”。BBC介绍称，拉特克利夫是化工巨头英力士创始人、曼联俱乐部联合拥有者。他在接受BBC采访时称，高税收和大量移民是英国走向衰落的原因。此外，拉特克利夫还称有关方面未能进一步投资位于北海的油气资源业务是“疯狂之举”，并警告天然气储备处于极低水平，如果今年冬季遭遇寒潮，英国可能会“耗尽天然气”。对于拉特克利夫批评，英国政府表示，正在努力促进经济增长，并且过去两年企业投资有所增加。一名政府发言人表示，预计天然气供应不会出现任何问题：“我们的能源结构多样化，我们对供应安全充满信心。”（环球网）",
+      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inisisqe9891949.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -443,34 +317,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_luuq8k39",
-      "title": "市场消息：日本央行或已在外汇市场开展汇率询价。",
+      "id": "feed_1zbgyg6b",
+      "title": "玻利维亚在国际货币基金组织贷款批准后削减柴油补贴。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-18",
-      "body": "市场消息：日本央行或已在外汇市场开展汇率询价。",
-      "url": "https://finance.sina.cn/7x24/2026-09-18/detail-inishkut3491394.d.html",
-      "event": "汇率",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_91srfog3",
-      "title": "美联储施密德：支持加息，近期数据显示通胀趋势高于 3%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-18",
-      "body": "美联储施密德：支持加息，近期数据显示通胀趋势高于 3%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-18/detail-inishkut3482170.d.html",
-      "event": "美联储",
+      "date": "2026-09-19",
+      "body": "玻利维亚在国际货币基金组织贷款批准后削减柴油补贴。",
+      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inisisqe9881053.d.html",
+      "event": "",
       "flow": "more",
       "slow": false,
       "read": "",
@@ -479,39 +332,18 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_lbw2wox4",
-      "title": "美联储施密德：加息是朝着回归 2% 通胀目标迈出的一步。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-18",
-      "body": "美联储施密德：加息是朝着回归 2% 通胀目标迈出的一步。",
-      "url": "https://finance.sina.cn/7x24/2026-09-18/detail-inishkut3481998.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_z7pvanhl",
-      "title": "养生的风终于吹到了月饼行业",
+      "id": "feed_mhy23nqj",
+      "title": "黄牛都不看的iPhone18Pro谁在买",
       "src": "热搜／论坛",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%BB%E7%94%9F%E7%9A%84%E9%A3%8E%E7%BB%88%E4%BA%8E%E5%90%B9%E5%88%B0%E4%BA%86%E6%9C%88%E9%A5%BC%E8%A1%8C%E4%B8%9A&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E7%89%9B%E9%83%BD%E4%B8%8D%E7%9C%8B%E7%9A%84iPhone18Pro%E8%B0%81%E5%9C%A8%E4%B9%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -526,30 +358,10 @@
       "use": "noise"
     },
     {
-      "id": "feed_8mlrokr7",
-      "title": "于东来正被自己的人设绑架",
-      "src": "热搜／论坛",
-      "date": "2026-09-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%AD%A3%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%BA%E8%AE%BE%E7%BB%91%E6%9E%B6&sa=fyb_finance&rsv_dl=fyb_finance",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "热榜条目，零信息增量。",
-      "fields": [
-        "f1"
-      ],
-      "chains": [],
-      "inc": "emo",
-      "multi": false,
-      "hot": true,
-      "use": "noise"
-    },
-    {
-      "id": "feed_7lsveupc",
+      "id": "feed_186tb90l",
       "title": "拖欠员工公积金 娃哈哈致歉",
       "src": "热搜／论坛",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "body": "热榜话题，无数据、无信源、无政策依据。",
       "url": "https://www.baidu.com/s?wd=%E6%8B%96%E6%AC%A0%E5%91%98%E5%B7%A5%E5%85%AC%E7%A7%AF%E9%87%91+%E5%A8%83%E5%93%88%E5%93%88%E8%87%B4%E6%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
@@ -566,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7f7gmtsi",
-      "title": "罗福莉压力有多大",
+      "id": "feed_npqerygs",
+      "title": "被韩国人捧成网红 这个品牌要IPO吗",
       "src": "热搜／论坛",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%97%E7%A6%8F%E8%8E%89%E5%8E%8B%E5%8A%9B%E6%9C%89%E5%A4%9A%E5%A4%A7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E9%9F%A9%E5%9B%BD%E4%BA%BA%E6%8D%A7%E6%88%90%E7%BD%91%E7%BA%A2+%E8%BF%99%E4%B8%AA%E5%93%81%E7%89%8C%E8%A6%81IPO%E5%90%97&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -586,12 +398,32 @@
       "use": "noise"
     },
     {
-      "id": "feed_dkpxuq74",
-      "title": "巴菲特：时间老人已对我十分慷慨",
+      "id": "feed_4ybecpe0",
+      "title": "海外时尚品牌透明牛仔裤1350美元",
       "src": "热搜／论坛",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%8F%B2%E7%89%B9%EF%BC%9A%E6%97%B6%E9%97%B4%E8%80%81%E4%BA%BA%E5%B7%B2%E5%AF%B9%E6%88%91%E5%8D%81%E5%88%86%E6%85%B7%E6%85%A8&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%A4%96%E6%97%B6%E5%B0%9A%E5%93%81%E7%89%8C%E9%80%8F%E6%98%8E%E7%89%9B%E4%BB%94%E8%A3%A41350%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "热榜条目，零信息增量。",
+      "fields": [
+        "f1"
+      ],
+      "chains": [],
+      "inc": "emo",
+      "multi": false,
+      "hot": true,
+      "use": "noise"
+    },
+    {
+      "id": "feed_ei8zrsxf",
+      "title": "苹果供应商被迫出让印度工厂权益",
+      "src": "热搜／论坛",
+      "date": "2026-09-19",
+      "body": "热榜话题，无数据、无信源、无政策依据。",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E4%BE%9B%E5%BA%94%E5%95%86%E8%A2%AB%E8%BF%AB%E5%87%BA%E8%AE%A9%E5%8D%B0%E5%BA%A6%E5%B7%A5%E5%8E%82%E6%9D%83%E7%9B%8A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
