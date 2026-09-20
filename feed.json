@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-19T15:53:48.834Z",
+  "generatedAt": "2026-09-20T04:53:53.604Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 13,
+    "total": 12,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 2,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ieeekxz9",
+      "id": "feed_pmu0okpo",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
-      "body": "在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，坚持稳中求进工作总基调，着力发挥宏观政策效能，深化改革扩大开放，加快推动新旧动能转换，持续推进高质量发展，生产供给平稳增长，就业物价总体稳定，对外贸易快速增长，新动能支撑作用增强，国民经济运行延续总体平稳、向新向优发展态势。一、工业生产加快，装备制造业和高技术制造业快速增长8月份，全国规模以上工业增加值同比增长5.2%，比上月加快0.7个百分点；环比增长0.54%。分三大门类看，采矿业增加值同比下降1.4%，制造业增长6.1%，电力、热力、燃气及水生产和供应业增长4.9%。装备制造业增加值同比增长12.1%，高技术制造业增加值增长16.7%，分别快于全部规模以上工业增加值6.9和11.5个百分点。分经济类型看，国有控股企业增加值同比增长3.0%；股份制企业增长5.7%，外商及港澳台投资企业增长3.4%；私营企业增长3.7%。分产品看，锂离子电池、工业机器人、3D打印设备产品产量同比分别增长57.2%、34.6%、29.9%。1 — 8月份，全国规模以上工业增加值同比增长5.3%。8月份，制造业采购经理指数为49.8%，企业生产经营活动预期指数为53.8%。1 — 7月份，全国规模以上工业企业实现利润总额45821亿元，同比增长17.6%。二、服务业增长平稳，现代服务业增势良好8月份，全国服务业生产指数同比增长4.1%。分行业看，信息传输、软件和信息技术服务业，租赁和商务服务业，交通运输、仓储和邮政业生产指数同比分别增长9.6%、9.0%、4.8%。1 — 8月份，全国服务业生产指数同比增长4",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4qpd5e2u",
+      "id": "feed_jc7m7ime",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_outplujs",
+      "id": "feed_i78hbppu",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xwnpcgyv",
+      "id": "feed_1v7o92cx",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n4hefzg4",
+      "id": "feed_fokru3nq",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_844jhsed",
+      "id": "feed_1qcj80bl",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,14 +134,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_omq56xox",
-      "title": "【美国关税与贸易紧张局势威胁五大湖航运及加美供应链】美国关税以及华盛顿与渥太华之间不断加剧的政治分歧，正威胁着高度一体化…",
+      "id": "feed_0tqiy36r",
+      "title": "【城建发展在北京成立置业公司 注册资本20亿元】天眼查App显示，近日，北京城建兴昌置业有限公司成立，法定代表人为张捷，…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "【美国关税与贸易紧张局势威胁五大湖航运及加美供应链】美国关税以及华盛顿与渥太华之间不断加剧的政治分歧，正威胁着高度一体化、规模达6万亿美元的五大湖及圣劳伦斯航道区域经济。德卢斯-苏必利尔等核心港口货运量大幅下滑，截至8月同比暴跌23%。煤炭运量减少，叠加钢铁与铁矿石关税，令双边贸易承压，传统供应链遭到扰乱。尽管两国政客与贸易官员释放出谈判意向，但行业相关方警告，长期摩擦可能对海运贸易造成永久性损害。美国航运团体指出监管差异与船队竞争问题，加拿大运营方则强调造船厂产能存在结构性短缺，本土企业夹在这场大范围地缘贸易争端之中进退两难。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-inisktzr2858510.d.html",
-      "event": "关税",
-      "flow": "less",
+      "date": "2026-09-20",
+      "body": "【城建发展在北京成立置业公司 注册资本20亿元】天眼查App显示，近日，北京城建兴昌置业有限公司成立，法定代表人为张捷，注册资本20亿元，注册地址位于北京市昌平区，经营范围为房地产开发经营。股东信息显示，该公司由北京城建投资发展股份有限公司全资持股，认缴出资20亿元，认缴时间为2026年12月31日。工商设立和注册资本不等于项目已开工、销售或形成收入。",
+      "url": "https://finance.sina.cn/7x24/2026-09-20/detail-inismvpe9395023.d.html",
+      "event": "房地产 2026-12",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -155,33 +155,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_za0v44qm",
-      "title": "【欧洲央行官员为进一步收紧货币政策铺路，通胀形势恶化】欧洲央行官员正准备进一步收紧货币政策，以应对不断加剧的通胀压力。欧…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-19",
-      "body": "【欧洲央行官员为进一步收紧货币政策铺路，通胀形势恶化】欧洲央行官员正准备进一步收紧货币政策，以应对不断加剧的通胀压力。欧元区通胀率逼近4%，且经济表现好于预期，政策制定者认为利率需要继续上行。官员们最早考虑在10月加息，部分人士强调需要采取预防性措施，防止通胀固化。",
-      "url": "https://finance.sina.cn/7x24/2026-09-19/detail-iniskptt2969293.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_xqljrb57",
-      "title": "央视曝光文玩玉米市场暗藏猫腻",
+      "id": "feed_3quq4tvo",
+      "title": "“衣中茅台”卖爆了：毛利率超爱马仕",
       "src": "热搜／论坛",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E6%96%87%E7%8E%A9%E7%8E%89%E7%B1%B3%E5%B8%82%E5%9C%BA%E6%9A%97%E8%97%8F%E7%8C%AB%E8%85%BB&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%A1%A3%E4%B8%AD%E8%8C%85%E5%8F%B0%E2%80%9D%E5%8D%96%E7%88%86%E4%BA%86%EF%BC%9A%E6%AF%9B%E5%88%A9%E7%8E%87%E8%B6%85%E7%88%B1%E9%A9%AC%E4%BB%95&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -196,12 +175,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_34wdtx8s",
-      "title": "传统豪车集体降价续命",
+      "id": "feed_mlk5r4mx",
+      "title": "多家银行上调存款利率",
       "src": "热搜／论坛",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BC%A0%E7%BB%9F%E8%B1%AA%E8%BD%A6%E9%9B%86%E4%BD%93%E9%99%8D%E4%BB%B7%E7%BB%AD%E5%91%BD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E4%B8%8A%E8%B0%83%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -216,12 +195,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_6inldd1c",
-      "title": "西贝回应“彻底倒闭”",
+      "id": "feed_y9u66z4k",
+      "title": "谷歌承认Gemini“越狱”",
       "src": "热搜／论坛",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%B4%9D%E5%9B%9E%E5%BA%94%E2%80%9C%E5%BD%BB%E5%BA%95%E5%80%92%E9%97%AD%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%89%BF%E8%AE%A4Gemini%E2%80%9C%E8%B6%8A%E7%8B%B1%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -236,12 +215,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7kf37oul",
-      "title": "中国乳业的“最坏时刻”要过去了",
+      "id": "feed_hhr9kke6",
+      "title": "“电子工业大米”供不应求",
       "src": "热搜／论坛",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B9%B3%E4%B8%9A%E7%9A%84%E2%80%9C%E6%9C%80%E5%9D%8F%E6%97%B6%E5%88%BB%E2%80%9D%E8%A6%81%E8%BF%87%E5%8E%BB%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%94%B5%E5%AD%90%E5%B7%A5%E4%B8%9A%E5%A4%A7%E7%B1%B3%E2%80%9D%E4%BE%9B%E4%B8%8D%E5%BA%94%E6%B1%82&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -256,12 +235,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_4s68ik3d",
-      "title": "张雪回应被称为最寒酸的亿万富翁",
+      "id": "feed_ri1uugkf",
+      "title": "贾国龙妻子质押西贝股权",
       "src": "热搜／论坛",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%9B%9E%E5%BA%94%E8%A2%AB%E7%A7%B0%E4%B8%BA%E6%9C%80%E5%AF%92%E9%85%B8%E7%9A%84%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B4%BE%E5%9B%BD%E9%BE%99%E5%A6%BB%E5%AD%90%E8%B4%A8%E6%8A%BC%E8%A5%BF%E8%B4%9D%E8%82%A1%E6%9D%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
