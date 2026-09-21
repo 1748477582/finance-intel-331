@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-21T04:55:40.274Z",
+  "generatedAt": "2026-09-21T18:12:59.929Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 13,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 0,
+    "pbc": "error: fetch failed",
+    "sina724": 2,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_uowc32l5",
+      "id": "feed_2m3i4mi8",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_wswztln6",
+      "id": "feed_jnpcmdgh",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_z4ipcbz5",
+      "id": "feed_brkz4da6",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_oadwv1ws",
+      "id": "feed_a0v2t3qq",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7vky06lp",
+      "id": "feed_pel47ab0",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rzr64n8r",
+      "id": "feed_ilpff798",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,37 +134,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_iql1r6ot",
-      "title": "中老跨境数字支付互联互通正式启动",
-      "src": "中国人民银行",
-      "date": "2026-09-18",
-      "body": "中老跨境数字支付互联互通正式启动术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中老跨境数字支付互联互通正式启动字号大中小文章来源：2026-09-18 18:00:07打印本页关闭窗口2026年9月18日，中国人民银行与老挝人民民主共和国银行在广西南宁联合举办中老跨境数字支付互联互通启动会。中国人民银行副行长陆磊、老挝人民民主共和国银行副行长苏里萨克·萨姆努翁出席并致辞。中老跨境数字支付互联互通是落实两国领导人共识、深化双边金融合作的重要举措，也是双方央行行长于2026年6月签署的《关于加强金融创新、数字支付和法定数字货币合作的谅解备忘录》框架下达成的阶段性成果。中老两国央行相关部门负责人，商业银行、参与企业有关负责人参加会议。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
-      "event": "",
+      "id": "feed_5nxl43kd",
+      "title": "美洲开发银行报告：广泛采用人工智能有望在十年后使拉美及加勒比地区的GDP提高5.1%。如果劳动者无法顺利转型至AI带来的…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "美洲开发银行报告：广泛采用人工智能有望在十年后使拉美及加勒比地区的GDP提高5.1%。如果劳动者无法顺利转型至AI带来的扩张型岗位，该地区工资水平可能下降13.5%至20.9%；反之，若转型成功，工资则有望上涨2.3%至5.3%。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "GDP",
       "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_r138w8i4",
-      "title": "2026年8月金融统计数据报告",
-      "src": "中国人民银行",
-      "date": "2026-09-14",
-      "body": "月金融统计数据报告术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年8月金融统计数据报告字号大中小文章来源：2026-09-14 17:00:00打印本页关闭窗口一、社会融资规模存量同比增长7.2%初步统计，2026年8月末社会融资规模存量为464.8万亿元，同比增长7.2%。其中，对实体经济发放的人民币贷款余额278.63万亿元，同比增长5%；对实体经济发放的外币贷款折合人民币余额1.23万亿元，同比增长3.1%；委托贷款余额11.26万亿元，同比增长1%；信托贷款余额4.58万亿元，同比增长1.9%；未贴现的银行承兑汇票余额2.01万亿元，同比下降5.1%；企业债券余额36.71万亿元，同比增长9.7%；政府债券余额103.69万亿元，同比增长13.5%；非金融企业境内股票余额12.67万亿元，同比增长5.7%。从结构看，8月末对实体经济发放的人民币贷款余额占同期社会融资规模存量的59.9%，同比低1.3个百分点；对实体经济发放的外币贷款折合人民币余额占比0.3%，同比持平；委托贷款余额占比2.4%，同比低0.2个百分点；信托贷款余额占比1%，同比持平；未贴现的银行承兑汇票余额占比0.4",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091414593871200/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -174,92 +155,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_5fih2ci9",
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
-      "src": "中国人民银行",
-      "date": "2026-09-10",
-      "body": "系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况字号大中小文章来源：2026-09-10 19:47:25打印本页关闭窗口国务院新闻办公室于2026年9月10日（星期四）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，请中国人民银行副行长陆磊，金融监管总局副局长丛林，中国证监会副主席李超，国家外汇局新闻发言人、副局长李斌介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况，并答记者问。以下为文字实录。国务院新闻办新闻局局长、新闻发言人寿小丽:女士们、先生们，大家下午好！欢迎出席国务院新闻办新闻发布会。今天，我们继续举行“开局起步‘十五五’”系列主题新闻发布会。我们今天邀请到中国人民银行副行长陆磊先生，金融监管总局副局长丛林女士，中国证监会副主席李超先生，国家外汇局新闻发言人、副局长李斌先生，请他们为大家介绍金融领域贯彻实施“十五五”规划，推动金融强国建设有关情况，并回答大家关心的问题。下面，我们首先请",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_m68vwzdu",
-      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
-      "src": "中国人民银行",
-      "date": "2026-09-10",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
-      "event": "",
+      "id": "feed_hsy5uvr7",
+      "title": "周一（9月21日），美联储隔夜逆回购协议（RRP）使用规模为5.82亿美元（交易对手15家），上个交易日报5.76亿美元…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "周一（9月21日），美联储隔夜逆回购协议（RRP）使用规模为5.82亿美元（交易对手15家），上个交易日报5.76亿美元。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisrnpv5848044.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
-      "inc": "policy",
+      "inc": "hard",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_uvgrqius",
-      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
-      "src": "中国人民银行",
-      "date": "2026-09-09",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_lzi7xr7g",
-      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
-      "src": "中国人民银行",
-      "date": "2026-09-04",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_6nckqu2q",
-      "title": "雷军刘强东联手投了刘芹",
+      "id": "feed_5nex1adj",
+      "title": "雷军回应“武汉街头吃热干面”争议",
       "src": "热搜／论坛",
       "date": "2026-09-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%88%98%E5%BC%BA%E4%B8%9C%E8%81%94%E6%89%8B%E6%8A%95%E4%BA%86%E5%88%98%E8%8A%B9&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E6%AD%A6%E6%B1%89%E8%A1%97%E5%A4%B4%E5%90%83%E7%83%AD%E5%B9%B2%E9%9D%A2%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +196,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_u9qodtfx",
-      "title": "预制菜风波一年 “倒闭”缠住西贝",
+      "id": "feed_55cyu2rq",
+      "title": "多地禁产“老头乐”",
       "src": "热搜／论坛",
       "date": "2026-09-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%A2%84%E5%88%B6%E8%8F%9C%E9%A3%8E%E6%B3%A2%E4%B8%80%E5%B9%B4+%E2%80%9C%E5%80%92%E9%97%AD%E2%80%9D%E7%BC%A0%E4%BD%8F%E8%A5%BF%E8%B4%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E7%A6%81%E4%BA%A7%E2%80%9C%E8%80%81%E5%A4%B4%E4%B9%90%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +216,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ipst7l7b",
-      "title": "董明珠卸任 格力电商换帅",
+      "id": "feed_3mis7ckr",
+      "title": "珠海发放“安居房票”",
       "src": "热搜／论坛",
       "date": "2026-09-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%E5%8D%B8%E4%BB%BB+%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%95%86%E6%8D%A2%E5%B8%85&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%8F%A0%E6%B5%B7%E5%8F%91%E6%94%BE%E2%80%9C%E5%AE%89%E5%B1%85%E6%88%BF%E7%A5%A8%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +236,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_y1t74m5j",
-      "title": "贾国龙罕见露面发声",
+      "id": "feed_e8q84znd",
+      "title": "众擎T800机器人一脚踢翻人类拳手",
       "src": "热搜／论坛",
       "date": "2026-09-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%BE%E5%9B%BD%E9%BE%99%E7%BD%95%E8%A7%81%E9%9C%B2%E9%9D%A2%E5%8F%91%E5%A3%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BC%97%E6%93%8ET800%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%80%E8%84%9A%E8%B8%A2%E7%BF%BB%E4%BA%BA%E7%B1%BB%E6%8B%B3%E6%89%8B&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +256,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_bhhq1kip",
-      "title": "iPhone 18 Pro系列首销超32万台",
+      "id": "feed_e2pbojxs",
+      "title": "英特尔暴涨13%",
       "src": "热搜／论坛",
       "date": "2026-09-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone+18+Pro%E7%B3%BB%E5%88%97%E9%A6%96%E9%94%80%E8%B6%8532%E4%B8%87%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E7%89%B9%E5%B0%94%E6%9A%B4%E6%B6%A813%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
