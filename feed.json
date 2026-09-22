@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-22T04:56:05.526Z",
+  "generatedAt": "2026-09-22T16:57:43.562Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 23,
+    "total": 25,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 6,
+    "sina724": 8,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_dwr2o68r",
+      "id": "feed_0t1rq2mz",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7viuh9g5",
+      "id": "feed_o2rqpor7",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_my7oht51",
+      "id": "feed_tmpty54u",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1bf184zo",
+      "id": "feed_l899bna4",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_l96hqex1",
+      "id": "feed_yptifpv6",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1yg1orft",
+      "id": "feed_vfv2mjg0",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_eozm10i9",
+      "id": "feed_5s4omoj6",
       "title": "中国人民银行召开外资金融机构座谈会",
       "src": "中国人民银行",
       "date": "2026-09-21",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_qpfoxdrq",
+      "id": "feed_d4umwwm7",
       "title": "2026年8月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-09-21",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2na1mlkf",
+      "id": "feed_tubphw0r",
       "title": "中老跨境数字支付互联互通正式启动",
       "src": "中国人民银行",
       "date": "2026-09-18",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_63r2pyrc",
+      "id": "feed_sr43ic17",
       "title": "2026年8月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-09-14",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kakj87tz",
+      "id": "feed_9wathkmn",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kaqrs6fh",
+      "id": "feed_vcndufps",
       "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -254,54 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_celsvux1",
-      "title": "【澳大利亚央行行长认为失业率升高将有助缓解通胀压力】澳大利亚央行行长Michele Bullock表示，失业率升高将有助…",
+      "id": "feed_l9rkyd1w",
+      "title": "【美联储巴尔金警告：通胀压力消退需要时间】里士满联邦储备银行行长巴尔金警告称，通胀冲击消退可能需要时间，且高企的压力存在…",
       "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "【澳大利亚央行行长认为失业率升高将有助缓解通胀压力】澳大利亚央行行长Michele Bullock表示，失业率升高将有助于缓解通胀压力，但拒绝透露下周议息会议她是否会支持加息。Bullock周二在悉尼出席一场座谈时表示，目前4.5%的失业率意味着劳动力市场“有些偏紧”。她说：“我认为，失业率在4.5%至5%之间，可能足以让劳动力市场降温，从而缓解通胀压力。”澳大利亚周四将公布8月就业数据，经济学家预计失业率将维持在4.5%不变。Bullock表示，目前通胀过高的根本问题在于经济需求超过了经济提供商品和服务的能力，而劳动力市场偏紧就是这种供需失衡的迹象之一。澳大利亚央行下周二将公布利率决策。互换市场定价显示央行下周加息25个基点的概率约为90%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8874176.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_v2d1ran3",
-      "title": "【德邦证券：医药工业十五五规划发布 重点支持创新药械及产业链】德邦证券发布研报称，9月18日，工信部、国家发改委等十部门…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "【德邦证券：医药工业十五五规划发布 重点支持创新药械及产业链】德邦证券发布研报称，9月18日，工信部、国家发改委等十部门发布医药工业“十五五”规划。十五五顶层规划有标志性意义，代表国家对前沿创新和先进技术的支持;建议关注：1)具备FIC/BIC药物研发能力和全球竞争力的创新药企业，有研发能力的创新器械企业;2)受益于AI制药技术发展和研发支出增加的科研上游企业;3)受益于新药研发持续增加、国产替代的，具备国际化能力的CXO企业和科研上游企业。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5643021.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ltaf3rng",
-      "title": "【印尼盾疲软，印尼股市跌至一个月低点】印尼股市持续下跌，创8月14日以来新低。印尼盾走弱削弱市场风险偏好，印尼股市表现弱…",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "【印尼盾疲软，印尼股市跌至一个月低点】印尼股市持续下跌，创8月14日以来新低。印尼盾走弱削弱市场风险偏好，印尼股市表现弱于区域其他市场。雅加达综合指数最大跌幅达1.7%，能源与基础材料板块领跌。受进口结算带来的美元需求上升影响，印尼盾连续第二日走低。未来资产印尼证券分析师Wilbert Arifin表示，美联储加息后全球利率维持高位等因素带来的印尼盾外部压力，正在拖累股市。国内缺乏利好催化剂进一步加剧市场承压。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8859785.d.html",
+      "date": "2026-09-23",
+      "body": "【美联储巴尔金警告：通胀压力消退需要时间】里士满联邦储备银行行长巴尔金警告称，通胀冲击消退可能需要时间，且高企的压力存在固化的风险。在周二为巴尔的摩一场活动准备的讲话中，巴尔金详细阐述了他对经济和货币政策的最新展望。他表示，美联储上周的加息将有助于放缓通胀，但他并未暗示是否需要进一步收紧政策。相反，这位美联储官员明确指出，供应冲击已不再是一次性或暂时性的，而是导致整个经济体的物价压力持续存在。“这些冲击可能会随时间消退，但我确实预计这需要时间，”巴尔金说。“在此期间，当前高企的通胀水平存在影响未来通胀的风险。”",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8811773.d.html",
       "event": "美联储",
       "flow": "less",
       "slow": false,
@@ -311,19 +269,19 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_u46ziej5",
-      "title": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源…",
+      "id": "feed_rl0uuau2",
+      "title": "美联储巴尔金：企业表示无法继续等待不确定性消除。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源价格上涨将推高食品价格；服务业压力应继续控制在可控范围内；经济将以稳定但温和的速度增长。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5624722.d.html",
-      "event": "",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：企业表示无法继续等待不确定性消除。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583345.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -338,13 +296,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_eo1ywgs6",
-      "title": "欧洲央行首席经济学家Lane：服务业压力应继续控制在可控范围内。",
+      "id": "feed_divz4zdk",
+      "title": "美联储巴尔金：劳动力市场获得“良好评级”，尽管招聘活动滞后。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "欧洲央行首席经济学家Lane：服务业压力应继续控制在可控范围内。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5624219.d.html",
-      "event": "",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：劳动力市场获得“良好评级”，尽管招聘活动滞后。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583279.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -359,13 +317,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_w23c8rcu",
-      "title": "欧洲央行首席经济学家Lane：能源价格上涨将推高食品价格。",
+      "id": "feed_eaevheqq",
+      "title": "美联储巴尔金：观察到除人工智能投资和数据中心之外的经济动能。",
       "src": "新浪财经 7x24",
-      "date": "2026-09-22",
-      "body": "欧洲央行首席经济学家Lane：能源价格上涨将推高食品价格。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8851328.d.html",
-      "event": "",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：观察到除人工智能投资和数据中心之外的经济动能。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8810687.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -380,12 +338,96 @@
       "use": "signal"
     },
     {
-      "id": "feed_0inr6jud",
-      "title": "豪华燃油车集体“腰斩式”降价",
+      "id": "feed_pvhfikzu",
+      "title": "美联储巴尔金：认为当前通胀存在影响未来通胀的风险。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：认为当前通胀存在影响未来通胀的风险。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583156.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_7ymc57rt",
+      "title": "美联储巴尔金：经济状况（若有变化）正在走强。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：经济状况（若有变化）正在走强。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8810538.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_975r85x2",
+      "title": "美联储巴尔金：目前尚不确定是否需要进一步加息。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：目前尚不确定是否需要进一步加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5582946.d.html",
+      "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rvvexsuv",
+      "title": "美联储巴尔金：当前冲击并未呈现短期性或一次性特征。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "美联储巴尔金：当前冲击并未呈现短期性或一次性特征。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5582763.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_gn9equv8",
+      "title": "多家银行存款利息涨了",
       "src": "热搜／论坛",
       "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B1%AA%E5%8D%8E%E7%87%83%E6%B2%B9%E8%BD%A6%E9%9B%86%E4%BD%93%E2%80%9C%E8%85%B0%E6%96%A9%E5%BC%8F%E2%80%9D%E9%99%8D%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E5%AD%98%E6%AC%BE%E5%88%A9%E6%81%AF%E6%B6%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -400,12 +442,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_6q10xwzq",
-      "title": "雷军回应“打新宇树赚了100多亿”",
+      "id": "feed_8yh937pp",
+      "title": "DeepSeek将向联合国安理会作通报",
       "src": "热搜／论坛",
       "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E6%89%93%E6%96%B0%E5%AE%87%E6%A0%91%E8%B5%9A%E4%BA%86100%E5%A4%9A%E4%BA%BF%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=DeepSeek%E5%B0%86%E5%90%91%E8%81%94%E5%90%88%E5%9B%BD%E5%AE%89%E7%90%86%E4%BC%9A%E4%BD%9C%E9%80%9A%E6%8A%A5&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -420,12 +462,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_1hnuvcht",
-      "title": "微信上新2大功能",
+      "id": "feed_t3jgxboi",
+      "title": "黄仁勋解释为什么每天都穿黑皮衣",
       "src": "热搜／论坛",
       "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E4%B8%8A%E6%96%B02%E5%A4%A7%E5%8A%9F%E8%83%BD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%A4%A9%E9%83%BD%E7%A9%BF%E9%BB%91%E7%9A%AE%E8%A1%A3&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -440,12 +482,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_c66me9rn",
-      "title": "10次打开软件 8次跳转到某平台",
+      "id": "feed_8v51991t",
+      "title": "纽约时代广场千人排队买中国相机",
       "src": "热搜／论坛",
       "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=10%E6%AC%A1%E6%89%93%E5%BC%80%E8%BD%AF%E4%BB%B6+8%E6%AC%A1%E8%B7%B3%E8%BD%AC%E5%88%B0%E6%9F%90%E5%B9%B3%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BA%BD%E7%BA%A6%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA%E5%8D%83%E4%BA%BA%E6%8E%92%E9%98%9F%E4%B9%B0%E4%B8%AD%E5%9B%BD%E7%9B%B8%E6%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -460,12 +502,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_m2xwxuka",
-      "title": "苹果高管希望不要给iPhone贴膜",
+      "id": "feed_rp11mkq5",
+      "title": "特斯拉中国修改FSD描述",
       "src": "热搜／论坛",
       "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1%E5%B8%8C%E6%9C%9B%E4%B8%8D%E8%A6%81%E7%BB%99iPhone%E8%B4%B4%E8%86%9C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E4%BF%AE%E6%94%B9FSD%E6%8F%8F%E8%BF%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
