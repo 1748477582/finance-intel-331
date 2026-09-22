@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-21T18:12:59.929Z",
+  "generatedAt": "2026-09-22T04:56:05.526Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 13,
+    "total": 23,
     "llm": 0,
     "stats": 6,
-    "pbc": "error: fetch failed",
-    "sina724": 2,
+    "pbc": 6,
+    "sina724": 6,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_2m3i4mi8",
+      "id": "feed_dwr2o68r",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jnpcmdgh",
+      "id": "feed_7viuh9g5",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_brkz4da6",
+      "id": "feed_my7oht51",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_a0v2t3qq",
+      "id": "feed_1bf184zo",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pel47ab0",
+      "id": "feed_l96hqex1",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ilpff798",
+      "id": "feed_1yg1orft",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,14 +134,134 @@
       "use": "signal"
     },
     {
-      "id": "feed_5nxl43kd",
-      "title": "美洲开发银行报告：广泛采用人工智能有望在十年后使拉美及加勒比地区的GDP提高5.1%。如果劳动者无法顺利转型至AI带来的…",
+      "id": "feed_eozm10i9",
+      "title": "中国人民银行召开外资金融机构座谈会",
+      "src": "中国人民银行",
+      "date": "2026-09-21",
+      "body": "中国人民银行召开外资金融机构座谈会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行召开外资金融机构座谈会字号大中小文章来源：2026-09-21 19:15:19打印本页关闭窗口9月21日，中国人民银行召开外资金融机构座谈会，听取外资金融机构意见建议，研究进一步优化营商环境、推动金融业高水平对外开放有关工作。中国人民银行行长潘功胜出席会议并讲话。中国人民银行副行长宣昌能主持会议，中国人民银行副行长邹澜，国家外汇管理局副局长徐志斌、李斌出席。座谈会上，潘功胜介绍了当前中国经济金融形势和货币政策实施情况，听取意见建议，并就各机构关心的问题交流回应。潘功胜表示，中国经济运行总体平稳向好，结构持续优化，高质量发展不断取得新进展。中国人民银行将认真落实党中央、国务院决策部署，实施好适度宽松的货币政策，为经济稳定增长和金融市场平稳运行营造良好的货币金融环境。继续推动金融高水平开放，持续完善政策供给，稳步扩大金融市场双向开放，不断优化跨境支付服务，更加便利人民币国际使用。各外资金融机构认为，今年以来中国人民银行在深化金融业改革开放、优化营商环境、便利人民币国际使用等方面的系列举措取得积极进展。希望持续",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092118580513307/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_qpfoxdrq",
+      "title": "2026年8月金融市场运行情况",
+      "src": "中国人民银行",
+      "date": "2026-09-21",
+      "body": "月金融市场运行情况术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年8月金融市场运行情况字号大中小文章来源：2026-09-21 18:06:17打印本页关闭窗口一、货币市场运行情况2026年8月，同业拆借日均成交3160.6亿元，同比减少24.6%；银行间市场债券回购日均成交6.5万亿元，同比减少14.8%。2026年8月末，同业拆借未到期余额0.9万亿元，银行间市场债券回购未到期余额9.6万亿元。2026年8月，银行业存款类金融机构间利率债隔夜质押式回购（DR001）月加权平均利率为1.38%，环比下降1个基点；DR007月加权平均利率为1.40%，环比下降3个基点；银行间市场隔夜质押式回购（R001）月加权平均利率为1.40%，环比下降2个基点。2026年8月，DR001与央行公开市场7天期逆回购操作利率的利差日均值为-2个基点，R001与DR001的利差日均值为2个基点。图1货币市场利率走势图2 2026年1-8月DR001与央行政策利率1二、债券市场运行情况2026年8月，政府债券净融资10097.3亿元，同比减少3574.6亿元；企业债券净融资2712.5亿元，同比增加1374.",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092109135798884/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_2na1mlkf",
+      "title": "中老跨境数字支付互联互通正式启动",
+      "src": "中国人民银行",
+      "date": "2026-09-18",
+      "body": "中老跨境数字支付互联互通正式启动术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中老跨境数字支付互联互通正式启动字号大中小文章来源：2026-09-18 18:00:07打印本页关闭窗口2026年9月18日，中国人民银行与老挝人民民主共和国银行在广西南宁联合举办中老跨境数字支付互联互通启动会。中国人民银行副行长陆磊、老挝人民民主共和国银行副行长苏里萨克·萨姆努翁出席并致辞。中老跨境数字支付互联互通是落实两国领导人共识、深化双边金融合作的重要举措，也是双方央行行长于2026年6月签署的《关于加强金融创新、数字支付和法定数字货币合作的谅解备忘录》框架下达成的阶段性成果。中老两国央行相关部门负责人，商业银行、参与企业有关负责人参加会议。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_63r2pyrc",
+      "title": "2026年8月金融统计数据报告",
+      "src": "中国人民银行",
+      "date": "2026-09-14",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091414593871200/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_kakj87tz",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_kaqrs6fh",
+      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
+      "src": "中国人民银行",
+      "date": "2026-09-10",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_celsvux1",
+      "title": "【澳大利亚央行行长认为失业率升高将有助缓解通胀压力】澳大利亚央行行长Michele Bullock表示，失业率升高将有助…",
       "src": "新浪财经 7x24",
       "date": "2026-09-22",
-      "body": "美洲开发银行报告：广泛采用人工智能有望在十年后使拉美及加勒比地区的GDP提高5.1%。如果劳动者无法顺利转型至AI带来的扩张型岗位，该地区工资水平可能下降13.5%至20.9%；反之，若转型成功，工资则有望上涨2.3%至5.3%。",
-      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
-      "event": "GDP",
-      "flow": "shift",
+      "body": "【澳大利亚央行行长认为失业率升高将有助缓解通胀压力】澳大利亚央行行长Michele Bullock表示，失业率升高将有助于缓解通胀压力，但拒绝透露下周议息会议她是否会支持加息。Bullock周二在悉尼出席一场座谈时表示，目前4.5%的失业率意味着劳动力市场“有些偏紧”。她说：“我认为，失业率在4.5%至5%之间，可能足以让劳动力市场降温，从而缓解通胀压力。”澳大利亚周四将公布8月就业数据，经济学家预计失业率将维持在4.5%不变。Bullock表示，目前通胀过高的根本问题在于经济需求超过了经济提供商品和服务的能力，而劳动力市场偏紧就是这种供需失衡的迹象之一。澳大利亚央行下周二将公布利率决策。互换市场定价显示央行下周加息25个基点的概率约为90%。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8874176.d.html",
+      "event": "",
+      "flow": "more",
       "slow": false,
       "read": "",
       "fields": [
@@ -155,14 +275,35 @@
       "use": "signal"
     },
     {
-      "id": "feed_hsy5uvr7",
-      "title": "周一（9月21日），美联储隔夜逆回购协议（RRP）使用规模为5.82亿美元（交易对手15家），上个交易日报5.76亿美元…",
+      "id": "feed_v2d1ran3",
+      "title": "【德邦证券：医药工业十五五规划发布 重点支持创新药械及产业链】德邦证券发布研报称，9月18日，工信部、国家发改委等十部门…",
       "src": "新浪财经 7x24",
       "date": "2026-09-22",
-      "body": "周一（9月21日），美联储隔夜逆回购协议（RRP）使用规模为5.82亿美元（交易对手15家），上个交易日报5.76亿美元。",
-      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisrnpv5848044.d.html",
+      "body": "【德邦证券：医药工业十五五规划发布 重点支持创新药械及产业链】德邦证券发布研报称，9月18日，工信部、国家发改委等十部门发布医药工业“十五五”规划。十五五顶层规划有标志性意义，代表国家对前沿创新和先进技术的支持;建议关注：1)具备FIC/BIC药物研发能力和全球竞争力的创新药企业，有研发能力的创新器械企业;2)受益于AI制药技术发展和研发支出增加的科研上游企业;3)受益于新药研发持续增加、国产替代的，具备国际化能力的CXO企业和科研上游企业。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5643021.d.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_ltaf3rng",
+      "title": "【印尼盾疲软，印尼股市跌至一个月低点】印尼股市持续下跌，创8月14日以来新低。印尼盾走弱削弱市场风险偏好，印尼股市表现弱…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "【印尼盾疲软，印尼股市跌至一个月低点】印尼股市持续下跌，创8月14日以来新低。印尼盾走弱削弱市场风险偏好，印尼股市表现弱于区域其他市场。雅加达综合指数最大跌幅达1.7%，能源与基础材料板块领跌。受进口结算带来的美元需求上升影响，印尼盾连续第二日走低。未来资产印尼证券分析师Wilbert Arifin表示，美联储加息后全球利率维持高位等因素带来的印尼盾外部压力，正在拖累股市。国内缺乏利好催化剂进一步加剧市场承压。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8859785.d.html",
       "event": "美联储",
-      "flow": "shift",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
@@ -176,12 +317,75 @@
       "use": "signal"
     },
     {
-      "id": "feed_5nex1adj",
-      "title": "雷军回应“武汉街头吃热干面”争议",
+      "id": "feed_u46ziej5",
+      "title": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源价格上涨将推高食品价格；服务业压力应继续控制在可控范围内；经济将以稳定但温和的速度增长。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5624722.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_eo1ywgs6",
+      "title": "欧洲央行首席经济学家Lane：服务业压力应继续控制在可控范围内。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "欧洲央行首席经济学家Lane：服务业压力应继续控制在可控范围内。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzi5624219.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_w23c8rcu",
+      "title": "欧洲央行首席经济学家Lane：能源价格上涨将推高食品价格。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-22",
+      "body": "欧洲央行首席经济学家Lane：能源价格上涨将推高食品价格。",
+      "url": "https://finance.sina.cn/7x24/2026-09-22/detail-inisspzf8851328.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_0inr6jud",
+      "title": "豪华燃油车集体“腰斩式”降价",
       "src": "热搜／论坛",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E6%AD%A6%E6%B1%89%E8%A1%97%E5%A4%B4%E5%90%83%E7%83%AD%E5%B9%B2%E9%9D%A2%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B1%AA%E5%8D%8E%E7%87%83%E6%B2%B9%E8%BD%A6%E9%9B%86%E4%BD%93%E2%80%9C%E8%85%B0%E6%96%A9%E5%BC%8F%E2%80%9D%E9%99%8D%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -196,12 +400,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_55cyu2rq",
-      "title": "多地禁产“老头乐”",
+      "id": "feed_6q10xwzq",
+      "title": "雷军回应“打新宇树赚了100多亿”",
       "src": "热搜／论坛",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E7%A6%81%E4%BA%A7%E2%80%9C%E8%80%81%E5%A4%B4%E4%B9%90%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E6%89%93%E6%96%B0%E5%AE%87%E6%A0%91%E8%B5%9A%E4%BA%86100%E5%A4%9A%E4%BA%BF%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -216,12 +420,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_3mis7ckr",
-      "title": "珠海发放“安居房票”",
+      "id": "feed_1hnuvcht",
+      "title": "微信上新2大功能",
       "src": "热搜／论坛",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%8F%A0%E6%B5%B7%E5%8F%91%E6%94%BE%E2%80%9C%E5%AE%89%E5%B1%85%E6%88%BF%E7%A5%A8%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E4%B8%8A%E6%96%B02%E5%A4%A7%E5%8A%9F%E8%83%BD&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -236,12 +440,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_e8q84znd",
-      "title": "众擎T800机器人一脚踢翻人类拳手",
+      "id": "feed_c66me9rn",
+      "title": "10次打开软件 8次跳转到某平台",
       "src": "热搜／论坛",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BC%97%E6%93%8ET800%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%80%E8%84%9A%E8%B8%A2%E7%BF%BB%E4%BA%BA%E7%B1%BB%E6%8B%B3%E6%89%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=10%E6%AC%A1%E6%89%93%E5%BC%80%E8%BD%AF%E4%BB%B6+8%E6%AC%A1%E8%B7%B3%E8%BD%AC%E5%88%B0%E6%9F%90%E5%B9%B3%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -256,12 +460,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_e2pbojxs",
-      "title": "英特尔暴涨13%",
+      "id": "feed_m2xwxuka",
+      "title": "苹果高管希望不要给iPhone贴膜",
       "src": "热搜／论坛",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E7%89%B9%E5%B0%94%E6%9A%B4%E6%B6%A813%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1%E5%B8%8C%E6%9C%9B%E4%B8%8D%E8%A6%81%E7%BB%99iPhone%E8%B4%B4%E8%86%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
