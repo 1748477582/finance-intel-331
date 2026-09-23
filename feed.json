@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-22T16:57:43.562Z",
+  "generatedAt": "2026-09-23T04:45:24.044Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 25,
+    "total": 22,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 8,
+    "sina724": 5,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_0t1rq2mz",
+      "id": "feed_69cfh28e",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o2rqpor7",
+      "id": "feed_0k5srsh7",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tmpty54u",
+      "id": "feed_rze4psue",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_l899bna4",
+      "id": "feed_1zhg8zyr",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yptifpv6",
+      "id": "feed_a3o3wc11",
       "title": "2026年1—8月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vfv2mjg0",
+      "id": "feed_kf3dvl1u",
       "title": "2026年8月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_5s4omoj6",
+      "id": "feed_m7oodql8",
       "title": "中国人民银行召开外资金融机构座谈会",
       "src": "中国人民银行",
       "date": "2026-09-21",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_d4umwwm7",
+      "id": "feed_gf3qiyxz",
       "title": "2026年8月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-09-21",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tubphw0r",
+      "id": "feed_rp15tqoi",
       "title": "中老跨境数字支付互联互通正式启动",
       "src": "中国人民银行",
       "date": "2026-09-18",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_sr43ic17",
+      "id": "feed_987ylt8h",
       "title": "2026年8月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-09-14",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_9wathkmn",
+      "id": "feed_jx1qjbiv",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vcndufps",
+      "id": "feed_xo028tg9",
       "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-09-10",
@@ -254,34 +254,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_l9rkyd1w",
-      "title": "【美联储巴尔金警告：通胀压力消退需要时间】里士满联邦储备银行行长巴尔金警告称，通胀冲击消退可能需要时间，且高企的压力存在…",
+      "id": "feed_n0x2szpv",
+      "title": "【印度总理莫迪计划赴加拿大敲定贸易协议，同时加速与墨西哥谈判】为应对唐纳德·特朗普关税政策带来的冲击，印度正加速与加拿大…",
       "src": "新浪财经 7x24",
       "date": "2026-09-23",
-      "body": "【美联储巴尔金警告：通胀压力消退需要时间】里士满联邦储备银行行长巴尔金警告称，通胀冲击消退可能需要时间，且高企的压力存在固化的风险。在周二为巴尔的摩一场活动准备的讲话中，巴尔金详细阐述了他对经济和货币政策的最新展望。他表示，美联储上周的加息将有助于放缓通胀，但他并未暗示是否需要进一步收紧政策。相反，这位美联储官员明确指出，供应冲击已不再是一次性或暂时性的，而是导致整个经济体的物价压力持续存在。“这些冲击可能会随时间消退，但我确实预计这需要时间，”巴尔金说。“在此期间，当前高企的通胀水平存在影响未来通胀的风险。”",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8811773.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_rl0uuau2",
-      "title": "美联储巴尔金：企业表示无法继续等待不确定性消除。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：企业表示无法继续等待不确定性消除。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583345.d.html",
-      "event": "美联储",
+      "body": "【印度总理莫迪计划赴加拿大敲定贸易协议，同时加速与墨西哥谈判】为应对唐纳德·特朗普关税政策带来的冲击，印度正加速与加拿大和墨西哥的贸易谈判，这三大经济体均在寻求新的市场与合作伙伴。据知情人士透露，印加谈判代表计划于10月5日举行第五轮谈判，以巩固上周结束的讨论成果。据《环球邮报》援引新德里特使迪内什·帕特奈克（Dinesh Patnaik）的消息称，双方很可能在12月签署协议，届时印度总理纳伦德拉·莫迪预计将访问加拿大。与此同时，知情人士称新德里正在与墨西哥敲定一项框架以启动正式贸易谈判。由于讨论内容保密，知情人士要求匿名。他们表示，由于三国均寻求多元化商业联系，官员们正力求在贸易谈判中取得更快进展。印度工商部未回应置评请求。负责该国贸易谈判的墨西哥经济部表示，目前正对潜在协议进行分析，但尚未提出具体或最终方案。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inisusyf8602487.d.html",
+      "event": "关税",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -296,13 +275,76 @@
       "use": "signal"
     },
     {
-      "id": "feed_divz4zdk",
-      "title": "美联储巴尔金：劳动力市场获得“良好评级”，尽管招聘活动滞后。",
+      "id": "feed_6e74d2fe",
+      "title": "中国央行在香港发行 600 亿元人民币6个月期央票，中标利率 1.37%。",
       "src": "新浪财经 7x24",
       "date": "2026-09-23",
-      "body": "美联储巴尔金：劳动力市场获得“良好评级”，尽管招聘活动滞后。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583279.d.html",
-      "event": "美联储",
+      "body": "中国央行在香港发行 600 亿元人民币6个月期央票，中标利率 1.37%。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inisusyf8599799.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_jnnv0j5t",
+      "title": "【Pimco认为几无证据显示AI发债会对美国国债产生直接的排挤效应】品浩(Pimco)表示，综合名义收益率、期限溢价与掉…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "【Pimco认为几无证据显示AI发债会对美国国债产生直接的排挤效应】品浩(Pimco)表示，综合名义收益率、期限溢价与掉期利差来看，有关AI企业超预期发债正推高美国国债收益率的证据相当匮乏。多资产信贷策略师Lotfi Karoui在报告中写道，AI资本支出热潮确实可能通过储蓄与投资管道拉高均衡实质利率，但若说AI发债正对美国国债产生直接的排挤效应，这一较为狭隘的观点在数据中难以找到支持。Pimco指出，过去一年中有六起超预期发债交易，其现有债券在发行公告发布前后出现异常下跌，这表明这些发行的规模或时间点并未被市场完全定价。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inisusyf8598077.d.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rxtk41kg",
+      "title": "【港交所：陆续推出更多人民币计价贵金属等商品投资产品】港交所董事总经理兼市场主管余学勤表示，金管局与证监会去年共同制定固…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "【港交所：陆续推出更多人民币计价贵金属等商品投资产品】港交所董事总经理兼市场主管余学勤表示，金管局与证监会去年共同制定固定收益及货币市场发展路线图，当中很多细节经港交所落实。他提到今年8月推出5年期国债期货，未平仓合约由推出首个星期约900张，增至目前近3000张，吸引来自中东、欧美、东南亚等地的市场参与者，反映是值得发展的方向。 他在财资市场高峰会上透露，预计明年初将推出以人民币计价、在香港交收的黄金期货合约，并陆续推出更多以人民币计价贵金属等商品的投资产品，以丰富人民币计价资产选择。 金管局助理总裁何汉杰在论坛上说，推动人民币国际化最大挑战是国际间依然习惯使用美元，企业亦缺乏相应财资管理与融资工具。他指出，部分银行为大客户提供定制化方案，认为银行可以将这些方案转化为现成产品，再推广至其他客户。 他又说，香港人民币资金池约1.1万亿元，金管局早前将人民币流动资金安排规模扩充至5000亿元人民币，即相当于存款基础40-50%，认为能为银行体系提供坚实后盾，满足市场营运、贸易及投资等方面融资的流动性需求。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inisusyi5366643.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_wxxo1nbd",
+      "title": "【瑞和数智完成认购纳真科技股份】瑞和数智发布须予披露交易公告，公司已完成认购纳真科技公司国际发售项下之国际发售股份。公司…",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-23",
+      "body": "【瑞和数智完成认购纳真科技股份】瑞和数智发布须予披露交易公告，公司已完成认购纳真科技公司国际发售项下之国际发售股份。公司已按发售价每股32.96港元获配发95万股纳真科技股份，该等获配股份的发售价总额为3131.2万港元。公司应缴付的认购款项总额为3162.78万港元，其中包括发售价总额以及经纪佣金、证监会交易征费、会计及财务汇报局交易征费及联交所交易费。纳真科技股份已于2026年9月22日在联交所主板上市及开始买卖，认购事项及认购款项缴付已于上市日期落实。",
+      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inisusyf8584140.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -317,117 +359,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_eaevheqq",
-      "title": "美联储巴尔金：观察到除人工智能投资和数据中心之外的经济动能。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：观察到除人工智能投资和数据中心之外的经济动能。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8810687.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_pvhfikzu",
-      "title": "美联储巴尔金：认为当前通胀存在影响未来通胀的风险。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：认为当前通胀存在影响未来通胀的风险。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5583156.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_7ymc57rt",
-      "title": "美联储巴尔金：经济状况（若有变化）正在走强。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：经济状况（若有变化）正在走强。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnt8810538.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_975r85x2",
-      "title": "美联储巴尔金：目前尚不确定是否需要进一步加息。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：目前尚不确定是否需要进一步加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5582946.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_rvvexsuv",
-      "title": "美联储巴尔金：当前冲击并未呈现短期性或一次性特征。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-23",
-      "body": "美联储巴尔金：当前冲击并未呈现短期性或一次性特征。",
-      "url": "https://finance.sina.cn/7x24/2026-09-23/detail-inistrnv5582763.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_gn9equv8",
-      "title": "多家银行存款利息涨了",
+      "id": "feed_qq9xp8gv",
+      "title": "A股年内最低价新股开盘大涨580.75%",
       "src": "热搜／论坛",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E5%AD%98%E6%AC%BE%E5%88%A9%E6%81%AF%E6%B6%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%B9%B4%E5%86%85%E6%9C%80%E4%BD%8E%E4%BB%B7%E6%96%B0%E8%82%A1%E5%BC%80%E7%9B%98%E5%A4%A7%E6%B6%A8580.75%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -442,12 +379,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8yh937pp",
-      "title": "DeepSeek将向联合国安理会作通报",
+      "id": "feed_0kkfiytf",
+      "title": "房地产板块大涨 万科A等多股涨停",
       "src": "热搜／论坛",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=DeepSeek%E5%B0%86%E5%90%91%E8%81%94%E5%90%88%E5%9B%BD%E5%AE%89%E7%90%86%E4%BC%9A%E4%BD%9C%E9%80%9A%E6%8A%A5&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%9D%BF%E5%9D%97%E5%A4%A7%E6%B6%A8+%E4%B8%87%E7%A7%91A%E7%AD%89%E5%A4%9A%E8%82%A1%E6%B6%A8%E5%81%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -462,12 +399,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_t3jgxboi",
-      "title": "黄仁勋解释为什么每天都穿黑皮衣",
+      "id": "feed_sarc1f25",
+      "title": "马斯克给年轻人提建议",
       "src": "热搜／论坛",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%A4%A9%E9%83%BD%E7%A9%BF%E9%BB%91%E7%9A%AE%E8%A1%A3&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%8F%90%E5%BB%BA%E8%AE%AE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -482,12 +419,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8v51991t",
-      "title": "纽约时代广场千人排队买中国相机",
+      "id": "feed_zn9uu2si",
+      "title": "高通发布两款2纳米旗舰芯片",
       "src": "热搜／论坛",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BA%BD%E7%BA%A6%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA%E5%8D%83%E4%BA%BA%E6%8E%92%E9%98%9F%E4%B9%B0%E4%B8%AD%E5%9B%BD%E7%9B%B8%E6%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%80%9A%E5%8F%91%E5%B8%83%E4%B8%A4%E6%AC%BE2%E7%BA%B3%E7%B1%B3%E6%97%97%E8%88%B0%E8%8A%AF%E7%89%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -502,12 +439,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_rp11mkq5",
-      "title": "特斯拉中国修改FSD描述",
+      "id": "feed_bdoebdsh",
+      "title": "沃尔玛超市从山姆调兵",
       "src": "热搜／论坛",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E4%BF%AE%E6%94%B9FSD%E6%8F%8F%E8%BF%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%83%E5%B0%94%E7%8E%9B%E8%B6%85%E5%B8%82%E4%BB%8E%E5%B1%B1%E5%A7%86%E8%B0%83%E5%85%B5&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
