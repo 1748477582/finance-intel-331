@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-28T19:41:11.595Z",
+  "generatedAt": "2026-09-29T05:44:10.710Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 16,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 0,
+    "pbc": "error: fetch failed",
+    "sina724": 5,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_m9lod2rh",
+      "id": "feed_7at50a4r",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uncitax8",
+      "id": "feed_5x6d623l",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_f2cbe3lr",
+      "id": "feed_vkfx5xnz",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_omoqiotv",
+      "id": "feed_a7nxj0ia",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_evi33euy",
+      "id": "feed_e3dnes5j",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0vqwyg7r",
+      "id": "feed_bei5qsbq",
       "title": "2026年1—8月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,17 +134,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_h94uqw3i",
-      "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
-      "src": "中国人民银行",
-      "date": "2026-09-28",
-      "body": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》字号大中小文章来源：2026-09-28 18:07:44打印本页关闭窗口为贯彻落实党中央、国务院决策部署，促进服务业优质高效发展，进一步增强政策支持的针对性有效性，促进金融资源更多投向服务业重点领域和薄弱环节，中国人民银行、金融监管总局、中国证监会、国家发展改革委、工业和信息化部、财政部、商务部、文化和旅游部等八部门印发《关于金融支持服务业扩能提质的指导意见》（以下简称《意见》）。《意见》以习近平新时代中国特色社会主义思想为指导，深入践行金融工作的政治性、人民性，按照党中央、国务院对服务业工作“需求牵引、改革攻坚、科技赋能、开放合作”的总要求，细化金融支持重点方向和领域，从提升金融机构支持服务业的专业能力、加大对生产性和生活性服务业金融支持、做强做优金融服务业等方面，提出19项务实的工作举措。《意见》指出，要推动金融机构转变传统重资产重抵押的融资支持理念，着力解决轻资产企业融资难题，增强服务业金融产品针对性有效性，持",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092817582477094/index.html",
+      "id": "feed_zmcteuy0",
+      "title": "澳洲联储主席布洛克：如果通胀回落，则可能无需进一步加息。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-29",
+      "body": "澳洲联储主席布洛克：如果通胀回落，则可能无需进一步加息。",
+      "url": "https://finance.sina.cn/7x24/2026-09-29/detail-initnmwm2883808.d.html",
       "event": "",
-      "flow": "more",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -154,17 +155,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_yoi4vqha",
-      "title": "中国人民银行货币政策委员会召开2026年第三季度例会",
-      "src": "中国人民银行",
-      "date": "2026-09-24",
-      "body": "中国人民银行货币政策委员会召开2026年第三季度例会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行货币政策委员会召开2026年第三季度例会字号大中小文章来源：2026-09-24 17:19:21打印本页关闭窗口中国人民银行货币政策委员会2026年第三季度（总第114次）例会于9月19日召开。会议认为，今年以来宏观政策更加积极有为，货币政策保持适度宽松，强化逆周期和跨周期调节，综合运用多种货币政策工具，为经济持续向好向优创造适宜的货币金融环境。贷款市场报价利率改革效能持续释放，存款利率市场化调整机制作用有效发挥，货币政策传导效率增强，社会融资成本处于历史较低水平。外汇市场供求基本平衡，人民币汇率双向浮动，在合理均衡水平上保持基本稳定。金融市场总体运行平稳。会议分析了国内外经济金融形势，认为当前外部环境更加复杂多变，世界经济增长动能疲弱，地缘冲突和经贸摩擦多发频发，主要经济体经济表现分化，通胀走势和货币政策调整存在不确定性。我国经济运行总体平稳、动能向新、结构向优，高质量发展取得新成效，但仍面临供强需弱、结构分化、外部冲击等问题和挑战。要继续实施适度宽松的货币政策，加大逆周期调节力度，更",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092416074632670/index.html",
+      "id": "feed_z1xyonta",
+      "title": "布洛克：四次加息够吗？我不知道。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-29",
+      "body": "布洛克：四次加息够吗？我不知道。",
+      "url": "https://finance.sina.cn/7x24/2026-09-29/detail-initnmwm2882019.d.html",
       "event": "",
-      "flow": "shift",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -174,17 +176,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_2dq00wj3",
-      "title": "中国人民银行召开外资金融机构座谈会",
-      "src": "中国人民银行",
-      "date": "2026-09-21",
-      "body": "中国人民银行召开外资金融机构座谈会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行召开外资金融机构座谈会字号大中小文章来源：2026-09-21 19:15:19打印本页关闭窗口9月21日，中国人民银行召开外资金融机构座谈会，听取外资金融机构意见建议，研究进一步优化营商环境、推动金融业高水平对外开放有关工作。中国人民银行行长潘功胜出席会议并讲话。中国人民银行副行长宣昌能主持会议，中国人民银行副行长邹澜，国家外汇管理局副局长徐志斌、李斌出席。座谈会上，潘功胜介绍了当前中国经济金融形势和货币政策实施情况，听取意见建议，并就各机构关心的问题交流回应。潘功胜表示，中国经济运行总体平稳向好，结构持续优化，高质量发展不断取得新进展。中国人民银行将认真落实党中央、国务院决策部署，实施好适度宽松的货币政策，为经济稳定增长和金融市场平稳运行营造良好的货币金融环境。继续推动金融高水平开放，持续完善政策供给，稳步扩大金融市场双向开放，不断优化跨境支付服务，更加便利人民币国际使用。各外资金融机构认为，今年以来中国人民银行在深化金融业改革开放、优化营商环境、便利人民币国际使用等方面的系列举措取得积极进展。希望持续",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092118580513307/index.html",
+      "id": "feed_7qvuw6ln",
+      "title": "布洛克：希望 4 次加息足以形成紧缩效应来抑制通胀。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-29",
+      "body": "布洛克：希望 4 次加息足以形成紧缩效应来抑制通胀。",
+      "url": "https://finance.sina.cn/7x24/2026-09-29/detail-initnmwi6109371.d.html",
       "event": "",
-      "flow": "shift",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -194,37 +197,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_ifyd00d1",
-      "title": "2026年8月金融市场运行情况",
-      "src": "中国人民银行",
-      "date": "2026-09-21",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092109135798884/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_136x7czf",
-      "title": "中老跨境数字支付互联互通正式启动",
-      "src": "中国人民银行",
-      "date": "2026-09-18",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
-      "event": "",
+      "id": "feed_fnlf5cmi",
+      "title": "布洛克：不会过度重视8月CPI数据，需要紧缩的金融条件。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-29",
+      "body": "布洛克：不会过度重视8月CPI数据，需要紧缩的金融条件。",
+      "url": "https://finance.sina.cn/7x24/2026-09-29/detail-initnmwi6107540.d.html",
+      "event": "CPI",
       "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -234,32 +218,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_0f9b0cl2",
-      "title": "2026年8月金融统计数据报告",
-      "src": "中国人民银行",
-      "date": "2026-09-14",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091414593871200/index.html",
+      "id": "feed_jr826ju8",
+      "title": "澳洲联储主席布洛克：如有必要，委员会将再次加息以抑制通胀。",
+      "src": "新浪财经 7x24",
+      "date": "2026-09-29",
+      "body": "澳洲联储主席布洛克：如有必要，委员会将再次加息以抑制通胀。",
+      "url": "https://finance.sina.cn/7x24/2026-09-29/detail-initnmwi6104583.d.html",
       "event": "",
-      "flow": "shift",
-      "slow": true,
+      "flow": "less",
+      "slow": false,
       "read": "",
       "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_kcii1vi0",
-      "title": "购房者加价抢购上海“老破小”",
+      "id": "feed_4ekozntd",
+      "title": "水贝金饰降价卖爆了",
       "src": "热搜／论坛",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%AD%E6%88%BF%E8%80%85%E5%8A%A0%E4%BB%B7%E6%8A%A2%E8%B4%AD%E4%B8%8A%E6%B5%B7%E2%80%9C%E8%80%81%E7%A0%B4%E5%B0%8F%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%B4%E8%B4%9D%E9%87%91%E9%A5%B0%E9%99%8D%E4%BB%B7%E5%8D%96%E7%88%86%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +259,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_tjq9xoeb",
-      "title": "北汽原董事长徐和谊一审被判死缓",
+      "id": "feed_u9fppoon",
+      "title": "华为Mate90系列国庆当天开售",
       "src": "热搜／论坛",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E6%B1%BD%E5%8E%9F%E8%91%A3%E4%BA%8B%E9%95%BF%E5%BE%90%E5%92%8C%E8%B0%8A%E4%B8%80%E5%AE%A1%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BAMate90%E7%B3%BB%E5%88%97%E5%9B%BD%E5%BA%86%E5%BD%93%E5%A4%A9%E5%BC%80%E5%94%AE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +279,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_9bhpzz3v",
-      "title": "SpaceX“星舰”首次成功进入地球轨道",
+      "id": "feed_fhn491oi",
+      "title": "澳洲联储‌将现金利率上调25个基点",
       "src": "热搜／论坛",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=SpaceX%E2%80%9C%E6%98%9F%E8%88%B0%E2%80%9D%E9%A6%96%E6%AC%A1%E6%88%90%E5%8A%9F%E8%BF%9B%E5%85%A5%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%BE%B3%E6%B4%B2%E8%81%94%E5%82%A8%E2%80%8C%E5%B0%86%E7%8E%B0%E9%87%91%E5%88%A9%E7%8E%87%E4%B8%8A%E8%B0%8325%E4%B8%AA%E5%9F%BA%E7%82%B9&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +299,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_qfqelyit",
-      "title": "车企钱都被华为赚走了？华为高管回应",
+      "id": "feed_q1auvp5n",
+      "title": "江龙船艇：签订约2.7亿重大销售合同",
       "src": "热搜／论坛",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E4%BC%81%E9%92%B1%E9%83%BD%E8%A2%AB%E5%8D%8E%E4%B8%BA%E8%B5%9A%E8%B5%B0%E4%BA%86%EF%BC%9F%E5%8D%8E%E4%B8%BA%E9%AB%98%E7%AE%A1%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E9%BE%99%E8%88%B9%E8%89%87%EF%BC%9A%E7%AD%BE%E8%AE%A2%E7%BA%A62.7%E4%BA%BF%E9%87%8D%E5%A4%A7%E9%94%80%E5%94%AE%E5%90%88%E5%90%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +319,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pj8aivvl",
-      "title": "罗永浩遭实名举报偷税漏税 本人回应",
+      "id": "feed_gvmnbpsj",
+      "title": "逢时科技启动上市辅导",
       "src": "热搜／论坛",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%97%E6%B0%B8%E6%B5%A9%E9%81%AD%E5%AE%9E%E5%90%8D%E4%B8%BE%E6%8A%A5%E5%81%B7%E7%A8%8E%E6%BC%8F%E7%A8%8E+%E6%9C%AC%E4%BA%BA%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%80%A2%E6%97%B6%E7%A7%91%E6%8A%80%E5%90%AF%E5%8A%A8%E4%B8%8A%E5%B8%82%E8%BE%85%E5%AF%BC&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
