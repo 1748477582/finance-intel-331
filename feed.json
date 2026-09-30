@@ -1,20 +1,40 @@
 {
-  "generatedAt": "2026-09-29T18:05:23.544Z",
+  "generatedAt": "2026-09-30T05:32:44.724Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 23,
+    "total": 11,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 12,
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_x5b4sva6",
+      "id": "feed_rrzt09a2",
+      "title": "2026年9月中国采购经理指数运行情况",
+      "src": "国家统计局",
+      "date": "2026-09-30",
+      "body": "国家统计局服务业调查中心中国物流与采购联合会一、中国制造业采购经理指数运行情况9月份，制造业采购经理指数（PMI）为50.1%，比上月上升0.3个百分点，升至扩张区间。从企业规模看，大型企业PMI为50.6%，与上月持平，高于临界点；中、小型企业PMI分别为49.7%和48.9%，比上月上升0.3个和1.0个百分点，均低于临界点。从分类指数看，构成制造业PMI的5个分类指数中，生产指数、新订单指数和供应商配送时间指数均高于临界点；原材料库存指数、从业人员指数低于临界点。生产指数为51.7%，比上月上升1.3个百分点，表明制造业生产活动扩张加快。新订单指数为50.5%，比上月下降0.1个百分点，高于临界点，表明制造业市场需求继续改善。原材料库存指数为48.2%，比上月上升0.1个百分点，表明制造业主要原材料库存量降幅略有收窄。从业人员指数为48.4%，比上月下降0.3个百分点，表明制造业企业用工景气水平回落。供应商配送时间指数为50.1%，与上月持平，高于临界点，表明制造业原材料供应商交货时间继续加快。表1中国制造业PMI及构成指数（经季节调整）单位：% PMI生产新订单原材料库存从业人员供应商配送时间2025年9月49.8 51.9 49.7 48.5 48.5 50.8 2025年10月49.0 49.7 48.8 47.3 48.3 50.0 2025年11月49.2 50.0 49.2 47.3 48.4 50.1 2025年12月50.1 51.7 50.8 47.8 48.2 50.2 2026年1月49.3 50.6 49.2 47.4 48.1 50.1 2026",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
+      "event": "PMI 2026-09",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_gnfztch3",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -34,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_45jmf7ck",
+      "id": "feed_uc8qu9nc",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -54,11 +74,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_mmugjuq8",
+      "id": "feed_i9100ru0",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
-      "body": "在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，坚持稳中求进工作总基调，着力发挥宏观政策效能，深化改革扩大开放，加快推动新旧动能转换，持续推进高质量发展，生产供给平稳增长，就业物价总体稳定，对外贸易快速增长，新动能支撑作用增强，国民经济运行延续总体平稳、向新向优发展态势。一、工业生产加快，装备制造业和高技术制造业快速增长8月份，全国规模以上工业增加值同比增长5.2%，比上月加快0.7个百分点；环比增长0.54%。分三大门类看，采矿业增加值同比下降1.4%，制造业增长6.1%，电力、热力、燃气及水生产和供应业增长4.9%。装备制造业增加值同比增长12.1%，高技术制造业增加值增长16.7%，分别快于全部规模以上工业增加值6.9和11.5个百分点。分经济类型看，国有控股企业增加值同比增长3.0%；股份制企业增长5.7%，外商及港澳台投资企业增长3.4%；私营企业增长3.7%。分产品看，锂离子电池、工业机器人、3D打印设备产品产量同比分别增长57.2%、34.6%、29.9%。1 — 8月份，全国规模以上工业增加值同比增长5.3%。8月份，制造业采购经理指数为49.8%，企业生产经营活动预期指数为53.8%。1 — 7月份，全国规模以上工业企业实现利润总额45821亿元，同比增长17.6%。二、服务业增长平稳，现代服务业增势良好8月份，全国服务业生产指数同比增长4.1%。分行业看，信息传输、软件和信息技术服务业，租赁和商务服务业，交通运输、仓储和邮政业生产指数同比分别增长9.6%、9.0%、4.8%。1 — 8月份，全国服务业生产指数同比增长4",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
       "event": "",
       "flow": "shift",
@@ -74,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uphbe621",
+      "id": "feed_mawue9tf",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cnrbtkro",
+      "id": "feed_ac7fxl5t",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,284 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_4pzj78un",
-      "title": "2026年1—8月份全国房地产市场基本情况",
-      "src": "国家统计局",
-      "date": "2026-09-15",
-      "body": "",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965310.html",
-      "event": "房地产",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": true,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_frapfz5s",
-      "title": "美联储穆萨莱姆：美联储不能基于预期的 AI 生产率提升而降息。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储穆萨莱姆：美联储不能基于预期的 AI 生产率提升而降息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6043904.d.html",
-      "event": "利率",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_hb9c9oys",
-      "title": "美联储穆萨莱姆：当前 AI 资本开支热潮正带来需求端压力，生产率提升与 “供给缓解效应” 尚未显现。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储穆萨莱姆：当前 AI 资本开支热潮正带来需求端压力，生产率提升与 “供给缓解效应” 尚未显现。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppix2816356.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0zdf46oz",
-      "title": "美联储威廉姆斯：今年晚些时候，联邦基金利率目标区间或适宜再度上调。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：今年晚些时候，联邦基金利率目标区间或适宜再度上调。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppix2815623.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_elf4fwpo",
-      "title": "美联储古尔斯比：必须看到通胀正在回落的证据。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储古尔斯比：必须看到通胀正在回落的证据。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042965.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_a44thtqf",
-      "title": "美联储威廉姆斯：美国经济动能强劲，且可能持续增强。AI 投资相关问题对通胀的影响正变得越来越大。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：美国经济动能强劲，且可能持续增强。AI 投资相关问题对通胀的影响正变得越来越大。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042792.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_onxxucnd",
-      "title": "美联储威廉姆斯：若经济符合预期，今年大概率还会再加息一次。更多数据将帮助美联储决定利率政策下一步走向。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：若经济符合预期，今年大概率还会再加息一次。更多数据将帮助美联储决定利率政策下一步走向。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042703.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_daao2ynm",
-      "title": "美联储威廉姆斯：必须将通胀回落至 2%。美联储制定货币政策时将依据数据做出应对。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：必须将通胀回落至 2%。美联储制定货币政策时将依据数据做出应对。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppix2815136.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_doq658ux",
-      "title": "美联储威廉姆斯：预计今年通胀为 3.5%，2028 年达到 2% 目标。美联储必须确保高通胀不会固化。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：预计今年通胀为 3.5%，2028 年达到 2% 目标。美联储必须确保高通胀不会固化。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppix2815034.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_vs3dj0u8",
-      "title": "美联储威廉姆斯：美联储的政策能够确保供给冲击带来的影响不会持久。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：美联储的政策能够确保供给冲击带来的影响不会持久。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042434.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_kaictj1t",
-      "title": "美联储威廉姆斯：预计美国今年 GDP 增速 2.25%，2027 年失业率为 4%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：预计美国今年 GDP 增速 2.25%，2027 年失业率为 4%。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppix2814908.d.html",
-      "event": "GDP",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3usvkok3",
-      "title": "美联储威廉姆斯：2026 年末或还需要一次加息。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储威廉姆斯：2026 年末或还需要一次加息。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042300.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_dha7x3ul",
-      "title": "美联储古尔斯比：在点阵图里，我属于美联储内部偏乐观的那批人。",
-      "src": "新浪财经 7x24",
-      "date": "2026-09-30",
-      "body": "美联储古尔斯比：在点阵图里，我属于美联储内部偏乐观的那批人。",
-      "url": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv6042188.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_m92cidm4",
-      "title": "房地产迎来史诗级大招",
+      "id": "feed_kpfw33mg",
+      "title": "多次求张雪救命？凯越机车回应",
       "src": "热搜／论坛",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%88%BF%E5%9C%B0%E4%BA%A7%E8%BF%8E%E6%9D%A5%E5%8F%B2%E8%AF%97%E7%BA%A7%E5%A4%A7%E6%8B%9B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%AC%A1%E6%B1%82%E5%BC%A0%E9%9B%AA%E6%95%91%E5%91%BD%EF%BC%9F%E5%87%AF%E8%B6%8A%E6%9C%BA%E8%BD%A6%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -406,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_f8tukov2",
-      "title": "李想回应“去XX化”争议",
+      "id": "feed_4c7y3t1l",
+      "title": "“免费试用”被扣738元",
       "src": "热搜／论坛",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%83%B3%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8E%BBXX%E5%8C%96%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%8D%E8%B4%B9%E8%AF%95%E7%94%A8%E2%80%9D%E8%A2%AB%E6%89%A3738%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -426,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_c3kqf73d",
-      "title": "重磅！贷款买房国家贴息",
+      "id": "feed_q2l7eink",
+      "title": "恒安集团董事局主席施文博逝世",
       "src": "热搜／论坛",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E8%B4%B7%E6%AC%BE%E4%B9%B0%E6%88%BF%E5%9B%BD%E5%AE%B6%E8%B4%B4%E6%81%AF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%81%92%E5%AE%89%E9%9B%86%E5%9B%A2%E8%91%A3%E4%BA%8B%E5%B1%80%E4%B8%BB%E5%B8%AD%E6%96%BD%E6%96%87%E5%8D%9A%E9%80%9D%E4%B8%96&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -446,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_9b6vg9y9",
-      "title": "黄仁勋等3人加入清华经管顾问委员会",
+      "id": "feed_i3fvuzgy",
+      "title": "十一档新机大战",
       "src": "热搜／论坛",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%AD%893%E4%BA%BA%E5%8A%A0%E5%85%A5%E6%B8%85%E5%8D%8E%E7%BB%8F%E7%AE%A1%E9%A1%BE%E9%97%AE%E5%A7%94%E5%91%98%E4%BC%9A&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%81%E4%B8%80%E6%A1%A3%E6%96%B0%E6%9C%BA%E5%A4%A7%E6%88%98&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -466,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_whzb6mpi",
-      "title": "华为外挂“巨炮”专利公开",
+      "id": "feed_jflayc3j",
+      "title": "蒂芙尼被一盒月饼绊倒了",
       "src": "热搜／论坛",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E5%A4%96%E6%8C%82%E2%80%9C%E5%B7%A8%E7%82%AE%E2%80%9D%E4%B8%93%E5%88%A9%E5%85%AC%E5%BC%80&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%92%82%E8%8A%99%E5%B0%BC%E8%A2%AB%E4%B8%80%E7%9B%92%E6%9C%88%E9%A5%BC%E7%BB%8A%E5%80%92%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
