@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-07T18:57:29.963Z",
+  "generatedAt": "2026-10-08T06:03:59.363Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 27,
+    "total": 11,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 10,
+    "pbc": "error: fetch failed",
+    "sina724": 0,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ulvacw6h",
+      "id": "feed_7g6nloay",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_29yyhdtr",
+      "id": "feed_6eo2olrm",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_fw1ybzc6",
+      "id": "feed_hwc4xbq7",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vwgxgbd2",
+      "id": "feed_b6peo3j3",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_9lc8k6bx",
+      "id": "feed_se5darmr",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cu4z49u9",
+      "id": "feed_hew5y2ao",
       "title": "2026年1—8月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,342 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_xl11262d",
-      "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问字号大中小文章来源：2026-09-29 18:03:03打印本页关闭窗口9月29日，财政部会同中国人民银行、金融监管总局印发《关于实施居民购房贷款贴息政策的通知》（财金〔2026〕95号）。财政部、中国人民银行、金融监管总局有关负责人回答了记者的提问。一、请介绍政策出台的背景及意义？住房问题关系民生福祉，党中央、国务院高度重视，多次对居民住房工作提出明确要求。近年来，财政部联合有关方面在供给侧打出组合拳，包括支持发行新增专项债券用于土地储备、支持地方收购存量商品房用作保障性住房等举措，优供给、惠民生。此次中央财政首次对部分收入相对不高的群体商业性个人住房贷款进行贴息，在需求侧进一步打开政策发力空间：通过强化财政金融协同，发挥财政引导、金融放大、市场运作机制作用，更好地支持和释放城乡居民刚性住房需求，实实在在地帮助进城务工人员等新市民、新就业大学生等青年人以及城镇工薪家庭等刚需购房家庭降成本、减负担，助力更",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917153548424/index.html",
-      "event": "房地产",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_jpgcoa4h",
-      "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知字号大中小文章来源：2026-09-29 18:00:32打印本页关闭窗口各省、自治区、直辖市、计划单列市财政厅（局），新疆生产建设兵团财政局，中国人民银行上海总部及各省、自治区、直辖市、计划单列市分行，各金融监管局，有关金融机构：为深入贯彻落实党中央、国务院有关决策部署，通过强化财政金融政策协同，支持城乡居民刚性住房需求，决定在全国范围内实施居民购房贷款贴息政策，减轻新购买首套住房家庭的商业性个人住房贷款利息负担。现就有关事项通知如下：一、政策内容（一）支持对象。贷款购买商品住房的居民家庭，同时符合以下条件的，可享受中央财政贴息政策支持：1.使用新发放商业性个人住房贷款购买首套住房，不包括使用新发放商业性个人住房贷款置换存量贷款；2.所购住房建筑面积在120平方米以下（含120平方米）；3.所购住房价格在150万元以下（含150万元）。（二）贴息标准。政策自2026年10月1日起实施，实施期限暂定1年，其间经办银行新发放符合",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917051440583/index.html",
-      "event": "房地产",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zq8t29ia",
-      "title": "中国人民银行调整完善若干货币政策工具",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "中国人民银行调整完善若干货币政策工具术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行调整完善若干货币政策工具字号大中小文章来源：2026-09-29 17:52:48打印本页关闭窗口为贯彻中央政治局会议精神和国务院常务会议部署，实施好适度宽松的货币政策，中国人民银行在充分发挥各项存量政策效能的基础上，决定进一步调整完善几项货币政策工具，为经济平稳增长、高质量发展和金融市场稳定运行创造适宜的货币金融环境，推动经济持续向新向优向好发展，支持“十五五”实现良好开局。一是下调抵押补充贷款（PSL）利率0.25个百分点。一年期抵押补充贷款利率从1.75%降至1.5%，更好激励政策性银行支持实体经济、服务国家战略。二是扩大抵押补充贷款支持领域。将水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等“六张网”建设纳入抵押补充贷款支持领域，引导政策性银行加大对“六张网”建设的金融支持，助力扩大有效投资，深入挖掘内需潜力。三是增加科技创新和技术改造再贷款额度2000亿元，并将该项再贷款支持比例统一从60%提高至100%。调增后，科技创新和技术改造再贷款额度从1.2万亿元增至1.4万亿元，且支持比例",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917474922559/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_cd7dzy8m",
-      "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
-      "src": "中国人民银行",
-      "date": "2026-09-28",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092817582477094/index.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_rou9e8eq",
-      "title": "中国人民银行货币政策委员会召开2026年第三季度例会",
-      "src": "中国人民银行",
-      "date": "2026-09-24",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092416074632670/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4cy24e3u",
-      "title": "中国人民银行召开外资金融机构座谈会",
-      "src": "中国人民银行",
-      "date": "2026-09-21",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092118580513307/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_orjuous9",
-      "title": "【美银Cabana认为美联储面临两难抉择：要么加息 要么美债收益率飙升】美国银行的Mark Cabana表示，全球债券市…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "【美银Cabana认为美联储面临两难抉择：要么加息 要么美债收益率飙升】美国银行的Mark Cabana表示，全球债券市场遭遇抛售，反映投资者正在重新评估中性利率水平。交易员认为，美联储主席凯文·沃什给了市场更大空间去试探更高的收益率。美银证券全球利率策略联席主管Cabana表示，沃什8月在杰克逊霍尔发表讲话时称，他“很难说整体金融状况具有限制性”，这削弱了此前曾抑制市场重新定价的美联储指引。他说，2026年美国10年期国债收益率涨幅中，一半以上都出现在这次讲话之后。Cabana表示，美联储再次加息“可能性极低”，尽管决策者正面临两难局面：“现在就两个选择，要么加息，要么债券收益率飙升。”",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4627201.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3w5972py",
-      "title": "突尼斯央行表示，维持关键利率在 7% 不变。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "突尼斯央行表示，维持关键利率在 7% 不变。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4624414.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0re4dk5l",
-      "title": "【FOMC会议纪要显示 官员们敦促为市场压力制定预案】上一次美国联邦公开市场委员会（FOMC）会议的纪要显示，在资产负债…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "【FOMC会议纪要显示 官员们敦促为市场压力制定预案】上一次美国联邦公开市场委员会（FOMC）会议的纪要显示，在资产负债表政策方面，一些与会者认为美国国债市场运行平稳，但也指出为应对市场压力而制定预案的重要性。会议纪要显示，与会者建议强化美联储应对市场失灵的策略、沟通机制和政策工具，以应对可能出现的市场失灵，同时尽量限制央行在美国国债市场中的介入程度。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4622627.d.html",
-      "event": "美联储",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_tfq6snhf",
-      "title": "美联储会议纪要：纽约联储代表财政部干预了外汇市场。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美联储会议纪要：纽约联储代表财政部干预了外汇市场。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumr7838733.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_as22ycvf",
-      "title": "美联储会议纪要：许多与会者表示，尽管近期长期国债收益率上升，但金融状况似乎仍支持经济增长。少数与会者指出，美国国债市场运…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美联储会议纪要：许多与会者表示，尽管近期长期国债收益率上升，但金融状况似乎仍支持经济增长。少数与会者指出，美国国债市场运行一直顺畅，但强调为市场压力预作规划的重要性。官员表示，未来的数据将决定利率走向。多位官员表示政策尚未足够紧缩。官员表示，过去几个月在降低通胀方面未见足够进展。多位官员表示，进一步加征关税的可能性存在提升通胀风险。官员们普遍预计短期内通胀将保持高位。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumr7837782.d.html",
-      "event": "关税",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_xsqnfgnx",
-      "title": "现货黄金在美联储会议纪要公布后基本持平，最新下跌 1.3%，报 4109.71 美元 / 盎司。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "现货黄金在美联储会议纪要公布后基本持平，最新下跌 1.3%，报 4109.71 美元 / 盎司。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumr7837081.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_z4rizveg",
-      "title": "美元指数在美联储会议纪要公布后涨幅小幅收窄，最新上涨 0.31%，报 102.22。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美元指数在美联储会议纪要公布后涨幅小幅收窄，最新上涨 0.31%，报 102.22。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4609401.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_9duvij9g",
-      "title": "美联储会议纪要：与会者普遍强调通胀仍然高企，而就业市场接近充分就业。与会者对支持加息的原因提出了多种观点。与会者普遍认为…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美联储会议纪要：与会者普遍强调通胀仍然高企，而就业市场接近充分就业。与会者对支持加息的原因提出了多种观点。与会者普遍认为通胀风险偏向上行，部分与会者认为这些风险在近期有所加剧。几乎所有与会者认为通胀风险偏向上行，劳动力市场风险则普遍保持平衡。部分与会者认为，人工智能的发展可能导致中期内总需求超过供应，从而对通胀施加上行压力。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4609185.d.html",
-      "event": "美联储",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zl6zeuv0",
-      "title": "美联储会议纪要：工作人员的经济前景预测强于 7 月会议的预测。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美联储会议纪要：工作人员的经济前景预测强于 7 月会议的预测。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4608743.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_6bbbscef",
-      "title": "美联储会议纪要：所有19名官员都在9月支持加息。大多数与会者认为到年底再加息一次可能是合适的。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-08",
-      "body": "美联储会议纪要：所有19名官员都在9月支持加息。大多数与会者认为到年底再加息一次可能是合适的。",
-      "url": "https://finance.sina.cn/7x24/2026-10-08/detail-iniumumt4608532.d.html",
-      "event": "美联储",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_shplxkyz",
-      "title": "手机价格在涨 掏钱的理由没涨",
+      "id": "feed_4sjmbr7i",
+      "title": "A股第二高价股跌停",
       "src": "热搜／论坛",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E4%BB%B7%E6%A0%BC%E5%9C%A8%E6%B6%A8+%E6%8E%8F%E9%92%B1%E7%9A%84%E7%90%86%E7%94%B1%E6%B2%A1%E6%B6%A8&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E7%AC%AC%E4%BA%8C%E9%AB%98%E4%BB%B7%E8%82%A1%E8%B7%8C%E5%81%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -484,12 +154,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_vrgp8ml3",
-      "title": "安踏集团成彪马最大股东",
+      "id": "feed_g34z6dan",
+      "title": "尊界刹车踏板支架断裂 江淮汽车跌停",
       "src": "热搜／论坛",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E8%B8%8F%E9%9B%86%E5%9B%A2%E6%88%90%E5%BD%AA%E9%A9%AC%E6%9C%80%E5%A4%A7%E8%82%A1%E4%B8%9C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8A%E7%95%8C%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E6%94%AF%E6%9E%B6%E6%96%AD%E8%A3%82+%E6%B1%9F%E6%B7%AE%E6%B1%BD%E8%BD%A6%E8%B7%8C%E5%81%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -504,12 +174,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_g112bxhm",
-      "title": "为什么每个APP都想追着借钱给你",
+      "id": "feed_a44qvow3",
+      "title": "A股“股王”大跌",
       "src": "热搜／论坛",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E4%B8%AAAPP%E9%83%BD%E6%83%B3%E8%BF%BD%E7%9D%80%E5%80%9F%E9%92%B1%E7%BB%99%E4%BD%A0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E2%80%9C%E8%82%A1%E7%8E%8B%E2%80%9D%E5%A4%A7%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -524,12 +194,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2vboja9h",
-      "title": "A股节后怎么走",
+      "id": "feed_gtcqiirb",
+      "title": "保时捷回归燃油车",
       "src": "热搜／论坛",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E8%8A%82%E5%90%8E%E6%80%8E%E4%B9%88%E8%B5%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%9B%9E%E5%BD%92%E7%87%83%E6%B2%B9%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -544,12 +214,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ugn8quib",
-      "title": "涉价格垄断 日本四大啤酒企业被调查",
+      "id": "feed_f3x6c4e4",
+      "title": "“金镯子断货” 黄金市场卖爆了",
       "src": "热搜／论坛",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B6%89%E4%BB%B7%E6%A0%BC%E5%9E%84%E6%96%AD+%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%A4%A7%E5%95%A4%E9%85%92%E4%BC%81%E4%B8%9A%E8%A2%AB%E8%B0%83%E6%9F%A5&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%87%91%E9%95%AF%E5%AD%90%E6%96%AD%E8%B4%A7%E2%80%9D+%E9%BB%84%E9%87%91%E5%B8%82%E5%9C%BA%E5%8D%96%E7%88%86%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
