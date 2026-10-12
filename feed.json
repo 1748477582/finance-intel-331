@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-11T17:41:41.487Z",
+  "generatedAt": "2026-10-12T05:57:37.584Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 21,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 0,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_haa1vtmr",
+      "id": "feed_o6i0nsxl",
       "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_z9zye4cy",
+      "id": "feed_jk851ay8",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -54,11 +54,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_9gr4fweq",
+      "id": "feed_i9khpolf",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
-      "body": "全国规模以上工业企业实现利润总额52719.8亿元，同比增长15.7%（按可比口径计算，详见附注二）。1 — 8月份，规模以上工业企业中，国有控股企业实现利润总额16759.9亿元，同比增长10.3%；股份制企业实现利润总额40714.6亿元，增长20.4%；外商及港澳台投资企业实现利润总额11794.7亿元，增长2.3%；私营企业实现利润总额13213.2亿元，增长10.4%。1 — 8月份，采矿业实现利润总额7661.5亿元，同比增长35.1%；制造业实现利润总额39695.3亿元，增长17.4%；电力、热力、燃气及水生产和供应业实现利润总额5363.0亿元，下降12.0%。1 — 8月份，主要行业利润情况如下：计算机、通信和其他电子设备制造业利润同比增长1.1倍，有色金属冶炼和压延加工业增长82.9%，煤炭开采和洗选业增长51.6%，化学原料和化学制品制造业增长51.0%，石油和天然气开采业增长17.0%，纺织业增长11.9%，通用设备制造业增长2.5%，专用设备制造业下降2.1%，电气机械和器材制造业下降5.2%，电力、热力生产和供应业下降15.1%，汽车制造业下降16.0%，农副食品加工业下降17.4%，非金属矿物制品业下降46.7%，黑色金属冶炼和压延加工业下降62.4%，石油、煤炭及其他燃料加工业由亏转盈。1 — 8月份，规模以上工业企业实现营业收入93.09万亿元，同比增长6.6%；发生营业成本79.19万亿元，增长6.1%；营业收入利润率为5.66%，同比提高0.44个百分点。8月末，规模以上工业企业资产总计197.33万亿元，同比增长6.4%；负债合计115",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
       "event": "",
       "flow": "shift",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n53l6rt4",
+      "id": "feed_o1ca0o78",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_767azljv",
+      "id": "feed_ioxgrzxo",
       "title": "8月份国民经济运行平稳、发展向新向优",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ir3qu043",
+      "id": "feed_ltgy33zo",
       "title": "2026年8月份规模以上工业增加值增长5.2%",
       "src": "国家统计局",
       "date": "2026-09-15",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o419nk9v",
+      "id": "feed_uumcs2p1",
       "title": "中国人民银行关于人民币汇率的政策立场",
       "src": "中国人民银行",
       "date": "2026-10-08",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_81bjxcwf",
+      "id": "feed_nunxbezl",
       "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7wgcbshc",
+      "id": "feed_a0zqwyoz",
       "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dxzbu4y9",
+      "id": "feed_5okysrq6",
       "title": "中国人民银行调整完善若干货币政策工具",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7n8it1i9",
+      "id": "feed_djvjr68c",
       "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
       "src": "中国人民银行",
       "date": "2026-09-28",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ordlbx4r",
+      "id": "feed_8l5ke3j8",
       "title": "中国人民银行货币政策委员会召开2026年第三季度例会",
       "src": "中国人民银行",
       "date": "2026-09-24",
@@ -254,12 +254,96 @@
       "use": "signal"
     },
     {
-      "id": "feed_gpujxdvz",
-      "title": "周鸿祎攀岩摔伤致左膝粉碎性骨折",
+      "id": "feed_pqghm2jb",
+      "title": "【万里石：公司及实控人目前处于证监会立案调查期间，公司正积极配合证监会的调查工作。】有投资者向万里石（002785.SZ…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-12",
+      "body": "【万里石：公司及实控人目前处于证监会立案调查期间，公司正积极配合证监会的调查工作。】有投资者向万里石（002785.SZ）提问，公司及实控人因涉嫌信息披露违法违规被立案，前期存在贸易业务收入确认由总额法调整为净额法、以及实控人非经营性资金占用等情形。10月12日，公司回答表示，公司及实控人目前处于证监会立案调查期间，公司正积极配合中国证监会的调查工作。相关风险请以公司公告为准，公司将按规定及时履行信息披露义务，敬请广大投资者注意投资风险。",
+      "url": "https://finance.sina.cn/7x24/2026-10-12/detail-iniuxwim7279429.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_080ftjl8",
+      "title": "波兰的东布罗夫斯基认为加息压力正在上升。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-12",
+      "body": "波兰的东布罗夫斯基认为加息压力正在上升。",
+      "url": "https://finance.sina.cn/7x24/2026-10-12/detail-iniuxwik0504091.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_lgrd799i",
+      "title": "受战争影响，阿联酋信贷需求大幅上升，部分资金来自一项规模数十亿美元、旨在绕开关键航运通道霍尔木兹海峡的基础设施计划——“…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-12",
+      "body": "受战争影响，阿联酋信贷需求大幅上升，部分资金来自一项规模数十亿美元、旨在绕开关键航运通道霍尔木兹海峡的基础设施计划——“ZeroHormuz”。",
+      "url": "https://finance.sina.cn/7x24/2026-10-12/detail-iniuxwik0503123.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_h1op7ttx",
+      "title": "【国债期货拉升 30年期主力合约涨0.5%】国债期货拉升，30年期主力合约盘中涨0.50%，现报117.800元。10年…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-12",
+      "body": "【国债期货拉升 30年期主力合约涨0.5%】国债期货拉升，30年期主力合约盘中涨0.50%，现报117.800元。10年期涨0.11%，现报109.575元。5年期涨0.08%，现报106.57元。2年期涨0.03%，现报102.604元。",
+      "url": "https://finance.sina.cn/7x24/2026-10-12/detail-iniuxwim7274839.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_66cxdx8k",
+      "title": "日本为何爆发倒闭潮",
       "src": "热搜／论坛",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%91%A8%E9%B8%BF%E7%A5%8E%E6%94%80%E5%B2%A9%E6%91%94%E4%BC%A4%E8%87%B4%E5%B7%A6%E8%86%9D%E7%B2%89%E7%A2%8E%E6%80%A7%E9%AA%A8%E6%8A%98&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%B8%BA%E4%BD%95%E7%88%86%E5%8F%91%E5%80%92%E9%97%AD%E6%BD%AE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +358,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_duhvlfcd",
-      "title": "被字节开除实习生创业获2亿美元估值",
+      "id": "feed_jemsdpwy",
+      "title": "王兴兴：犯的最大错误是还不够相信AI",
       "src": "热搜／论坛",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E5%AD%97%E8%8A%82%E5%BC%80%E9%99%A4%E5%AE%9E%E4%B9%A0%E7%94%9F%E5%88%9B%E4%B8%9A%E8%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%BC%B0%E5%80%BC&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%85%B4%E5%85%B4%EF%BC%9A%E7%8A%AF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%94%99%E8%AF%AF%E6%98%AF%E8%BF%98%E4%B8%8D%E5%A4%9F%E7%9B%B8%E4%BF%A1AI&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_10d6dezc",
-      "title": "全国高校贸易经济年会在郑州举行",
+      "id": "feed_pimg6ztc",
+      "title": "没给郑钦文续约的赞助商要拍大腿了",
       "src": "热搜／论坛",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E9%AB%98%E6%A0%A1%E8%B4%B8%E6%98%93%E7%BB%8F%E6%B5%8E%E5%B9%B4%E4%BC%9A%E5%9C%A8%E9%83%91%E5%B7%9E%E4%B8%BE%E8%A1%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E7%BB%99%E9%83%91%E9%92%A6%E6%96%87%E7%BB%AD%E7%BA%A6%E7%9A%84%E8%B5%9E%E5%8A%A9%E5%95%86%E8%A6%81%E6%8B%8D%E5%A4%A7%E8%85%BF%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +398,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_t6f4yn98",
-      "title": "全球债市剧烈波动 发生了什么",
+      "id": "feed_0wfx2dw3",
+      "title": "千元入门手机几乎“灭绝”",
       "src": "热搜／论坛",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E5%80%BA%E5%B8%82%E5%89%A7%E7%83%88%E6%B3%A2%E5%8A%A8+%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%83%E5%85%83%E5%85%A5%E9%97%A8%E6%89%8B%E6%9C%BA%E5%87%A0%E4%B9%8E%E2%80%9C%E7%81%AD%E7%BB%9D%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +418,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_i6f6fz5p",
-      "title": "库克和苏炳添在广州叹粤菜品点心",
+      "id": "feed_49ovsg1q",
+      "title": "手机又涨千元 内存条像黄金1天1个价",
       "src": "热搜／论坛",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BA%93%E5%85%8B%E5%92%8C%E8%8B%8F%E7%82%B3%E6%B7%BB%E5%9C%A8%E5%B9%BF%E5%B7%9E%E5%8F%B9%E7%B2%A4%E8%8F%9C%E5%93%81%E7%82%B9%E5%BF%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%8F%88%E6%B6%A8%E5%8D%83%E5%85%83+%E5%86%85%E5%AD%98%E6%9D%A1%E5%83%8F%E9%BB%84%E9%87%911%E5%A4%A91%E4%B8%AA%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
