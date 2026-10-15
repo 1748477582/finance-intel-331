@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-15T04:38:44.856Z",
+  "generatedAt": "2026-10-15T17:00:42.146Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 21,
+    "total": 13,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 4,
+    "pbc": "error: fetch failed",
+    "sina724": 2,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_pa6bk9nd",
+      "id": "feed_0jfzj4bs",
       "title": "2026年9月份居民消费价格同比上涨0.9%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_m9fgv9jt",
+      "id": "feed_56rfs0dh",
       "title": "2026年9月份工业生产者出厂价格同比上涨5.0%环比上涨1.2%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6xtge01a",
+      "id": "feed_93ni7xs9",
       "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-09",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_zmkfmo86",
+      "id": "feed_5j2nuee5",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_l3lasc01",
+      "id": "feed_33646tep",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2qz1keg6",
+      "id": "feed_904nofkd",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -134,37 +134,18 @@
       "use": "signal"
     },
     {
-      "id": "feed_8750d2mq",
-      "title": "第十五届中日韩央行行长会议在曼谷举行",
-      "src": "中国人民银行",
-      "date": "2026-10-14",
-      "body": "第十五届中日韩央行行长会议在曼谷举行术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻第十五届中日韩央行行长会议在曼谷举行字号大中小文章来源：2026-10-14 19:00:04打印本页关闭窗口2026年10月14日，第十五届中日韩央行行长会议在曼谷举行。韩国银行行长申铉松主持会议，中国人民银行行长潘功胜和日本银行行长植田和男出席会议。会上，各方就近期经济金融形势等议题交换了意见。第十六届中日韩央行行长会议将由中国人民银行于2027年举办。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101418371517078/index.html",
+      "id": "feed_taq2tp7v",
+      "title": "【法国10/30年期国债收益率至少跌8个基点】周四（10月15日）欧市尾盘，法国10年期国债收益率跌8.5个基点，报4.…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-16",
+      "body": "【法国10/30年期国债收益率至少跌8个基点】周四（10月15日）欧市尾盘，法国10年期国债收益率跌8.5个基点，报4.796%，整体低开低走，北京时间21:00刷新日低至4.723%，随后收复部分失地；两年期法债收益率跌3个基点，30年期法债收益率跌8.0个基点。意大利10年期国债收益率跌6.7个基点，报4.483%。西班牙10年期国债收益率跌6.3个基点，报4.025%，全天处于下跌状态，在V形反转行情中、北京时间21:00刷新日低至3.958%。希腊10年期国债收益率跌6.5个基点，报4.328%。",
+      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivivha4689199.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_uahmzyu1",
-      "title": "2026年前三季度金融统计数据报告",
-      "src": "中国人民银行",
-      "date": "2026-10-14",
-      "body": "年前三季度金融统计数据报告术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年前三季度金融统计数据报告字号大中小文章来源：2026-10-14 17:00:04打印本页关闭窗口一、社会融资规模存量同比增长7.1%初步统计，2026年9月末社会融资规模存量为468.17万亿元，同比增长7.1%。其中，对实体经济发放的人民币贷款余额279.9万亿元，同比增长4.8%；对实体经济发放的外币贷款折合人民币余额1.25万亿元，同比增长6.4%；委托贷款余额11.34万亿元，同比增长1.5%；信托贷款余额4.53万亿元，同比增长0.7%；未贴现的银行承兑汇票余额2.22万亿元，同比下降8.8%；企业债券余额36.62万亿元，同比增长9.3%；政府债券余额105.23万亿元，同比增长13.7%；非金融企业境内股票余额12.73万亿元，同比增长5.8%。从结构看，9月末对实体经济发放的人民币贷款余额占同期社会融资规模存量的59.8%，同比低1.3个百分点；对实体经济发放的外币贷款折合人民币余额占比0.3%，同比持平；委托贷款余额占比2.4%，同比低0.2个百分点；信托贷款余额占比1%，同比持平；未贴现的银行承",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101415422529740/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
+        "f1",
         "f2"
       ],
       "chains": [],
@@ -174,92 +155,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_i5wniog1",
-      "title": "中国人民银行关于人民币汇率的政策立场",
-      "src": "中国人民银行",
-      "date": "2026-10-08",
-      "body": "中国人民银行关于人民币汇率的政策立场术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行关于人民币汇率的政策立场字号大中小文章来源：2026-10-08 17:48:39打印本页关闭窗口人民币汇率作为金融市场的一个重要价格，长期以来一直备受各界关注，近期讨论有所增多。现将中国人民银行关于人民币汇率的政策立场阐明如下。●中国实施以市场供求为基础、参考一篮子货币进行调节、有管理的浮动汇率制度，坚持让市场在汇率形成中发挥决定性作用。●过去二十多年，人民币汇率双向浮动；2010年以来，人民币汇率经历了多轮升贬值周期，双向浮动特征更加明显，弹性增强。●中国贸易发展根源于产业国际竞争力的提升，中国没有必要，也无意通过汇率贬值获取贸易竞争优势，从不搞竞争性货币贬值。●汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响，与经常账户不存在简单线性关系。●国际上有关汇率均衡水平的评估方法尚不成熟，将个别评估结论作为人民币汇率低估的“官方依据”，是对评估结果的曲解和误用。●全球经济失衡与全球分工格局演进、国际货币体系固有矛盾、部分国家长期高财政赤字高消费等密切相关，需要各方共同推动解决。将本",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026100816231113295/index.html",
-      "event": "汇率",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_aoxram84",
-      "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917153548424/index.html",
-      "event": "房地产",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_n4pkofo8",
-      "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917051440583/index.html",
-      "event": "房地产",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ukma8sqz",
-      "title": "中国人民银行调整完善若干货币政策工具",
-      "src": "中国人民银行",
-      "date": "2026-09-29",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092917474922559/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_wvrxh3lj",
-      "title": "【国新办发布会丨介绍2026年前三季度国民经济运行情况】2026年10月19日，国务院新闻办公室举行新闻发布会，请国家统…",
+      "id": "feed_3z8c2pa9",
+      "title": "美国财政部网站：美国发布与伊朗相关的通用许可证，授权逐步结束涉及国际开发投资银行的交易。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-15",
-      "body": "【国新办发布会丨介绍2026年前三季度国民经济运行情况】2026年10月19日，国务院新闻办公室举行新闻发布会，请国家统计局新闻发言人、副局长毛盛勇介绍2026年前三季度国民经济运行情况，并答记者问。",
-      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1387154.d.html",
+      "date": "2026-10-16",
+      "body": "美国财政部网站：美国发布与伊朗相关的通用许可证，授权逐步结束涉及国际开发投资银行的交易。",
+      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivivha4679676.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -275,75 +176,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_lwz1eckv",
-      "title": "英国央行首席经济学家休·皮尔：英国中性利率可能上升。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-15",
-      "body": "英国央行首席经济学家休·皮尔：英国中性利率可能上升。",
-      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1385018.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_1cs3lmbd",
-      "title": "欧洲央行管委科赫尔：目前还不是欧洲央行讨论债券市场工具的阶段。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-15",
-      "body": "欧洲央行管委科赫尔：目前还不是欧洲央行讨论债券市场工具的阶段。",
-      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpns4605333.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_98hbk95y",
-      "title": "【印尼持续野火影响蔓延邻国：周边三城位列全球空气污染TOP3，东帝汶全国停课三天】印度尼西亚持续蔓延数月的森林火灾正令东…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-15",
-      "body": "【印尼持续野火影响蔓延邻国：周边三城位列全球空气污染TOP3，东帝汶全国停课三天】印度尼西亚持续蔓延数月的森林火灾正令东南亚多国烟霾和空气污染加剧，数以百万计居民几近窒息。14日，新加坡西部细颗粒物污染水平（PM2.5）升至当地监测体系的最高级别：烟霾同时波及马来西亚，并远至菲律宾和东帝汶；东帝汶政府已宣布，自10月15日起全国学校停课三天。",
-      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1371327.d.html",
-      "event": "M2",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_oha1dblp",
-      "title": "DeepSeek崩了",
+      "id": "feed_msaxy43n",
+      "title": "长实：李嘉诚暂不打算公开露面回应",
       "src": "热搜／论坛",
       "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=DeepSeek%E5%B4%A9%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E5%AE%9E%EF%BC%9A%E6%9D%8E%E5%98%89%E8%AF%9A%E6%9A%82%E4%B8%8D%E6%89%93%E7%AE%97%E5%85%AC%E5%BC%80%E9%9C%B2%E9%9D%A2%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -358,12 +196,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_sma90w3l",
-      "title": "长实否认李嘉诚去世",
+      "id": "feed_o2inmptm",
+      "title": "A股“市值一哥”再度易主",
       "src": "热搜／论坛",
       "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E5%AE%9E%E5%90%A6%E8%AE%A4%E6%9D%8E%E5%98%89%E8%AF%9A%E5%8E%BB%E4%B8%96&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E2%80%9C%E5%B8%82%E5%80%BC%E4%B8%80%E5%93%A5%E2%80%9D%E5%86%8D%E5%BA%A6%E6%98%93%E4%B8%BB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -378,12 +216,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pf4df7nn",
-      "title": "韩国股市上演“瀑布杀”",
+      "id": "feed_o3pla8ke",
+      "title": "张雪广交会现场拉赞助：拉到一个大的",
       "src": "热搜／论坛",
       "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E4%B8%8A%E6%BC%94%E2%80%9C%E7%80%91%E5%B8%83%E6%9D%80%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%B9%BF%E4%BA%A4%E4%BC%9A%E7%8E%B0%E5%9C%BA%E6%8B%89%E8%B5%9E%E5%8A%A9%EF%BC%9A%E6%8B%89%E5%88%B0%E4%B8%80%E4%B8%AA%E5%A4%A7%E7%9A%84&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -398,12 +236,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_e4nwjsnr",
-      "title": "日韩股市跌到刹不住车",
+      "id": "feed_10lb3cu4",
+      "title": "张雪回应被夸是“小钢炮”",
       "src": "热搜／论坛",
       "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E8%B7%8C%E5%88%B0%E5%88%B9%E4%B8%8D%E4%BD%8F%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%9B%9E%E5%BA%94%E8%A2%AB%E5%A4%B8%E6%98%AF%E2%80%9C%E5%B0%8F%E9%92%A2%E7%82%AE%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -418,12 +256,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_hyr545y0",
-      "title": "沪指跌破3700点 韩股暴跌超8%",
+      "id": "feed_mgojwwkj",
+      "title": "手机厂商被迫屏幕降级",
       "src": "热搜／论坛",
       "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%AA%E6%8C%87%E8%B7%8C%E7%A0%B43700%E7%82%B9+%E9%9F%A9%E8%82%A1%E6%9A%B4%E8%B7%8C%E8%B6%858%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%8E%82%E5%95%86%E8%A2%AB%E8%BF%AB%E5%B1%8F%E5%B9%95%E9%99%8D%E7%BA%A7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
