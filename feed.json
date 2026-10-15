@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-14T17:10:34.781Z",
+  "generatedAt": "2026-10-15T04:38:44.856Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 21,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 0,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_ipny5acx",
+      "id": "feed_pa6bk9nd",
       "title": "2026年9月份居民消费价格同比上涨0.9%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_zerygukc",
+      "id": "feed_m9fgv9jt",
       "title": "2026年9月份工业生产者出厂价格同比上涨5.0%环比上涨1.2%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_fcmflmb6",
+      "id": "feed_6xtge01a",
       "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-09",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ey3dy0hb",
+      "id": "feed_zmkfmo86",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rs03onjf",
+      "id": "feed_l3lasc01",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jfokkpul",
+      "id": "feed_2qz1keg6",
       "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-09-24",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_q7jnst59",
+      "id": "feed_8750d2mq",
       "title": "第十五届中日韩央行行长会议在曼谷举行",
       "src": "中国人民银行",
       "date": "2026-10-14",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8salci6l",
+      "id": "feed_uahmzyu1",
       "title": "2026年前三季度金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-10-14",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ksy2dhn9",
+      "id": "feed_i5wniog1",
       "title": "中国人民银行关于人民币汇率的政策立场",
       "src": "中国人民银行",
       "date": "2026-10-08",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_y900s9xx",
+      "id": "feed_aoxram84",
       "title": "财政部、中国人民银行、金融监管总局有关负责人就实施居民购房贷款贴息政策答记者问",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_y8oh5our",
+      "id": "feed_n4pkofo8",
       "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_b7k1r39x",
+      "id": "feed_ukma8sqz",
       "title": "中国人民银行调整完善若干货币政策工具",
       "src": "中国人民银行",
       "date": "2026-09-29",
@@ -254,12 +254,96 @@
       "use": "signal"
     },
     {
-      "id": "feed_otvg7ka5",
-      "title": "加拿大鹅道歉了",
+      "id": "feed_wvrxh3lj",
+      "title": "【国新办发布会丨介绍2026年前三季度国民经济运行情况】2026年10月19日，国务院新闻办公室举行新闻发布会，请国家统…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-15",
+      "body": "【国新办发布会丨介绍2026年前三季度国民经济运行情况】2026年10月19日，国务院新闻办公室举行新闻发布会，请国家统计局新闻发言人、副局长毛盛勇介绍2026年前三季度国民经济运行情况，并答记者问。",
+      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1387154.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_lwz1eckv",
+      "title": "英国央行首席经济学家休·皮尔：英国中性利率可能上升。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-15",
+      "body": "英国央行首席经济学家休·皮尔：英国中性利率可能上升。",
+      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1385018.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_1cs3lmbd",
+      "title": "欧洲央行管委科赫尔：目前还不是欧洲央行讨论债券市场工具的阶段。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-15",
+      "body": "欧洲央行管委科赫尔：目前还不是欧洲央行讨论债券市场工具的阶段。",
+      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpns4605333.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_98hbk95y",
+      "title": "【印尼持续野火影响蔓延邻国：周边三城位列全球空气污染TOP3，东帝汶全国停课三天】印度尼西亚持续蔓延数月的森林火灾正令东…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-15",
+      "body": "【印尼持续野火影响蔓延邻国：周边三城位列全球空气污染TOP3，东帝汶全国停课三天】印度尼西亚持续蔓延数月的森林火灾正令东南亚多国烟霾和空气污染加剧，数以百万计居民几近窒息。14日，新加坡西部细颗粒物污染水平（PM2.5）升至当地监测体系的最高级别：烟霾同时波及马来西亚，并远至菲律宾和东帝汶；东帝汶政府已宣布，自10月15日起全国学校停课三天。",
+      "url": "https://finance.sina.cn/7x24/2026-10-15/detail-inivhpnu1371327.d.html",
+      "event": "M2",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_oha1dblp",
+      "title": "DeepSeek崩了",
       "src": "热搜／论坛",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%B9%85%E9%81%93%E6%AD%89%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=DeepSeek%E5%B4%A9%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +358,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_16go2939",
-      "title": "iPhoneDuo将是最难抢的苹果手机",
+      "id": "feed_sma90w3l",
+      "title": "长实否认李嘉诚去世",
       "src": "热搜／论坛",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhoneDuo%E5%B0%86%E6%98%AF%E6%9C%80%E9%9A%BE%E6%8A%A2%E7%9A%84%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E5%AE%9E%E5%90%A6%E8%AE%A4%E6%9D%8E%E5%98%89%E8%AF%9A%E5%8E%BB%E4%B8%96&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_djvxxeo0",
-      "title": "装修公司投身AI漫剧 市值暴涨16亿",
+      "id": "feed_pf4df7nn",
+      "title": "韩国股市上演“瀑布杀”",
       "src": "热搜／论坛",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%A3%85%E4%BF%AE%E5%85%AC%E5%8F%B8%E6%8A%95%E8%BA%ABAI%E6%BC%AB%E5%89%A7+%E5%B8%82%E5%80%BC%E6%9A%B4%E6%B6%A816%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E4%B8%8A%E6%BC%94%E2%80%9C%E7%80%91%E5%B8%83%E6%9D%80%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +398,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_y7q7ruj1",
-      "title": "铁打的片仔癀 流水的董事长",
+      "id": "feed_e4nwjsnr",
+      "title": "日韩股市跌到刹不住车",
       "src": "热搜／论坛",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%93%81%E6%89%93%E7%9A%84%E7%89%87%E4%BB%94%E7%99%80+%E6%B5%81%E6%B0%B4%E7%9A%84%E8%91%A3%E4%BA%8B%E9%95%BF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E8%B7%8C%E5%88%B0%E5%88%B9%E4%B8%8D%E4%BD%8F%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +418,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_fy5o1erf",
-      "title": "星网宇达被暂停参加全军物资采购",
+      "id": "feed_hyr545y0",
+      "title": "沪指跌破3700点 韩股暴跌超8%",
       "src": "热搜／论坛",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E7%BD%91%E5%AE%87%E8%BE%BE%E8%A2%AB%E6%9A%82%E5%81%9C%E5%8F%82%E5%8A%A0%E5%85%A8%E5%86%9B%E7%89%A9%E8%B5%84%E9%87%87%E8%B4%AD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%AA%E6%8C%87%E8%B7%8C%E7%A0%B43700%E7%82%B9+%E9%9F%A9%E8%82%A1%E6%9A%B4%E8%B7%8C%E8%B6%858%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
