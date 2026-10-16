@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-16T04:32:00.310Z",
+  "generatedAt": "2026-10-16T16:39:40.814Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 15,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 9,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_3u4du35n",
+      "id": "feed_3351huff",
       "title": "2025年全国科技经费投入统计公报",
       "src": "国家统计局",
       "date": "2026-10-16",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2fpnp94r",
+      "id": "feed_8bc58eol",
       "title": "2026年9月份居民消费价格同比上涨0.9%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -54,11 +54,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_toaaihfb",
+      "id": "feed_y4pp7ur5",
       "title": "2026年9月份工业生产者出厂价格同比上涨5.0%环比上涨1.2%",
       "src": "国家统计局",
       "date": "2026-10-14",
-      "body": "",
+      "body": "全国工业生产者出厂价格同比上涨5.0%，环比上涨1.2%。工业生产者购进价格同比上涨6.9%，环比上涨1.2%。1 — 9月平均，工业生产者出厂价格比上年同期上涨2.3%，工业生产者购进价格上涨3.6%。一、工业生产者价格同比变动情况9月份，工业生产者出厂价格中，生产资料价格同比上涨6.5%，影响工业生产者出厂价格总水平上涨约5.07个百分点。其中，采掘工业价格上涨25.4%，原材料工业价格上涨9.4%，加工工业价格上涨3.4%。生活资料价格下降0.1%，影响工业生产者出厂价格总水平下降约0.03个百分点。其中，食品价格下降1.8%，衣着价格下降1.2%，一般日用品价格下降0.6%，耐用消费品价格上涨1.6%。工业生产者购进价格中，有色金属材料及电线类价格上涨20.0%，燃料动力类价格上涨13.6%，化工原料类价格上涨12.6%，纺织原料类价格上涨4.5%；建筑材料及非金属类价格下降2.3%，黑色金属材料类、农副产品类价格均下降0.4%。二、工业生产者价格环比变动情况9月份，工业生产者出厂价格中，生产资料价格环比上涨1.4%，影响工业生产者出厂价格总水平上涨约1.14个百分点。其中，采掘工业价格上涨7.7%，原材料工业价格上涨2.6%，加工工业价格上涨0.2%。生活资料价格上涨0.1%，影响工业生产者出厂价格总水平上涨约0.03个百分点。其中，食品和耐用消费品价格均上涨0.2%，衣着和一般日用品价格均持平。工业生产者购进价格中，燃料动力类价格上涨3.7%，化工原料类价格上涨2.4%，有色金属材料及电线类价格上涨1.4%，建筑材料及非金属类价格上涨0.7%，纺织原料类价格上涨0.",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965476.html",
       "event": "PPI 2026-09",
       "flow": "shift",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_15x9ftdr",
+      "id": "feed_ctenke33",
       "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-09",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8cqhywm4",
+      "id": "feed_nx3o3lh3",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_s878lu27",
+      "id": "feed_gvrhail0",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -134,139 +134,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_50oxhi46",
-      "title": "【沃什讲话后加息预期降温，美股期货、亚洲股市走高】美联储主席凯文・沃什表示人工智能投资对美国经济大有裨益，受此影响，美股…",
+      "id": "feed_mhmi42b4",
+      "title": "波兰货币政策委员会委员达布罗夫斯基认为没有必要加息。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "【沃什讲话后加息预期降温，美股期货、亚洲股市走高】美联储主席凯文・沃什表示人工智能投资对美国经济大有裨益，受此影响，美股股指期货上涨，亚洲股市涨幅扩大。交易员下调美联储加息预期，美元走弱。沃什在曼谷发表上述言论后，纳斯达克 100 指数期货最高上涨 0.2%；该期货此前一度下跌 0.5%。MSCI亚太股票指数上涨 1.5%，韩国综合指数上涨 3.6%。尽管沃什并未专门评述货币政策或美国经济前景，但讲话后市场对美联储 10 月加息的预期概率由周四逾 25% 降至 15%。沃什还称，其下属生产力与就业专项工作组将于下月在旧金山湾区举办现场听证会。彭博美元指数下跌 0.2%，黄金上涨 0.2%，报每盎司约 4180 美元。盛宝市场首席投资策略师查鲁・查纳纳表示：“沃什没有承诺再次加息，市场因此部分解除美联储加息押注。在通胀数据走强的背景下，他称‘我不会预先判定议息会议结果’，这一表态不利于美元。”",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwtt8302978.d.html",
-      "event": "美联储",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_mrnid9s4",
-      "title": "【美联储主席沃什称生产力和就业工作组听证会将于下月召开】美联储主席凯文·沃什表示，他的生产力和就业工作组将于下个月在旧金…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "【美联储主席沃什称生产力和就业工作组听证会将于下月召开】美联储主席凯文·沃什表示，他的生产力和就业工作组将于下个月在旧金山湾区举行实地听证会。在周五上午于曼谷举行的国际货币基金组织年会期间，沃什在一场有主持人的讨论会上宣布将于11月16日举行听证会。沃什表示，该工作组将“着手解决”包括人工智能经济影响在内的诸多问题。沃什在6月成立了五个由外部专家组成的工作组，负责研究货币政策制定的关键领域。他曾表示，预计这些工作组将在今年年底前后向美联储提交建议。沃什没有对货币政策或他对美国经济的展望发表评论。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1519626.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_17xtqiaj",
-      "title": "【美联储主席沃什未就10月利率动向释放信号】美联储主席凯文.沃什未对同僚近期释放的信号表示支持或反对；这些信号显示，官员…",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "【美联储主席沃什未就10月利率动向释放信号】美联储主席凯文.沃什未对同僚近期释放的信号表示支持或反对；这些信号显示，官员们并不急于在本月加息。沃什表示，美联储已不再提前预告政策决定。“我不会预判会议结果。我不主张现在就说自己可能会在即将召开的会议上怎么做，”沃什说。“美联储正在开启新篇章，我们已不再这么做了。”沃什当地时间周五上午在曼谷举行的国际货币基金组织会议期间，在一场由主持人主持的对谈中作出上述表述。当时，美联储官员即将进入10月27日至28日会议前的静默期。美联储上个月一致投票决定将利率上调25个基点，至3.75%至4%的区间。这是三年来首次加息。在该次会议公布的预测中，沃什的大多数同僚预计今年还会至少加息一次。沃什曾表示，他希望投资者关注经济，而不是美联储官员就下一步行动释放的暗示。不过，两周前，与沃什商议政策策略的高级官员释放信号，表明美联储并不急于本月再次加息。不久后，期货市场反映的10月加息概率大幅下降。然而，本周公布的9月通胀数据比预期更坚挺。剔除波动较大的食品和能源项目后，9月核心消费者物价环比上涨0.33%，连续第二个月录得强劲的月度涨幅。周四公布的另一项生产者价格指标也表现强劲。美联储10月会议将在中期选举前不到一周举行。这意味着，无论决定加息还是维持利率不变，都可能受到比平时更多的政治层面审视。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1518577.d.html",
-      "event": "美联储",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_w6kye5b2",
-      "title": "美联储沃什：货币政策思维必须适应快速变化的世界。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美联储沃什：货币政策思维必须适应快速变化的世界。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1516283.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_yz0urm01",
-      "title": "美联储沃什：我们的目标是制定正确的政策。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美联储沃什：我们的目标是制定正确的政策。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1516116.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_aqw7spxh",
-      "title": "美联储沃什：世界经济比预期更具韧性，但通胀仍是一项挑战。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美联储沃什：世界经济比预期更具韧性，但通胀仍是一项挑战。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1510262.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_s660qfpc",
-      "title": "美联储主席沃什：全球政策同步收紧是积极的。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美联储主席沃什：全球政策同步收紧是积极的。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1507184.d.html",
-      "event": "美联储",
+      "date": "2026-10-17",
+      "body": "波兰货币政策委员会委员达布罗夫斯基认为没有必要加息。",
+      "url": "https://finance.sina.cn/7x24/2026-10-17/detail-inivmyff8361141.d.html",
+      "event": "",
       "flow": "less",
       "slow": false,
       "read": "",
@@ -281,13 +155,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_qjco3xkj",
-      "title": "美元/印度卢比3个月远期汇率溢价下降26个基点至6.29%。",
+      "id": "feed_mpxxv5cx",
+      "title": "罗马尼亚财政部：截至 9 月底，罗马尼亚综合预算赤字占国内生产总值比重为 3.82%，2025 年 9 月该数值为 5.…",
       "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美元/印度卢比3个月远期汇率溢价下降26个基点至6.29%。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwts1506959.d.html",
-      "event": "汇率",
+      "date": "2026-10-17",
+      "body": "罗马尼亚财政部：截至 9 月底，罗马尼亚综合预算赤字占国内生产总值比重为 3.82%，2025 年 9 月该数值为 5.39%。",
+      "url": "https://finance.sina.cn/7x24/2026-10-17/detail-inivmyff8358535.d.html",
+      "event": "GDP",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -302,13 +176,34 @@
       "use": "signal"
     },
     {
-      "id": "feed_lycnv0n5",
-      "title": "美联储沃什：在美国，我们将变得更强大，持久的经济是最有能力引领的经济。",
+      "id": "feed_uc24vkag",
+      "title": "【美国财政部征询一级交易商：应考虑哪些拍卖调整】美国财政部在其对一级交易商的季度调查中征询各方意见，询问鉴于“投资者需求…",
       "src": "新浪财经 7x24",
-      "date": "2026-10-16",
-      "body": "美联储沃什：在美国，我们将变得更强大，持久的经济是最有能力引领的经济。",
-      "url": "https://finance.sina.cn/7x24/2026-10-16/detail-inivkwtt8275087.d.html",
-      "event": "美联储",
+      "date": "2026-10-17",
+      "body": "【美国财政部征询一级交易商：应考虑哪些拍卖调整】美国财政部在其对一级交易商的季度调查中征询各方意见，询问鉴于“投资者需求的结构性变化以及对需求中期演变路径的预期”，未来应考虑对拍卖规模作出哪些调整。调查还询问了更大规模的长期国债回购对流动性和市场运行的影响，包括：更大规模回购如何影响交易商中介资金流动的能力？在上述调整后，客户直接或间接参与回购的兴趣是否发生变化？财政部还应考虑哪些额外调整，以提升回购计划的有效性？此外，交易商还被问及财政部是否应调整其出售短期国库券和浮息票据的做法，避免在联邦公开市场委员会会议日进行发售。10年期美债收益率重新涨6.3个基点，收复5.12%；10年期美债收益率涨5.4个基点，两年期美债收益率转涨。",
+      "url": "https://finance.sina.cn/7x24/2026-10-17/detail-inivmyff8357719.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_6nn1rbfu",
+      "title": "美债收益率上行，美国财政部就国债回购与拍卖规模征询交易商意见。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-17",
+      "body": "美债收益率上行，美国财政部就国债回购与拍卖规模征询交易商意见。",
+      "url": "https://finance.sina.cn/7x24/2026-10-17/detail-inivmyfe1574850.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -323,12 +218,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_xd989rqs",
-      "title": "特斯拉新车真的能飞",
+      "id": "feed_kkn3p7qe",
+      "title": "“彩电第一股”确定退市",
       "src": "热搜／论坛",
       "date": "2026-10-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E6%96%B0%E8%BD%A6%E7%9C%9F%E7%9A%84%E8%83%BD%E9%A3%9E&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%BD%A9%E7%94%B5%E7%AC%AC%E4%B8%80%E8%82%A1%E2%80%9D%E7%A1%AE%E5%AE%9A%E9%80%80%E5%B8%82&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -343,12 +238,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_unu31i7z",
-      "title": "A股",
+      "id": "feed_qv1b59gs",
+      "title": "长鑫科技预计前三季度净利超1300亿",
       "src": "热搜／论坛",
       "date": "2026-10-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E9%A2%84%E8%AE%A1%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%87%80%E5%88%A9%E8%B6%851300%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -363,12 +258,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_acb3b8uv",
-      "title": "特斯拉会飞的跑车2028年生产",
+      "id": "feed_sq651vsd",
+      "title": "iPhone Duo首批现货最高涨7143元",
       "src": "热搜／论坛",
       "date": "2026-10-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%BC%9A%E9%A3%9E%E7%9A%84%E8%B7%91%E8%BD%A62028%E5%B9%B4%E7%94%9F%E4%BA%A7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E9%A6%96%E6%89%B9%E7%8E%B0%E8%B4%A7%E6%9C%80%E9%AB%98%E6%B6%A87143%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -383,12 +278,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zzf3mwdz",
-      "title": "17岁Kimi核心少年陈广宇确认前往硅谷",
+      "id": "feed_56isb9aa",
+      "title": "iPhone Duo发货已排到明年",
       "src": "热搜／论坛",
       "date": "2026-10-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=17%E5%B2%81Kimi%E6%A0%B8%E5%BF%83%E5%B0%91%E5%B9%B4%E9%99%88%E5%B9%BF%E5%AE%87%E7%A1%AE%E8%AE%A4%E5%89%8D%E5%BE%80%E7%A1%85%E8%B0%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E5%8F%91%E8%B4%A7%E5%B7%B2%E6%8E%92%E5%88%B0%E6%98%8E%E5%B9%B4&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -403,12 +298,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7zmsr484",
-      "title": "iPhone Duo由中国独家制造",
+      "id": "feed_zyhot9ic",
+      "title": "多家银行严查贷款违规流入股市",
       "src": "热搜／论坛",
       "date": "2026-10-16",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E7%94%B1%E4%B8%AD%E5%9B%BD%E7%8B%AC%E5%AE%B6%E5%88%B6%E9%80%A0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E4%B8%A5%E6%9F%A5%E8%B4%B7%E6%AC%BE%E8%BF%9D%E8%A7%84%E6%B5%81%E5%85%A5%E8%82%A1%E5%B8%82&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
