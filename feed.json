@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-18T04:33:31.420Z",
+  "generatedAt": "2026-10-18T15:52:14.238Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 3,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_v44n7d8v",
+      "id": "feed_6w68jd75",
       "title": "2025年全国科技经费投入统计公报",
       "src": "国家统计局",
       "date": "2026-10-16",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ouhiw1al",
+      "id": "feed_fb7y7au1",
       "title": "2026年9月份居民消费价格同比上涨0.9%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1o4hrklt",
+      "id": "feed_q72e360n",
       "title": "2026年9月份工业生产者出厂价格同比上涨5.0%环比上涨1.2%",
       "src": "国家统计局",
       "date": "2026-10-14",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_mhfnswhg",
+      "id": "feed_9uzit26k",
       "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-09",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_qyh8lzed",
+      "id": "feed_avrnzwwc",
       "title": "2026年9月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-09-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_a93llt2v",
+      "id": "feed_weruw3je",
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "src": "国家统计局",
       "date": "2026-09-28",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_iczegxe9",
+      "id": "feed_oxn2bsdd",
       "title": "中国人民银行行长潘功胜出席第54届国际货币与金融委员会会议",
       "src": "中国人民银行",
       "date": "2026-10-17",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pkoia9as",
+      "id": "feed_5yz0j261",
       "title": "中国人民银行行长潘功胜出席新兴市场研讨会",
       "src": "中国人民银行",
       "date": "2026-10-16",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_92u2myzc",
+      "id": "feed_kcdm5al1",
       "title": "中国人民银行行长潘功胜出席二十国集团财长和央行行长会议",
       "src": "中国人民银行",
       "date": "2026-10-15",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_umdgem02",
+      "id": "feed_67fvq7sl",
       "title": "第十五届中日韩央行行长会议在曼谷举行",
       "src": "中国人民银行",
       "date": "2026-10-14",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1prk01e4",
+      "id": "feed_f5z4fpgv",
       "title": "2026年前三季度金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-10-14",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dhara6ta",
+      "id": "feed_764jlo14",
       "title": "中国人民银行关于人民币汇率的政策立场",
       "src": "中国人民银行",
       "date": "2026-10-08",
@@ -254,13 +254,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_292prh9w",
-      "title": "挪威政府：协议生效后，三文鱼可免关税出口至越南；鲭鱼关税将在3年内逐步取消。",
+      "id": "feed_7afshwvh",
+      "title": "【王毅同黑山副总理兼外长伊布拉希莫维奇会谈】当地时间2026年10月18日，中共中央政治局委员、外交部长王毅在波德戈里察…",
       "src": "新浪财经 7x24",
       "date": "2026-10-18",
-      "body": "挪威政府：协议生效后，三文鱼可免关税出口至越南；鲭鱼关税将在3年内逐步取消。",
-      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
-      "event": "关税",
+      "body": "【王毅同黑山副总理兼外长伊布拉希莫维奇会谈】当地时间2026年10月18日，中共中央政治局委员、外交部长王毅在波德戈里察同黑山副总理兼外长伊布拉希莫维奇举行会谈。王毅表示，中黑是不以山海为远的好朋友。中国是最早承认并同黑山建交的国家，体现了对黑山的尊重、对中黑关系的重视。中黑建交20年来，双边关系健康、稳定发展，使两国人民受益，已经成为不同大小、不同国情、不同社会制度国家间合作共赢的典范。中黑都有反抗法西斯侵略的历史和坚韧不拔、不畏强暴的民族性格。中国正在帮助修缮前南斯拉夫电影《桥》中的塔拉河大桥，相信这座大桥也将成为沟通两国民心的桥梁。中方愿以建交20周年为契机，同黑方总结成功经验，在此基础之上提升两国关系定位，开辟两国关系新的更加辉煌的20年。（外交部网站）",
+      "url": "https://finance.sina.cn/7x24/2026-10-18/detail-inivsnma0918487.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -275,54 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_mbflrjl8",
-      "title": "挪威政府：当该协议生效时，挪威对越南的所有出口中约有一半将免征关税。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-18",
-      "body": "挪威政府：当该协议生效时，挪威对越南的所有出口中约有一半将免征关税。",
-      "url": "https://finance.sina.cn/7x24/2026-10-18/detail-inivrkxq1061801.d.html",
-      "event": "关税",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_o5pk3xar",
-      "title": "挪威政府：该协议最终将取消越南从挪威进口的几乎所有商品的关税。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-18",
-      "body": "挪威政府：该协议最终将取消越南从挪威进口的几乎所有商品的关税。",
-      "url": "https://finance.sina.cn/7x24/2026-10-18/detail-inivrkxq1061386.d.html",
-      "event": "关税",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_7x3sygpz",
-      "title": "中国汽车出口太猛 船不够用了",
+      "id": "feed_d5nj847v",
+      "title": "白酒放低身段",
       "src": "热搜／论坛",
       "date": "2026-10-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%87%BA%E5%8F%A3%E5%A4%AA%E7%8C%9B+%E8%88%B9%E4%B8%8D%E5%A4%9F%E7%94%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%99%BD%E9%85%92%E6%94%BE%E4%BD%8E%E8%BA%AB%E6%AE%B5&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -337,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pouqwxa8",
-      "title": "特斯拉新车为何能“飞”",
+      "id": "feed_evc3q040",
+      "title": "英国中风患者穿外骨骼重新行走哭了",
       "src": "热搜／论坛",
       "date": "2026-10-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E6%96%B0%E8%BD%A6%E4%B8%BA%E4%BD%95%E8%83%BD%E2%80%9C%E9%A3%9E%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E4%B8%AD%E9%A3%8E%E6%82%A3%E8%80%85%E7%A9%BF%E5%A4%96%E9%AA%A8%E9%AA%BC%E9%87%8D%E6%96%B0%E8%A1%8C%E8%B5%B0%E5%93%AD%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -357,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_xivissl2",
-      "title": "肯德基为何把百事可乐换成可口可乐",
+      "id": "feed_0vtoyife",
+      "title": "“最牛文科生”赌中AI",
       "src": "热搜／论坛",
       "date": "2026-10-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%82%AF%E5%BE%B7%E5%9F%BA%E4%B8%BA%E4%BD%95%E6%8A%8A%E7%99%BE%E4%BA%8B%E5%8F%AF%E4%B9%90%E6%8D%A2%E6%88%90%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%9C%80%E7%89%9B%E6%96%87%E7%A7%91%E7%94%9F%E2%80%9D%E8%B5%8C%E4%B8%ADAI&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -377,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_5860ci3h",
-      "title": "Swisse两批次产品被检出铅超标",
+      "id": "feed_amsbk3zo",
+      "title": "“最强地级市”为何死磕制造业",
       "src": "热搜／论坛",
       "date": "2026-10-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=Swisse%E4%B8%A4%E6%89%B9%E6%AC%A1%E4%BA%A7%E5%93%81%E8%A2%AB%E6%A3%80%E5%87%BA%E9%93%85%E8%B6%85%E6%A0%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%9C%80%E5%BC%BA%E5%9C%B0%E7%BA%A7%E5%B8%82%E2%80%9D%E4%B8%BA%E4%BD%95%E6%AD%BB%E7%A3%95%E5%88%B6%E9%80%A0%E4%B8%9A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -397,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_5mm5jnxk",
-      "title": "燃油车中国市场销售占比跌破3分之1",
+      "id": "feed_mxde98di",
+      "title": "女研究员“老鼠仓”被罚50万",
       "src": "热搜／论坛",
       "date": "2026-10-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%87%83%E6%B2%B9%E8%BD%A6%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E9%94%80%E5%94%AE%E5%8D%A0%E6%AF%94%E8%B7%8C%E7%A0%B43%E5%88%86%E4%B9%8B1&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E7%A0%94%E7%A9%B6%E5%91%98%E2%80%9C%E8%80%81%E9%BC%A0%E4%BB%93%E2%80%9D%E8%A2%AB%E7%BD%9A50%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
