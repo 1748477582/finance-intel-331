@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-21T04:46:31.169Z",
+  "generatedAt": "2026-10-21T17:12:28.450Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 22,
+    "total": 17,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 11,
+    "sina724": 6,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_qttoh7h0",
+      "id": "feed_ibo2dm0q",
       "title": "2026年三季度国内生产总值初步核算结果",
       "src": "国家统计局",
       "date": "2026-10-20",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_nn7r0csb",
+      "id": "feed_ns6ab90j",
       "title": "前三季度经济运行总体平稳高质量发展取得新成效",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4h17lem2",
+      "id": "feed_l6vpo89r",
       "title": "2026年9月份规模以上工业增加值增长5.5%",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_a390ym6e",
+      "id": "feed_r1bk4psp",
       "title": "2026年1—9月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7epfqjqv",
+      "id": "feed_k8xwona2",
       "title": "2026年1—9月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_pnfejywr",
+      "id": "feed_s11p9czl",
       "title": "2026年1—9月份社会消费品零售总额增长1.1%",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -134,12 +134,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_4iuss01u",
-      "title": "10年期日本国债收益率下跌1.0个基点，至2.885%。",
+      "id": "feed_p1dwdl6g",
+      "title": "美国财政部：制裁针对伊朗影子船队网络。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "10年期日本国债收益率下跌1.0个基点，至2.885%。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyhku4750978.d.html",
+      "date": "2026-10-22",
+      "body": "美国财政部：制裁针对伊朗影子船队网络。",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwh4876564.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_gfnp8tjh",
+      "title": "20年期美国国债收益率在130亿美元拍卖后收窄跌幅，最新下跌1.25个基点，报5.467%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-22",
+      "body": "20年期美国国债收益率在130亿美元拍卖后收窄跌幅，最新下跌1.25个基点，报5.467%。",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwh4872828.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -155,180 +176,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_b0mi4kkf",
-      "title": "【亚太经合组织财长会在香港举行，审议通过《2026年APEC财长联合声明》和《亚太地区数字基础设施融资政策声明》】据财政…",
+      "id": "feed_pxbhk30u",
+      "title": "美国财政部拍卖130亿美元20年期国债，得标利率5.469%，投标倍数2.73。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "【亚太经合组织财长会在香港举行，审议通过《2026年APEC财长联合声明》和《亚太地区数字基础设施融资政策声明》】据财政部，10月20日至21日，第33届亚太经合组织（APEC）财长会在中国香港特别行政区举行。会议审议通过《2026年APEC财长联合声明》和《亚太地区数字基础设施融资政策声明》，为亚太经济体深化财金合作指明了方向。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyhks7976057.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0bgrn73u",
-      "title": "据共同社，日本政府正考虑在冬季推出电力和燃气补贴，以缓解取暖成本上升对家庭造成的冲击。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "据共同社，日本政府正考虑在冬季推出电力和燃气补贴，以缓解取暖成本上升对家庭造成的冲击。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyhks7967062.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_87195in6",
-      "title": "日本央行副行长冰见野良三：通过适当的货币政策实现稳定物价，将有助于日本实现可持续增长。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：通过适当的货币政策实现稳定物价，将有助于日本实现可持续增长。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaaw4866523.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_sv8yw3jk",
-      "title": "日本央行副行长冰见野良三：物价上行风险较高。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：物价上行风险较高。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaaw4866172.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_jgch0ig6",
-      "title": "日本央行副行长冰见野良三：推迟调整政策可能会带来通胀风险，损害经济。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：推迟调整政策可能会带来通胀风险，损害经济。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaaw4865959.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_pdmj29ln",
-      "title": "日本央行副行长冰见野良三：实际利率仍处于低位，银行贷款正高速增长。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：实际利率仍处于低位，银行贷款正高速增长。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaau8092986.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_9u1yttmr",
-      "title": "日本央行副行长冰见野良三：中长期通胀预期持续升温。金融环境仍保持宽松。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：中长期通胀预期持续升温。金融环境仍保持宽松。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaau8092742.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_dq8prdg9",
-      "title": "日本央行副行长冰见野良三：预计基础通胀将趋近于与日本央行目标相符的水平。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：预计基础通胀将趋近于与日本央行目标相符的水平。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaau8092532.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_db9auao9",
-      "title": "日本央行冰见野良三：基础通胀率已相当接近日本央行2%的目标。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行冰见野良三：基础通胀率已相当接近日本央行2%的目标。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaau8091924.d.html",
+      "date": "2026-10-22",
+      "body": "美国财政部拍卖130亿美元20年期国债，得标利率5.469%，投标倍数2.73。",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwe8099666.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -344,12 +197,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_ggbdgnw8",
-      "title": "日本央行副行长冰见野良三：人工智能需求旺盛，推动资本支出和出口增长。",
+      "id": "feed_2adysuhc",
+      "title": "美国财政部发布新一轮涉伊朗制裁。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-21",
-      "body": "日本央行副行长冰见野良三：人工智能需求旺盛，推动资本支出和出口增长。",
-      "url": "https://finance.sina.cn/7x24/2026-10-21/detail-inivyaaw4864341.d.html",
+      "date": "2026-10-22",
+      "body": "美国财政部发布新一轮涉伊朗制裁。",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwe8083497.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -365,12 +218,54 @@
       "use": "signal"
     },
     {
-      "id": "feed_xt8r1tio",
-      "title": "宝马员工争着离职",
+      "id": "feed_l5cpqnjq",
+      "title": "【古巴指责美国施压其他国家 企图影响联大涉古决议表决】当地时间10月21日，古巴外交部长布鲁诺·罗德里格斯在哈瓦那举行新…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-22",
+      "body": "【古巴指责美国施压其他国家 企图影响联大涉古决议表决】当地时间10月21日，古巴外交部长布鲁诺·罗德里格斯在哈瓦那举行新闻发布会，指责美国政府向其他国家施压，企图影响即将举行的联合国大会涉古巴封锁决议的表决。罗德里格斯表示，美国国务院通过威胁加征特别关税、拒绝向有关国家官员及其家属发放签证、实施制裁等手段，迫使其他国家改变支持古巴的立场。他称，美国国务卿鲁比奥在许多情况下亲自施压。罗德里格斯还在现场举起相关文件，称其能够证明美方的施压行为。罗德里格斯同时批评美国持续加强对古巴的能源封锁。（央视新闻）",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwh4847636.d.html",
+      "event": "关税",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_azfh616a",
+      "title": "【高拓讯达（北京）微电子股份有限公司启动上市辅导】据证监会官网显示，高拓讯达（北京）微电子股份有限公司于2026年10月…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-22",
+      "body": "【高拓讯达（北京）微电子股份有限公司启动上市辅导】据证监会官网显示，高拓讯达（北京）微电子股份有限公司于2026年10月21日正式启动上市辅导，中国国际金融担任辅导机构。",
+      "url": "https://finance.sina.cn/7x24/2026-10-22/detail-inivziwe8071337.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_k2yv1uca",
+      "title": "董明珠：喊我奶奶 我听了很不开心",
       "src": "热搜／论坛",
       "date": "2026-10-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC%E5%91%98%E5%B7%A5%E4%BA%89%E7%9D%80%E7%A6%BB%E8%81%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%EF%BC%9A%E5%96%8A%E6%88%91%E5%A5%B6%E5%A5%B6+%E6%88%91%E5%90%AC%E4%BA%86%E5%BE%88%E4%B8%8D%E5%BC%80%E5%BF%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -385,12 +280,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_1tf4j83f",
-      "title": "中东“榜一大哥”率团来华提飞行汽车",
+      "id": "feed_f3et9550",
+      "title": "14家银行叫停或限制个人异地存款",
       "src": "热搜／论坛",
       "date": "2026-10-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E2%80%9C%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%93%A5%E2%80%9D%E7%8E%87%E5%9B%A2%E6%9D%A5%E5%8D%8E%E6%8F%90%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=14%E5%AE%B6%E9%93%B6%E8%A1%8C%E5%8F%AB%E5%81%9C%E6%88%96%E9%99%90%E5%88%B6%E4%B8%AA%E4%BA%BA%E5%BC%82%E5%9C%B0%E5%AD%98%E6%AC%BE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -405,12 +300,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_etu8uh02",
-      "title": "中西部首个万亿外贸城市要来了",
+      "id": "feed_jy9w7cuj",
+      "title": "PHP出现严重漏洞 多国紧急下线",
       "src": "热搜／论坛",
       "date": "2026-10-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E8%A5%BF%E9%83%A8%E9%A6%96%E4%B8%AA%E4%B8%87%E4%BA%BF%E5%A4%96%E8%B4%B8%E5%9F%8E%E5%B8%82%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=PHP%E5%87%BA%E7%8E%B0%E4%B8%A5%E9%87%8D%E6%BC%8F%E6%B4%9E+%E5%A4%9A%E5%9B%BD%E7%B4%A7%E6%80%A5%E4%B8%8B%E7%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -425,12 +320,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_vcodkdc2",
-      "title": "董明珠办技校先别急着叫好",
+      "id": "feed_wa7x93ck",
+      "title": "问界回应车辆起火",
       "src": "热搜／论坛",
       "date": "2026-10-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%E5%8A%9E%E6%8A%80%E6%A0%A1%E5%85%88%E5%88%AB%E6%80%A5%E7%9D%80%E5%8F%AB%E5%A5%BD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%97%AE%E7%95%8C%E5%9B%9E%E5%BA%94%E8%BD%A6%E8%BE%86%E8%B5%B7%E7%81%AB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -445,12 +340,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_btjseyyj",
-      "title": "日本优衣库将涨价 中国市场：不跟涨",
+      "id": "feed_tqsvrokm",
+      "title": "星巴克的沙发不养闲人",
       "src": "热搜／论坛",
       "date": "2026-10-21",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%BC%98%E8%A1%A3%E5%BA%93%E5%B0%86%E6%B6%A8%E4%BB%B7+%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%EF%BC%9A%E4%B8%8D%E8%B7%9F%E6%B6%A8&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B%E7%9A%84%E6%B2%99%E5%8F%91%E4%B8%8D%E5%85%BB%E9%97%B2%E4%BA%BA&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
