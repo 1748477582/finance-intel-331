@@ -1,20 +1,40 @@
 {
-  "generatedAt": "2026-10-22T17:10:42.343Z",
+  "generatedAt": "2026-10-23T04:49:00.415Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 16,
+    "total": 14,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 5,
+    "sina724": 3,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_u1c77o3w",
+      "id": "feed_ebpww7o9",
+      "title": "2025年中国创新指数比上年增长6.4%",
+      "src": "国家统计局",
+      "date": "2026-10-23",
+      "body": "根据国家统计局社科文司《中国创新指数研究》课题组测算，2025年中国创新指数为185.5（以2015年为100），比上年增长6.4% [1]。分领域看，创新环境指数、创新投入指数、创新产出指数和创新成效指数分别为199.9、172.2、233.0和137.0，分别比上年增长7.5%、5.9%、8.0%和2.9%。结果显示，2025年中国创新指数呈现稳步增长态势，创新环境持续优化，发展新动能积聚壮大，科技创新能力持续提升，为经济高质量发展提供有力支撑。一、创新环境指数。2025年我国创新环境指数为199.9，比上年增长7.5%。分评价指标看，该领域5个评价指标指数全部实现增长；其中，享受加计扣除减免税企业所占比重指数、理工类毕业生占适龄人口比重指数保持较快增长，分别比上年增长19.1%和8.7%；人均GDP指数比上年增长5.2%；科技拨款占财政拨款比重指数、每万人就业人员中大专及以上学历人数指数分别比上年增长3.4%和1.9%。二、创新投入指数。2025年我国创新投入指数为172.2，比上年增长5.9%。分评价指标看，该领域的4个评价指标指数全部实现增长；其中，企业R&D经费占营业收入比重指数增长相对较快，比上年增长9.2%；每万人R&D人员全时当量指数、R&D经费占GDP比重指数、基础研究人员人均经费指数分别比上年增长6.8%、4.0%和3.5%。三、创新产出指数。2025年我国创新产出指数为233.0，比上年增长8.0%。分评价指标看，该领域4个评价指标指数全部实现增长；其中，每万名R&D人员高价值发明专利拥有量指数比上年增长12.1%，连续4年保持两位数增长；拥有注册商标企",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965677.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": true,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_5442irfy",
       "title": "2026年三季度国内生产总值初步核算结果",
       "src": "国家统计局",
       "date": "2026-10-20",
@@ -34,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ac2zed2f",
+      "id": "feed_b2yrzpkh",
       "title": "前三季度经济运行总体平稳高质量发展取得新成效",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -54,11 +74,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_i5vjt9mq",
+      "id": "feed_06k69uti",
       "title": "2026年9月份规模以上工业增加值增长5.5%",
       "src": "国家统计局",
       "date": "2026-10-19",
-      "body": "规模以上工业增加值同比实际增长5.5%（增加值增速均为扣除价格因素的实际增长率），增速比上月加快0.3个百分点。从环比看，9月份，规模以上工业增加值比上月增长0.61%。1 — 9月份，规模以上工业增加值同比增长5.3%。分三大门类看，9月份，采矿业增加值同比增长1.3%，制造业增长6.0%，电力、热力、燃气及水生产和供应业增长5.6%。分经济类型看，9月份，国有控股企业增加值同比增长3.6%；股份制企业增长6.0%，外商及港澳台投资企业增长3.7%；私营企业增长3.8%。分行业看，9月份，41个大类行业中有31个行业增加值保持同比增长。其中，煤炭开采和洗选业下降3.3%，石油和天然气开采业增长9.8%，农副食品加工业增长4.1%，酒、饮料和精制茶制造业增长5.5%，纺织业增长3.2%，化学原料和化学制品制造业增长2.4%，非金属矿物制品业下降2.4%，黑色金属冶炼和压延加工业增长1.6%，有色金属冶炼和压延加工业下降5.1%，通用设备制造业增长8.5%，专用设备制造业增长12.1%，汽车制造业增长6.7%，铁路、船舶、航空航天和其他运输设备制造业增长11.7%，电气机械和器材制造业增长8.1%，计算机、通信和其他电子设备制造业增长16.4%，电力、热力生产和供应业增长5.6%。分产品看，9月份，规模以上工业626种产品中有271种产品产量同比增长。其中，钢材11817万吨，同比下降3.8%；水泥14401万吨，下降5.3%；十种有色金属693万吨，增长0.1%；乙烯355万吨，增长6.4%；汽车306.3万辆，下降5.7%，其中新能源汽车187.0万辆，增长16.9%；发电量",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html",
       "event": "",
       "flow": "shift",
@@ -74,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uunv3otp",
+      "id": "feed_qr3mdox8",
       "title": "2026年1—9月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -94,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_i3woa6aq",
+      "id": "feed_83grqz3i",
       "title": "2026年1—9月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -114,32 +134,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_7z5f0hez",
-      "title": "2026年1—9月份社会消费品零售总额增长1.1%",
-      "src": "国家统计局",
-      "date": "2026-10-19",
-      "body": "",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": true,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_xn3pddq2",
-      "title": "DoubleLine Capital副首席投资官Jeff Sherman：低配长端美国国债。仍然看空久期偏长的美债。美国…",
+      "id": "feed_9hcbi4az",
+      "title": "【新加坡交易所罗文才计划在任职十年后交棒】新加坡交易所首席执行官罗文才表示，随着交易所迈入下一增长阶段，他准备卸任。罗文…",
       "src": "新浪财经 7x24",
       "date": "2026-10-23",
-      "body": "DoubleLine Capital副首席投资官Jeff Sherman：低配长端美国国债。仍然看空久期偏长的美债。美国政府大幅举债和需求疲软将继续打压债市。",
-      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniwctce4912689.d.html",
+      "body": "【新加坡交易所罗文才计划在任职十年后交棒】新加坡交易所首席执行官罗文才表示，随着交易所迈入下一增长阶段，他准备卸任。罗文才在周五的公司年度大会上称：“我们已有清晰的战略方向、精干的领导团队，以及推动新交所继续发展的势头。基于此，我近期已告知董事长，应当提前规划首席执行官职位的交接事宜。”罗文才曾任美国银行亚太环球市场主管，2015 年 7 月出任新交所首席执行官。这位资本市场资深人士称，其合约持续至 2027 年 7 月。新交所 8 月披露业绩，营收与净利润创下上市以来新高，股票、外汇、大宗商品业务全线增长，公司同时宣布派发一次性特别股息。",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweuqs4878038.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -155,14 +155,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_4goqu5pp",
-      "title": "交易员不再完全押注美联储在年底前加息。",
+      "id": "feed_6cx2322f",
+      "title": "印尼盾兑美元汇率跌至18,075印尼盾，为7月底以来最低水平。",
       "src": "新浪财经 7x24",
       "date": "2026-10-23",
-      "body": "交易员不再完全押注美联储在年底前加息。",
-      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniwctce4907845.d.html",
-      "event": "美联储",
-      "flow": "less",
+      "body": "印尼盾兑美元汇率跌至18,075印尼盾，为7月底以来最低水平。",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweuqq8090125.d.html",
+      "event": "汇率",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -176,33 +176,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_29ubemtr",
-      "title": "美联储数据显示，经季节性因素调整前，截至10月21日当周，美国商业票据未偿余额增加21亿美元。",
+      "id": "feed_4idbsvt1",
+      "title": "印尼央行官员：截至10月，已在二级市场购买135万亿印尼盾的政府债券。",
       "src": "新浪财经 7x24",
       "date": "2026-10-23",
-      "body": "美联储数据显示，经季节性因素调整前，截至10月21日当周，美国商业票据未偿余额增加21亿美元。",
-      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniwctca8134008.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_2zh6iubq",
-      "title": "美国30年期国债收益率当日下跌10个基点至5.30%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-10-23",
-      "body": "美国30年期国债收益率当日下跌10个基点至5.30%。",
-      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniwcnve8255022.d.html",
+      "body": "印尼央行官员：截至10月，已在二级市场购买135万亿印尼盾的政府债券。",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweqhu4987771.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -218,33 +197,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_hgwhdn6z",
-      "title": "美国财政部5年期国债收益率当日下降15个基点，至4.80%。",
-      "src": "新浪财经 7x24",
+      "id": "feed_1dszele1",
+      "title": "胡锡进：股票跌得心疼",
+      "src": "热搜／论坛",
       "date": "2026-10-23",
-      "body": "美国财政部5年期国债收益率当日下降15个基点，至4.80%。",
-      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniwcnve8252592.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_2ozgv0ie",
-      "title": "全球70%网站都危险了",
-      "src": "热搜／论坛",
-      "date": "2026-10-22",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%8370%25%E7%BD%91%E7%AB%99%E9%83%BD%E5%8D%B1%E9%99%A9%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%83%A1%E9%94%A1%E8%BF%9B%EF%BC%9A%E8%82%A1%E7%A5%A8%E8%B7%8C%E5%BE%97%E5%BF%83%E7%96%BC&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -259,12 +217,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_6ee4tn5o",
-      "title": "捷达M6上市 售价7.98万起",
+      "id": "feed_26y28791",
+      "title": "娃哈哈集团董事长被曝辞职",
       "src": "热搜／论坛",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%8D%B7%E8%BE%BEM6%E4%B8%8A%E5%B8%82+%E5%94%AE%E4%BB%B77.98%E4%B8%87%E8%B5%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A8%83%E5%93%88%E5%93%88%E9%9B%86%E5%9B%A2%E8%91%A3%E4%BA%8B%E9%95%BF%E8%A2%AB%E6%9B%9D%E8%BE%9E%E8%81%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -279,12 +237,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2ew31qvj",
-      "title": "为防沉迷 红果短剧“自砍摇钱树”",
+      "id": "feed_ih5j6esc",
+      "title": "沪指盘中失守3600点关口",
       "src": "热搜／论坛",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E9%98%B2%E6%B2%89%E8%BF%B7+%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E2%80%9C%E8%87%AA%E7%A0%8D%E6%91%87%E9%92%B1%E6%A0%91%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%AA%E6%8C%87%E7%9B%98%E4%B8%AD%E5%A4%B1%E5%AE%883600%E7%82%B9%E5%85%B3%E5%8F%A3&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -299,12 +257,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_povx8oi8",
-      "title": "宁德时代董秘被打？知情人士回应",
+      "id": "feed_k4dc8hyg",
+      "title": "A股",
       "src": "热搜／论坛",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E8%91%A3%E7%A7%98%E8%A2%AB%E6%89%93%EF%BC%9F%E7%9F%A5%E6%83%85%E4%BA%BA%E5%A3%AB%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -319,12 +277,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_iqm7c0hu",
-      "title": "奥迪中国 首位中国籍总裁",
+      "id": "feed_zp2km412",
+      "title": "AI发现人类网络潜伏多年的“暗门”",
       "src": "热搜／论坛",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%A5%E8%BF%AA%E4%B8%AD%E5%9B%BD+%E9%A6%96%E4%BD%8D%E4%B8%AD%E5%9B%BD%E7%B1%8D%E6%80%BB%E8%A3%81&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=AI%E5%8F%91%E7%8E%B0%E4%BA%BA%E7%B1%BB%E7%BD%91%E7%BB%9C%E6%BD%9C%E4%BC%8F%E5%A4%9A%E5%B9%B4%E7%9A%84%E2%80%9C%E6%9A%97%E9%97%A8%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
