@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-24T15:57:11.081Z",
+  "generatedAt": "2026-10-25T04:41:11.271Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 17,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 0,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_4q4d8rlk",
+      "id": "feed_duqa4kgr",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
-      "body": "",
+      "body": "中国统计信息服务中心卓创资讯据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。2026年10月中旬流通领域重要生产资料市场价格变动情况产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属螺纹钢（Φ 20mm，HRB400E）吨3187.8 11.9 0.4线材（Φ 8 — 10mm，HPB300）吨3386.9 15.9 0.5普通中板（20mm，Q235）吨3509.9 -27.5 -0.8热轧普通板卷（4.75 — 11.5mm，Q235）吨3268.1 -29.0 -0.9无缝钢管（219*6，20#）吨4012.2 -8.4 -0.2角钢（5#）吨3388.0 -24.3 -0.7二、有色金属电解铜（1#）吨110921.4 -821.1 -0.7铝锭（A00）吨23570.0 -655.0 -2.7铅锭（1#）吨16110.7 -106.0 -0.7锌锭（0#）吨25709.3 -891.5 -3.4三、化工产品硫酸（98%）吨1647.0 -49.5 -2.9烧碱（液碱，32%）吨652.2 -24.0 -3.5甲醇（优等品）吨3570.8 -237.5 -6.2纯苯（石油苯，工业级）吨10492.4 252.6 2.5乙醇（95.0%）吨5494.4 45.7 0.8聚乙烯（LLDPE，熔融指数2薄膜料）吨9999.0 657.1 7.0聚丙烯（拉丝料）吨10666.4 774.5 7.8冰醋酸（99.5%及以上）吨4637.6 52.9 1.2顺丁胶（BR9",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ajiyusgk",
+      "id": "feed_tmmcmqyf",
       "title": "2025年中国创新指数比上年增长6.4%",
       "src": "国家统计局",
       "date": "2026-10-23",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uc7ov7w3",
+      "id": "feed_xvc7ld32",
       "title": "2026年三季度国内生产总值初步核算结果",
       "src": "国家统计局",
       "date": "2026-10-20",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dbpkyjdc",
+      "id": "feed_m2rfob31",
       "title": "前三季度经济运行总体平稳高质量发展取得新成效",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o1zggmb4",
+      "id": "feed_2iae2qbn",
       "title": "2026年9月份规模以上工业增加值增长5.5%",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bzd023yw",
+      "id": "feed_ws62kbcg",
       "title": "2026年1—9月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1z5weram",
+      "id": "feed_cx1mhw8i",
       "title": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
       "src": "中国人民银行",
       "date": "2026-10-19",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bowxgw9b",
+      "id": "feed_8k1o6vv9",
       "title": "中国人民银行公告﹝2026﹞第26号",
       "src": "中国人民银行",
       "date": "2026-10-23",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tgd4h35g",
+      "id": "feed_6euzii4r",
       "title": "中国人民银行公告﹝2026﹞第27号",
       "src": "中国人民银行",
       "date": "2026-10-21",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6qhp6xoq",
+      "id": "feed_vomvoq99",
       "title": "深化外汇领域开放，更好服务新发展格局——中国人民银行副行长、国家外汇管理局局长朱鹤新在2026金融街论坛年会上的主题演讲",
       "src": "中国人民银行",
       "date": "2026-10-19",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gvlogd34",
+      "id": "feed_trk0y5q1",
       "title": "中国人民银行等多部门印发《关于金融支持建设北京（京津冀）、上海（长三角）、粤港澳大湾区国际科技创新中心的指导意见》",
       "src": "中国人民银行",
       "date": "2026-10-19",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ngjevikq",
+      "id": "feed_6craluw3",
       "title": "中国人民银行行长潘功胜出席第54届国际货币与金融委员会会议",
       "src": "中国人民银行",
       "date": "2026-10-17",
@@ -254,12 +254,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_qzl1va92",
-      "title": "小鹏副总裁：少对00后口诛笔伐",
+      "id": "feed_qn1ei9u3",
+      "title": "【法国经济拉响警报 物价股市国债全乱套】最近，法国的麻烦好像一下子全冒出来了。自本月17日起，法国多地爆发大规模抗议，部…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-25",
+      "body": "【法国经济拉响警报 物价股市国债全乱套】最近，法国的麻烦好像一下子全冒出来了。自本月17日起，法国多地爆发大规模抗议，部分地区还出现了严重的暴力冲突。物价上涨，国债收益率飙升还遭到抛售，股市也承压。法国经济到底怎么了？法国政府常年入不敷出，缺口只能靠借钱填补。官方数据显示，截至今年6月底，法国公共债务占GDP比重达到119%，是80年来的最高水平。 市场最担心的是：法国还要借多少钱？未来又能不能还得上？这种担忧，直观地体现在借债成本上。法国国债近期持续遭抛售，10年期国债收益率本周一度冲破5%，最高触达5.14%附近，这是2002年以来从未有过的。多家权威机构指出，法国要想摆脱目前的困境，短期看，需要拿出可信的财政整顿方案，重建市场信心。长期看，还得依靠经济增长拉动。但这并不容易实现，法国政府已经将今年的经济增长预期从此前本就不高的0.7%下调到0.5%，这已经是法国政府今年内第三次下调全年增长预期了。（央视财经）",
+      "url": "https://finance.sina.cn/7x24/2026-10-25/detail-iniwmany0006012.d.html",
+      "event": "GDP",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_0o53lrn9",
+      "title": "金价大跌 深圳水贝又被挤爆了",
       "src": "热搜／论坛",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E9%B9%8F%E5%89%AF%E6%80%BB%E8%A3%81%EF%BC%9A%E5%B0%91%E5%AF%B900%E5%90%8E%E5%8F%A3%E8%AF%9B%E7%AC%94%E4%BC%90&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C+%E6%B7%B1%E5%9C%B3%E6%B0%B4%E8%B4%9D%E5%8F%88%E8%A2%AB%E6%8C%A4%E7%88%86%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_4xr9vmwu",
-      "title": "车企不能随便“整活儿”了",
+      "id": "feed_4xogu8yh",
+      "title": "车辆被撞报废安全气囊未弹 小鹏回应",
       "src": "热搜／论坛",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E4%BC%81%E4%B8%8D%E8%83%BD%E9%9A%8F%E4%BE%BF%E2%80%9C%E6%95%B4%E6%B4%BB%E5%84%BF%E2%80%9D%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E8%BE%86%E8%A2%AB%E6%92%9E%E6%8A%A5%E5%BA%9F%E5%AE%89%E5%85%A8%E6%B0%94%E5%9B%8A%E6%9C%AA%E5%BC%B9+%E5%B0%8F%E9%B9%8F%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_cnqd41kw",
-      "title": "iPhone Duo备货量猛增至1500万台",
+      "id": "feed_cd7uh42y",
+      "title": "小鹏还在“圆” 道一声歉很难么",
       "src": "热搜／论坛",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=iPhone+Duo%E5%A4%87%E8%B4%A7%E9%87%8F%E7%8C%9B%E5%A2%9E%E8%87%B31500%E4%B8%87%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E9%B9%8F%E8%BF%98%E5%9C%A8%E2%80%9C%E5%9C%86%E2%80%9D+%E9%81%93%E4%B8%80%E5%A3%B0%E6%AD%89%E5%BE%88%E9%9A%BE%E4%B9%88&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8854j5za",
-      "title": "亚马逊CEO：算力订单排至2028年",
+      "id": "feed_9mbn9odb",
+      "title": "爱马仕也卖不动了",
       "src": "热搜／论坛",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%9A%E9%A9%AC%E9%80%8ACEO%EF%BC%9A%E7%AE%97%E5%8A%9B%E8%AE%A2%E5%8D%95%E6%8E%92%E8%87%B32028%E5%B9%B4&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%88%B1%E9%A9%AC%E4%BB%95%E4%B9%9F%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ghxgzasg",
-      "title": "第一批拿到iPhone Duo的人心态有点崩",
+      "id": "feed_vv98kdd1",
+      "title": "能载人爬楼梯骑行机器人售价50万",
       "src": "热搜／论坛",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9%E6%8B%BF%E5%88%B0iPhone+Duo%E7%9A%84%E4%BA%BA%E5%BF%83%E6%80%81%E6%9C%89%E7%82%B9%E5%B4%A9&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%83%BD%E8%BD%BD%E4%BA%BA%E7%88%AC%E6%A5%BC%E6%A2%AF%E9%AA%91%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%94%AE%E4%BB%B750%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
