@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-25T16:18:55.958Z",
+  "generatedAt": "2026-10-26T04:46:51.464Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 11,
+    "total": 12,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 0,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_26kxk9fk",
+      "id": "feed_4cdo3kaa",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
-      "body": "",
+      "body": "中国统计信息服务中心卓创资讯据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。2026年10月中旬流通领域重要生产资料市场价格变动情况产品名称单位本期价格（元）比上期价格涨跌（元）涨跌幅（%）一、黑色金属螺纹钢（Φ 20mm，HRB400E）吨3187.8 11.9 0.4线材（Φ 8 — 10mm，HPB300）吨3386.9 15.9 0.5普通中板（20mm，Q235）吨3509.9 -27.5 -0.8热轧普通板卷（4.75 — 11.5mm，Q235）吨3268.1 -29.0 -0.9无缝钢管（219*6，20#）吨4012.2 -8.4 -0.2角钢（5#）吨3388.0 -24.3 -0.7二、有色金属电解铜（1#）吨110921.4 -821.1 -0.7铝锭（A00）吨23570.0 -655.0 -2.7铅锭（1#）吨16110.7 -106.0 -0.7锌锭（0#）吨25709.3 -891.5 -3.4三、化工产品硫酸（98%）吨1647.0 -49.5 -2.9烧碱（液碱，32%）吨652.2 -24.0 -3.5甲醇（优等品）吨3570.8 -237.5 -6.2纯苯（石油苯，工业级）吨10492.4 252.6 2.5乙醇（95.0%）吨5494.4 45.7 0.8聚乙烯（LLDPE，熔融指数2薄膜料）吨9999.0 657.1 7.0聚丙烯（拉丝料）吨10666.4 774.5 7.8冰醋酸（99.5%及以上）吨4637.6 52.9 1.2顺丁胶（BR9",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ptzdmpz4",
+      "id": "feed_nkt2owyx",
       "title": "2025年中国创新指数比上年增长6.4%",
       "src": "国家统计局",
       "date": "2026-10-23",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_36586osf",
+      "id": "feed_pxcuwyjr",
       "title": "2026年三季度国内生产总值初步核算结果",
       "src": "国家统计局",
       "date": "2026-10-20",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ok1r91vh",
+      "id": "feed_gtfs9nj8",
       "title": "前三季度经济运行总体平稳高质量发展取得新成效",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8n8kg6oa",
+      "id": "feed_9p8osyzj",
       "title": "2026年9月份规模以上工业增加值增长5.5%",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_i17u71g0",
+      "id": "feed_g822dsxs",
       "title": "2026年1—9月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -134,12 +134,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_mpsxtv8h",
-      "title": "人造黄金会不会击穿金价",
+      "id": "feed_wo8lpt2u",
+      "title": "【“超级央行周”来了！ 红利低波ETF华泰柏瑞（512890）半日成交2.46亿元领跑同类】10月26日，指数探底回升，…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-26",
+      "body": "【“超级央行周”来了！ 红利低波ETF华泰柏瑞（512890）半日成交2.46亿元领跑同类】10月26日，指数探底回升，创指半日跌超1％，沪指跌0.18％。在此背景下，红利低波ETF华泰柏瑞（512890）涨0.25％，报1.204元，换手率0.79％，半日成交额2.46亿元，居同类标的ETF首位。消息面上，本周，美联储、欧洲央行、日本央行、加拿大央行和新西兰央行等多家央行将密集公布利率决议，堪称一场全球货币政策的“集中考试”。值得关注的是，面对国际油价上涨、通胀压力持续以及经济增长前景的不确定性，各主要经济体央行似乎有着不同的打算：有的准备继续观望，有的则可能选择加息。另外，中国人民银行将于今日开展7000亿元中期借贷便利操作，保持银行体系流动性充裕。中金公司研报指出，高股息仍是银行板块上涨核心逻辑，增量资金来自险资中长期配置需求及年底降低组合波动性的交易性资金需求，业绩与股息兼具的头部区域行及分红预期强的国有大行受关注。中信建投证券认为，当前市场并非从经济、政策和市场周期视角下的“历史大底”，而是由于短期利空因素共振引发、市场情绪大幅下滑、悲观情绪充分宣泄而形成的“急跌底”。从短期来看，预计本轮急跌行情有望结束，迎来反弹修复行情，这意味着行业配置重心应该转向进攻，核心聚焦三条主线。一是聚焦前期跌幅较大，三季报业绩强劲的被错杀板块；二是关注国际油价走高对上游能化板块的机会；三是仍保留一定的红利底仓配置。投资者可将红利低波ETF华泰柏瑞（512890）作为底仓配置，无股票账户的投资者也可通过其场外联接基金进行配置（A类：007466；C类：007467；I类：022678；Y类：022951）。",
+      "url": "https://finance.sina.cn/7x24/2026-10-26/detail-iniwpmtv9313014.d.html",
+      "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_igavg4op",
+      "title": "安踏卖不动了",
       "src": "热搜／论坛",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E9%80%A0%E9%BB%84%E9%87%91%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%87%BB%E7%A9%BF%E9%87%91%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E8%B8%8F%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -154,12 +175,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_9jb6wjrr",
-      "title": "捷达在中国“逆袭”",
+      "id": "feed_47xdyv1m",
+      "title": "Kimi致歉",
       "src": "热搜／论坛",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%8D%B7%E8%BE%BE%E5%9C%A8%E4%B8%AD%E5%9B%BD%E2%80%9C%E9%80%86%E8%A2%AD%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=Kimi%E8%87%B4%E6%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -174,12 +195,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_vk05bx9m",
-      "title": "上百万老电车集中脱保",
+      "id": "feed_zsc1o812",
+      "title": "金价连日大跌 多地水贝市场被挤爆",
       "src": "热搜／论坛",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E7%99%BE%E4%B8%87%E8%80%81%E7%94%B5%E8%BD%A6%E9%9B%86%E4%B8%AD%E8%84%B1%E4%BF%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E8%BF%9E%E6%97%A5%E5%A4%A7%E8%B7%8C+%E5%A4%9A%E5%9C%B0%E6%B0%B4%E8%B4%9D%E5%B8%82%E5%9C%BA%E8%A2%AB%E6%8C%A4%E7%88%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -194,32 +215,32 @@
       "use": "noise"
     },
     {
-      "id": "feed_1d8bp1g2",
-      "title": "超万亿元存款“大迁徙”",
-      "src": "热搜／论坛",
-      "date": "2026-10-25",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B6%85%E4%B8%87%E4%BA%BF%E5%85%83%E5%AD%98%E6%AC%BE%E2%80%9C%E5%A4%A7%E8%BF%81%E5%BE%99%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "热榜条目，零信息增量。",
-      "fields": [
-        "f1"
-      ],
-      "chains": [],
-      "inc": "emo",
-      "multi": false,
-      "hot": true,
-      "use": "noise"
-    },
-    {
-      "id": "feed_6szovpsc",
+      "id": "feed_blk9avw2",
       "title": "广东人最爱的不锈钢闯进了时尚圈",
       "src": "热搜／论坛",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "body": "热榜话题，无数据、无信源、无政策依据。",
       "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E4%BA%BA%E6%9C%80%E7%88%B1%E7%9A%84%E4%B8%8D%E9%94%88%E9%92%A2%E9%97%AF%E8%BF%9B%E4%BA%86%E6%97%B6%E5%B0%9A%E5%9C%88&sa=fyb_finance&rsv_dl=fyb_finance",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "热榜条目，零信息增量。",
+      "fields": [
+        "f1"
+      ],
+      "chains": [],
+      "inc": "emo",
+      "multi": false,
+      "hot": true,
+      "use": "noise"
+    },
+    {
+      "id": "feed_g8srsir5",
+      "title": "蜜雪冰城2小时赚够香飘飘3个月利润",
+      "src": "热搜／论坛",
+      "date": "2026-10-26",
+      "body": "热榜话题，无数据、无信源、无政策依据。",
+      "url": "https://www.baidu.com/s?wd=%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E2%E5%B0%8F%E6%97%B6%E8%B5%9A%E5%A4%9F%E9%A6%99%E9%A3%98%E9%A3%983%E4%B8%AA%E6%9C%88%E5%88%A9%E6%B6%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
