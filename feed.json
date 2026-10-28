@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-28T05:41:44.791Z",
+  "generatedAt": "2026-10-28T18:20:50.155Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 12,
+    "total": 23,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 1,
+    "sina724": 12,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_nr3egkwj",
+      "id": "feed_d6e71k0l",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
-      "body": "",
+      "body": "全国规模以上工业企业实现利润总额60337.4亿元，同比增长15.5%（按可比口径计算，详见附注二）。1 — 9月份，规模以上工业企业中，国有控股企业实现利润总额19395.5亿元，同比增长13.1%；股份制企业实现利润总额46727.6亿元，增长20.8%；外商及港澳台投资企业实现利润总额13371.4亿元，增长0.5%；私营企业实现利润总额15091.3亿元，增长8.7%。1 — 9月份，采矿业实现利润总额8813.7亿元，同比增长38.2%；制造业实现利润总额45738.0亿元，增长17.0%；电力、热力、燃气及水生产和供应业实现利润总额5785.6亿元，下降14.3%。1 — 9月份，主要行业利润情况如下：计算机、通信和其他电子设备制造业利润同比增长103.8%，有色金属冶炼和压延加工业增长79.7%，煤炭开采和洗选业增长57.0%，化学原料和化学制品制造业增长49.2%，石油和天然气开采业增长21.3%，纺织业增长7.2%，通用设备制造业增长1.9%，专用设备制造业下降1.3%，电气机械和器材制造业下降5.9%，农副食品加工业下降17.3%，电力、热力生产和供应业下降17.9%，汽车制造业下降22.8%，非金属矿物制品业下降46.9%，黑色金属冶炼和压延加工业下降73.3%，石油、煤炭及其他燃料加工业由亏转盈。1 — 9月份，规模以上工业企业实现营业收入106.21万亿元，同比增长6.6%；发生营业成本90.30万亿元，增长6.1%；营业收入利润率为5.68%，同比提高0.44个百分点。9月末，规模以上工业企业资产总计199.10万亿元，同比增长6.7%；负债合计11",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_u79tmcyb",
+      "id": "feed_oyen63zw",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o7ci8jr3",
+      "id": "feed_yq1789oa",
       "title": "2025年中国创新指数比上年增长6.4%",
       "src": "国家统计局",
       "date": "2026-10-23",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_wn2syjdt",
+      "id": "feed_3c1l4uab",
       "title": "2026年三季度国内生产总值初步核算结果",
       "src": "国家统计局",
       "date": "2026-10-20",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_v38rckra",
+      "id": "feed_laiqqjke",
       "title": "前三季度经济运行总体平稳高质量发展取得新成效",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vh7ofltl",
+      "id": "feed_aofhhomp",
       "title": "2026年9月份规模以上工业增加值增长5.5%",
       "src": "国家统计局",
       "date": "2026-10-19",
@@ -134,13 +134,118 @@
       "use": "signal"
     },
     {
-      "id": "feed_18o5wl0g",
-      "title": "日本40年期国债收益率上升7个基点至4.015%。",
+      "id": "feed_molpr0gz",
+      "title": "美国国债收益率上涨3至5个基点，触及日内高点。",
       "src": "新浪财经 7x24",
-      "date": "2026-10-28",
-      "body": "日本40年期国债收益率上升7个基点至4.015%。",
-      "url": "https://finance.sina.cn/7x24/2026-10-28/detail-iniwuefy3379533.d.html",
+      "date": "2026-10-29",
+      "body": "美国国债收益率上涨3至5个基点，触及日内高点。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftk6394070.d.html",
       "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_vds8a24l",
+      "title": "【美联储10月FOMC决议声明要点总结】 1、利率决议：维持联邦基金利率目标区间3.75%-4.00%不变。 2、投票结…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "【美联储10月FOMC决议声明要点总结】 1、利率决议：维持联邦基金利率目标区间3.75%-4.00%不变。 2、投票结果：10票赞成、2票反对；理事丽莎·库克、克利夫兰联储主席哈马克主张加息25个基点，库克本次是2022年入美联储以来首次投反对票。 3、经济判断：经济活动强劲扩张，地缘政治带来不确定性，但国内支出韧性较强，生产率增长强劲、资本投资稳健。 4、就业情况：就业增长与劳动力规模匹配，失业率基本持平。 5、通胀表态：通胀仍处于高位，需要收集更多信息，再确定合适的货币政策，目标是推动通胀及时回到2%，坚守物价稳定目标。 6、准备金政策：继续维持银行体系充足准备金的政策。 7、市场预期：交易员押注12月加息概率达90%。 8、资产表现：美元指数小幅走弱；美债收益率上行，10年期美债收益率至5.028%，两年期至4.774%；现货黄金小幅下跌；美股涨幅收窄，标普500小幅上涨；短期利率期货走高；新兴市场外汇指数维持下跌。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftr5724308.d.html",
+      "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_zjemnabp",
+      "title": "【惠誉警告称，人工智能热潮和收益率上升威胁全球市场】惠誉评级警告称，进入2027年，全球信用风险正在恶化，理由包括人工智…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "【惠誉警告称，人工智能热潮和收益率上升威胁全球市场】惠誉评级警告称，进入2027年，全球信用风险正在恶化，理由包括人工智能投资的不确定性、能源价格高企以及融资环境收紧。惠誉预计，美联储政策利率将达到4.25%，并在2027年全年维持在该水平，今年预计还将加息一次。该机构预计，到2027年底，美国10年期国债收益率将达到4.8%，但警告称，霍尔木兹海峡的长期中断可能推高收益率。惠誉还强调，人工智能基础设施支出可能超出可持续需求，从而可能引发投资急剧回落。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftr5723626.d.html",
+      "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_cqt1cfiv",
+      "title": "【美联储理事库克投票支持加息，令市场意外】美联储理事库克意外投票支持加息25个基点，与美联储将利率维持在3.75%至4.…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "【美联储理事库克投票支持加息，令市场意外】美联储理事库克意外投票支持加息25个基点，与美联储将利率维持在3.75%至4.00%的决定相左。在10票赞成、2票反对的表决中，库克与克利夫兰联储主席哈马克一道投下反对票。哈马克一直主张收紧货币政策。这是库克自2022年加入美联储以来首次在利率决策中投下反对票。与此同时，美国总统特朗普正第二次尝试将库克从美联储理事会中撤职，此前的一次尝试被最高法院阻止。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftr5723191.d.html",
+      "event": "美联储",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_5t6c2j98",
+      "title": "交易员维持市场预期，认为美联储12月加息的可能性为90%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "交易员维持市场预期，认为美联储12月加息的可能性为90%。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftn3166824.d.html",
+      "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_05844ltm",
+      "title": "美联储利率决议公布后，美元指数跌幅扩大，最新下跌0.08%，报102.26；欧元兑美元小幅上涨，最新上涨0.15%，报1…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储利率决议公布后，美元指数跌幅扩大，最新下跌0.08%，报102.26；欧元兑美元小幅上涨，最新上涨0.15%，报1.114美元。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -155,12 +260,138 @@
       "use": "signal"
     },
     {
-      "id": "feed_mvpuqsih",
-      "title": "身家1270亿 中国新晋女首富诞生",
+      "id": "feed_gnpohp49",
+      "title": "美联储政策后，新兴市场外汇指数维持跌幅；货币兑美元涨跌互现。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储政策后，新兴市场外汇指数维持跌幅；货币兑美元涨跌互现。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_srp7nqm9",
+      "title": "美联储决议公布后，美国国债收益率延续涨势；10年期国债收益率最新上涨3.49个基点，至5.028%。两年期美国国债收益率…",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储决议公布后，美国国债收益率延续涨势；10年期国债收益率最新上涨3.49个基点，至5.028%。两年期美国国债收益率最新上涨3.73个基点，至4.774%。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_860agl1f",
+      "title": "美联储维持利率不变后，美元现货指数涨幅收窄。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储维持利率不变后，美元现货指数涨幅收窄。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftr5721887.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_fi7vom5f",
+      "title": "美联储：就业增长与劳动力增长保持同步。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储：就业增长与劳动力增长保持同步。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftn3166445.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_ou1otyyz",
+      "title": "美联储重申寻求让通胀“及时回归”2%的目标。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储重申寻求让通胀“及时回归”2%的目标。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftr5721582.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_r8dk2hb6",
+      "title": "美联储：委员会将实现价格稳定。",
+      "src": "新浪财经 7x24",
+      "date": "2026-10-29",
+      "body": "美联储：委员会将实现价格稳定。",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwvftk6390033.d.html",
+      "event": "美联储",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_n1ma1io3",
+      "title": "雷军晒照爆料新车 尾翼大到夸张",
       "src": "热搜／论坛",
       "date": "2026-10-28",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%BA%AB%E5%AE%B61270%E4%BA%BF+%E4%B8%AD%E5%9B%BD%E6%96%B0%E6%99%8B%E5%A5%B3%E9%A6%96%E5%AF%8C%E8%AF%9E%E7%94%9F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E6%99%92%E7%85%A7%E7%88%86%E6%96%99%E6%96%B0%E8%BD%A6+%E5%B0%BE%E7%BF%BC%E5%A4%A7%E5%88%B0%E5%A4%B8%E5%BC%A0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -175,12 +406,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_hh6i23si",
-      "title": "“人人都会变老 为什么要嘲笑老登”",
+      "id": "feed_r9d6thbh",
+      "title": "今年双十一 电视遥控器爆火",
       "src": "热搜／论坛",
       "date": "2026-10-28",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BA%BA%E4%BA%BA%E9%83%BD%E4%BC%9A%E5%8F%98%E8%80%81+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%98%B2%E7%AC%91%E8%80%81%E7%99%BB%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E5%B9%B4%E5%8F%8C%E5%8D%81%E4%B8%80+%E7%94%B5%E8%A7%86%E9%81%A5%E6%8E%A7%E5%99%A8%E7%88%86%E7%81%AB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -195,12 +426,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_3urqss0w",
-      "title": "知名八宝粥品牌原来是个“煤老板”",
+      "id": "feed_vv1b5mek",
+      "title": "“全球最长航线”暂停飞行",
       "src": "热搜／论坛",
       "date": "2026-10-28",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E5%90%8D%E5%85%AB%E5%AE%9D%E7%B2%A5%E5%93%81%E7%89%8C%E5%8E%9F%E6%9D%A5%E6%98%AF%E4%B8%AA%E2%80%9C%E7%85%A4%E8%80%81%E6%9D%BF%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%A8%E7%90%83%E6%9C%80%E9%95%BF%E8%88%AA%E7%BA%BF%E2%80%9D%E6%9A%82%E5%81%9C%E9%A3%9E%E8%A1%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -215,12 +446,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2qbsf2xu",
-      "title": "新国标不允许车辆行驶中显示表情包",
+      "id": "feed_mzxhwrh1",
+      "title": "大额存单“重出江湖” 该不该跟着抢",
       "src": "热搜／论坛",
       "date": "2026-10-28",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%9B%BD%E6%A0%87%E4%B8%8D%E5%85%81%E8%AE%B8%E8%BD%A6%E8%BE%86%E8%A1%8C%E9%A9%B6%E4%B8%AD%E6%98%BE%E7%A4%BA%E8%A1%A8%E6%83%85%E5%8C%85&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E2%80%9C%E9%87%8D%E5%87%BA%E6%B1%9F%E6%B9%96%E2%80%9D+%E8%AF%A5%E4%B8%8D%E8%AF%A5%E8%B7%9F%E7%9D%80%E6%8A%A2&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -235,12 +466,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2yslxe5g",
-      "title": "第一个“三机场”城市要来了",
+      "id": "feed_u38qx8o7",
+      "title": "美股三大指数高开 SK海力士涨超8%",
       "src": "热搜／论坛",
       "date": "2026-10-28",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E4%B8%AA%E2%80%9C%E4%B8%89%E6%9C%BA%E5%9C%BA%E2%80%9D%E5%9F%8E%E5%B8%82%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%AB%98%E5%BC%80+SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E6%B6%A8%E8%B6%858%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
