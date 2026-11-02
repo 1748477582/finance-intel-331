@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-02T06:01:28.511Z",
+  "generatedAt": "2026-11-02T21:42:25.551Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 12,
+    "total": 18,
     "llm": 0,
     "stats": 6,
-    "pbc": "error: fetch failed",
+    "pbc": 6,
     "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_5o0opspx",
+      "id": "feed_gdvgcjip",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7ojfzcvv",
+      "id": "feed_kv90jv71",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vlsnjpcg",
+      "id": "feed_l35ldc3e",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_c4a811cv",
+      "id": "feed_vuvf6zfz",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_s10dl6co",
+      "id": "feed_9knx8uyu",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_fnssiqxa",
+      "id": "feed_rjcnrkrs",
       "title": "2025年中国创新指数比上年增长6.4%",
       "src": "国家统计局",
       "date": "2026-10-23",
@@ -134,18 +134,117 @@
       "use": "signal"
     },
     {
-      "id": "feed_vszmis95",
-      "title": "【招商蛇口在沈阳成立房地产开发公司 注册资本10亿元】天眼查App显示，近日，沈阳招盈房地产开发有限公司成立，法定代表人…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-02",
-      "body": "【招商蛇口在沈阳成立房地产开发公司 注册资本10亿元】天眼查App显示，近日，沈阳招盈房地产开发有限公司成立，法定代表人为赵明珠，注册资本10亿元人民币，注册地址位于辽宁省沈阳市大东区，经营范围包括房地产开发经营、住房租赁、停车场服务。股东信息显示，该公司由招商局地产（北京）有限公司全资持股，认缴出资日期为2026年12月31日。",
-      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixipwy7192682.d.html",
-      "event": "房地产 2026-12",
+      "id": "feed_m4a9683z",
+      "title": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲",
+      "src": "中国人民银行",
+      "date": "2026-10-19",
+      "body": "中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行行长潘功胜在2026金融街论坛年会上的主题演讲字号大中小文章来源：2026-10-19 19:03:44打印本页关闭窗口《关于当前市场关注若干问题的思考》尊敬的尹力书记、殷勇市长，尊敬的国内外来宾：大家好！首先，感谢北京市委、市政府特别是尹书记、殷市长和社会各界一直以来对人民银行工作的关心和支持。金融街论坛具有广泛的国际影响力和市场传播力，是中央银行与市场沟通的重要平台。借此机会，我先报告几项人民银行即将出台的政策举措。一是将会同金融监管总局、中国证监会设立应对非银机构大额赎回的流动性支持工具。前期，人民银行就这项工具与市场做过多次沟通。这项工具的目的是建立债券市场稳定机制，构成人民银行宏观审慎管理的一项新工具。工具综合权衡防范金融市场体系的系统性风险和道德风险，在资管机构面临群体性流动性风险、债券市场出现赎回—抛售负向循环的特定情景时启用；与央行开展操作必须满足宏观审慎要求、提供高等级抵押品，防止金融市场定价扭曲、形成兜底幻觉，维护市场纪律。工具适用的机构包括银行理财子公司、公募基",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101918374958873/index.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
-        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_zq5m4wgr",
+      "title": "中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会",
+      "src": "中国人民银行",
+      "date": "2026-11-02",
+      "body": "中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会字号大中小文章来源：2026-11-02 20:00:01打印本页关闭窗口2026年11月2日，中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。中国人民银行副行长邹澜，金融监管总局副局长丛林，中国证监会副主席刘浩凌出席会议并讲话。会议认为，支持资本市场两项工具自2024年10月推出以来，证券、基金、保险公司互换便利已多次展期，目前余额为1050亿元，充分发挥了行业机构的专业投资能力和带动效应；政策支持下，股票回购增持贷款签约金额约4400亿元，累计发放量超2800亿元，满足上市公司市值管理的融资需求。两项工具的市场内在稳定机制作用逐步显现，行业机构稳市和上市公司市值管理的意识、能力持续提升。会议提出，为维护资本市场稳定，提升市场韧性和信心，中国人民银行、金融监管总局、中",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110219495213912/index.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_qoyhu0la",
+      "title": "中国人民银行党委召开会议传达学习党的二十届五中全会精神",
+      "src": "中国人民银行",
+      "date": "2026-10-30",
+      "body": "中国人民银行党委召开会议传达学习党的二十届五中全会精神术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行党委召开会议传达学习党的二十届五中全会精神字号大中小文章来源：2026-10-30 19:07:54打印本页关闭窗口2026年10月30日，中国人民银行党委书记、行长潘功胜主持召开党委会议，传达学习习近平总书记在党的二十届五中全会上的重要讲话和全会精神，研究部署贯彻落实举措。中国人民银行各党委委员参加会议。会议认为，党的二十届四中全会以来，以习近平同志为核心的党中央坚持稳中求进工作总基调，统筹国内国际两个大局，统筹发展和安全，有效应对各种外部冲击和内部困难挑战，扎实推动经济高质量发展，纵深推进全面从严治党，开展树立和践行正确政绩观学习教育，“十四五”圆满收官，“十五五”开局良好，党和国家事业取得新进展新成效。中国人民银行坚决贯彻落实中央决策部署，实施好适度宽松的货币政策，综合使用多种货币政策工具，保持流动性充裕，优化调整一系列结构性货币政策工具，扎实有力做好金融“五篇大文章”，深化金融供给侧结构性改革，防范化解重点领域风险，推动金融高水平开放，为经济平稳增长、高质量发展和金融市场稳定运行",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103018411743702/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_pazuez0i",
+      "title": "中南（非）两国央行续签双边本币互换协议",
+      "src": "中国人民银行",
+      "date": "2026-10-30",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103014283647038/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_d71l91i2",
+      "title": "中智（利）两国央行续签双边本币互换协议",
+      "src": "中国人民银行",
+      "date": "2026-10-29",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102915122827605/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_z9065mlq",
+      "title": "2026年三季度金融机构贷款投向统计报告",
+      "src": "中国人民银行",
+      "date": "2026-10-28",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102815121914211/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
         "f2"
       ],
       "chains": [],
@@ -155,12 +254,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_8x0pkzbz",
-      "title": "KTV靠AI“发癫”续命",
+      "id": "feed_jkly6kpf",
+      "title": "苹果公司：第四财季每股收益因关税退款增加5美分。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-03",
+      "body": "苹果公司：第四财季每股收益因关税退款增加5美分。",
+      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixkzyk2410096.d.html",
+      "event": "关税",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_o418017a",
+      "title": "李佳琦直播间半小时卖出2万亿Token",
       "src": "热搜／论坛",
       "date": "2026-11-02",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=KTV%E9%9D%A0AI%E2%80%9C%E5%8F%91%E7%99%AB%E2%80%9D%E7%BB%AD%E5%91%BD&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E4%BD%B3%E7%90%A6%E7%9B%B4%E6%92%AD%E9%97%B4%E5%8D%8A%E5%B0%8F%E6%97%B6%E5%8D%96%E5%87%BA2%E4%B8%87%E4%BA%BFToken&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -175,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ktwmm79z",
-      "title": "央行证监会召集各大银行开会",
+      "id": "feed_w7nduhi4",
+      "title": "“中部第二城”或许要变了",
       "src": "热搜／论坛",
       "date": "2026-11-02",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%E8%AF%81%E7%9B%91%E4%BC%9A%E5%8F%AC%E9%9B%86%E5%90%84%E5%A4%A7%E9%93%B6%E8%A1%8C%E5%BC%80%E4%BC%9A&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%9F%8E%E2%80%9D%E6%88%96%E8%AE%B8%E8%A6%81%E5%8F%98%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -195,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_rn5rc9xh",
-      "title": "保时捷女销冠母公司半年亏2.75亿",
+      "id": "feed_frv9puyz",
+      "title": "A股再迎奇迹日",
       "src": "热搜／论坛",
       "date": "2026-11-02",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%A5%B3%E9%94%80%E5%86%A0%E6%AF%8D%E5%85%AC%E5%8F%B8%E5%8D%8A%E5%B9%B4%E4%BA%8F2.75%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%86%8D%E8%BF%8E%E5%A5%87%E8%BF%B9%E6%97%A5&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -215,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7eb55eze",
-      "title": "贷款利率迎来新变化",
+      "id": "feed_lc3f5c5e",
+      "title": "宇树机器人被担架抬下山",
       "src": "热搜／论坛",
       "date": "2026-11-02",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%B7%E6%AC%BE%E5%88%A9%E7%8E%87%E8%BF%8E%E6%9D%A5%E6%96%B0%E5%8F%98%E5%8C%96&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A2%AB%E6%8B%85%E6%9E%B6%E6%8A%AC%E4%B8%8B%E5%B1%B1&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -235,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_gt1vq7g4",
-      "title": "机器人登泰山大赛",
+      "id": "feed_s62wjq2w",
+      "title": "A股将迎千亿级增量资金",
       "src": "热搜／论坛",
       "date": "2026-11-02",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%99%BB%E6%B3%B0%E5%B1%B1%E5%A4%A7%E8%B5%9B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%B0%86%E8%BF%8E%E5%8D%83%E4%BA%BF%E7%BA%A7%E5%A2%9E%E9%87%8F%E8%B5%84%E9%87%91&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
