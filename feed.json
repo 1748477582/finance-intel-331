@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-03T06:46:45.625Z",
+  "generatedAt": "2026-11-03T19:29:42.589Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 19,
+    "total": 14,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 2,
+    "pbc": "error: fetch failed",
+    "sina724": 3,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_tpos1zzn",
+      "id": "feed_5aznm418",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8rtiz9ip",
+      "id": "feed_ew5ji3u8",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xqwm2btm",
+      "id": "feed_qg69lvg4",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ruyggw8n",
+      "id": "feed_7n48q44t",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6yi6l85m",
+      "id": "feed_5sl3mgpb",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xecoxmco",
+      "id": "feed_vb7pmrlv",
       "title": "2025年中国创新指数比上年增长6.4%",
       "src": "国家统计局",
       "date": "2026-10-23",
@@ -134,133 +134,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_76zorfzv",
-      "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
-      "src": "中国人民银行",
-      "date": "2026-11-03",
-      "body": "保险公司互换便利（SFISF）操作结果公告〔2026〕第1号术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号字号大中小文章来源：2026-11-03 13:37:24打印本页关闭窗口根据参与机构需求情况，中国人民银行于2026年11月3日开展了证券、基金、保险公司互换便利操作。本次操作金额1000亿元，采用费率招标方式，31家证券、基金公司参与投标，中标费率为10bp。中国人民银行公开市场业务操作室二〇二六年十一月三日打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_i5ousj98",
-      "title": "中国人民银行决定上调金融机构外汇存款准备金率",
-      "src": "中国人民银行",
-      "date": "2026-11-03",
-      "body": "中国人民银行决定上调金融机构外汇存款准备金率术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行决定上调金融机构外汇存款准备金率字号大中小文章来源：2026-11-03 08:40:00打印本页关闭窗口为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110308254969050/index.html",
-      "event": "降准",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_8rjd51yz",
-      "title": "中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会",
-      "src": "中国人民银行",
-      "date": "2026-11-02",
-      "body": "中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会字号大中小文章来源：2026-11-02 20:00:01打印本页关闭窗口2026年11月2日，中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。中国人民银行副行长邹澜，金融监管总局副局长丛林，中国证监会副主席刘浩凌出席会议并讲话。会议认为，支持资本市场两项工具自2024年10月推出以来，证券、基金、保险公司互换便利已多次展期，目前余额为1050亿元，充分发挥了行业机构的专业投资能力和带动效应；政策支持下，股票回购增持贷款签约金额约4400亿元，累计发放量超2800亿元，满足上市公司市值管理的融资需求。两项工具的市场内在稳定机制作用逐步显现，行业机构稳市和上市公司市值管理的意识、能力持续提升。会议提出，为维护资本市场稳定，提升市场韧性和信心，中国人民银行、金融监管总局、中",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110219495213912/index.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_t9wgszo0",
-      "title": "中国人民银行党委召开会议传达学习党的二十届五中全会精神",
-      "src": "中国人民银行",
-      "date": "2026-10-30",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103018411743702/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_76kzy96y",
-      "title": "中南（非）两国央行续签双边本币互换协议",
-      "src": "中国人民银行",
-      "date": "2026-10-30",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103014283647038/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_yknorpor",
-      "title": "中智（利）两国央行续签双边本币互换协议",
-      "src": "中国人民银行",
-      "date": "2026-10-29",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102915122827605/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_56uuiduf",
-      "title": "【成都都市圈GDP达2.44万亿元 同比增长4.9%】11月3日，成都统计官微发布消息，2026年前三季度，成都都市圈地…",
+      "id": "feed_a3g5ln2d",
+      "title": "欧洲央行管委斯莱彭：法国的问题必须在巴黎解决。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-03",
-      "body": "【成都都市圈GDP达2.44万亿元 同比增长4.9%】11月3日，成都统计官微发布消息，2026年前三季度，成都都市圈地区生产总值（GDP）24432.9亿元，同比增长4.9%，经济总量占全省比重为46.9%。其中，成都市地区生产总值19421.9亿元，增长5%，占都市圈比重为79.5%；德阳市地区生产总值2574.3亿元，增长4.2%；眉山市地区生产总值1566.2亿元，增长5.8%；资阳市地区生产总值870.5亿元，增长5.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixmxcz8671258.d.html",
-      "event": "GDP",
+      "date": "2026-11-04",
+      "body": "欧洲央行管委斯莱彭：法国的问题必须在巴黎解决。",
+      "url": "https://finance.sina.cn/7x24/2026-11-04/detail-inixnyrh9635781.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -269,20 +149,20 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_zp6ufmig",
-      "title": "【中信证券明明：经济波动复苏 降息或在明年下半年】中信证券首席经济学家明明在中信证券2027年资本市场策略会演讲称，全球…",
+      "id": "feed_r6fxhhxq",
+      "title": "欧洲央行管委纳格尔：相信法国能够控制预算问题。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-03",
-      "body": "【中信证券明明：经济波动复苏 降息或在明年下半年】中信证券首席经济学家明明在中信证券2027年资本市场策略会演讲称，全球经济K型分化明显，中国经济波动复苏，2027年我国GDP增速或为4.5%左右。预计消费温和升温，商品零售转向智能产品驱动，2027年社零增速约1%；宏观政策更加积极，财政预计温和扩张，赤字率延续4.0%，货币政策方面降息或在下半年；人民币汇率有望温和升值，预计2027年人民币或温和升值至6.4-6.5左右，“十五五”期间人民币国际化进程或有望提速。",
-      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixmxcw6641881.d.html",
-      "event": "GDP",
-      "flow": "more",
+      "date": "2026-11-04",
+      "body": "欧洲央行管委纳格尔：相信法国能够控制预算问题。",
+      "url": "https://finance.sina.cn/7x24/2026-11-04/detail-inixnyrh9631276.d.html",
+      "event": "",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -290,18 +170,39 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_pg9ft8o3",
-      "title": "张一鸣被超越 亚洲首富换人了",
+      "id": "feed_wyayxupp",
+      "title": "欧洲央行管委纳格尔：这不是货币政策应承担的任务。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-04",
+      "body": "欧洲央行管委纳格尔：这不是货币政策应承担的任务。",
+      "url": "https://finance.sina.cn/7x24/2026-11-04/detail-inixnyrh9631244.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_y3vddudr",
+      "title": "老胡上午加仓下午重跌",
       "src": "热搜／论坛",
       "date": "2026-11-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E4%B8%80%E9%B8%A3%E8%A2%AB%E8%B6%85%E8%B6%8A+%E4%BA%9A%E6%B4%B2%E9%A6%96%E5%AF%8C%E6%8D%A2%E4%BA%BA%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E8%83%A1%E4%B8%8A%E5%8D%88%E5%8A%A0%E4%BB%93%E4%B8%8B%E5%8D%88%E9%87%8D%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -316,12 +217,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ku5b31j1",
-      "title": "王兴兴背双肩包现身互联网大会",
+      "id": "feed_p08y91er",
+      "title": "复古鞋翻红 匡威却掉队了",
       "src": "热搜／论坛",
       "date": "2026-11-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%85%B4%E5%85%B4%E8%83%8C%E5%8F%8C%E8%82%A9%E5%8C%85%E7%8E%B0%E8%BA%AB%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%8D%E5%8F%A4%E9%9E%8B%E7%BF%BB%E7%BA%A2+%E5%8C%A1%E5%A8%81%E5%8D%B4%E6%8E%89%E9%98%9F%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -336,12 +237,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_1yx9wpmh",
-      "title": "美股要“通宵”了",
+      "id": "feed_88a2diou",
+      "title": "英伟达涨3% 总市值重回5万亿美元",
       "src": "热搜／论坛",
       "date": "2026-11-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E8%A6%81%E2%80%9C%E9%80%9A%E5%AE%B5%E2%80%9D%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%B6%A83%25+%E6%80%BB%E5%B8%82%E5%80%BC%E9%87%8D%E5%9B%9E5%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -356,12 +257,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_23dsb04g",
-      "title": "大学开始发Token了",
+      "id": "feed_13apjvio",
+      "title": "美股开盘：苹果股价大跌近4%",
       "src": "热搜／论坛",
       "date": "2026-11-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%A7%8B%E5%8F%91Token%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%BC%80%E7%9B%98%EF%BC%9A%E8%8B%B9%E6%9E%9C%E8%82%A1%E4%BB%B7%E5%A4%A7%E8%B7%8C%E8%BF%914%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -376,12 +277,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_f8f9qctp",
-      "title": "科创50跌超5%",
+      "id": "feed_y1z609dq",
+      "title": "六大行一天跌去770亿市值",
       "src": "热搜／论坛",
       "date": "2026-11-03",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%A7%91%E5%88%9B50%E8%B7%8C%E8%B6%855%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AD%E5%A4%A7%E8%A1%8C%E4%B8%80%E5%A4%A9%E8%B7%8C%E5%8E%BB770%E4%BA%BF%E5%B8%82%E5%80%BC&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
