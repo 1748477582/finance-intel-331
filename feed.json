@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-05T06:46:05.231Z",
+  "generatedAt": "2026-11-05T19:57:13.066Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 23,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 3,
+    "sina724": 6,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_x4bn1d2f",
+      "id": "feed_tnypt292",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xutbk5qo",
+      "id": "feed_2fvs285q",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_js42mukq",
+      "id": "feed_n9ebq8an",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_61o01c8y",
+      "id": "feed_6jw54r83",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vq565r81",
+      "id": "feed_jchdo4z1",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_t692l3w8",
+      "id": "feed_0ujxsc8c",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -134,7 +134,47 @@
       "use": "signal"
     },
     {
-      "id": "feed_s6e4cgn2",
+      "id": "feed_u0dhvvx1",
+      "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+      "src": "中国人民银行",
+      "date": "2026-11-05",
+      "body": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会字号大中小文章来源：2026-11-05 16:30:00打印本页关闭窗口2026年11月3日，第五届国际金融领袖投资峰会在香港举行，中国人民银行副行长邹澜出席会议并发言。邹澜表示，中国经济发展呈现向新向优态势，持续依托扩大内需激活增长动力。中国人民银行将顺应中国金融结构的变迁趋势，推动货币政策框架逐步转型优化，为经济高质量发展营造良好的金融环境；将继续深化金融业高水平对外开放，支持香港国际金融中心建设，巩固香港离岸人民币业务枢纽地位。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_xwf1jo2c",
+      "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+      "src": "中国人民银行",
+      "date": "2026-11-05",
+      "body": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行与印度尼西亚银行举行联合工作机制工作会议字号大中小文章来源：2026-11-05 16:05:01打印本页关闭窗口2026年11月3日，中国人民银行与印度尼西亚银行举行联合工作机制工作会议。中国人民银行副行长宣昌能、印度尼西亚银行副行长托马斯·吉万多诺出席会议，双方就联合工作机制合作进展以及下阶段双边金融合作重点交换了意见。会议认为，两国央行建立的联合工作机制是双方协调推动金融合作事宜的重要平台。两国央行将继续发挥联合工作机制重要作用，推动在本币合作、支付系统联通、金融市场合作、数字货币合作等金融领域取得更多务实成果。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_xj1ciobu",
       "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -154,11 +194,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_d3v9ewas",
+      "id": "feed_n9w4x18c",
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
       "src": "中国人民银行",
       "date": "2026-11-04",
-      "body": "中国人民银行加力实施股票回购增持再贷款政策术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行加力实施股票回购增持再贷款政策字号大中小文章来源：2026-11-04 09:03:57打印本页关闭窗口为维护资本市场平稳运行，中国人民银行加力实施股票回购增持再贷款政策。一、自2026年11月4日起，下调股票回购增持再贷款利率0.25个百分点至1%。股票回购增持再贷款的支持对象为21家全国性银行和5家系统重要性城商行，支持比例为100%，期限1年，可根据银行需要展期。银行可在再贷款利率基础上适当加点，合理确定股票回购增持贷款期限和利率，加快贷款投放，增强上市公司、主要股东市值管理能力。二、向银行提供充足的再贷款额度保障。11月2日股票回购增持再贷款座谈会之后，银行已向中国人民银行报送股票回购增持再贷款额度申请超过2000亿元。后续，中国人民银行将继续充分满足银行的再贷款需求，支持银行积极对接上市公司、主要股东融资需求。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国",
+      "body": "",
       "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110408502315269/index.html",
       "event": "",
       "flow": "shift",
@@ -174,11 +214,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_7jt08cg2",
+      "id": "feed_j0pfm4tm",
       "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
       "src": "中国人民银行",
       "date": "2026-11-03",
-      "body": "保险公司互换便利（SFISF）操作结果公告〔2026〕第1号术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号字号大中小文章来源：2026-11-03 13:37:24打印本页关闭窗口根据参与机构需求情况，中国人民银行于2026年11月3日开展了证券、基金、保险公司互换便利操作。本次操作金额1000亿元，采用费率招标方式，31家证券、基金公司参与投标，中标费率为10bp。中国人民银行公开市场业务操作室二〇二六年十一月三日打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "body": "",
       "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
       "event": "",
       "flow": "shift",
@@ -194,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_im10dtsy",
+      "id": "feed_0mja65v9",
       "title": "中国人民银行决定上调金融机构外汇存款准备金率",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -214,52 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_rkvm0dat",
-      "title": "中国人民银行金融监管总局中国证监会召开支持资本市场两项工具座谈会",
-      "src": "中国人民银行",
-      "date": "2026-11-02",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110219495213912/index.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_l77kknn3",
-      "title": "中国人民银行党委召开会议传达学习党的二十届五中全会精神",
-      "src": "中国人民银行",
-      "date": "2026-10-30",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103018411743702/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_taqi1fim",
-      "title": "泰国财政部官员：提高电动汽车进口税将促进本土生产。",
+      "id": "feed_umztr0fe",
+      "title": "巴西财政部长杜里甘：在本届政府执政下，在巴西投资和生产的企业在可预测性和明确规则方面不会遇到问题或困难。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-05",
-      "body": "泰国财政部官员：提高电动汽车进口税将促进本土生产。",
-      "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5563763.d.html",
+      "date": "2026-11-06",
+      "body": "巴西财政部长杜里甘：在本届政府执政下，在巴西投资和生产的企业在可预测性和明确规则方面不会遇到问题或困难。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvn9144126.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -275,12 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_8zhny7qq",
-      "title": "泰国财政部官员：计划在三年内对未达到本地含量规定的本地制造车辆加税。",
+      "id": "feed_tob2zjkt",
+      "title": "巴西财政部长杜里甘：不存在什么神奇公式，关键在于持续改善公共账户，重点是强化现行财政规则。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-05",
-      "body": "泰国财政部官员：计划在三年内对未达到本地含量规定的本地制造车辆加税。",
-      "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmis8787363.d.html",
+      "date": "2026-11-06",
+      "body": "巴西财政部长杜里甘：不存在什么神奇公式，关键在于持续改善公共账户，重点是强化现行财政规则。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnve8504563.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -296,12 +296,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_4gqyk4jh",
-      "title": "美国10年期国债收益率跌至4.837%，创八周新低。",
+      "id": "feed_14asbf97",
+      "title": "巴西财政部长杜里甘：未讨论具体措施，现在还不是时候。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-05",
-      "body": "美国10年期国债收益率跌至4.837%，创八周新低。",
-      "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmka6088849.d.html",
+      "date": "2026-11-06",
+      "body": "巴西财政部长杜里甘：未讨论具体措施，现在还不是时候。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvq5791146.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -311,18 +311,81 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_py1qn6xc",
-      "title": "山姆卖起始祖鸟 要努力留下中产",
+      "id": "feed_3jwrqb4u",
+      "title": "巴西财政部长杜里甘：我们正致力于改善公共账户状况，这与我们在2027年预算指导方针法案中提出的内容一致。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-06",
+      "body": "巴西财政部长杜里甘：我们正致力于改善公共账户状况，这与我们在2027年预算指导方针法案中提出的内容一致。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnve8503883.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_zgzslg61",
+      "title": "巴西财政部长杜里甘：巴西总统卢拉与经济学家的会晤表明，双方在问题判断和未来路径上高度一致。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-06",
+      "body": "巴西财政部长杜里甘：巴西总统卢拉与经济学家的会晤表明，双方在问题判断和未来路径上高度一致。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvh5279769.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_sqmhkltx",
+      "title": "墨西哥央行：此次降息是一次性调整。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-06",
+      "body": "墨西哥央行：此次降息是一次性调整。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvq5790755.d.html",
+      "event": "利率",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_huqkrq3s",
+      "title": "大众中国发布声明",
       "src": "热搜／论坛",
       "date": "2026-11-05",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E5%A7%86%E5%8D%96%E8%B5%B7%E5%A7%8B%E7%A5%96%E9%B8%9F+%E8%A6%81%E5%8A%AA%E5%8A%9B%E7%95%99%E4%B8%8B%E4%B8%AD%E4%BA%A7&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E4%BC%97%E4%B8%AD%E5%9B%BD%E5%8F%91%E5%B8%83%E5%A3%B0%E6%98%8E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -337,12 +400,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_to629i9f",
-      "title": "沃尔沃XC70落地不到20万",
+      "id": "feed_u3vuf8x0",
+      "title": "美股",
       "src": "热搜／论坛",
       "date": "2026-11-05",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%83%E5%B0%94%E6%B2%83XC70%E8%90%BD%E5%9C%B0%E4%B8%8D%E5%88%B020%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -357,12 +420,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_dtqirfvw",
-      "title": "中国人最喜欢用的十大PC应用出炉",
+      "id": "feed_7avfdbhu",
+      "title": "英伟达总市值跌至4.5万亿美元",
       "src": "热搜／论坛",
       "date": "2026-11-05",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%80%E5%96%9C%E6%AC%A2%E7%94%A8%E7%9A%84%E5%8D%81%E5%A4%A7PC%E5%BA%94%E7%94%A8%E5%87%BA%E7%82%89&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%80%BB%E5%B8%82%E5%80%BC%E8%B7%8C%E8%87%B34.5%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -377,12 +440,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_sjeh2tkr",
-      "title": "红果短剧迎来新对手",
+      "id": "feed_ictyu6jx",
+      "title": "特斯拉暴跌超10% SpaceX跌超7%",
       "src": "热搜／论坛",
       "date": "2026-11-05",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E8%BF%8E%E6%9D%A5%E6%96%B0%E5%AF%B9%E6%89%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E6%9A%B4%E8%B7%8C%E8%B6%8510%25+SpaceX%E8%B7%8C%E8%B6%857%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -397,12 +460,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_f6miyyeu",
-      "title": "奥迪营销翻车 不能怪消费者",
+      "id": "feed_pi16487q",
+      "title": "美股存储板块大跌 闪迪跌超17%",
       "src": "热搜／论坛",
       "date": "2026-11-05",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%A5%E8%BF%AA%E8%90%A5%E9%94%80%E7%BF%BB%E8%BD%A6+%E4%B8%8D%E8%83%BD%E6%80%AA%E6%B6%88%E8%B4%B9%E8%80%85&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E5%A4%A7%E8%B7%8C+%E9%97%AA%E8%BF%AA%E8%B7%8C%E8%B6%8517%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
