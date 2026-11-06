@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-05T19:57:13.066Z",
+  "generatedAt": "2026-11-06T06:44:22.092Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 23,
+    "total": 19,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 6,
+    "sina724": 2,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_tnypt292",
+      "id": "feed_2x47r7m6",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2fvs285q",
+      "id": "feed_l31204sq",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n9ebq8an",
+      "id": "feed_lyb0fo8l",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6jw54r83",
+      "id": "feed_besaiyr7",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_jchdo4z1",
+      "id": "feed_2t2opu66",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0ujxsc8c",
+      "id": "feed_7sp1e4oy",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_u0dhvvx1",
+      "id": "feed_xd2r7e29",
       "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xwf1jo2c",
+      "id": "feed_w3ztss74",
       "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xj1ciobu",
+      "id": "feed_9v5w0iy6",
       "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n9w4x18c",
+      "id": "feed_5mf7zozy",
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
       "src": "中国人民银行",
       "date": "2026-11-04",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_j0pfm4tm",
+      "id": "feed_w41kbqb2",
       "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0mja65v9",
+      "id": "feed_7nchh2ni",
       "title": "中国人民银行决定上调金融机构外汇存款准备金率",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -254,12 +254,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_umztr0fe",
-      "title": "巴西财政部长杜里甘：在本届政府执政下，在巴西投资和生产的企业在可预测性和明确规则方面不会遇到问题或困难。",
+      "id": "feed_hlghhae9",
+      "title": "【布伦特原油重回100美元关口 将进一步压制股市表现】油价继续走高，布伦特期货上涨1.7%，重回每桶100美元附近。1月…",
       "src": "新浪财经 7x24",
       "date": "2026-11-06",
-      "body": "巴西财政部长杜里甘：在本届政府执政下，在巴西投资和生产的企业在可预测性和明确规则方面不会遇到问题或困难。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvn9144126.d.html",
+      "body": "【布伦特原油重回100美元关口 将进一步压制股市表现】油价继续走高，布伦特期货上涨1.7%，重回每桶100美元附近。1月合约本周仍累计下跌约12%，但市场此前对伊朗战事快速落幕的乐观情绪开始消退。全球股市本就受美国中期选举结果、以及AI板块潜在监管变化的冲击而承压，油价反弹无异于雪上加霜。纳斯达克100指数周四创下2020年3月以来最大跌幅，亚洲股市紧随走弱，韩国综合指数、日经指数均下跌约6%。欧洲股市期货低开，斯托克50期货近期跌幅扩大至超1%；纳指100期货上涨0.8%，初步显现抛售趋于企稳的迹象。美债走势平稳，守住前一交易日涨幅，美国10年期国债收益率持平于4.83%。彭博美元现货指数上涨0.1%，重回大选结果明朗前的水平附近。澳元、新西兰元兑美元跌幅居前，瑞郎抗跌性最强。贵金属价格回落。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_r672kd44",
+      "title": "【土耳其财长：土耳其基金危机并未引发美元化风险】土耳其国营阿纳多卢通讯社援引财政部长穆罕默德·希姆谢克消息，自9月18日…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-06",
+      "body": "【土耳其财长：土耳其基金危机并未引发美元化风险】土耳其国营阿纳多卢通讯社援引财政部长穆罕默德·希姆谢克消息，自9月18日以来，各家银行对处于清算阶段基金的直接风险敞口为13亿里拉。希姆谢克在议会预算辩论会议上表示，美元化是他以及政策制定者重点关注的议题。部长称，8月28日至10月26日期间，全部基金合计流出约8990亿里拉；同期存款新增9380亿里拉。其中里拉储蓄及企业存款增加6550亿里拉，外币储蓄及企业存款增加2830亿里拉。希姆谢克表示，里拉存款占总存款比重维持在62%，不存在问题。",
+      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuqia5482027.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -269,123 +290,18 @@
         "f2"
       ],
       "chains": [],
-      "inc": "policy",
+      "inc": "hard",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_tob2zjkt",
-      "title": "巴西财政部长杜里甘：不存在什么神奇公式，关键在于持续改善公共账户，重点是强化现行财政规则。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-06",
-      "body": "巴西财政部长杜里甘：不存在什么神奇公式，关键在于持续改善公共账户，重点是强化现行财政规则。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnve8504563.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_14asbf97",
-      "title": "巴西财政部长杜里甘：未讨论具体措施，现在还不是时候。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-06",
-      "body": "巴西财政部长杜里甘：未讨论具体措施，现在还不是时候。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvq5791146.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3jwrqb4u",
-      "title": "巴西财政部长杜里甘：我们正致力于改善公共账户状况，这与我们在2027年预算指导方针法案中提出的内容一致。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-06",
-      "body": "巴西财政部长杜里甘：我们正致力于改善公共账户状况，这与我们在2027年预算指导方针法案中提出的内容一致。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnve8503883.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zgzslg61",
-      "title": "巴西财政部长杜里甘：巴西总统卢拉与经济学家的会晤表明，双方在问题判断和未来路径上高度一致。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-06",
-      "body": "巴西财政部长杜里甘：巴西总统卢拉与经济学家的会晤表明，双方在问题判断和未来路径上高度一致。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvh5279769.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_sqmhkltx",
-      "title": "墨西哥央行：此次降息是一次性调整。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-06",
-      "body": "墨西哥央行：此次降息是一次性调整。",
-      "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixtnvq5790755.d.html",
-      "event": "利率",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_huqkrq3s",
-      "title": "大众中国发布声明",
+      "id": "feed_eca9u7m4",
+      "title": "平板电脑卖不动了",
       "src": "热搜／论坛",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E4%BC%97%E4%B8%AD%E5%9B%BD%E5%8F%91%E5%B8%83%E5%A3%B0%E6%98%8E&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -400,12 +316,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_u3vuf8x0",
-      "title": "美股",
+      "id": "feed_p9ccmpl6",
+      "title": "存款利率拐点来了？有储户果断存500万",
       "src": "热搜／论坛",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E6%8B%90%E7%82%B9%E6%9D%A5%E4%BA%86%EF%BC%9F%E6%9C%89%E5%82%A8%E6%88%B7%E6%9E%9C%E6%96%AD%E5%AD%98500%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -420,12 +336,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7avfdbhu",
-      "title": "英伟达总市值跌至4.5万亿美元",
+      "id": "feed_bw4upvzj",
+      "title": "美国股市为何暴跌",
       "src": "热搜／论坛",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%80%BB%E5%B8%82%E5%80%BC%E8%B7%8C%E8%87%B34.5%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%82%A1%E5%B8%82%E4%B8%BA%E4%BD%95%E6%9A%B4%E8%B7%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -440,12 +356,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ictyu6jx",
-      "title": "特斯拉暴跌超10% SpaceX跌超7%",
+      "id": "feed_8te4iez6",
+      "title": "手机越来越卷 凭什么阔直板火了",
       "src": "热搜／论坛",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E6%9A%B4%E8%B7%8C%E8%B6%8510%25+SpaceX%E8%B7%8C%E8%B6%857%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%8D%B7+%E5%87%AD%E4%BB%80%E4%B9%88%E9%98%94%E7%9B%B4%E6%9D%BF%E7%81%AB%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -460,12 +376,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_pi16487q",
-      "title": "美股存储板块大跌 闪迪跌超17%",
+      "id": "feed_0l6819b7",
+      "title": "涨至26万一只 谁在抢实验猴",
       "src": "热搜／论坛",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E5%A4%A7%E8%B7%8C+%E9%97%AA%E8%BF%AA%E8%B7%8C%E8%B6%8517%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B6%A8%E8%87%B326%E4%B8%87%E4%B8%80%E5%8F%AA+%E8%B0%81%E5%9C%A8%E6%8A%A2%E5%AE%9E%E9%AA%8C%E7%8C%B4&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
