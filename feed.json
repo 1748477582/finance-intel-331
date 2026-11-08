@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:44:39.503Z",
+  "generatedAt": "2026-11-08T05:59:58.062Z",
   "watch": [
     "equity",
     "bond"
@@ -14,7 +14,7 @@
   },
   "intel": [
     {
-      "id": "feed_8prfbkwk",
+      "id": "feed_qieb897z",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -34,11 +34,11 @@
       "use": "signal"
     },
     {
-      "id": "feed_3qb0moss",
+      "id": "feed_q4iaypxs",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
-      "body": "国家统计局服务业调查中心中国物流与采购联合会一、中国制造业采购经理指数运行情况10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。从企业规模看，大型企业PMI为50.2%，比上月下降0.4个百分点，仍高于临界点；中、小型企业PMI分别为48.4%和47.5%，比上月下降1.3个和1.4个百分点，低于临界点。从分类指数看，构成制造业PMI的5个分类指数中，供应商配送时间指数高于临界点；生产指数、新订单指数、原材料库存指数和从业人员指数低于临界点。生产指数为49.8%，比上月下降1.9个百分点，表明制造业生产活动有所放缓。新订单指数为49.4%，比上月下降1.1个百分点，表明制造业市场需求景气度下降。原材料库存指数为48.4%，比上月上升0.2个百分点，表明制造业主要原材料库存量降幅有所收窄。从业人员指数为48.4%，与上月持平，表明制造业企业用工景气度总体平稳。供应商配送时间指数为50.2%，比上月上升0.1个百分点，表明制造业原材料供应商交货时间加快。表1中国制造业PMI及构成指数（经季节调整）单位：% PMI生产新订单原材料库存从业人员供应商配送时间2025年10月49.0 49.7 48.8 47.3 48.3 50.0 2025年11月49.2 50.0 49.2 47.3 48.4 50.1 2025年12月50.1 51.7 50.8 47.8 48.2 50.2 2026年1月49.3 50.6 49.2 47.4 48.1 50.1 2026年2月49.0 49.6 48.6 47.5 48.0 49.1 2026",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
       "event": "PMI 2026-10",
       "flow": "shift",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2wegg3op",
+      "id": "feed_sg9n5vij",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o95hmzpe",
+      "id": "feed_sb33ru61",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4lejht01",
+      "id": "feed_f8novjk6",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
       "src": "国家统计局",
       "date": "2026-10-27",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yblf75k5",
+      "id": "feed_kzla3uh1",
       "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-10-24",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_67cx316b",
+      "id": "feed_h4s4o17u",
       "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4e1bk8tz",
+      "id": "feed_k9462e9z",
       "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_hqlu4nxa",
+      "id": "feed_5wjkmq5e",
       "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_z837q1qh",
+      "id": "feed_hinz0le1",
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
       "src": "中国人民银行",
       "date": "2026-11-04",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_miif6chr",
+      "id": "feed_cqf6wfil",
       "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bsya67bu",
+      "id": "feed_nz90ci2i",
       "title": "中国人民银行决定上调金融机构外汇存款准备金率",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -254,12 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_p8v6ysb1",
-      "title": "存储风暴压顶 小众手机在劫难逃",
+      "id": "feed_yslpdcu3",
+      "title": "“疯狂水世界 龙卷风摧毁停车场”",
       "src": "热搜／论坛",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%AD%98%E5%82%A8%E9%A3%8E%E6%9A%B4%E5%8E%8B%E9%A1%B6+%E5%B0%8F%E4%BC%97%E6%89%8B%E6%9C%BA%E5%9C%A8%E5%8A%AB%E9%9A%BE%E9%80%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%96%AF%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C+%E9%BE%99%E5%8D%B7%E9%A3%8E%E6%91%A7%E6%AF%81%E5%81%9C%E8%BD%A6%E5%9C%BA%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -274,12 +274,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2e3ouhv5",
-      "title": "AI面试逼疯打工人",
+      "id": "feed_836w4d63",
+      "title": "中国顶级豪车亮相 镶137颗宝石",
       "src": "热搜／论坛",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=AI%E9%9D%A2%E8%AF%95%E9%80%BC%E7%96%AF%E6%89%93%E5%B7%A5%E4%BA%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A1%B6%E7%BA%A7%E8%B1%AA%E8%BD%A6%E4%BA%AE%E7%9B%B8+%E9%95%B6137%E9%A2%97%E5%AE%9D%E7%9F%B3&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -294,12 +294,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_czwg56eq",
-      "title": "“不想打工”的人形机器人在仓库吃灰",
+      "id": "feed_ltkx68km",
+      "title": "山姆卖加拿大鹅 有同款便宜5000元",
       "src": "热搜／论坛",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8D%E6%83%B3%E6%89%93%E5%B7%A5%E2%80%9D%E7%9A%84%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8%E4%BB%93%E5%BA%93%E5%90%83%E7%81%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E5%A7%86%E5%8D%96%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%B9%85+%E6%9C%89%E5%90%8C%E6%AC%BE%E4%BE%BF%E5%AE%9C5000%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -314,12 +314,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7wz21ndh",
-      "title": "英伟达四处替客户找钱买芯片",
+      "id": "feed_1fm4kthv",
+      "title": "新车为什么越来越难“慢慢卖”",
       "src": "热搜／论坛",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%9B%9B%E5%A4%84%E6%9B%BF%E5%AE%A2%E6%88%B7%E6%89%BE%E9%92%B1%E4%B9%B0%E8%8A%AF%E7%89%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%BD%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E9%9A%BE%E2%80%9C%E6%85%A2%E6%85%A2%E5%8D%96%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -334,12 +334,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_4drei071",
-      "title": "人民网三评“字节时间”之争",
+      "id": "feed_rpif5naf",
+      "title": "胖东来回应“洗发水产地造假”",
       "src": "热搜／论坛",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E7%BD%91%E4%B8%89%E8%AF%84%E2%80%9C%E5%AD%97%E8%8A%82%E6%97%B6%E9%97%B4%E2%80%9D%E4%B9%8B%E4%BA%89&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%9B%9E%E5%BA%94%E2%80%9C%E6%B4%97%E5%8F%91%E6%B0%B4%E4%BA%A7%E5%9C%B0%E9%80%A0%E5%81%87%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
