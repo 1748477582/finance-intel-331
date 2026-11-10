@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-10T07:17:25.707Z",
+  "generatedAt": "2026-11-10T19:43:22.532Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 3,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_4173dte4",
+      "id": "feed_r1gx8j5h",
       "title": "2026年10月份居民消费价格同比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vou1fbg4",
+      "id": "feed_eu8r1qda",
       "title": "2026年10月份工业生产者出厂价格同比上涨5.7%环比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_47epajt3",
+      "id": "feed_f5dvyhao",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_aocqkb53",
+      "id": "feed_a0sq8qx4",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_1kr8u3ag",
+      "id": "feed_lnbvws0c",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_hvw8umdj",
+      "id": "feed_sappi2ac",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_30gntht3",
+      "id": "feed_49n8g67s",
       "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_9w66uzxp",
+      "id": "feed_5y9czk55",
       "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_uinin2a9",
+      "id": "feed_xh8c3aod",
       "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rozl74sx",
+      "id": "feed_75y3fvyw",
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
       "src": "中国人民银行",
       "date": "2026-11-04",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_i8qs3pxf",
+      "id": "feed_n2ija50r",
       "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_wei51f1s",
+      "id": "feed_2lovnk5n",
       "title": "中国人民银行决定上调金融机构外汇存款准备金率",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -254,12 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_81p6jasz",
-      "title": "【T. Rowe称美债收益率要到美国经济衰退时才会见顶】T. Rowe Price称，在全球最大经济体陷入衰退之前，美国…",
+      "id": "feed_fpazhpyu",
+      "title": "美联储施密德：当前利率在大多数情况下并未导致购房者犹豫不决。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-10",
-      "body": "【T. Rowe称美债收益率要到美国经济衰退时才会见顶】T. Rowe Price称，在全球最大经济体陷入衰退之前，美国国债收益率恐怕还会再度攀升。该公司全球固定收益主管Arif Husain在一份报告中写道，除非出现经济衰退，否则收益率不会真正见顶。美联储可能一路升息，直到某个环节出问题——本质上就是因为政策过度紧缩而犯错。Husain提出这一观点之际，距离他首次提出美国10年期国债收益率可能升至6%的看法已近两年。",
-      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyy2661915.d.html",
+      "date": "2026-11-11",
+      "body": "美联储施密德：当前利率在大多数情况下并未导致购房者犹豫不决。",
+      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyhwnq8896909.d.html",
       "event": "美联储",
       "flow": "shift",
       "slow": false,
@@ -269,60 +269,18 @@
         "f2"
       ],
       "chains": [],
-      "inc": "hard",
+      "inc": "policy",
       "multi": false,
       "hot": false,
       "use": "signal"
     },
     {
-      "id": "feed_59e013pm",
-      "title": "【国债期货收盘】 30年期主力合约跌0.22%， 10年期主力合约跌0.08%， 5年期主力合约跌0.05%， 2年期主…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-10",
-      "body": "【国债期货收盘】 30年期主力合约跌0.22%， 10年期主力合约跌0.08%， 5年期主力合约跌0.05%， 2年期主力合约跌0.01%。",
-      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_1vlofgfj",
-      "title": "泰国财政部：内阁批准对通过电商平台进口的商品加征不超过30%的税。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-10",
-      "body": "泰国财政部：内阁批准对通过电商平台进口的商品加征不超过30%的税。",
-      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyz2616652.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_8mmlvc4y",
-      "title": "特斯拉中国10月销量从第1名掉到第66",
+      "id": "feed_evuwp22g",
+      "title": "美股低开 英伟达开盘跌近3%",
       "src": "热搜／论坛",
       "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD10%E6%9C%88%E9%94%80%E9%87%8F%E4%BB%8E%E7%AC%AC1%E5%90%8D%E6%8E%89%E5%88%B0%E7%AC%AC66&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%BD%8E%E5%BC%80+%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%BC%80%E7%9B%98%E8%B7%8C%E8%BF%913%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -337,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_djsfvnlh",
-      "title": "足力健老人鞋创始人张京康成老赖",
+      "id": "feed_8qf2u7ec",
+      "title": "阿里宣布平头哥赴港独立上市",
       "src": "热搜／论坛",
       "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%B6%B3%E5%8A%9B%E5%81%A5%E8%80%81%E4%BA%BA%E9%9E%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E5%BC%A0%E4%BA%AC%E5%BA%B7%E6%88%90%E8%80%81%E8%B5%96&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E9%87%8C%E5%AE%A3%E5%B8%83%E5%B9%B3%E5%A4%B4%E5%93%A5%E8%B5%B4%E6%B8%AF%E7%8B%AC%E7%AB%8B%E4%B8%8A%E5%B8%82&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -357,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_wger1llb",
-      "title": "“需求量暴增900%” 万亿元赛道爆发",
+      "id": "feed_4bq4a9yd",
+      "title": "Anthropic正式启动募资计划",
       "src": "热搜／论坛",
       "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%9C%80%E6%B1%82%E9%87%8F%E6%9A%B4%E5%A2%9E900%25%E2%80%9D+%E4%B8%87%E4%BA%BF%E5%85%83%E8%B5%9B%E9%81%93%E7%88%86%E5%8F%91&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=Anthropic%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8%E5%8B%9F%E8%B5%84%E8%AE%A1%E5%88%92&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -377,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zojijq1e",
-      "title": "华为推出全新小折叠电脑",
+      "id": "feed_ru0vv7gn",
+      "title": "七巨头260亿美元“押注”Anthropic",
       "src": "热搜／论坛",
       "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E6%8E%A8%E5%87%BA%E5%85%A8%E6%96%B0%E5%B0%8F%E6%8A%98%E5%8F%A0%E7%94%B5%E8%84%91&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%83%E5%B7%A8%E5%A4%B4260%E4%BA%BF%E7%BE%8E%E5%85%83%E2%80%9C%E6%8A%BC%E6%B3%A8%E2%80%9DAnthropic&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -397,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_tegaq85k",
-      "title": "“70后经济”正在涌现",
+      "id": "feed_02dwgj7f",
+      "title": "Anthropic：年化营收约为810亿美元",
       "src": "热搜／论坛",
       "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C70%E5%90%8E%E7%BB%8F%E6%B5%8E%E2%80%9D%E6%AD%A3%E5%9C%A8%E6%B6%8C%E7%8E%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=Anthropic%EF%BC%9A%E5%B9%B4%E5%8C%96%E8%90%A5%E6%94%B6%E7%BA%A6%E4%B8%BA810%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
