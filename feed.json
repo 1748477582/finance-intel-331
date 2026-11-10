@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-09T22:21:17.843Z",
+  "generatedAt": "2026-11-10T07:17:25.707Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 13,
+    "total": 20,
     "llm": 0,
     "stats": 6,
-    "pbc": "error: fetch failed",
-    "sina724": 2,
+    "pbc": 6,
+    "sina724": 3,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_uh29b5v0",
+      "id": "feed_4173dte4",
       "title": "2026年10月份居民消费价格同比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_w2qzbk8u",
+      "id": "feed_vou1fbg4",
       "title": "2026年10月份工业生产者出厂价格同比上涨5.7%环比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xhdywx9h",
+      "id": "feed_47epajt3",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_kcqjdt6i",
+      "id": "feed_aocqkb53",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_cfdvsbm8",
+      "id": "feed_1kr8u3ag",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yxw5xpsu",
+      "id": "feed_hvw8umdj",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -134,14 +134,134 @@
       "use": "signal"
     },
     {
-      "id": "feed_gtdh27f6",
-      "title": "【美联储12月加息25个基点的概率为84.2%】美联储到12月累计加息25个基点的概率为84.2%，维持利率不变的概率为…",
+      "id": "feed_30gntht3",
+      "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+      "src": "中国人民银行",
+      "date": "2026-11-05",
+      "body": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会字号大中小文章来源：2026-11-05 16:30:00打印本页关闭窗口2026年11月3日，第五届国际金融领袖投资峰会在香港举行，中国人民银行副行长邹澜出席会议并发言。邹澜表示，中国经济发展呈现向新向优态势，持续依托扩大内需激活增长动力。中国人民银行将顺应中国金融结构的变迁趋势，推动货币政策框架逐步转型优化，为经济高质量发展营造良好的金融环境；将继续深化金融业高水平对外开放，支持香港国际金融中心建设，巩固香港离岸人民币业务枢纽地位。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_9w66uzxp",
+      "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+      "src": "中国人民银行",
+      "date": "2026-11-05",
+      "body": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻中国人民银行与印度尼西亚银行举行联合工作机制工作会议字号大中小文章来源：2026-11-05 16:05:01打印本页关闭窗口2026年11月3日，中国人民银行与印度尼西亚银行举行联合工作机制工作会议。中国人民银行副行长宣昌能、印度尼西亚银行副行长托马斯·吉万多诺出席会议，双方就联合工作机制合作进展以及下阶段双边金融合作重点交换了意见。会议认为，两国央行建立的联合工作机制是双方协调推动金融合作事宜的重要平台。两国央行将继续发挥联合工作机制重要作用，推动在本币合作、支付系统联通、金融市场合作、数字货币合作等金融领域取得更多务实成果。打印本页关闭窗口法律声明|联系我们|设为首页|加入收藏|网站地图京ICP备05073439号网站标识码：bm25000001京公网安备11010202000016号网站主办单位：中国人民银行办公厅最佳分辨率：1024*768",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_uinin2a9",
+      "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
+      "src": "中国人民银行",
+      "date": "2026-11-05",
+      "body": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上字号大中小文章来源：2026-11-05 10:54:54打印本页关闭窗口中国人民银行行长潘功胜全国人民代表大会常务委员会：我受国务院委托，向全国人大常委会报告2025年10月以来金融工作情况，请予审议。习近平总书记高度重视和关心金融工作，对金融事业发展重大问题作出一系列重要论述和重要指示批示，为推进金融高质量发展、加快金融强国建设提供了根本遵循。国务院坚决贯彻落实以习近平同志为核心的党中央决策部署，李强总理对做好金融工作作出部署安排，丁薛祥、何立峰等领导同志提出明确要求。全国人大常委会高度重视、大力支持金融工作，2022年以来第五次听取和审议国务院关于金融工作情况的报告，并通过立法修法、督办建议、专题调研等方式，有力推动我国金融改革发展。金融系统深入学习贯彻习近平总书记关于金融工作的系列重要论述和重要指示批示精神，全面贯彻落实党的二十大和二十届历次全",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": true,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_rozl74sx",
+      "title": "中国人民银行加力实施股票回购增持再贷款政策",
+      "src": "中国人民银行",
+      "date": "2026-11-04",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110408502315269/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_i8qs3pxf",
+      "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
+      "src": "中国人民银行",
+      "date": "2026-11-03",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_wei51f1s",
+      "title": "中国人民银行决定上调金融机构外汇存款准备金率",
+      "src": "中国人民银行",
+      "date": "2026-11-03",
+      "body": "",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110308254969050/index.html",
+      "event": "降准",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_81p6jasz",
+      "title": "【T. Rowe称美债收益率要到美国经济衰退时才会见顶】T. Rowe Price称，在全球最大经济体陷入衰退之前，美国…",
       "src": "新浪财经 7x24",
       "date": "2026-11-10",
-      "body": "【美联储12月加息25个基点的概率为84.2%】美联储到12月累计加息25个基点的概率为84.2%，维持利率不变的概率为15.8%。美联储到1月维持利率不变的概率为11.8%，累计加息25个基点的概率为66.9%，累计加息50个基点的概率为21.3%。",
-      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyexvm2814025.d.html",
+      "body": "【T. Rowe称美债收益率要到美国经济衰退时才会见顶】T. Rowe Price称，在全球最大经济体陷入衰退之前，美国国债收益率恐怕还会再度攀升。该公司全球固定收益主管Arif Husain在一份报告中写道，除非出现经济衰退，否则收益率不会真正见顶。美联储可能一路升息，直到某个环节出问题——本质上就是因为政策过度紧缩而犯错。Husain提出这一观点之际，距离他首次提出美国10年期国债收益率可能升至6%的看法已近两年。",
+      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyy2661915.d.html",
       "event": "美联储",
-      "flow": "less",
+      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -155,12 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_9seww45u",
-      "title": "【SpaceX计划在德州投资240亿美元建设数据中心和天然气发电厂】根据美国德州Starbase市政府网站发布的听证会通…",
+      "id": "feed_59e013pm",
+      "title": "【国债期货收盘】 30年期主力合约跌0.22%， 10年期主力合约跌0.08%， 5年期主力合约跌0.05%， 2年期主…",
       "src": "新浪财经 7x24",
       "date": "2026-11-10",
-      "body": "【SpaceX计划在德州投资240亿美元建设数据中心和天然气发电厂】根据美国德州Starbase市政府网站发布的听证会通知，马斯克旗下的SpaceX计划在公司所在地Starbase建设、拥有并运营一座燃气电厂和超级计算设施。项目初期预计投资240亿美元。Starbase市政委员将在12月9日的会议上审议一项税收减免和开发协议。这一计划显示马斯克正寻求对SpaceX的天然气价值链进行垂直整合。天然气是数据中心开发商为推动设施尽快投运而使用的主要发电燃料。SpaceX还计划在部分火箭发射中使用经过超低温冷却和净化处理的天然气。",
-      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyexvm2811770.d.html",
+      "body": "【国债期货收盘】 30年期主力合约跌0.22%， 10年期主力合约跌0.08%， 5年期主力合约跌0.05%， 2年期主力合约跌0.01%。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -176,12 +296,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_x580qk3t",
-      "title": "山姆“低价”始祖鸟到底值不值得冲",
+      "id": "feed_1vlofgfj",
+      "title": "泰国财政部：内阁批准对通过电商平台进口的商品加征不超过30%的税。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-10",
+      "body": "泰国财政部：内阁批准对通过电商平台进口的商品加征不超过30%的税。",
+      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyz2616652.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_8mmlvc4y",
+      "title": "特斯拉中国10月销量从第1名掉到第66",
       "src": "热搜／论坛",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E5%A7%86%E2%80%9C%E4%BD%8E%E4%BB%B7%E2%80%9D%E5%A7%8B%E7%A5%96%E9%B8%9F%E5%88%B0%E5%BA%95%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E5%86%B2&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD10%E6%9C%88%E9%94%80%E9%87%8F%E4%BB%8E%E7%AC%AC1%E5%90%8D%E6%8E%89%E5%88%B0%E7%AC%AC66&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -196,12 +337,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ogox4w29",
-      "title": "一通电话叫来黄仁勋 黄乐到底是谁",
+      "id": "feed_djsfvnlh",
+      "title": "足力健老人鞋创始人张京康成老赖",
       "src": "热搜／论坛",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E9%80%9A%E7%94%B5%E8%AF%9D%E5%8F%AB%E6%9D%A5%E9%BB%84%E4%BB%81%E5%8B%8B+%E9%BB%84%E4%B9%90%E5%88%B0%E5%BA%95%E6%98%AF%E8%B0%81&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%B6%B3%E5%8A%9B%E5%81%A5%E8%80%81%E4%BA%BA%E9%9E%8B%E5%88%9B%E5%A7%8B%E4%BA%BA%E5%BC%A0%E4%BA%AC%E5%BA%B7%E6%88%90%E8%80%81%E8%B5%96&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -216,12 +357,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_9sz1cqzv",
-      "title": "王健林亲自披挂上阵接下烫手山芋",
+      "id": "feed_wger1llb",
+      "title": "“需求量暴增900%” 万亿元赛道爆发",
       "src": "热搜／论坛",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%81%A5%E6%9E%97%E4%BA%B2%E8%87%AA%E6%8A%AB%E6%8C%82%E4%B8%8A%E9%98%B5%E6%8E%A5%E4%B8%8B%E7%83%AB%E6%89%8B%E5%B1%B1%E8%8A%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%9C%80%E6%B1%82%E9%87%8F%E6%9A%B4%E5%A2%9E900%25%E2%80%9D+%E4%B8%87%E4%BA%BF%E5%85%83%E8%B5%9B%E9%81%93%E7%88%86%E5%8F%91&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -236,12 +377,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_36vawntd",
-      "title": "AMD涨超8%",
+      "id": "feed_zojijq1e",
+      "title": "华为推出全新小折叠电脑",
       "src": "热搜／论坛",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=AMD%E6%B6%A8%E8%B6%858%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E6%8E%A8%E5%87%BA%E5%85%A8%E6%96%B0%E5%B0%8F%E6%8A%98%E5%8F%A0%E7%94%B5%E8%84%91&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -256,12 +397,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_w6t1lrfc",
-      "title": "不跑步的人也被跑鞋品牌盯上了",
+      "id": "feed_tegaq85k",
+      "title": "“70后经济”正在涌现",
       "src": "热搜／论坛",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E8%B7%91%E6%AD%A5%E7%9A%84%E4%BA%BA%E4%B9%9F%E8%A2%AB%E8%B7%91%E9%9E%8B%E5%93%81%E7%89%8C%E7%9B%AF%E4%B8%8A%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C70%E5%90%8E%E7%BB%8F%E6%B5%8E%E2%80%9D%E6%AD%A3%E5%9C%A8%E6%B6%8C%E7%8E%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
