@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-10T19:43:22.532Z",
+  "generatedAt": "2026-11-11T06:18:45.321Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 18,
+    "total": 21,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 1,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_r1gx8j5h",
+      "id": "feed_8v2sea6e",
       "title": "2026年10月份居民消费价格同比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_eu8r1qda",
+      "id": "feed_mhn0ej0r",
       "title": "2026年10月份工业生产者出厂价格同比上涨5.7%环比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_f5dvyhao",
+      "id": "feed_znu2w3wp",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_a0sq8qx4",
+      "id": "feed_xhuax7ux",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_lnbvws0c",
+      "id": "feed_ew5w0rap",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_sappi2ac",
+      "id": "feed_rk1wrjy4",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_49n8g67s",
+      "id": "feed_v76qvzhy",
       "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_5y9czk55",
+      "id": "feed_63k1ko2n",
       "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xh8c3aod",
+      "id": "feed_znsfylkp",
       "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_75y3fvyw",
+      "id": "feed_xaux920y",
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
       "src": "中国人民银行",
       "date": "2026-11-04",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_n2ija50r",
+      "id": "feed_4c8ssrl9",
       "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告〔2026〕第1号",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2lovnk5n",
+      "id": "feed_hz0zoten",
       "title": "中国人民银行决定上调金融机构外汇存款准备金率",
       "src": "中国人民银行",
       "date": "2026-11-03",
@@ -254,13 +254,55 @@
       "use": "signal"
     },
     {
-      "id": "feed_fpazhpyu",
-      "title": "美联储施密德：当前利率在大多数情况下并未导致购房者犹豫不决。",
+      "id": "feed_lq6l4vqx",
+      "title": "【美国银行预计印度第三季度国内生产总值增速达7.7%，27财年存在上行风险】美国银行经济学家拉胡尔·巴乔里亚与斯姆里蒂·…",
       "src": "新浪财经 7x24",
       "date": "2026-11-11",
-      "body": "美联储施密德：当前利率在大多数情况下并未导致购房者犹豫不决。",
-      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyhwnq8896909.d.html",
+      "body": "【美国银行预计印度第三季度国内生产总值增速达7.7%，27财年存在上行风险】美国银行经济学家拉胡尔·巴乔里亚与斯姆里蒂·梅拉在周二晚间发布的报告中称，该行预计印度2026年第三季度经济同比增长7.7%，高于此前7.2%的预期。预计第三季度总增加值同比增长约8.1%，工业与服务业提供支撑，农业增速预计持平。维持27财年国内生产总值增长预期7.4%不变，同时认为存在小幅上行风险；28财年预期保持7.5%。预计第三季度制造业同比增长约12%，建筑业增速约7%。预计印度储备银行将在未来6至9个月内再加息75个基点，或在一定程度上抑制消费需求。",
+      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxy2004937.d.html",
+      "event": "GDP",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_z0o16bp3",
+      "title": "【经济学家：激进加息或成2027年美股主要威胁】文艺复兴宏观研究公司首席经济学家Neil Dutta周二警告称，美联储对…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-11",
+      "body": "【经济学家：激进加息或成2027年美股主要威胁】文艺复兴宏观研究公司首席经济学家Neil Dutta周二警告称，美联储对抑制通胀的能力仍然过于乐观，市场可能过于自满。他还补充称，尽管投资者仍然对人工智能（AI）交易的持久性存有疑虑，但美联储在抑制通胀的努力中走得太远的风险，正成为2027年股市面临的越来越严重的威胁。",
+      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxw5228432.d.html",
       "event": "美联储",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_3yubano9",
+      "title": "【会计改革与发展“十五五”规划：搭建行业共性技术共享平台，建设关联关系查询辅助平台，实现通用软件工具和行业知识库共建共享…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-11",
+      "body": "【会计改革与发展“十五五”规划：搭建行业共性技术共享平台，建设关联关系查询辅助平台，实现通用软件工具和行业知识库共建共享】财政部印发《会计改革与发展“十五五”规划》。其中提出， 注重数智技术在注册会计师审计中的深度应用，赋能注册会计师行业扩能提质。持续推动银行函证数字化发展，推动更多银行业金融机构和会计师事务所接入银行函证平台。搭建行业共性技术共享平台，建设关联关系查询辅助平台，实现通用软件工具和行业知识库共建共享。分层分类推进信息技术应用，推动不同规模会计师事务所因地制宜建设审计作业和内部管理系统，加强对审计智能工具的研发。加强对人工智能等信息技术应用和辅助注册会计师审计执业的相关问题研究。推动会计师事务所加强网络和数据安全管理，确保自主安全可控、责任清晰。",
+      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxy1999414.d.html",
+      "event": "",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -275,12 +317,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_evuwp22g",
-      "title": "美股低开 英伟达开盘跌近3%",
+      "id": "feed_7ej0csjy",
+      "title": "【会计改革与发展“十五五”规划：强化单位会计信息系统与财政、税务、银行、供应商、客户等外部信息系统的互联互通】财政部印发…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-11",
+      "body": "【会计改革与发展“十五五”规划：强化单位会计信息系统与财政、税务、银行、供应商、客户等外部信息系统的互联互通】财政部印发《会计改革与发展“十五五”规划》。其中提出， 结合单位实际促进数智技术与单位会计工作深度融合，稳妥有序推进大数据、人工智能等信息技术在会计核算、管理会计、内部控制、可持续信息披露等方面的应用，不断提升单位会计数智化水平。加强单位会计信息系统与业务系统、档案系统的集成，强化单位会计信息系统与财政、税务、银行、供应商、客户等外部信息系统的互联互通，构建和优化财务共享服务、云服务等工作模式，促进会计工作的集约化、自动化、智能化。加强会计数智化安全管理，确保单位依法依规采用现代信息技术开展会计工作。研究制定会计数智化评价办法，组织开展评价工作试点。加强会计数智化案例库建设，发挥优秀案例在会计数智化转型中的示范引领作用。",
+      "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixya8484516.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_11ht8t3s",
+      "title": "RTX 5080暴跌4000元",
       "src": "热搜／论坛",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%BD%8E%E5%BC%80+%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%BC%80%E7%9B%98%E8%B7%8C%E8%BF%913%25&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=RTX+5080%E6%9A%B4%E8%B7%8C4000%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -295,12 +358,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8qf2u7ec",
-      "title": "阿里宣布平头哥赴港独立上市",
+      "id": "feed_lfuu6fuu",
+      "title": "猪价创10年新低",
       "src": "热搜／论坛",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E9%87%8C%E5%AE%A3%E5%B8%83%E5%B9%B3%E5%A4%B4%E5%93%A5%E8%B5%B4%E6%B8%AF%E7%8B%AC%E7%AB%8B%E4%B8%8A%E5%B8%82&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%8C%AA%E4%BB%B7%E5%88%9B10%E5%B9%B4%E6%96%B0%E4%BD%8E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -315,12 +378,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_4bq4a9yd",
-      "title": "Anthropic正式启动募资计划",
+      "id": "feed_cop4blhz",
+      "title": "苹果iCloud突发大规模故障",
       "src": "热搜／论坛",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=Anthropic%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8%E5%8B%9F%E8%B5%84%E8%AE%A1%E5%88%92&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9CiCloud%E7%AA%81%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%95%85%E9%9A%9C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -335,12 +398,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_ru0vv7gn",
-      "title": "七巨头260亿美元“押注”Anthropic",
+      "id": "feed_may4d3y3",
+      "title": "比亚迪就大唐轮辋装配问题致歉",
       "src": "热搜／论坛",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%83%E5%B7%A8%E5%A4%B4260%E4%BA%BF%E7%BE%8E%E5%85%83%E2%80%9C%E6%8A%BC%E6%B3%A8%E2%80%9DAnthropic&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%B0%B1%E5%A4%A7%E5%94%90%E8%BD%AE%E8%BE%8B%E8%A3%85%E9%85%8D%E9%97%AE%E9%A2%98%E8%87%B4%E6%AD%89&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -355,12 +418,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_02dwgj7f",
-      "title": "Anthropic：年化营收约为810亿美元",
+      "id": "feed_5t08p36e",
+      "title": "Anthropic拟上调发行价",
       "src": "热搜／论坛",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=Anthropic%EF%BC%9A%E5%B9%B4%E5%8C%96%E8%90%A5%E6%94%B6%E7%BA%A6%E4%B8%BA810%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=Anthropic%E6%8B%9F%E4%B8%8A%E8%B0%83%E5%8F%91%E8%A1%8C%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
