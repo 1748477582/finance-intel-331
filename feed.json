@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:10:04.232Z",
+  "generatedAt": "2026-11-12T19:53:53.440Z",
   "watch": [
     "equity",
     "bond"
@@ -14,7 +14,7 @@
   },
   "intel": [
     {
-      "id": "feed_jcdel51p",
+      "id": "feed_wgkz3l3n",
       "title": "2026年10月份居民消费价格同比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_i8i52hws",
+      "id": "feed_q5qhc9sz",
       "title": "2026年10月份工业生产者出厂价格同比上涨5.7%环比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_oycd2u85",
+      "id": "feed_5fn1v9tt",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_0hffx048",
+      "id": "feed_gicqrlp1",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tt32fom1",
+      "id": "feed_qjimozni",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_io20mnht",
+      "id": "feed_m4iv61kq",
       "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ppwlzz44",
+      "id": "feed_4gbgsgts",
       "title": "金融科技发展奖评审领导小组会议召开",
       "src": "中国人民银行",
       "date": "2026-11-12",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_gk6yxgd9",
+      "id": "feed_i8f8wyji",
       "title": "2026年第三季度中国货币政策执行报告",
       "src": "中国人民银行",
       "date": "2026-11-11",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vbzu1o0i",
+      "id": "feed_35onhdtx",
       "title": "2026年前三季度中国货币政策大事记",
       "src": "中国人民银行",
       "date": "2026-11-11",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_shk9kjk0",
+      "id": "feed_e5z9n3w9",
       "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
       "src": "中国人民银行",
       "date": "2026-11-11",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_xuh6ntp1",
+      "id": "feed_wlj9wmsl",
       "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_arbgnala",
+      "id": "feed_y7cidstt",
       "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
       "src": "中国人民银行",
       "date": "2026-11-05",
@@ -254,35 +254,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_s37it4yk",
-      "title": "【金融科技发展奖评审领导小组会议召开】近日，2025年度金融科技发展奖评审领导小组会议在京召开。中国人民银行副行长邹澜、…",
+      "id": "feed_ae75g6ly",
+      "title": "【克利夫兰联储行长称通胀正朝错误方向发展 利率需更具限制性】克利夫兰联储行长贝丝·哈马克重申，她认为在人工智能投资所带来…",
       "src": "新浪财经 7x24",
-      "date": "2026-11-12",
-      "body": "【金融科技发展奖评审领导小组会议召开】近日，2025年度金融科技发展奖评审领导小组会议在京召开。中国人民银行副行长邹澜、中国证监会副主席刘浩凌出席会议并讲话。会议强调，金融业要深入贯彻落实党的二十大和二十届历次全会精神，聚焦做好金融“五篇大文章”，稳步加大金融科技投入与创新探索，积极推动自主可控技术向着“全面好用”“更稳更优”目标迈进，不断提升行业数智化水平，积极探索人工智能在金融管理和服务领域的应用，防范模型应用伴生风险，守牢安全发展底线，促进金融服务提质增效。要持续发挥金融科技发展奖示范引领作用，把握前沿技术发展机遇，夯实数据底座，强化科技治理，更好支撑防风险、强监管、促高质量发展各项工作。（中国人民银行）",
-      "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8491574.d.html",
-      "event": "",
+      "date": "2026-11-13",
+      "body": "【克利夫兰联储行长称通胀正朝错误方向发展 利率需更具限制性】克利夫兰联储行长贝丝·哈马克重申，她认为在人工智能投资所带来的需求压力下，需要提高利率以抗击通胀。“我的预期是我们需要将政策转向限制性立场，以帮助通胀回落至2%的目标，这一点至关重要，”哈马克周四在俄亥俄州哥伦布的活动上表示。“如果我们不这样做，我担心通胀思维可能开始扎根。”哈马克表示，面对数据中心建设带来的需求压力，美联储有充分的应对能力。“当我权衡这些因素时，我看到的是通胀一直很顽固，而且持续时间比我预期的要长，”她说。剔除食品和能源价格的基础通胀10月升幅超过预期。哈马克表示，这份报告显示，通胀方面的进展“确实停滞”。“我看到的最新数据显示通胀正朝错误的方向发展。我们正在远离2%的目标，而不是向这个目标靠拢，”她说。上月美联储决定将利率维持在3.75%-4%的区间不变，哈马克是两名持异议的官员之一。当时她倾向于加息25个基点。",
+      "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypksr1482407.d.html",
+      "event": "美联储",
       "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_6vbro6c7",
-      "title": "英国9月季调后商品贸易帐 -222.91亿英镑，预期-194.5亿英镑，前值由-180.07亿英镑修正为-196.1亿英…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-12",
-      "body": "英国9月季调后商品贸易帐 -222.91亿英镑，预期-194.5亿英镑，前值由-180.07亿英镑修正为-196.1亿英镑。 英国9月季调后非欧盟贸易帐 -89.85亿英镑，前值由-52.87亿英镑修正为-68.19亿英镑。 英国9月工业产出年率 3.1%，预期2.9%，前值由1.60%修正为1.1%。 英国第三季度GDP季率初值 0.7%，预期0.7%，前值0.50%。 英国第三季度商业投资总值季率初值 0.4%，预期0.8%，前值由1.80%修正为1.8%。 英国9月GDP月率 0.2%，预期0%，前值由0.10%修正为0%。 英国9月三个月GDP月率 0.7%，预期0.7%，前值由0.7%修正为0.6%。",
-      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
-      "event": "GDP",
-      "flow": "shift",
       "slow": false,
       "read": "",
       "fields": [
@@ -296,12 +275,33 @@
       "use": "signal"
     },
     {
-      "id": "feed_fl2ugqzj",
-      "title": "腾讯裁员50%？知情人士回应",
+      "id": "feed_hulk9az4",
+      "title": "墨西哥财政部称，国际货币基金组织在中期审查后，批准墨西哥下调灵活信贷额度的申请，额度规模降至约 180 亿美元。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-13",
+      "body": "墨西哥财政部称，国际货币基金组织在中期审查后，批准墨西哥下调灵活信贷额度的申请，额度规模降至约 180 亿美元。",
+      "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypkss8248982.d.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_93xt925i",
+      "title": "黄仁勋辞去英伟达CEO职务",
       "src": "热搜／论坛",
       "date": "2026-11-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%85%BE%E8%AE%AF%E8%A3%81%E5%91%9850%25%EF%BC%9F%E7%9F%A5%E6%83%85%E4%BA%BA%E5%A3%AB%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E5%8E%BB%E8%8B%B1%E4%BC%9F%E8%BE%BECEO%E8%81%8C%E5%8A%A1&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -316,12 +316,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_dvixf294",
-      "title": "羽毛球降价竟然和猪肉有关",
+      "id": "feed_6uantuzv",
+      "title": "英伟达盘中市值跌破4万亿美元",
       "src": "热搜／论坛",
       "date": "2026-11-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%BD%E6%AF%9B%E7%90%83%E9%99%8D%E4%BB%B7%E7%AB%9F%E7%84%B6%E5%92%8C%E7%8C%AA%E8%82%89%E6%9C%89%E5%85%B3&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%9B%98%E4%B8%AD%E5%B8%82%E5%80%BC%E8%B7%8C%E7%A0%B44%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -336,12 +336,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_jwt6302j",
-      "title": "德芙广告宣扬错误婚恋观 被罚80万",
+      "id": "feed_5bbawz55",
+      "title": "黄仁勋没能走出乔布斯的困境",
       "src": "热搜／论坛",
       "date": "2026-11-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BE%B7%E8%8A%99%E5%B9%BF%E5%91%8A%E5%AE%A3%E6%89%AC%E9%94%99%E8%AF%AF%E5%A9%9A%E6%81%8B%E8%A7%82+%E8%A2%AB%E7%BD%9A80%E4%B8%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E6%B2%A1%E8%83%BD%E8%B5%B0%E5%87%BA%E4%B9%94%E5%B8%83%E6%96%AF%E7%9A%84%E5%9B%B0%E5%A2%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -356,12 +356,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_n8x7et4h",
-      "title": "德系车三巨头到底是怎么了",
+      "id": "feed_qrefrimi",
+      "title": "如何评价黄仁勋辞职",
       "src": "热搜／论坛",
       "date": "2026-11-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%BE%B7%E7%B3%BB%E8%BD%A6%E4%B8%89%E5%B7%A8%E5%A4%B4%E5%88%B0%E5%BA%95%E6%98%AF%E6%80%8E%E4%B9%88%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -376,12 +376,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_yeoc6hii",
-      "title": "中产在山姆疯抢始祖鸟",
+      "id": "feed_lfswkhtu",
+      "title": "英伟达大跌13%市值蒸发超5000亿美元",
       "src": "热搜／论坛",
       "date": "2026-11-12",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BA%A7%E5%9C%A8%E5%B1%B1%E5%A7%86%E7%96%AF%E6%8A%A2%E5%A7%8B%E7%A5%96%E9%B8%9F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%A4%A7%E8%B7%8C13%25%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91%E8%B6%855000%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
