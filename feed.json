@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-14T18:00:20.280Z",
+  "generatedAt": "2026-11-15T06:30:44.751Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 11,
+    "total": 14,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 0,
+    "sina724": 3,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_o7ufdu9w",
+      "id": "feed_32w5m5qv",
       "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-14",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_poi9v0ye",
+      "id": "feed_gqypik21",
       "title": "2026年10月份居民消费价格同比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_npqgo1lw",
+      "id": "feed_awt77xeo",
       "title": "2026年10月份工业生产者出厂价格同比上涨5.7%环比上涨0.7%",
       "src": "国家统计局",
       "date": "2026-11-09",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_fbdpgidq",
+      "id": "feed_jiietgy9",
       "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-04",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rulbiozt",
+      "id": "feed_g6udwfad",
       "title": "2026年10月中国采购经理指数运行情况",
       "src": "国家统计局",
       "date": "2026-10-31",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_ag4n69g1",
+      "id": "feed_34wu8fk4",
       "title": "社会事业全面发展民生福祉取得新进步——2025年社会民生统计报告",
       "src": "国家统计局",
       "date": "2026-10-30",
@@ -134,12 +134,75 @@
       "use": "signal"
     },
     {
-      "id": "feed_rpcfaz8c",
-      "title": "吴清：A股市情在全球独一无二",
+      "id": "feed_5l0tajaz",
+      "title": "沙特10月CPI环比上涨0.1%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-15",
+      "body": "沙特10月CPI环比上涨0.1%。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyuykf3214236.d.html",
+      "event": "CPI",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_hlr6fr7m",
+      "title": "沙特10月CPI同比上涨1.7%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-15",
+      "body": "沙特10月CPI同比上涨1.7%。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyuykf3214193.d.html",
+      "event": "CPI",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_ev43txhn",
+      "title": "【韩国央行逢低买金 第三季度增持40%黄金ETF】韩国央行在时隔13年、于二季度重新布局黄金投资后，三季度将一只黄金交易…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-15",
+      "body": "【韩国央行逢低买金 第三季度增持40%黄金ETF】韩国央行在时隔13年、于二季度重新布局黄金投资后，三季度将一只黄金交易所交易基金（ETF）的持仓增持超40%。该行趁金价走低买入黄金，这是一项提升黄金中长期配置的计划。同时，韩国央行采购本土实物黄金的相关筹备工作预计将在年底前推进。 根据韩国央行15日向美国证券交易委员会提交的三季度13F文件，截至9月末，该行持有956869股在美上市的SPDR黄金信托（GLD），持仓市值3.6441亿美元，约合4883亿韩元。 相较于二季度末的679765股，本次增持277104股，增幅40.8%；持仓市值从2.5041亿美元上涨45.5%。市值涨幅高于持仓数量涨幅，原因是金价上涨带动该ETF市价走高，叠加新增买入的双重影响，这1.14亿美元的市值增量并非全部来自新增购金。国际金价8月25日收盘飙升至每盎司4658.59美元，随后持续回落，13日跌至每盎司3884.77美元，较8月25日下跌16.6%。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyuyiy9649541.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_q4tzs07c",
+      "title": "央行重大调整",
       "src": "热搜／论坛",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%90%B4%E6%B8%85%EF%BC%9AA%E8%82%A1%E5%B8%82%E6%83%85%E5%9C%A8%E5%85%A8%E7%90%83%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%E9%87%8D%E5%A4%A7%E8%B0%83%E6%95%B4&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -154,12 +217,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_jo8n23eu",
-      "title": "两天17款新车 车企年底扎堆冲量",
+      "id": "feed_fnwcm661",
+      "title": "猪肉价格跌到10年新低",
       "src": "热搜／论坛",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%A4%E5%A4%A917%E6%AC%BE%E6%96%B0%E8%BD%A6+%E8%BD%A6%E4%BC%81%E5%B9%B4%E5%BA%95%E6%89%8E%E5%A0%86%E5%86%B2%E9%87%8F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%8C%AA%E8%82%89%E4%BB%B7%E6%A0%BC%E8%B7%8C%E5%88%B010%E5%B9%B4%E6%96%B0%E4%BD%8E&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -174,12 +237,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_98dc8wmw",
-      "title": "洗发水陷假洋牌争议 于东来正面回应",
+      "id": "feed_njxdxfav",
+      "title": "余承东：大折叠已成为千万人的主力机",
       "src": "热搜／论坛",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B4%97%E5%8F%91%E6%B0%B4%E9%99%B7%E5%81%87%E6%B4%8B%E7%89%8C%E4%BA%89%E8%AE%AE+%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%AD%A3%E9%9D%A2%E5%9B%9E%E5%BA%94&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%99%E6%89%BF%E4%B8%9C%EF%BC%9A%E5%A4%A7%E6%8A%98%E5%8F%A0%E5%B7%B2%E6%88%90%E4%B8%BA%E5%8D%83%E4%B8%87%E4%BA%BA%E7%9A%84%E4%B8%BB%E5%8A%9B%E6%9C%BA&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -194,12 +257,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_p5dnb924",
-      "title": "中美竞争人工智能欧洲为何焦虑",
+      "id": "feed_321tmxyb",
+      "title": "于东来回应“人红是非多”",
       "src": "热搜／论坛",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E7%AB%9E%E4%BA%89%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%AC%A7%E6%B4%B2%E4%B8%BA%E4%BD%95%E7%84%A6%E8%99%91&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%9B%9E%E5%BA%94%E2%80%9C%E4%BA%BA%E7%BA%A2%E6%98%AF%E9%9D%9E%E5%A4%9A%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -214,12 +277,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_r5ty5wju",
-      "title": "Meta被意大利罚款8.05亿欧元",
+      "id": "feed_nqx7ontb",
+      "title": "胖东来羽绒服标注进货价与毛利率",
       "src": "热搜／论坛",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=Meta%E8%A2%AB%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BD%9A%E6%AC%BE8.05%E4%BA%BF%E6%AC%A7%E5%85%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%A0%87%E6%B3%A8%E8%BF%9B%E8%B4%A7%E4%BB%B7%E4%B8%8E%E6%AF%9B%E5%88%A9%E7%8E%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
