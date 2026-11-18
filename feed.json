@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-17T20:55:06.022Z",
+  "generatedAt": "2026-11-18T07:28:27.186Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 18,
+    "total": 23,
     "llm": 0,
     "stats": 6,
-    "pbc": 6,
-    "sina724": 1,
+    "pbc": "error: fetch failed",
+    "sina724": 12,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_sro1vhjt",
+      "id": "feed_t0ezd4yu",
       "title": "10月份国民经济运行总体平稳、向新向优",
       "src": "国家统计局",
       "date": "2026-11-16",
-      "body": "在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央和国务院决策部署，坚持稳中求进工作总基调，强化存量政策和增量政策协同，扎实推进高质量发展，生产供给平稳增长，市场销售规模扩大，对外贸易快速增长，就业物价总体稳定，新质生产力茁壮成长，国民经济运行延续总体平稳、向新向优发展态势。一、工业生产较快增长，装备制造业和高技术制造业支撑明显10月份，全国规模以上工业增加值同比增长4.8%，环比增长0.21%。分三大门类看，采矿业增加值同比增长0.7%，制造业增长5.4%，电力、热力、燃气及水生产和供应业增长4.4%。装备制造业增加值同比增长10.6%，高技术制造业增加值增长17.6%，分别快于全部规模以上工业增加值5.8和12.8个百分点。分经济类型看，国有控股企业增加值同比增长2.1%；股份制企业增长5.2%，外商及港澳台投资企业增长3.0%；私营企业增长3.2%。分产品看，3D打印设备、锂离子电池、工业机器人产品产量同比分别增长85.9%、30.0%、26.0%。1 — 10月份，全国规模以上工业增加值同比增长5.3%。10月份，制造业采购经理指数为49.3%，企业生产经营活动预期指数为53.4%。1 — 9月份，全国规模以上工业企业实现利润总额60337亿元，同比增长15.5%。二、服务业平稳增长，现代服务业增势良好10月份，全国服务业生产指数同比增长4.6%。分行业看，租赁和商务服务业，信息传输、软件和信息技术服务业，交通运输、仓储和邮政业生产指数同比分别增长9.3%、9.2%、5.1%。1 — 10月份，全国服务业生产指数同比增长4.7%。10月份，服务业商务",
+      "body": "",
       "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_rfp8ligu",
+      "id": "feed_o6lh1upw",
       "title": "2026年10月份规模以上工业增加值增长4.8%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4u9rz1rk",
+      "id": "feed_bfx85sg1",
       "title": "2026年1—10月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_swldp88b",
+      "id": "feed_j79jqbna",
       "title": "2026年1—10月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_r0i4rur1",
+      "id": "feed_8gofc4lw",
       "title": "2026年1—10月份社会消费品零售总额增长1.0%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_s3p16jo6",
+      "id": "feed_6wrm4ty7",
       "title": "2026年10月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -134,134 +134,119 @@
       "use": "signal"
     },
     {
-      "id": "feed_7wcda6rv",
-      "title": "2026年10月金融统计数据报告",
-      "src": "中国人民银行",
-      "date": "2026-11-13",
-      "body": "月金融统计数据报告术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年10月金融统计数据报告字号大中小文章来源：2026-11-13 17:00:00打印本页关闭窗口一、社会融资规模存量同比增长7.2%初步统计，2026年10月末社会融资规模存量为469.16万亿元，同比增长7.2%。其中，对实体经济发放的人民币贷款余额279.31万亿元，同比增长4.6%；对实体经济发放的外币贷款折合人民币余额1.26万亿元，同比增长9%；委托贷款余额11.53万亿元，同比增长1.7%；信托贷款余额4.49万亿元，同比下降0.6%；未贴现的银行承兑汇票余额2.05万亿元，同比下降4.4%；企业债券余额36.92万亿元，同比增长9.6%；政府债券余额106.41万亿元，同比增长14.4%；非金融企业境内股票余额12.77万亿元，同比增长5.5%。从结构看，10月末对实体经济发放的人民币贷款余额占同期社会融资规模存量的59.5%，同比低1.5个百分点；对实体经济发放的外币贷款折合人民币余额占比0.3%，同比持平；委托贷款余额占比2.5%，同比低0.1个百分点；信托贷款余额占比1%，同比持平；未贴现的银行承兑汇票余",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111315073060062/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_i7uzl7i8",
-      "title": "金融科技发展奖评审领导小组会议召开",
-      "src": "中国人民银行",
-      "date": "2026-11-12",
-      "body": "金融科技发展奖评审领导小组会议召开术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻金融科技发展奖评审领导小组会议召开字号大中小文章来源：2026-11-12 15:00:04打印本页关闭窗口近日，2025年度金融科技发展奖评审领导小组会议在京召开。中国人民银行副行长邹澜、中国证监会副主席刘浩凌出席会议并讲话。会议总结了2025年度金融科技发展奖评审工作，评定297个获奖项目。其中，特等奖1项、一等奖19项、二等奖105项、三等奖152项、微创新奖20项。获奖成果集中展现了金融业在立足自主创新突破核心技术、依托智能应用迭代业务模式、深化数智融合提升技术能力等方面的创新实践。会议强调，当前正处在“十五五”开局起步的关键时期，金融科技工作肩负着服务高质量发展、支撑金融强国建设的重要使命。金融业要深入贯彻落实党的二十大和二十届历次全会精神，聚焦做好金融“五篇大文章”，稳步加大金融科技投入与创新探索，积极推动自主可控技术向着“全面好用”“更稳更优”目标迈进，不断提升行业数智化水平，积极探索人工智能在金融管理和服务领域的应用，防范模型应用伴生风险，守牢安全发展底线，促进金融服务提质增效。要持续发挥金融科技发展奖",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111210072039722/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_tlsidr5u",
-      "title": "2026年第三季度中国货币政策执行报告",
-      "src": "中国人民银行",
-      "date": "2026-11-11",
-      "body": "年第三季度中国货币政策执行报告术语表常见问题-->网站地图更新日志--> -->无障碍浏览English Version信息公开新闻发布法律法规货币政策宏观审慎信贷政策金融市场金融稳定调查统计银行会计支付体系金融科技人民币经理国库国际交往人员招录学术交流征信管理反洗钱党建工作服务互动政务公开政策解读公告信息图文直播央行研究音频视频市场动态网上展厅报告下载报刊年鉴网送文告办事大厅在线申报下载中心网上调查意见征集金融知识关于我们|我的位置:沟通交流>沟通交流>新闻2026年第三季度中国货币政策执行报告字号大中小文章来源：2026-11-11 18:00:16打印本页关闭窗口内容摘要今年以来，在以习近平同志为核心的党中央坚强领导下，我国经济保持平稳运行，呈现动能向新、结构向优的发展态势。前三季度国内生产总值（GDP）同比增长4.6%。中国人民银行坚持以习近平新时代中国特色社会主义思想为指导，坚决落实党中央、国务院决策部署，继续实施适度宽松的货币政策，综合运用多种货币政策工具，为经济持续向好向优创造适宜的货币金融环境。一是总量上保持流动性充裕，社会融资条件处于较为适宜水平。灵活搭配使用多种货币政策工具，保持银行体系流动性充裕。不断完善优化短端利率调控机制，增强货币市场利率调控的精准性、有效性。引导金融机构信贷均衡投放，充分满足实体经济有效信贷需求。二是价格上推动社会综合融资成本低位运行。在年初下调结构性货币政策工具利率的基础上，进一步下调抵押补充贷款（PSL）利率0.25个百分点，持续推进明示企业贷款综合融资成本工作，降低融资中间费用。继续释放贷款市场报价利率（LPR）改革效能，有效发",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": true,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0m36r7di",
-      "title": "2026年前三季度中国货币政策大事记",
-      "src": "中国人民银行",
-      "date": "2026-11-11",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116304170164/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ikmnthxf",
-      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
-      "src": "中国人民银行",
-      "date": "2026-11-11",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111115493736794/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_fxzklpow",
-      "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
-      "src": "中国人民银行",
-      "date": "2026-11-05",
-      "body": "",
-      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_iyi2bm2q",
-      "title": "美联储威廉姆斯：美联储将及时把通胀率降至2%。",
+      "id": "feed_i1dsj5n7",
+      "title": "【高盛预测金价两年后或重返高位】高盛在17日对外披露的最新研究报告中预测，在2028年年底前，国际金价有望重返每盎司56…",
       "src": "新浪财经 7x24",
       "date": "2026-11-18",
-      "body": "美联储威廉姆斯：美联储将及时把通胀率降至2%。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizauir5093242.d.html",
-      "event": "美联储",
+      "body": "【高盛预测金价两年后或重返高位】高盛在17日对外披露的最新研究报告中预测，在2028年年底前，国际金价有望重返每盎司5600美元的历史高位。不过这取决于美联储未来重新转向降息周期，以及投资者布局贵金属市场。高盛预计，在2027年11月至2028年9月之间，美联储将进行四次、每次25个基点的降息。同时，全球央行的购买需求也被视为长期支撑金价的因素之一，预计从2026年到2028年，各国央行每月平均购金规模将达到60吨，而2022年之前这一数字仅为17吨。 不过，高盛同时提醒投资者，黄金价格未来两年的上涨走势可能并不平稳。随着美联储继续收紧货币政策，金价短期仍面临下行风险和较大的价格波动。 （央视财经）",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1626503.d.html",
+      "event": "利率 2027-11",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_54pxxein",
+      "title": "印尼央行行长：将通过提供跨货币回购来支持银行业流动性。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行行长：将通过提供跨货币回购来支持银行业流动性。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1625672.d.html",
+      "event": "",
+      "flow": "more",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_lwdy9agu",
+      "title": "印尼央行加息25个基点后，印尼盾兑美元汇率升至18230印尼盾。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行加息25个基点后，印尼盾兑美元汇率升至18230印尼盾。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvuz1076465.d.html",
+      "event": "汇率",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_nnpuzzjn",
+      "title": "印尼央行行长：为外汇对冲提供更多激励。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行行长：为外汇对冲提供更多激励。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf6959462.d.html",
+      "event": "",
       "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_eteqdc1w",
+      "title": "印尼盾小幅走低，此前印尼央行上调利率。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼盾小幅走低，此前印尼央行上调利率。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1623958.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_4kuucolk",
+      "title": "【英国通胀攀升至一年来最高水平】英国国家统计局数据显示，上月通胀率升至3.6%，创一年来新高。受燃料成本上涨及能源价格上…",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "【英国通胀攀升至一年来最高水平】英国国家统计局数据显示，上月通胀率升至3.6%，创一年来新高。受燃料成本上涨及能源价格上限上调4%影响，消费者物价涨幅加快；电子烟和烟草税上调也起到推动作用。10月数据符合经济学家预期，中东冲突及俄乌冲突的持续影响仍在拖累物价。Creditspring消费者金融专家塔姆辛·鲍威尔表示，即使小幅上涨也会带来伤害，因为价格已从更高基数继续攀升，许多家庭已几乎没有或完全没有缓冲余地。她补充称，应对之道并非恐慌，而是做好准备：审视日常支出，为可预见的成本提前规划，若还款出现困难应尽早与贷款方沟通。这一建议对当前处境艰难者颇为适用，因为通胀前景预计将更加严峻，英国央行预计明年可能触及5%。尽管燃料成本已从10月初的峰值小幅回落，但由于批发天然气成本较去年同期高出150%，1月即将实施的能源价格上限调整将带来沉重压力。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1623613.d.html",
+      "event": "",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
@@ -275,12 +260,138 @@
       "use": "signal"
     },
     {
-      "id": "feed_mhxjkxyl",
-      "title": "王兴兴西装革履小白鞋",
+      "id": "feed_qbgwqe5m",
+      "title": "印尼央行行长：未来我们将保持政策连贯性，以稳定印尼盾为决策目标来制定货币政策。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行行长：未来我们将保持政策连贯性，以稳定印尼盾为决策目标来制定货币政策。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf6957946.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_281eb72h",
+      "title": "印尼央行：这一决定是为维持通胀目标而采取的预防性措施。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行：这一决定是为维持通胀目标而采取的预防性措施。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4847063.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_nuq28shq",
+      "title": "印尼央行行长：加息是为了加强印尼盾稳定措施。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行行长：加息是为了加强印尼盾稳定措施。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4846959.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_fzmc63nu",
+      "title": "印尼央行行长：加息决定也是为了先发制人，确保通胀保持在目标范围内。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行行长：加息决定也是为了先发制人，确保通胀保持在目标范围内。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4846901.d.html",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_vgcbkz6y",
+      "title": "印尼央行关键利率上调25基点至6%; 预估为5.75%。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行关键利率上调25基点至6%; 预估为5.75%。",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
+      "event": "",
+      "flow": "less",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "hard",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_5whpif2h",
+      "title": "印尼央行：继续发挥政策协同作用，保持金融体系稳定。",
+      "src": "新浪财经 7x24",
+      "date": "2026-11-18",
+      "body": "印尼央行：继续发挥政策协同作用，保持金融体系稳定。",
+      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1622396.d.html",
+      "event": "",
+      "flow": "shift",
+      "slow": false,
+      "read": "",
+      "fields": [
+        "f1",
+        "f2"
+      ],
+      "chains": [],
+      "inc": "policy",
+      "multi": false,
+      "hot": false,
+      "use": "signal"
+    },
+    {
+      "id": "feed_p2svwkwy",
+      "title": "魏建军回应于东来复购310辆坦克700",
       "src": "热搜／论坛",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%85%B4%E5%85%B4%E8%A5%BF%E8%A3%85%E9%9D%A9%E5%B1%A5%E5%B0%8F%E7%99%BD%E9%9E%8B&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9B%9E%E5%BA%94%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%A4%8D%E8%B4%AD310%E8%BE%86%E5%9D%A6%E5%85%8B700&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -295,12 +406,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_rqr52ukm",
-      "title": "小米回应雷军APEC发言紧张",
+      "id": "feed_n5xg0z1i",
+      "title": "董明珠APEC现场喜笑颜开",
       "src": "热搜／论坛",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E9%9B%B7%E5%86%9BAPEC%E5%8F%91%E8%A8%80%E7%B4%A7%E5%BC%A0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0APEC%E7%8E%B0%E5%9C%BA%E5%96%9C%E7%AC%91%E9%A2%9C%E5%BC%80&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -315,12 +426,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_jxiyzwwm",
-      "title": "何超琼讲话董明珠注视满眼欣赏",
+      "id": "feed_8nhncj28",
+      "title": "王传福王兴雷军开启“绝密群聊”",
       "src": "热搜／论坛",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E4%BD%95%E8%B6%85%E7%90%BC%E8%AE%B2%E8%AF%9D%E8%91%A3%E6%98%8E%E7%8F%A0%E6%B3%A8%E8%A7%86%E6%BB%A1%E7%9C%BC%E6%AC%A3%E8%B5%8F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E4%BC%A0%E7%A6%8F%E7%8E%8B%E5%85%B4%E9%9B%B7%E5%86%9B%E5%BC%80%E5%90%AF%E2%80%9C%E7%BB%9D%E5%AF%86%E7%BE%A4%E8%81%8A%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -335,12 +446,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_zelsv7ws",
-      "title": "雷军和董明珠都提到了自家机器人",
+      "id": "feed_md8z9dzu",
+      "title": "没人看电视了 为何TCL电子还那么赚",
       "src": "热搜／论坛",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%92%8C%E8%91%A3%E6%98%8E%E7%8F%A0%E9%83%BD%E6%8F%90%E5%88%B0%E4%BA%86%E8%87%AA%E5%AE%B6%E6%9C%BA%E5%99%A8%E4%BA%BA&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E4%BA%BA%E7%9C%8B%E7%94%B5%E8%A7%86%E4%BA%86+%E4%B8%BA%E4%BD%95TCL%E7%94%B5%E5%AD%90%E8%BF%98%E9%82%A3%E4%B9%88%E8%B5%9A&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -355,12 +466,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_soo8foqn",
-      "title": "Anthropic纳斯达克IPO获准",
+      "id": "feed_uq0w7abr",
+      "title": "胖东来鞋服价签公示进价采购费毛利率",
       "src": "热搜／论坛",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=Anthropic%E7%BA%B3%E6%96%AF%E8%BE%BE%E5%85%8BIPO%E8%8E%B7%E5%87%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "url": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E9%9E%8B%E6%9C%8D%E4%BB%B7%E7%AD%BE%E5%85%AC%E7%A4%BA%E8%BF%9B%E4%BB%B7%E9%87%87%E8%B4%AD%E8%B4%B9%E6%AF%9B%E5%88%A9%E7%8E%87&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
