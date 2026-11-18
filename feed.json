@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-18T07:28:27.186Z",
+  "generatedAt": "2026-11-18T20:30:25.857Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 23,
+    "total": 15,
     "llm": 0,
     "stats": 6,
     "pbc": "error: fetch failed",
-    "sina724": 12,
+    "sina724": 4,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_t0ezd4yu",
+      "id": "feed_qnjpfdv8",
       "title": "10月份国民经济运行总体平稳、向新向优",
       "src": "国家统计局",
       "date": "2026-11-16",
-      "body": "",
+      "body": "在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央和国务院决策部署，坚持稳中求进工作总基调，强化存量政策和增量政策协同，扎实推进高质量发展，生产供给平稳增长，市场销售规模扩大，对外贸易快速增长，就业物价总体稳定，新质生产力茁壮成长，国民经济运行延续总体平稳、向新向优发展态势。一、工业生产较快增长，装备制造业和高技术制造业支撑明显10月份，全国规模以上工业增加值同比增长4.8%，环比增长0.21%。分三大门类看，采矿业增加值同比增长0.7%，制造业增长5.4%，电力、热力、燃气及水生产和供应业增长4.4%。装备制造业增加值同比增长10.6%，高技术制造业增加值增长17.6%，分别快于全部规模以上工业增加值5.8和12.8个百分点。分经济类型看，国有控股企业增加值同比增长2.1%；股份制企业增长5.2%，外商及港澳台投资企业增长3.0%；私营企业增长3.2%。分产品看，3D打印设备、锂离子电池、工业机器人产品产量同比分别增长85.9%、30.0%、26.0%。1 — 10月份，全国规模以上工业增加值同比增长5.3%。10月份，制造业采购经理指数为49.3%，企业生产经营活动预期指数为53.4%。1 — 9月份，全国规模以上工业企业实现利润总额60337亿元，同比增长15.5%。二、服务业平稳增长，现代服务业增势良好10月份，全国服务业生产指数同比增长4.6%。分行业看，租赁和商务服务业，信息传输、软件和信息技术服务业，交通运输、仓储和邮政业生产指数同比分别增长9.3%、9.2%、5.1%。1 — 10月份，全国服务业生产指数同比增长4.7%。10月份，服务业商务",
       "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
       "event": "",
       "flow": "shift",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_o6lh1upw",
+      "id": "feed_zdqxq544",
       "title": "2026年10月份规模以上工业增加值增长4.8%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bfx85sg1",
+      "id": "feed_4h26p3i8",
       "title": "2026年1—10月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_j79jqbna",
+      "id": "feed_x9vy6y7l",
       "title": "2026年1—10月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8gofc4lw",
+      "id": "feed_jw5fill9",
       "title": "2026年1—10月份社会消费品零售总额增长1.0%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_6wrm4ty7",
+      "id": "feed_5xkkn4y0",
       "title": "2026年10月份能源生产情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -134,76 +134,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_i1dsj5n7",
-      "title": "【高盛预测金价两年后或重返高位】高盛在17日对外披露的最新研究报告中预测，在2028年年底前，国际金价有望重返每盎司56…",
+      "id": "feed_jivonlgd",
+      "title": "美联储威廉姆斯：人工智能使用激增带来的强劲需求提供了新的维度，改变了我们的做事方式和思维方式。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "【高盛预测金价两年后或重返高位】高盛在17日对外披露的最新研究报告中预测，在2028年年底前，国际金价有望重返每盎司5600美元的历史高位。不过这取决于美联储未来重新转向降息周期，以及投资者布局贵金属市场。高盛预计，在2027年11月至2028年9月之间，美联储将进行四次、每次25个基点的降息。同时，全球央行的购买需求也被视为长期支撑金价的因素之一，预计从2026年到2028年，各国央行每月平均购金规模将达到60吨，而2022年之前这一数字仅为17吨。 不过，高盛同时提醒投资者，黄金价格未来两年的上涨走势可能并不平稳。随着美联储继续收紧货币政策，金价短期仍面临下行风险和较大的价格波动。 （央视财经）",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1626503.d.html",
-      "event": "利率 2027-11",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_54pxxein",
-      "title": "印尼央行行长：将通过提供跨货币回购来支持银行业流动性。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行行长：将通过提供跨货币回购来支持银行业流动性。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1625672.d.html",
-      "event": "",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_lwdy9agu",
-      "title": "印尼央行加息25个基点后，印尼盾兑美元汇率升至18230印尼盾。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行加息25个基点后，印尼盾兑美元汇率升至18230印尼盾。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvuz1076465.d.html",
-      "event": "汇率",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_nnpuzzjn",
-      "title": "印尼央行行长：为外汇对冲提供更多激励。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行行长：为外汇对冲提供更多激励。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf6959462.d.html",
-      "event": "",
+      "date": "2026-11-19",
+      "body": "美联储威廉姆斯：人工智能使用激增带来的强劲需求提供了新的维度，改变了我们的做事方式和思维方式。",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizexhp0756393.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -218,34 +155,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_eteqdc1w",
-      "title": "印尼盾小幅走低，此前印尼央行上调利率。",
+      "id": "feed_zwi0cxfs",
+      "title": "【美联储会议纪要显示几乎所有官员预计还需加息】美联储会议纪要显示，几乎所有美联储官员在10月都同意，他们可能不得不在“在…",
       "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼盾小幅走低，此前印尼央行上调利率。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1623958.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_4kuucolk",
-      "title": "【英国通胀攀升至一年来最高水平】英国国家统计局数据显示，上月通胀率升至3.6%，创一年来新高。受燃料成本上涨及能源价格上…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "【英国通胀攀升至一年来最高水平】英国国家统计局数据显示，上月通胀率升至3.6%，创一年来新高。受燃料成本上涨及能源价格上限上调4%影响，消费者物价涨幅加快；电子烟和烟草税上调也起到推动作用。10月数据符合经济学家预期，中东冲突及俄乌冲突的持续影响仍在拖累物价。Creditspring消费者金融专家塔姆辛·鲍威尔表示，即使小幅上涨也会带来伤害，因为价格已从更高基数继续攀升，许多家庭已几乎没有或完全没有缓冲余地。她补充称，应对之道并非恐慌，而是做好准备：审视日常支出，为可预见的成本提前规划，若还款出现困难应尽早与贷款方沟通。这一建议对当前处境艰难者颇为适用，因为通胀前景预计将更加严峻，英国央行预计明年可能触及5%。尽管燃料成本已从10月初的峰值小幅回落，但由于批发天然气成本较去年同期高出150%，1月即将实施的能源价格上限调整将带来沉重压力。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1623613.d.html",
-      "event": "",
+      "date": "2026-11-19",
+      "body": "【美联储会议纪要显示几乎所有官员预计还需加息】美联储会议纪要显示，几乎所有美联储官员在10月都同意，他们可能不得不在“在未来几个月内”加息，以推动通胀及时回落至2%的目标。周三公布的联邦公开市场委员会(FOMC)10月27日至28日会议纪要显示，两名决策者表示，如果接下来的通胀数据不利，12月可能有理由加息“超过25个基点”。会议纪要写道：“展望未来数月，几乎所有与会者都认为，根据他们对通胀和劳动力市场的基准预期，采取进一步行动以提高联邦基金利率目标区间可能是合适的，以确保通胀及时回落至2%的目标。”",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizexhp0756257.d.html",
+      "event": "美联储",
       "flow": "less",
       "slow": false,
       "read": "",
@@ -260,13 +176,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_qbgwqe5m",
-      "title": "印尼央行行长：未来我们将保持政策连贯性，以稳定印尼盾为决策目标来制定货币政策。",
+      "id": "feed_8mknfira",
+      "title": "美联储威廉姆斯：美联储各分行正探讨如何弥补市场缺失，更多设计团队正在组建，相关资助项目陆续获批，其他联邦储备银行也开始在…",
       "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行行长：未来我们将保持政策连贯性，以稳定印尼盾为决策目标来制定货币政策。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf6957946.d.html",
-      "event": "",
+      "date": "2026-11-19",
+      "body": "美联储威廉姆斯：美联储各分行正探讨如何弥补市场缺失，更多设计团队正在组建，相关资助项目陆续获批，其他联邦储备银行也开始在其辖区举办类似活动。",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizexhp0755962.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -281,13 +197,13 @@
       "use": "signal"
     },
     {
-      "id": "feed_281eb72h",
-      "title": "印尼央行：这一决定是为维持通胀目标而采取的预防性措施。",
+      "id": "feed_q6cajhdg",
+      "title": "美联储威廉姆斯在纽约联储活动上讲话。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行：这一决定是为维持通胀目标而采取的预防性措施。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4847063.d.html",
-      "event": "",
+      "date": "2026-11-19",
+      "body": "美联储威廉姆斯在纽约联储活动上讲话。",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizexht1335424.d.html",
+      "event": "美联储",
       "flow": "shift",
       "slow": false,
       "read": "",
@@ -302,96 +218,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_nuq28shq",
-      "title": "印尼央行行长：加息是为了加强印尼盾稳定措施。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行行长：加息是为了加强印尼盾稳定措施。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4846959.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_fzmc63nu",
-      "title": "印尼央行行长：加息决定也是为了先发制人，确保通胀保持在目标范围内。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行行长：加息决定也是为了先发制人，确保通胀保持在目标范围内。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4846901.d.html",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_vgcbkz6y",
-      "title": "印尼央行关键利率上调25基点至6%; 预估为5.75%。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行关键利率上调25基点至6%; 预估为5.75%。",
-      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&dire=f&dpc=1",
-      "event": "",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_5whpif2h",
-      "title": "印尼央行：继续发挥政策协同作用，保持金融体系稳定。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-18",
-      "body": "印尼央行：继续发挥政策协同作用，保持金融体系稳定。",
-      "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1622396.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_p2svwkwy",
-      "title": "魏建军回应于东来复购310辆坦克700",
+      "id": "feed_9mptcwpp",
+      "title": "全世界正在严肃进入中国捏捏时代",
       "src": "热搜／论坛",
       "date": "2026-11-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9B%9E%E5%BA%94%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%A4%8D%E8%B4%AD310%E8%BE%86%E5%9D%A6%E5%85%8B700&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "近期，中国解压玩具“捏捏”风靡美日韩。不仅义乌工厂海外订单暴增、韩国相关销售额剧增，韩网友更跨海在淘宝等平台疯抢中国高级捏捏。媒体分析指出，其走红因无理解门槛且满足全球解压需求，但部分廉价品存甲醛超标隐患。",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E4%B8%96%E7%95%8C%E6%AD%A3%E5%9C%A8%E4%B8%A5%E8%82%83%E8%BF%9B%E5%85%A5%E4%B8%AD%E5%9B%BD%E6%8D%8F%E6%8D%8F%E6%97%B6%E4%BB%A3&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -406,12 +238,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_n5xg0z1i",
-      "title": "董明珠APEC现场喜笑颜开",
+      "id": "feed_g30yotha",
+      "title": "马斯克现身特朗普车队随行大巴车",
       "src": "热搜／论坛",
       "date": "2026-11-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0APEC%E7%8E%B0%E5%9C%BA%E5%96%9C%E7%AC%91%E9%A2%9C%E5%BC%80&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月18日，特朗普车队抵达深圳东海朗廷酒店，出席APEC相关活动，马斯克出现在随行大巴车上。",
+      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%8E%B0%E8%BA%AB%E7%89%B9%E6%9C%97%E6%99%AE%E8%BD%A6%E9%98%9F%E9%9A%8F%E8%A1%8C%E5%A4%A7%E5%B7%B4%E8%BD%A6&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -426,12 +258,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_8nhncj28",
-      "title": "王传福王兴雷军开启“绝密群聊”",
+      "id": "feed_98x44r5a",
+      "title": "微信比QQ多9亿月活",
       "src": "热搜／论坛",
       "date": "2026-11-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E4%BC%A0%E7%A6%8F%E7%8E%8B%E5%85%B4%E9%9B%B7%E5%86%9B%E5%BC%80%E5%90%AF%E2%80%9C%E7%BB%9D%E5%AF%86%E7%BE%A4%E8%81%8A%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "腾讯控股公告，截至2026年9月30日，微信及WeChat合并月活跃账户数为14.49亿，同比增长2%；QQ移动终端月活跃账户数为5.33亿，同比增长3%。",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E6%AF%94QQ%E5%A4%9A9%E4%BA%BF%E6%9C%88%E6%B4%BB&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -446,12 +278,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_md8z9dzu",
-      "title": "没人看电视了 为何TCL电子还那么赚",
+      "id": "feed_3pxfst70",
+      "title": "孙正义后悔当年没投Anthropic",
       "src": "热搜／论坛",
       "date": "2026-11-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E4%BA%BA%E7%9C%8B%E7%94%B5%E8%A7%86%E4%BA%86+%E4%B8%BA%E4%BD%95TCL%E7%94%B5%E5%AD%90%E8%BF%98%E9%82%A3%E4%B9%88%E8%B5%9A&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "Anthropic即将上市之际，重仓其竞争对手OpenAI的软银创始人孙正义，公开谈及错失投资Anthropic的遗憾，并将这一决定称为自己犯下的“错误”之一。孙正义解释称，当时软银已经开始向OpenAI投入资金，“那时，我们觉得不应该同时追逐两只兔子”。",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%99%E6%AD%A3%E4%B9%89%E5%90%8E%E6%82%94%E5%BD%93%E5%B9%B4%E6%B2%A1%E6%8A%95Anthropic&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -466,12 +298,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_uq0w7abr",
-      "title": "胖东来鞋服价签公示进价采购费毛利率",
+      "id": "feed_9z4ts227",
+      "title": "大疆涨价",
       "src": "热搜／论坛",
       "date": "2026-11-18",
-      "body": "热榜话题，无数据、无信源、无政策依据。",
-      "url": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E9%9E%8B%E6%9C%8D%E4%BB%B7%E7%AD%BE%E5%85%AC%E7%A4%BA%E8%BF%9B%E4%BB%B7%E9%87%87%E8%B4%AD%E8%B4%B9%E6%AF%9B%E5%88%A9%E7%8E%87&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月18日，大疆手持云台相机Osmo Pocket 4系列及穿戴相机Osmo Nano等产品正式涨价，其中Osmo Pocket 4P Vlog套装上涨560元。此前11月13日，大疆官网发布说明称，因受全球半导体及存储等关键零部件成本持续大幅上涨影响，对部分产品建议零售价进行调整。",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%96%86%E6%B6%A8%E4%BB%B7&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
