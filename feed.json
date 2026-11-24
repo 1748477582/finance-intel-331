@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-24T09:53:29.371Z",
+  "generatedAt": "2026-11-24T22:26:01.255Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 20,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 3,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_mc84ppik",
+      "id": "feed_hjj4juie",
       "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-24",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tml2sbp6",
+      "id": "feed_6uuhqcj1",
       "title": "10月份国民经济运行总体平稳、向新向优",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_bjkyai5a",
+      "id": "feed_sx8xbmq0",
       "title": "2026年10月份规模以上工业增加值增长4.8%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vmekppea",
+      "id": "feed_jj07wb4z",
       "title": "2026年1—10月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2b0vopfp",
+      "id": "feed_6ozgc3vr",
       "title": "2026年1—10月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_vcl0pw8h",
+      "id": "feed_ujp4k1v8",
       "title": "2026年1—10月份社会消费品零售总额增长1.0%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_wiz6hecl",
+      "id": "feed_9ynie32y",
       "title": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
       "src": "中国人民银行",
       "date": "2026-11-21",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_orfkqn2z",
+      "id": "feed_ylaiymyx",
       "title": "2026年10月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-11-20",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_v7sds550",
+      "id": "feed_uln7l721",
       "title": "中国人民银行公告﹝2026﹞第29号",
       "src": "中国人民银行",
       "date": "2026-11-20",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_4oq1hk1w",
+      "id": "feed_7sbdyu1q",
       "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范》",
       "src": "中国人民银行",
       "date": "2026-11-18",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_2w5ru2xl",
+      "id": "feed_w4oiyn4n",
       "title": "2026年10月金融统计数据报告",
       "src": "中国人民银行",
       "date": "2026-11-13",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_yyb9veqy",
+      "id": "feed_yx6si2za",
       "title": "金融科技发展奖评审领导小组会议召开",
       "src": "中国人民银行",
       "date": "2026-11-12",
@@ -254,14 +254,14 @@
       "use": "signal"
     },
     {
-      "id": "feed_ltla0hzf",
-      "title": "【财政部发行2026年记账式贴现（七十六期）国债600亿元 期限91天】财政部公告，2026年记账式贴现（七十六期）国债…",
+      "id": "feed_0zlag28e",
+      "title": "据CME“美联储观察”：美联储12月加息25个基点的概率为97.4%。",
       "src": "新浪财经 7x24",
-      "date": "2026-11-24",
-      "body": "【财政部发行2026年记账式贴现（七十六期）国债600亿元 期限91天】财政部公告，2026年记账式贴现（七十六期）国债已完成招标，计划发行600亿元，实际发行面值金额600亿元。本期国债期限91天，招标确定的发行价格为99.715元，折合年收益率为1.15%，于11月25日开始计息，11月27日起上市交易。本期国债采用贴现发行方式，2027年2月24日按面值偿还。",
-      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtm4873794.d.html",
-      "event": "",
-      "flow": "shift",
+      "date": "2026-11-25",
+      "body": "据CME“美联储观察”：美联储12月加息25个基点的概率为97.4%。",
+      "url": "https://finance.sina.cn/7x24/2026-11-25/detail-inizwwns8632212.d.html",
+      "event": "美联储",
+      "flow": "less",
       "slow": false,
       "read": "",
       "fields": [
@@ -275,54 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_10khbyuc",
-      "title": "【财政部发行2026年记账式附息（二十四期）国债1206.8亿元 票面利率1.29%】财政部公告，2026年记账式附息（…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-24",
-      "body": "【财政部发行2026年记账式附息（二十四期）国债1206.8亿元 票面利率1.29%】财政部公告，2026年记账式附息（二十四期）国债已完成招标。本期国债计划发行1200亿元，实际发行面值金额为1206.8亿元，期限5年，票面利率为1.29%。本期国债自11月25日开始计息，11月27日起上市交易，利息按年支付，2031年11月25日偿还本金并支付最后一次利息。",
-      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqth9041596.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_34sks5gd",
-      "title": "【华康洁净：中标河北工程大学附属医院医疗专项工程】华康洁净公告称，公司收到中标通知书，确认中标“河北工程大学附属医院复兴…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-24",
-      "body": "【华康洁净：中标河北工程大学附属医院医疗专项工程】华康洁净公告称，公司收到中标通知书，确认中标“河北工程大学附属医院复兴院区二期工程医疗专项工程施工”项目，中标金额9405.64万元，占公司2025年度经审计营业收入的4.11%，工期为具备施工条件之日起500日历天，质量标准为合格。该项目建设资金来自地方专项债券及自筹，财政资金占比100%。如项目签订正式合同并顺利实施，预计会对公司未来年度净利润产生积极影响。截至公告披露日，公司尚未签署正式合同，合同签订及条款尚存在不确定性。",
-      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtf2265137.d.html",
-      "event": "政府债",
-      "flow": "more",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_0cq2exjr",
-      "title": "“假洋牌”Swisse卖爆了",
+      "id": "feed_cnmnc2e0",
+      "title": "余承东：iPhone用户可考虑买台Mate X8",
       "src": "热搜／论坛",
       "date": "2026-11-24",
-      "body": "今年以来，“假洋牌”Swisse在中国卖爆了，超70%收入来自中国，其靠小片剂微调、痛点场景营销及“澳洲身份”洋气叙事在国内爆火。但随着跨境法规收紧，其代购业务受重创致收入曾暴跌，繁荣背后风险显现。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%81%87%E6%B4%8B%E7%89%8C%E2%80%9DSwisse%E5%8D%96%E7%88%86%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月24日，华为发布新一代折叠屏手机Mate X8系列，起售价12999元。余承东向苹果用户喊话，建议买一台Mate X8双持使用，并宣布鸿蒙终端设备数突破1亿。此前，苹果首款折叠屏手机开售仅一个月渠道价已破发。",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%99%E6%89%BF%E4%B8%9C%EF%BC%9AiPhone%E7%94%A8%E6%88%B7%E5%8F%AF%E8%80%83%E8%99%91%E4%B9%B0%E5%8F%B0Mate+X8&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -337,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_b98j000p",
-      "title": "华为1.1万员工换上鸿蒙电脑",
+      "id": "feed_mqbyrz2l",
+      "title": "旺仔牛奶更不好卖了",
       "src": "热搜／论坛",
       "date": "2026-11-24",
-      "body": "11月5日，华为发布首款鸿蒙台式机擎云HM650系列。目前内部已有超1.1万名员工规模化使用，计划于2027年实现绝大多数员工切换至鸿蒙电脑。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA1.1%E4%B8%87%E5%91%98%E5%B7%A5%E6%8D%A2%E4%B8%8A%E9%B8%BF%E8%92%99%E7%94%B5%E8%84%91&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月23日，中国旺旺发布业绩。财报显示，在截至2026年9月30日的6个月内，中国旺旺营收同比下滑9.7%至100.26亿元；归母净利润同比下滑39.9%至10.33亿元。其中，堪称业绩压舱石的旺仔牛奶销售下滑明显。",
+      "url": "https://www.baidu.com/s?wd=%E6%97%BA%E4%BB%94%E7%89%9B%E5%A5%B6%E6%9B%B4%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -357,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_k0w2x3v8",
-      "title": "华为首款小折叠电脑发布",
+      "id": "feed_nuufv2ho",
+      "title": "Anthropic跌幅扩大至8.5%",
       "src": "热搜／论坛",
       "date": "2026-11-24",
-      "body": "11月24日，华为首款鸿蒙小折叠电脑MateBook Fold S正式发布，定价14999元起。",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E9%A6%96%E6%AC%BE%E5%B0%8F%E6%8A%98%E5%8F%A0%E7%94%B5%E8%84%91%E5%8F%91%E5%B8%83&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月24日，Anthropic跌幅扩大至8.5%，报约80美元，总市值约1.06万亿美元。",
+      "url": "https://www.baidu.com/s?wd=Anthropic%E8%B7%8C%E5%B9%85%E6%89%A9%E5%A4%A7%E8%87%B38.5%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -377,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_nak6g002",
-      "title": "黄仁勋复职内幕来了",
+      "id": "feed_u9dtk2uv",
+      "title": "车企老板娘女装卖了30亿",
       "src": "热搜／论坛",
       "date": "2026-11-24",
-      "body": "近日，特朗普称自己致电英伟达董事会，力挺黄仁勋复职，认为其是美国稀缺人才。特朗普还称美方已彻查黄仁勋，未发现问题，英伟达股价下跌也促使董事会迎回黄仁勋。",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%A4%8D%E8%81%8C%E5%86%85%E5%B9%95%E6%9D%A5%E4%BA%86&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "近期，蔚来老板娘王奕芝创办的女装品牌在双十一热卖，今年冲刺30亿销售额。王奕芝曾做社交APP未果后转做女装，凭借设计师集合模式成为黑马。",
+      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E4%BC%81%E8%80%81%E6%9D%BF%E5%A8%98%E5%A5%B3%E8%A3%85%E5%8D%96%E4%BA%8630%E4%BA%BF&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -397,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_7dqgggd6",
-      "title": "免费的红果 开始打大屏的主意",
+      "id": "feed_22ci5vkg",
+      "title": "美股AMD跌逾9% 美光跌近9%",
       "src": "热搜／论坛",
       "date": "2026-11-24",
-      "body": "近期，红果被曝正筹备OTT电视端业务，其超级IP《万妖图录传》联合中影于11月20日起在全国200余座城市开展线下影院限时活动。此前红果靠免费短剧在手机端积累数亿月活。分析认为红果正尝试将免费短剧延伸至大屏，探索电视端与电影院场景，但面临持牌合作与监管挑战，能否跑通仍待验证。",
-      "url": "https://www.baidu.com/s?wd=%E5%85%8D%E8%B4%B9%E7%9A%84%E7%BA%A2%E6%9E%9C+%E5%BC%80%E5%A7%8B%E6%89%93%E5%A4%A7%E5%B1%8F%E7%9A%84%E4%B8%BB%E6%84%8F&sa=fyb_finance&rsv_dl=fyb_finance",
+      "body": "11月24日，美股半导体板块大幅下跌。费城半导体指数跌6.17%报8996.18点。个股方面，AMD跌9.55%，美光科技跌8.75%。",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1AMD%E8%B7%8C%E9%80%BE9%25+%E7%BE%8E%E5%85%89%E8%B7%8C%E8%BF%919%25&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
