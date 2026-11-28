@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-27T21:16:18.947Z",
+  "generatedAt": "2026-11-28T07:47:48.711Z",
   "watch": [
     "equity",
     "bond"
   ],
   "stat": {
-    "total": 27,
+    "total": 18,
     "llm": 0,
     "stats": 6,
     "pbc": 6,
-    "sina724": 10,
+    "sina724": 1,
     "baidutop": 5
   },
   "intel": [
     {
-      "id": "feed_f5kgsbpx",
+      "id": "feed_h4m42k6m",
       "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
       "src": "国家统计局",
       "date": "2026-11-27",
@@ -34,7 +34,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_izlsc3cy",
+      "id": "feed_nzhaonvb",
       "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
       "src": "国家统计局",
       "date": "2026-11-24",
@@ -54,7 +54,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_7hj1cj9f",
+      "id": "feed_tri9944a",
       "title": "10月份国民经济运行总体平稳、向新向优",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -74,7 +74,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_m70ql6jl",
+      "id": "feed_jen60m5v",
       "title": "2026年10月份规模以上工业增加值增长4.8%",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -94,7 +94,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_8zi8lhic",
+      "id": "feed_5fruo0nx",
       "title": "2026年1—10月份全国固定资产投资基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -114,7 +114,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_zy3pp7s2",
+      "id": "feed_kn3cg5ms",
       "title": "2026年1—10月份全国房地产市场基本情况",
       "src": "国家统计局",
       "date": "2026-11-16",
@@ -134,7 +134,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_9ld8xrb5",
+      "id": "feed_280gi4jn",
       "title": "中国人民银行发布《中国金融稳定报告（2026）》",
       "src": "中国人民银行",
       "date": "2026-11-27",
@@ -154,7 +154,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_w3ijiuzj",
+      "id": "feed_dpsfs87k",
       "title": "中国人民银行有关部门负责人就《大额存单管理办法》答记者问",
       "src": "中国人民银行",
       "date": "2026-11-27",
@@ -174,7 +174,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_dknd80k1",
+      "id": "feed_h7itznds",
       "title": "中国人民银行有关部门负责人就《人民币存贷款利率管理规定》答记者问",
       "src": "中国人民银行",
       "date": "2026-11-27",
@@ -194,7 +194,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_edrit3pq",
+      "id": "feed_nylqfith",
       "title": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
       "src": "中国人民银行",
       "date": "2026-11-21",
@@ -214,7 +214,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_f3kuumx4",
+      "id": "feed_ggdhf41e",
       "title": "2026年10月金融市场运行情况",
       "src": "中国人民银行",
       "date": "2026-11-20",
@@ -234,7 +234,7 @@
       "use": "signal"
     },
     {
-      "id": "feed_tunb7nl8",
+      "id": "feed_fishxu36",
       "title": "中国人民银行公告﹝2026﹞第29号",
       "src": "中国人民银行",
       "date": "2026-11-20",
@@ -254,117 +254,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_it9qfizl",
-      "title": "标普：在连续两年经济表现疲软之后，法国2027年实际GDP增长可能仍将低迷。",
+      "id": "feed_9pxlzcbz",
+      "title": "【西部证券孙寅：资本市场定位再强化 多渠道资金合力托底】11月27日召开的国务院常务会议对资本市场工作作出部署。西部证券…",
       "src": "新浪财经 7x24",
       "date": "2026-11-28",
-      "body": "标普：在连续两年经济表现疲软之后，法国2027年实际GDP增长可能仍将低迷。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprq7568541.d.html",
-      "event": "GDP",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_xhaby9ov",
-      "title": "标普对南非的展望：预计在2026年上半年表现不均衡之后，2026年下半年实际GDP增长将小幅回升。通胀和近期加息将抑制短…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "标普对南非的展望：预计在2026年上半年表现不均衡之后，2026年下半年实际GDP增长将小幅回升。通胀和近期加息将抑制短期GDP增长和消费者需求。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprt2886978.d.html",
-      "event": "GDP",
-      "flow": "less",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_r2d5zpv2",
-      "title": "标普就南非表示：尽管中东冲突影响了2026年实际GDP增长，但财政整顿已经并将继续进行。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "标普就南非表示：尽管中东冲突影响了2026年实际GDP增长，但财政整顿已经并将继续进行。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprq7567050.d.html",
-      "event": "GDP",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_hlolqknr",
-      "title": "截至11月25日，美国财政部表示，美国政府距离41.1万亿美元借款上限还差5328亿美元。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "截至11月25日，美国财政部表示，美国政府距离41.1万亿美元借款上限还差5328亿美元。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprt2881438.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_uno1ccqm",
-      "title": "杰富瑞经济学家Mohit Kumar表示，美联储12月政策会议可能是“鹰派程度的顶峰”，并可能成为“市场的转折点”。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "杰富瑞经济学家Mohit Kumar表示，美联储12月政策会议可能是“鹰派程度的顶峰”，并可能成为“市场的转折点”。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprq7547459.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_zk87m898",
-      "title": "欧洲央行管委武伊契奇被问及下一次利率决定：我认为市场预期很可能会成真，前提是届时之前没有发生意外情况。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "欧洲央行管委武伊契奇被问及下一次利率决定：我认为市场预期很可能会成真，前提是届时之前没有发生意外情况。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprp0765258.d.html",
+      "body": "【西部证券孙寅：资本市场定位再强化 多渠道资金合力托底】11月27日召开的国务院常务会议对资本市场工作作出部署。西部证券研发中心负责人孙寅在接受记者采访时表示，本次国常会进一步抬升资本市场在宏观经济框架中的战略定位，强调投融资两端均衡发展，以资本市场功能发挥服务实体经济大局。（上证报）",
+      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvi2650969.d.html",
       "event": "",
       "flow": "shift",
       "slow": false,
@@ -380,96 +275,12 @@
       "use": "signal"
     },
     {
-      "id": "feed_5ujmkl9t",
-      "title": "欧洲央行管委科赫尔与武伊契奇接受《信使报》联合采访时表示：欧洲央行正竭尽全力实现2%的通胀目标。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "欧洲央行管委科赫尔与武伊契奇接受《信使报》联合采访时表示：欧洲央行正竭尽全力实现2%的通胀目标。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprp0765181.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_m5uxb601",
-      "title": "欧洲央行管委科赫尔：高能源价格阶段持续的时间越长，第二轮效应的可能性就越大。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "欧洲央行管委科赫尔：高能源价格阶段持续的时间越长，第二轮效应的可能性就越大。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprt2866390.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_3i8tvdah",
-      "title": "欧洲央行管委科赫尔：我们的利率决策绝不能落后于形势发展，我相信我们将继续取得成功。",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "欧洲央行管委科赫尔：我们的利率决策绝不能落后于形势发展，我相信我们将继续取得成功。",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprp0764913.d.html",
-      "event": "",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "policy",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_ai37mjgr",
-      "title": "【美国国债下跌 股市上涨削弱避险需求】感恩节假期过后，美国国债恢复交易，收盘下跌，股市上涨削弱了对避险资产的需求。抛售推…",
-      "src": "新浪财经 7x24",
-      "date": "2026-11-28",
-      "body": "【美国国债下跌 股市上涨削弱避险需求】感恩节假期过后，美国国债恢复交易，收盘下跌，股市上涨削弱了对避险资产的需求。抛售推动各期限美债收益率上涨6至8个基点，10年期美债收益率报4.93%。周五提前收市时，收益率接近日内高点，风险资产的反弹促使投资者撤离美国国债这一避险资产。数周来，美股人工智能交易一直是美国国债市场的一大主导因素，这些股票上涨会削弱债券需求，反之亦然。数千亿美元的人工智能支出能否获得回报，关系到美国经济以及美联储如何应对美国高通胀。“风险偏好上升是债券",
-      "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkafprp0752702.d.html",
-      "event": "美联储",
-      "flow": "shift",
-      "slow": false,
-      "read": "",
-      "fields": [
-        "f1",
-        "f2"
-      ],
-      "chains": [],
-      "inc": "hard",
-      "multi": false,
-      "hot": false,
-      "use": "signal"
-    },
-    {
-      "id": "feed_f5cnln2c",
-      "title": "208万！国产豪车捅破价格“天花板”",
+      "id": "feed_h79onzuf",
+      "title": "董明珠直播训员工引争议",
       "src": "热搜／论坛",
-      "date": "2026-11-27",
-      "body": "2026广州车展上，预售价208万元的仰望限量版等多款国产百万级豪车相继亮相。自主品牌集中冲高，本质是在电动智能化时代拿到重新定义豪华的机会。",
-      "url": "https://www.baidu.com/s?wd=208%E4%B8%87%EF%BC%81%E5%9B%BD%E4%BA%A7%E8%B1%AA%E8%BD%A6%E6%8D%85%E7%A0%B4%E4%BB%B7%E6%A0%BC%E2%80%9C%E5%A4%A9%E8%8A%B1%E6%9D%BF%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "date": "2026-11-28",
+      "body": "11月26日，董明珠与魏建军同框直播时，因员工提前备好咖啡、未做现场演示以及递手机动作迟缓，当众大声训斥员工，此事引发争议。董明珠曾坦言，自己常在公司批评员工，自称并无恶意，属于“恨铁不成钢”。",
+      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%9B%B4%E6%92%AD%E8%AE%AD%E5%91%98%E5%B7%A5%E5%BC%95%E4%BA%89%E8%AE%AE&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -484,12 +295,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_41gm2n2j",
-      "title": "“请所有股民 重视A股今天的大涨”",
+      "id": "feed_ya8iofc7",
+      "title": "董明珠：年底推出奢侈品家电 保值十年",
       "src": "热搜／论坛",
-      "date": "2026-11-27",
-      "body": "11月27日，A股午后快速反弹，创业板指涨超11%，全市场超5300只个股上涨。分析指出，大涨得益于午间国常会释出积极信号，提出加力发挥“国家队”稳市作用等。此外，融资保证金下调及历史深跌修复规律也释放积极信号。分析认为，短期后市有望迎来修复行情。",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AF%B7%E6%89%80%E6%9C%89%E8%82%A1%E6%B0%91+%E9%87%8D%E8%A7%86A%E8%82%A1%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%A4%A7%E6%B6%A8%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "date": "2026-11-28",
+      "body": "近日，格力电器董事长董明珠透露，公司年底将推出限量奢侈品家电，并称用户用满10年后能按原价转手售出，目前该产品定价及技术参数均未公布。",
+      "url": "https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%EF%BC%9A%E5%B9%B4%E5%BA%95%E6%8E%A8%E5%87%BA%E5%A5%A2%E4%BE%88%E5%93%81%E5%AE%B6%E7%94%B5+%E4%BF%9D%E5%80%BC%E5%8D%81%E5%B9%B4&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -504,12 +315,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_sf0bibge",
-      "title": "A股迎大奇迹日 后市怎么走",
+      "id": "feed_1xlcmnpf",
+      "title": "小鹏MONA M03月交付近1.5万台",
       "src": "热搜／论坛",
-      "date": "2026-11-27",
-      "body": "\n\n\n11月27日，A股迎“==大奇迹日==”，受==国常会==催化指数飙升。==上证指数==涨3.73%报3606点，==创业板指==涨11.61%，==科创50==涨15.07%，成交2万亿。",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E8%BF%8E%E5%A4%A7%E5%A5%87%E8%BF%B9%E6%97%A5+%E5%90%8E%E5%B8%82%E6%80%8E%E4%B9%88%E8%B5%B0&sa=fyb_finance&rsv_dl=fyb_finance",
+      "date": "2026-11-28",
+      "body": "11月27日小鹏汽车在广州车展公布，MONA系列累计交付破40万辆，月均近1.5万辆，MONA M03连续24个月蝉联10-20万纯电轿车销冠。",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E9%B9%8FMONA+M03%E6%9C%88%E4%BA%A4%E4%BB%98%E8%BF%911.5%E4%B8%87%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -524,12 +335,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_hsvv4qab",
-      "title": "闸门已开：AI失控离我们有多远",
+      "id": "feed_yx5g7vf4",
+      "title": "高交会看机器人选秀101",
       "src": "热搜／论坛",
-      "date": "2026-11-27",
-      "body": "11月25日，微软AI负责人发文称AI正跨过“人类还能有效监督”的门槛。此前本月16日，OpenAI承认发生80起模型失控事件，被加州检察机关起诉。",
-      "url": "https://www.baidu.com/s?wd=%E9%97%B8%E9%97%A8%E5%B7%B2%E5%BC%80%EF%BC%9AAI%E5%A4%B1%E6%8E%A7%E7%A6%BB%E6%88%91%E4%BB%AC%E6%9C%89%E5%A4%9A%E8%BF%9C&sa=fyb_finance&rsv_dl=fyb_finance",
+      "date": "2026-11-28",
+      "body": "11月27日，深圳国际会展中心举办高交会“机器人选秀”活动。在人工智能与机器人展区，各类机器人展示格斗、足球等技能，由路人当评委现场打分。",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E4%BA%A4%E4%BC%9A%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%80%89%E7%A7%80101&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
@@ -544,12 +355,12 @@
       "use": "noise"
     },
     {
-      "id": "feed_2y24r6o5",
-      "title": "国家队抄底力度已超“924”",
+      "id": "feed_256a7clt",
+      "title": "尊界汽车亮相广州车展独立展台",
       "src": "热搜／论坛",
-      "date": "2026-11-27",
-      "body": "周五，A股大涨，沪指收复3600点。国常会重磅发声，要求加力发挥“国家队”稳市作用，提供充足流动性保障。此前“924行情”扭转了A股悲观预期，此次国家队抄底力度已超“924”，且下周一融资保证金比例调低有望释放4000亿增量资金。",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E9%98%9F%E6%8A%84%E5%BA%95%E5%8A%9B%E5%BA%A6%E5%B7%B2%E8%B6%85%E2%80%9C924%E2%80%9D&sa=fyb_finance&rsv_dl=fyb_finance",
+      "date": "2026-11-28",
+      "body": "11月27日，尊界汽车携尊界S800等车型以独立展台亮相2026广州车展，其首款SUV在专属区域展示，预计2027年年初上市。",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8A%E7%95%8C%E6%B1%BD%E8%BD%A6%E4%BA%AE%E7%9B%B8%E5%B9%BF%E5%B7%9E%E8%BD%A6%E5%B1%95%E7%8B%AC%E7%AB%8B%E5%B1%95%E5%8F%B0&sa=fyb_finance&rsv_dl=fyb_finance",
       "event": "",
       "flow": "more",
       "slow": false,
